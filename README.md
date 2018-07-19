@@ -2,6 +2,6 @@ omv-extras.org .deb releases
 
 9f60c7dc39faaf88b9f776b15273dc79  openmediavault-omvextrasorg_latest_all.deb
 
-a7c3a289370c7ee673bb1c465eb0a398  openmediavault-omvextrasorg_latest_all3.deb
+f5cf0998af422955eb4fa855867d9542  openmediavault-omvextrasorg_latest_all3.deb
 
 758171887d682921ed3328477c9b1f97  openmediavault-omvextrasorg_latest_all4.deb
