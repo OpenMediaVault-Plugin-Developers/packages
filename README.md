@@ -7,6 +7,6 @@ wget -O - http://omv-extras.org/install | bash
 
 f5cf0998af422955eb4fa855867d9542  openmediavault-omvextrasorg_latest_all3.deb
 
-ec4b1b6d7adbdbb44092444ca9ce437e  openmediavault-omvextrasorg_latest_all4.deb
+95c5194131c257b40020b1a558326860  openmediavault-omvextrasorg_latest_all4.deb
 
 cc70c36130a540a7096748fe05a4aa61  openmediavault-omvextrasorg_latest_all5.deb
