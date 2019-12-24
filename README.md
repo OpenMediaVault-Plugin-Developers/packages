@@ -1,7 +1,7 @@
 omv-extras.org .deb releases
 
 Install from command line as root
-wget -O - http://omv-extras.org/install | bash
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | bash
 
 9f60c7dc39faaf88b9f776b15273dc79  openmediavault-omvextrasorg_latest_all.deb
 
