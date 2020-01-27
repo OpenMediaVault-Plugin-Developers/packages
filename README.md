@@ -9,4 +9,4 @@ f5cf0998af422955eb4fa855867d9542  openmediavault-omvextrasorg_latest_all3.deb
 
 95c5194131c257b40020b1a558326860  openmediavault-omvextrasorg_latest_all4.deb
 
-90736def2780fea19ae5bd211fb86bff  openmediavault-omvextrasorg_latest_all5.deb
+1f5b974ab7f12ce4f221ccfcd217f629  openmediavault-omvextrasorg_latest_all5.deb
