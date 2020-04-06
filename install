@@ -14,12 +14,6 @@ if [ ${version} -eq 5 ]; then
 elif [ ${version} -eq 4 ]; then
   echo "Downloading omv-extras.org plugin for openmediavault 4.x ..."
   file="openmediavault-omvextrasorg_latest_all4.deb"
-elif [ ${version} -eq 3 ]; then
-  echo "Downloading omv-extras.org plugin for openmediavault 3.x ..."
-  file="openmediavault-omvextrasorg_latest_all3.deb"
-elif [ ${version} -eq 2 ]; then
-  echo "Downloading omv-extras.org plugin for openmediavault 2.x ..."
-  file="openmediavault-omvextrasorg_latest_all.deb"
 else
   echo "Unsupported version of openmediavault"
   exit 0
