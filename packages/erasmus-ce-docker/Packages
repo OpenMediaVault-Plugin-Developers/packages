@@ -1,0 +1,19 @@
+Package: openmediavault-docker-gui
+Architecture: amd64
+Version: 3.1.10
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 443
+Depends: docker-ce, omvextras-common, openmediavault (>= 3.0.67), openmediavault-omvextrasorg (>= 3.4.24), php5-curl, php5-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_3.1.10_amd64.deb
+Size: 49534
+MD5sum: bfa8faaa1c27d52474474b57f513f051
+SHA1: 8090f4c79d590a776d18ebdbd4dc38159c1615ce
+SHA256: 0e9a6f203da40e353b6db73e867ead3a07637493edf6ca84f5d0d022fe39b112
+SHA512: d4e859d7fe741edd6703f82c81f31776f1aa4c5ca4a643c821f579677901c508cb3cec07a3280631eda0e454720d7fddc168f976e2202e0d532dd52e387f5166
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+

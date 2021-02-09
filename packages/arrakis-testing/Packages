@@ -1,0 +1,2415 @@
+Package: libnvpair1linux
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 156
+Depends: libc6 (>= 2.4), libuuid1 (>= 2.16), libuutil1linux, zlib1g (>= 1:1.1.4)
+Filename: ./libnvpair1linux/libnvpair1linux_0.7.3-1_amd64.deb
+Size: 44734
+MD5sum: 9c56eb8dd98cfc43ffa7d09b706debbd
+SHA1: 144dd5a1680870af67d9a794b063429ffbdc3e39
+SHA256: 4da684d8a808063b8bc5a4dcce07a0563fb2c80e7489733f31aca67deecc6822
+SHA512: 112977374415a15845c601cd26b478e0fd784effedd765a78e166fa0e2531c0d2c88b995d983153521c74b0762a8536086401888afd63d9817aeb7f36b9918b2
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris name-value library for Linux
+ This library provides routines for packing and unpacking nv pairs for
+ transporting data across process boundaries, transporting between
+ kernel and userland, and possibly saving onto disk files.
+
+Package: libnvpair1linux
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 156
+Depends: libc6 (>= 2.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.3), zlib1g (>= 1:1.1.4)
+Filename: ./libnvpair1linux/libnvpair1linux_0.7.3-3_amd64.deb
+Size: 44956
+MD5sum: 2181b504738b0d05afd31ddaf9f283c8
+SHA1: cdf96eab4f0fa1d89b4060df15f42d20a4617c35
+SHA256: 9f595eaed02033577235a7ea45c070efe62345e6be53d8ec465a8ffabc55bd28
+SHA512: eb8f43001704659b1b75f43efa4c83cc69e362720f545ca96d89494b75e6fc01df83e1a0450af126b207d4f553127b2b8e45d33972f93580462bb3a9581e18ab
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris name-value library for Linux
+ This library provides routines for packing and unpacking nv pairs for
+ transporting data across process boundaries, transporting between
+ kernel and userland, and possibly saving onto disk files.
+
+Package: libnvpair1linux
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 156
+Depends: libc6 (>= 2.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./libnvpair1linux/libnvpair1linux_0.7.4-1_amd64.deb
+Size: 45104
+MD5sum: 3d4367030e106822b43ef7245c2ea88d
+SHA1: 3e313ed11cf78260c6606cc87debca21b509f794
+SHA256: 7b9ed3aa44e990f7d7c63e7d3fb22321b87602999b644ebce048abbe7577cf6d
+SHA512: 43c1e0893f91914ddd5e23eeff12dce23f2b1f3738d3e1732cc6901422c4775de0af423c87728c55e404ca4bc6275d4a38d6c3ce35d6bb912931a33482c775b1
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris name-value library for Linux
+ This library provides routines for packing and unpacking nv pairs for
+ transporting data across process boundaries, transporting between
+ kernel and userland, and possibly saving onto disk files.
+
+Package: libnvpair1linux
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 157
+Depends: libc6 (>= 2.4), libudev1 (>= 183), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.9), zlib1g (>= 1:1.1.4)
+Filename: ./libnvpair1linux/libnvpair1linux_0.7.9-2_amd64.deb
+Size: 45580
+MD5sum: 47e78065dfa3e0d8138aada252c2c4d4
+SHA1: ec6f05cdb4718d8616c7c4ec77649ba558b17c01
+SHA256: 369081fb3d743a9b0b8aca46c11082bb3b2049e6b995a2e84c522038be6fe9f7
+SHA512: 72ec769e64a53a111e070d9f671a5b7a9da378ea3cc3da2b6983bdd7fc5ceba53e46bb06b1752f1432fc787f13233347f40f5b03cc505834217bf7928b959555
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris name-value library for Linux
+ This library provides routines for packing and unpacking nv pairs for
+ transporting data across process boundaries, transporting between
+ kernel and userland, and possibly saving onto disk files.
+
+Package: libuutil1linux
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 145
+Depends: libc6 (>= 2.14), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Filename: ./libuutil1linux/libuutil1linux_0.7.3-1_amd64.deb
+Size: 47688
+MD5sum: 005566204a74b2f67753d8f55254674c
+SHA1: 5234a6e5d6e6aabc9db96e1d71905343a53bc964
+SHA256: bd32fe1e489f151417ade49689a19124e58563a386380ac04c8ae324b62ab9eb
+SHA512: 7fd6a3546749318344b8520523a4a7510866c0f0efef65336207773297c5ad71cf3dd4859c800d13c67b878e54820c9fa058ac25b63aa2279b7421bd47763bae
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris userland utility library for Linux
+ This library provides a variety of glue functions for ZFS on Linux:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+
+Package: libuutil1linux
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 145
+Depends: libc6 (>= 2.14), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Filename: ./libuutil1linux/libuutil1linux_0.7.3-3_amd64.deb
+Size: 47796
+MD5sum: ba23cf71b6cb0e7d87cea6d99218bc1a
+SHA1: 1c9d2dbe7b57317010eeab41957af462472aa315
+SHA256: 1cb5f9b37d77211688131966de608cc1171574fe244b82533fbac59765250449
+SHA512: 04d24273012423017620272a2de417ed95b11ae924ddc7493925c46425eafe7f322ba972d401a7857d22a28b1ffa20c803d9345d1304e97a8935e76d2ce369ec
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris userland utility library for Linux
+ This library provides a variety of glue functions for ZFS on Linux:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+
+Package: libuutil1linux
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 145
+Depends: libc6 (>= 2.14), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Filename: ./libuutil1linux/libuutil1linux_0.7.4-1_amd64.deb
+Size: 47960
+MD5sum: 3cf6a0c8eaffb5de283496fd1fa11bd9
+SHA1: c62d076ee3e340d53148a3b7bd569cf3dfb632dc
+SHA256: 8e8c35616dc9cbcf0cece31e136ab9eaf73eab80f6b6fcc128d0e428d4c53d74
+SHA512: f5d2a78d9fcb4ac5b61e23e44f01237f1a1432c98c18f577f9707a997207d2d6160d535823090458af46767cfef4484799f01959ed52b1f46cb20769390311b6
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris userland utility library for Linux
+ This library provides a variety of glue functions for ZFS on Linux:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+
+Package: libuutil1linux
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 146
+Depends: libc6 (>= 2.14), libudev1 (>= 183), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Filename: ./libuutil1linux/libuutil1linux_0.7.9-2_amd64.deb
+Size: 48522
+MD5sum: 143bfb5d0ebf85c458ae92bec6ded8c3
+SHA1: 1837f9ede408bec88ef9d163ad39f0126b81a186
+SHA256: d715023241bbe43fac180fdb36b96bf15bebdfd8d86303d337a4ebca9866d70e
+SHA512: c2f517690bec2f5d9a02f9d2968e209ab1f09633f5cf405d128f776ad4c2dacb1668ad3298e129d69d42461094d6500f4dabbbac5b5bc35db54cb679def630f3
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris userland utility library for Linux
+ This library provides a variety of glue functions for ZFS on Linux:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+
+Package: libzfs2linux
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 387
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux, libuuid1 (>= 2.16), libuutil1linux, libzpool2linux, zlib1g (>= 1:1.1.4)
+Filename: ./libzfs2linux/libzfs2linux_0.7.3-1_amd64.deb
+Size: 135204
+MD5sum: 1a321809b7fc35bfa3ccd4c8d12a0a62
+SHA1: fe5908c4a3efd50e9c2f67f764186efb4f2c5451
+SHA256: bd6b713f42d938bb8dde79359203f9c64e3410a1847ad3d21e6b74dae4ddebc6
+SHA512: 7b3ad60d1a074bead6f08da21fc8112dcdbc551c394e19860241640511a6e208cbdd2cab3a5b39b1e847e5e50dd7d12d6153aa0febbe38a15d7968e1613b4b58
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ The OpenZFS library provides support for managing OpenZFS filesystems.
+
+Package: libzfs2linux
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 387
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux (>= 0.7.3), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.3), libzpool2linux (>= 0.7.3), zlib1g (>= 1:1.1.4)
+Filename: ./libzfs2linux/libzfs2linux_0.7.3-3_amd64.deb
+Size: 135594
+MD5sum: de37dd7516b4d490dce69ce6c762ebb3
+SHA1: 2a7e34a6f4a5b8383454a4319a63c12bc7f6b086
+SHA256: a36a18d03dff61c6eb72fc8489f969d1c7b08811990efb8df7781ef55b06dff6
+SHA512: 052a700f4ee07720866ba44c913fe28087c56d70c1d5dcf7d0b7325cf5bb70588b56fbc647175f49bead073c9449db014999ad9a635bef3908d1e7791553dd56
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ The OpenZFS library provides support for managing OpenZFS filesystems.
+
+Package: libzfs2linux
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 387
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux (>= 0.7.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.4), libzpool2linux (>= 0.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./libzfs2linux/libzfs2linux_0.7.4-1_amd64.deb
+Size: 135680
+MD5sum: c73ee953ac799a288925fe3b402a156f
+SHA1: d1c7ad7947adfecf2179cea36c6b3c9c34f373a6
+SHA256: 1c5a438eff8fd82eb904da1e210065da0c29a3714d956d64f311502db48d0590
+SHA512: 2b8aaa341711b85c62686e6d6c96e0a64b2090e50adfd7512f4ecbe7d3d77d580c2b3c11a459009aec58154becdb4d0fef81eade2cf9cbaea99d6ba8851ada1d
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ The OpenZFS library provides support for managing OpenZFS filesystems.
+
+Package: libzfs2linux
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 392
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux (>= 0.7.9), libudev1 (>= 183), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.9), libzpool2linux (>= 0.7.9), zlib1g (>= 1:1.1.4)
+Filename: ./libzfs2linux/libzfs2linux_0.7.9-2_amd64.deb
+Size: 137452
+MD5sum: d3319a839c6975d6711296b9159795d0
+SHA1: 7aacbf248d031496309bab6deebad37b4e6bb36d
+SHA256: b3c17d5f5797e75b17e206af20bd3fe8be1e61b5f464d527afdc2e441655f3cb
+SHA512: b7c31511a3af2c69799c37ac17ff706db126c0113f640e536c6cccf8963f448a9efc958e883d96c119d7aa82d1ddd2c7406a0aab334dd8a0a713606fc13eddfd
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ The OpenZFS library provides support for managing OpenZFS filesystems.
+
+Package: libzfslinux-dev
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/libdevel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6772
+Provides: libnvpair-dev, libuutil-dev
+Depends: libzfs2linux (= 0.7.3-1), libzpool2linux (= 0.7.3-1), libnvpair1linux (= 0.7.3-1), libuutil1linux (= 0.7.3-1)
+Filename: ./libzfslinux-dev/libzfslinux-dev_0.7.3-1_amd64.deb
+Size: 1024750
+MD5sum: d97aa4f96f7244cfc7be00757719229f
+SHA1: 123af0339f1cb3041adb21180d6051a94ca2b292
+SHA256: f144f8053402d35243d81f77750dd3a19ba1ae195e3319ad787822a8e15af59e
+SHA512: c3678ddc5f7b8e7ccf7cae1717c86b0c4efbd93a54999862aa7dbf3263c843fc3421e56267f53d41ffaec1f142b14de5aec87eb0b9eee93ceb3bbe33333bfdea
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem development files for Linux
+ Header files and static libraries for compiling software against
+ libraries of OpenZFS filesystem.
+ .
+ This package includes the development files of libnvpair1, libuutil1,
+ libzpool2 and libzfs2.
+
+Package: libzfslinux-dev
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/libdevel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6772
+Provides: libnvpair-dev, libuutil-dev
+Depends: libzfs2linux (= 0.7.3-3), libzpool2linux (= 0.7.3-3), libnvpair1linux (= 0.7.3-3), libuutil1linux (= 0.7.3-3)
+Filename: ./libzfslinux-dev/libzfslinux-dev_0.7.3-3_amd64.deb
+Size: 1025796
+MD5sum: 23d8dcb9b24e58fd69f32ea8e9876c3a
+SHA1: 037cc70cde1fa9d3d5298b44bc551abe827fbedc
+SHA256: 28ae38e6f7fabb1fb808db59f1ee2a8ad3ca8f9baabf67b280e409fb7d5a0448
+SHA512: 03689f9e21334f5cf4af1d497e690a2457c666ca7a417e9918736cf3fecb2b74ab30518a75cfac14d3de0881fedc4456094caf3615d5e4f2356459aa6990a641
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem development files for Linux
+ Header files and static libraries for compiling software against
+ libraries of OpenZFS filesystem.
+ .
+ This package includes the development files of libnvpair1, libuutil1,
+ libzpool2 and libzfs2.
+
+Package: libzfslinux-dev
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/libdevel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6773
+Provides: libnvpair-dev, libuutil-dev
+Depends: libzfs2linux (= 0.7.4-1), libzpool2linux (= 0.7.4-1), libnvpair1linux (= 0.7.4-1), libuutil1linux (= 0.7.4-1)
+Filename: ./libzfslinux-dev/libzfslinux-dev_0.7.4-1_amd64.deb
+Size: 1026204
+MD5sum: 761f5ccd4e73944eb52f5fbd0b28a4a0
+SHA1: 9ac19c53c425ed55563fb5c2d21933197242e887
+SHA256: a5b546763e038e12f6391b9730cde2a30ce0cdb3df089c77abb324d31ff93a87
+SHA512: 1dfd3bcb5e6939ef724ae9bdcbccd314fe99d334de871dacf77a1fd845bc29db7fcccdf77172e4002ecf81bee3e0ad9b4dbb6ff59dc1754a096c93ea01191c70
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem development files for Linux
+ Header files and static libraries for compiling software against
+ libraries of OpenZFS filesystem.
+ .
+ This package includes the development files of libnvpair1, libuutil1,
+ libzpool2 and libzfs2.
+
+Package: libzfslinux-dev
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/libdevel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6789
+Provides: libnvpair-dev, libuutil-dev
+Depends: libnvpair1linux (= 0.7.9-2), libuutil1linux (= 0.7.9-2), libzfs2linux (= 0.7.9-2), libzpool2linux (= 0.7.9-2)
+Filename: ./libzfslinux-dev/libzfslinux-dev_0.7.9-2_amd64.deb
+Size: 1030384
+MD5sum: 34fe34d637c4811ac8777189111ca054
+SHA1: 593f52f0d0d5d6ee083588bfe4c78c2cf6d01c60
+SHA256: 22adec1430b11267e3d14702f65d192a71a6fa3e7f12adf89704ec7684deb687
+SHA512: a9b333309172c0e99243bbd25f40d692f3fb958acdf249fee229faabf46013267e71203ed4293ecfcf24bf7422d82ade993c84240ead9d1cf9cee4ecfa1da1a3
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem development files for Linux
+ Header files and static libraries for compiling software against
+ libraries of OpenZFS filesystem.
+ .
+ This package includes the development files of libnvpair1, libuutil1,
+ libzpool2 and libzfs2.
+
+Package: libzpool2linux
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 2143
+Depends: libc6 (>= 2.14), libnvpair1linux, libuuid1 (>= 2.16), libuutil1linux, zlib1g (>= 1:1.1.4)
+Filename: ./libzpool2linux/libzpool2linux_0.7.3-1_amd64.deb
+Size: 558672
+MD5sum: b3ee85e36c34bd7eb947938972d53747
+SHA1: ef39eb173ae7cd1886cf5f895f39c8a86e868757
+SHA256: 122887c1b35ca286809bd8cb0144bf81f8cea33a33438100063f7ed4ce6d3c67
+SHA512: bfdba58254e7080b42be87fac8a0b4b49c6a71110eb79c649d37ea2bcae64f062dd79e387144a33a7be8d926639ff3027559427fda1cc711070c1895c982be4c
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS pool library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This zpool library provides support for managing zpools.
+
+Package: libzpool2linux
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 2143
+Depends: libc6 (>= 2.14), libnvpair1linux (>= 0.7.3), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.3), zlib1g (>= 1:1.1.4)
+Filename: ./libzpool2linux/libzpool2linux_0.7.3-3_amd64.deb
+Size: 558078
+MD5sum: f28aee4f866dd4201e01d3a68d1b3dd9
+SHA1: be478996cdb03fb78fd42e5413aa6206cb02e73c
+SHA256: 04c11f69b3c7e6c85f02f7c15a99c1b0be5679c846a63e4fea963a0d4a9565f5
+SHA512: 1e55b9b1e10b09c918ed061d8958d1370294b003adda93e793d87e40c68a72de1ff543bc28689d106c93ebb1c435fbfcb81f7751968c3708b5aa20eae6495bc4
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS pool library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This zpool library provides support for managing zpools.
+
+Package: libzpool2linux
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 2143
+Depends: libc6 (>= 2.14), libnvpair1linux (>= 0.7.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./libzpool2linux/libzpool2linux_0.7.4-1_amd64.deb
+Size: 558542
+MD5sum: c93b6d8c4a170e184f30418e380516eb
+SHA1: c02cf1657546a9c8ecd47f45436ab22687e70722
+SHA256: 0809ad885b1ddde42bbaacb8918011a6cbbc775f96769b7b12dd56a434c5a1f9
+SHA512: c98d8574a65067c816f214091b7c40989b7357c982c4df96a0c1fc0939bcfea6aceeb27eadf94279ef9c72e3bc6b47fecbf20972bb4d08fcf08edc6a66302a8b
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS pool library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This zpool library provides support for managing zpools.
+
+Package: libzpool2linux
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/libs
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 2148
+Depends: libc6 (>= 2.14), libnvpair1linux (>= 0.7.9), libudev1 (>= 183), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.9), zlib1g (>= 1:1.1.4)
+Filename: ./libzpool2linux/libzpool2linux_0.7.9-2_amd64.deb
+Size: 560846
+MD5sum: 13328fd091de2bc1939293bfecfca555
+SHA1: c0385cf8a9e4e417f47cb00eaef7c3ead1fc4df9
+SHA256: a456f741b94b7c1bbedca7d84a26d13861d447874c59be0b715fbce79b72de89
+SHA512: 2e59361f26576156d9793881752a730a68338248e0c7f26809a0a4ec7cbe1d6572be44e673a5366a1090325121ea51990125a23b56badd2f6cd88b4e6d4bc497
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS pool library for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This zpool library provides support for managing zpools.
+
+Package: openmediavault-aoe
+Architecture: all
+Version: 4.0.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 86
+Depends: aoetools, vblade, openmediavault (>= 4.1.2)
+Filename: ./openmediavault-aoe/openmediavault-aoe_4.0.1_all.deb
+Size: 9214
+MD5sum: 8464f864b153be15caa720396694a903
+SHA1: a6937735e46c1a8a2f9eb4181aec41c55c4f6787
+SHA256: db38f81286f1e1ef2b014d8e7537cc910fc804644ed7cac3d505ad6df86fb061
+SHA512: 86913e603b3f2d25336b4735eb87b6f5f8738efe04fbf652207b444d4d2927ca1bb808c3647667d3ce1f564f211bcb38169e93fa9954eac612527d76370bea9c
+Description: ATA-over-ethernet plugin for OpenMediaVault
+Plugin-Section: filesystems
+
+Package: openmediavault-aoe
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 86
+Depends: aoetools, vblade, openmediavault (>= 4.1.2)
+Filename: ./openmediavault-aoe/openmediavault-aoe_4.0_all.deb
+Size: 9150
+MD5sum: 8d3ea99cf7b3b457b7a3bcaeb66692f7
+SHA1: 3564c8ec97c83523bcce86ce52c2e8d65bcc42b3
+SHA256: 78809f134fc9d186036e10ec750c1fb8625dfd687d0088dfa45b14fa7edb6291
+SHA512: 1b4216f8192f28a0c2fd458b780735d87c52028b8b87eff27cbf1fe4820ad1fa18a185ebca544371e05f655d69705fdc687a5e3b920fb429f519a9157f9846af
+Description: ATA-over-ethernet plugin for OpenMediaVault
+Plugin-Section: filesystems
+
+Package: openmediavault-apttool
+Architecture: all
+Version: 3.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 165
+Depends: openmediavault (>= 3.0.67)
+Filename: ./openmediavault-apttool/openmediavault-apttool_3.5_all.deb
+Size: 10992
+MD5sum: f7da3c3043450c403168492df3efab77
+SHA1: 7b4fcbe5f4690bc4217ad5d8990a6ac184028687
+SHA256: a4f67f9a5cb5e3642de65cc7f5094c2d346c7aa7f796c439aefe0ea7a4fd2368
+SHA512: 8971bda265538e68d3c778078b376c1dbb398a4771ff6fef4e11e78e2b463d9979eda34876bc07cf53cc8a99af7865b4e89c21edc023c1f07d6e9fd876be57de
+Homepage: http://omv-extras.org/
+Description: apt tool plugin for OpenMediaVault.
+ Find, install, and remove packages in apt repositories.
+ Export and import list of packages.
+Plugin-Section: utilities
+
+Package: openmediavault-backup
+Architecture: all
+Version: 4.0.1
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 203
+Depends: fsarchiver, openmediavault (>= 4.1.5), rsync
+Filename: ./openmediavault-backup/openmediavault-backup_4.0.1_all.deb
+Size: 20532
+MD5sum: b4ae5f750faf07390ccc2ac10deba580
+SHA1: 85db9a65ff8f07d28917f619ce2b980fb37a8d70
+SHA256: 09551bef7bc7f96e93058ac6393fa2e34da2b0f1074d1084f34c373a27421ded
+SHA512: 3dd75d0ef21ceb54d23f46e8e9e0c5c1ce7dc284396cb6f2e07d8cc76df47a8ff5de7a659c7effc614571f29720f3a857722c8a78bf85e470b8dca40f569b177
+Homepage: http://omv-extras.org/
+Description: backup plugin for OpenMediaVault.
+ This plugin will backup the entire OpenMediaVault
+ system minus data drives or system drive for
+ restoration in emergency situations.
+Plugin-Section: backup
+
+Package: openmediavault-backup
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 203
+Depends: fsarchiver, openmediavault (>= 4.1.5), rsync
+Filename: ./openmediavault-backup/openmediavault-backup_4.0_all.deb
+Size: 20438
+MD5sum: bd5b2bd77eb14483e36593dea7d53536
+SHA1: b9968c64e8a774b5816276313f5fb7a618682d84
+SHA256: 5d545ca522426a771c24e4f61299e999e5ace51894a3ed18ab9290e50337a678
+SHA512: 3f705b2b3dbcb97b3473a9039eb8fde5c426a635eff3ce36adbf3634bcd529054e004d9fd7569a450075695f97cce0834391bede036a2dadc5a4ffe9d9507af4
+Homepage: http://omv-extras.org/
+Description: backup plugin for OpenMediaVault.
+ This plugin will backup the entire OpenMediaVault
+ system minus data drives or system drive for
+ restoration in emergency situations.
+Plugin-Section: backup
+
+Package: openmediavault-borgbackup
+Architecture: all
+Version: 4.0.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 115
+Depends: openmediavault (>= 4.0.6), borgbackup (>= 1.1.0)
+Filename: ./openmediavault-borgbackup/openmediavault-borgbackup_4.0.1_all.deb
+Size: 12182
+MD5sum: ae47385415cdcbe4c1007b1c2232091b
+SHA1: eef93aa39270af1750a354573886c6a722015224
+SHA256: 9e7b68b945149ebc2adba6c80feab201aa543d6dd15985655d4b1ebe9033ebc2
+SHA512: 4fe6689ca917db2b959a3e0c72852b82477b5ebe48057376805af49aac5f7876f24f78e92446130e2e4629422682bd48e4cfaa625d6245f6f02ac03886c022af
+Description: borgbackup plugin for OpenMediaVault.
+ BorgBackup is a deduplicating backup program.
+ Optionally, it supports compression and authenticated
+ encryption.
+Plugin-Section: backup
+
+Package: openmediavault-borgbackup
+Architecture: all
+Version: 4.0.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 115
+Depends: openmediavault (>= 4.0.6), borgbackup (>= 1.1.0)
+Filename: ./openmediavault-borgbackup/openmediavault-borgbackup_4.0.2_all.deb
+Size: 12218
+MD5sum: 2d9a16019f01de0fb199c7156bf67a04
+SHA1: d87c3985a2b9591ff3bd73e46aa805e24c0e3d39
+SHA256: c5bbd6e26f55100999e59f680023f830d3a816f008a4b4cb829d1c3fa63e1411
+SHA512: e7dc2ae411ec6bcadf0ceb36250477ebb304ce07ee37af946ecf3f928fb6bc4585fec20cc02a9277e9599a8546978bc85c68245b7cfe38573bf8426850f42549
+Description: borgbackup plugin for OpenMediaVault.
+ BorgBackup is a deduplicating backup program.
+ Optionally, it supports compression and authenticated
+ encryption.
+Plugin-Section: backup
+
+Package: openmediavault-borgbackup
+Architecture: all
+Version: 4.0.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 114
+Depends: openmediavault (>= 4.0.6), borgbackup (>= 1.1.0)
+Filename: ./openmediavault-borgbackup/openmediavault-borgbackup_4.0.3_all.deb
+Size: 12284
+MD5sum: 3e9e297b641fdab3613952928742f3f7
+SHA1: 38f2c51b9eea9f464a53d749090571cd5e30423d
+SHA256: b15659bf00a8da6c54281146205e9eb0974d1bde144a76e25bdcbf6af504c082
+SHA512: c7d7a65cef320f95fcb3f6db6c803c59e3ed83062389f0a52cb47b138437151024534a24406243322919e4eca872822e6256a6a7b5c596e159db64a9ad7d1bb2
+Description: borgbackup plugin for OpenMediaVault.
+ BorgBackup is a deduplicating backup program.
+ Optionally, it supports compression and authenticated
+ encryption.
+Plugin-Section: backup
+
+Package: openmediavault-borgbackup
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 115
+Depends: openmediavault (>= 4.0.6), borgbackup (>= 1.1.0)
+Filename: ./openmediavault-borgbackup/openmediavault-borgbackup_4.0_all.deb
+Size: 12120
+MD5sum: 8d3f131d1d791b8dfbcdf497a01a5a23
+SHA1: c6bb40677a66655d9cbac8e97d24b6e2198f4e66
+SHA256: c3017acd27d073aef80cbf8d53fc45441492761490f65dcf87be2d3dff8fafea
+SHA512: a8af62c5c7499598808dcc85c89226c347d06746324a9a61cd4d02ff0ddbf8a9184e12277354adae484a50cbc06f9c8ec03d05310ea58bb8649a4c266d0ccad0
+Description: borgbackup plugin for OpenMediaVault.
+ BorgBackup is a deduplicating backup program.
+ Optionally, it supports compression and authenticated
+ encryption.
+Plugin-Section: backup
+
+Package: openmediavault-drivemon
+Architecture: amd64
+Version: 4.1.4
+Priority: optional
+Section: net
+Maintainer: Stijn Veenman <veenman.stijn@gmail.com>
+Installed-Size: 69
+Depends: openmediavault (>= 4.1.23)
+Filename: ./openmediavault-drivemon/openmediavault-drivemon_4.1.4_amd64.deb
+Size: 10262
+MD5sum: 4ee207273fb5bf01d8e0dfd0a9dc78a5
+SHA1: 8f57db3a54b02d5da5c55be45aa50791b66313ee
+SHA256: ead6f4233a43da8b717f57634c1f33b2c00354cc5cca3f746168ab2623d1a750
+SHA512: b841328340c208d89c6ff8846a15969e943e7765850c90033ce50a108f4b0b4226fd0571c34156173c1eab4ef561d7e349fab7206977fae9caf7d81eac3135b7
+Homepage: http://omv-extras.org/
+Description: openmediavault plugin to manage drive states
+Plugin-Section: virtualization
+
+Package: openmediavault-drivemon
+Architecture: amd64
+Version: 4.1.5
+Priority: optional
+Section: net
+Maintainer: Stijn Veenman <veenman.stijn@gmail.com>
+Installed-Size: 70
+Depends: openmediavault (>= 4.1.23)
+Filename: ./openmediavault-drivemon/openmediavault-drivemon_4.1.5_amd64.deb
+Size: 10340
+MD5sum: e85a66ef9d24a6354c249f01de8f63c4
+SHA1: 79d43c2ddb9ec988cf704640ccfc5dafc1dde6be
+SHA256: 3a59a27cd2377953b3a40068722e3cccb426901bcbcb120c12622879001c3a8e
+SHA512: 9f887824c527e8a4dea0313daeec1209c346255260803cbb3b279d7edb935631867029b327b9d50924e4df54c2e8d260ee9ebf675420ee968a98cb5ad6fdcb71
+Homepage: http://omv-extras.org/
+Description: openmediavault plugin to manage drive states
+Plugin-Section: virtualization
+
+Package: openmediavault-eyefi
+Architecture: all
+Version: 0.3
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Eye-Fi <sven.luebke@mikrosol.de>
+Installed-Size: 62
+Depends: openmediavault (>= 4.0.4), eyefiserver
+Filename: ./openmediavault-eyefi/openmediavault-eyefi_0.3_all.deb
+Size: 9892
+MD5sum: a66a9a43737e8f296fb032fd8f9be5ef
+SHA1: b584d8f0e15574cc8c6e8df071dc0d15167c8a99
+SHA256: 32749fc847d12522d1b66c0c3b689a2f0e1bb75aac289ec0e7cfd7f8f22f4ef5
+SHA512: 148284035b6a6907946f9aa4bca28b7c33c256149d415b1e3b41873643a2a957189d6884de9a52ebcda7632b1b43670929cff9244980a94a522e6547792d5576
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Eye-Fi plugin
+ Plugin to use Eye-Fi SD cards with OpenMediaVault. Pictures and videos
+ will be synchronized to a configured shared folder.
+Plugin-Section: utilities
+
+Package: openmediavault-mysql
+Architecture: all
+Version: 4.1.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 207
+Depends: dbconfig-common, openmediavault (>= 4.0.4), mariadb-server | mysql-server, mywebsql
+Filename: ./openmediavault-mysql/openmediavault-mysql_4.1.2_all.deb
+Size: 20378
+MD5sum: cb25e2022633b0f729bf94daddfa6a6f
+SHA1: f558eafedf3218e0221336c88300bbb327c33fdf
+SHA256: 514749a685c88202a22666e5abc9b88ab947537519d6aefe2d681959f5c92998
+SHA512: d37a471620bbefe0dca975305a301e332e875d8bfb23d8069b94d4a85efc963f95d10f16f4b96e3e47dd1930e3c7ed14d0968ad0f0c1b1446f75c9c856cf1408
+Description: MySQL plugin for OpenMediaVault.
+ MySQL is an open source database server. The plugin allows you to
+ reset the MySQL root password.
+Plugin-Section: network
+
+Package: openmediavault-mysql
+Architecture: all
+Version: 4.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 205
+Depends: dbconfig-common, openmediavault (>= 4.0.4), mariadb-server | mysql-server, mywebsql
+Filename: ./openmediavault-mysql/openmediavault-mysql_4.1_all.deb
+Size: 20202
+MD5sum: a939fd72d1ec33ed7942bfe3b562ba36
+SHA1: ee9de9c45dfaeb26d679ed1a7d8f5921f0d0cc50
+SHA256: 3526b20764aef3cee9b51474e6c6ef3b600813628b18ff6f51dde9996b6e78bc
+SHA512: 8141f29d0430890718c4c6492bb62450adcfefe30d86d83efea6d691a7e181d7fd98ab125857fa5c3c25c912064a4ae2cdc4468eb869c16ec69465a8fbe1499c
+Description: MySQL plugin for OpenMediaVault.
+ MySQL is an open source database server. The plugin allows you to
+ reset the MySQL root password.
+Plugin-Section: network
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.0.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 252
+Depends: apt-transport-https, gnupg, openmediavault (>= 4.0.2)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.0.0_all.deb
+Size: 46074
+MD5sum: bd0ffa60b9648f55377bd6be35ea5f1a
+SHA1: b33aead39434c208e0ff599103e2fa78517db9ae
+SHA256: 056037fe5691ca76ba6ac14923a150d274f1a7b9b8ad1c7edc1c3e7297a16c91
+SHA512: 5249ee6f2ea5f9843fe860272491a32cd5aba53a41a6813ee84debc37b2d418909aeca5c3735a6c9738e6db94bc75453a448a71ae75892665662f00f57e00f72
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.0.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 261
+Depends: apt-transport-https, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.0.1_all.deb
+Size: 53184
+MD5sum: 5f8b2e3a39efb8c62f3d9dd10b57e617
+SHA1: 1289413626987fa67768765cc796ea6e57dd7b7d
+SHA256: effbb86387df0cce543e45bca5521c83d25cef699eb91136a4af91a1518edd94
+SHA512: 15f601a56e441b8c85d12c5ae447dbcd3f2d6cab034e95e7f97e8ee231a58ddd5de7346c110ac0861134119c38fb3c2890c9badd7e3b8bc47efa5c051aeaf5a9
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.0.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 378
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.0.5_all.deb
+Size: 67752
+MD5sum: 136ec66439497b1bdac4f17b94b03da6
+SHA1: d4ef317baf50e5a8f33784168f8e1cce3fce0283
+SHA256: 1e5624202d49f501e817c2bcf29a1b02568794451717bdb80266d6a187be6cd8
+SHA512: 223680640dbbde9720319db1e151fb546c7f3342a6f7590a0a4ffd595664fd9ecdcb6a4a5e41b2a878b6e8f1ec43b2586c08c920bdb0438cab2d9fdaa02ffe19
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 382
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.0_all.deb
+Size: 67806
+MD5sum: 13f8fb3dc85c29ee32f1487ecb1fda55
+SHA1: 854f4a6061ebc566c584d332832b6edb5e19faf8
+SHA256: b76a395546358a0f07d6af713286fcce201eac1c0d8adde18d546131b545a93f
+SHA512: 3235b93866c438ca0891d2209791a8259c86f6242683a0edc9bd775ac5695e3e010cd68973899b59aa73f39b5af5819144a4413eb0492ad1159cfcf18e8a8952
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.10
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 449
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.10_all.deb
+Size: 75436
+MD5sum: e5b9f46238d4da8562477d9fd6eefd3b
+SHA1: b0320dc6f7dbcbd609ab6dd78e5e7d6c32119634
+SHA256: 3a5f78a7a3ad686e03f883e0eed395538a17a1d8dff4b9e18c93af7422bf051d
+SHA512: d9de8abf3d675749bcb9842657729a8c43304f35eaaf2d483cf28e79c308a3377c066755750f92932f963e9e265bbc238940a1a9a1038547613962299590b0c0
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.12
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 466
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.12_all.deb
+Size: 75126
+MD5sum: fd7eeb2b11f3ea0b3570ab23b6916e63
+SHA1: 748cd95772a132e9e06ddd23290ef99b0871a298
+SHA256: a4a277651779ebaddddbd46c06dc9e821480424fce18b36a9a3753a2b4dd77a8
+SHA512: 7c336a0f8ed8592bc1a29f1e8729624fb7bba8ec365b9fe4b44384d8f12790c617c84c1e91acedbfbccd59bab75bdb30d86bc197c95ab0d529aefe287eb54090
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.13
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 466
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.13_all.deb
+Size: 75188
+MD5sum: 339fccec078f059dc27ddd320dd848a8
+SHA1: fa45b54fed8e3e5874171e7dc3affd72b2927eb5
+SHA256: 47889bfc1a6ecd3606ab4cd7a84b87fa9290287292a3c131c1efd60e9b5fb61a
+SHA512: 43548c98ae84a8766e4f9b35ff15708a7d91734602ed7c74374b0cb5f2f50a552d0a5016a314762be642f14d12222c7bda57119e136b4e848bd957f44fcc07d6
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.14
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 467
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.14_all.deb
+Size: 75194
+MD5sum: 50d4f8c1cc6270e1bc0ba4b26dbd4f54
+SHA1: 9663d2071c06cb6ca34cf112b1edfb75702c478b
+SHA256: e04dc49a22c7b4158934cf48de7da8c1462d8514c6b3169945fab5fe2db4132d
+SHA512: 8dbcd4b0b8020951c8df1e09205c902d2c00eb0fe1cee771da40d261c4cd949cc807c6ef75ac79197907f23404831aebd39e0c37236805929bbe9359c9ddeeaf
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.15
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 467
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.15_all.deb
+Size: 75250
+MD5sum: ec4b1b6d7adbdbb44092444ca9ce437e
+SHA1: f224ad0898c0194f3c43cc9ba8401e83cad7a3ce
+SHA256: 054dbe5c474ef2e4e3442e368d37f5a979688e5ccd9b0ca05db68173056ff0bb
+SHA512: 6f1be0c107c0b5520ffd22c2d9bf4d7164a0030316f4b04951cab70dbef422c90616366edab5c7002e638d6f9ff2adddb527951deeb94d3ab2e93a60dd71ae2a
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.16
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 468
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.16_all.deb
+Size: 75276
+MD5sum: 95c5194131c257b40020b1a558326860
+SHA1: a09bdfefd283ba10f3efe833151ac2755e5988d0
+SHA256: 73874707feb714c9a59c0245c551e76d478faaa3a2fdec68eb9f1f8a20762e7c
+SHA512: c5e3885e068be3a66eb889fa790c36c7ecbfcbb221adac7276b0738ab459cf2c2766c3322e0ba963e8974cb3058f93c112cc29f24780eb9011db7f8ade76046c
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 398
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.2_all.deb
+Size: 71234
+MD5sum: c5d214e1b1386b0dbb518d12a5222e82
+SHA1: c7d41bacb1f7ca0355eef9b83b7945d540c9a9e9
+SHA256: 418070715aef4db50681fb939ab4e6fab5cc82fc136dbe34b0c1991c3894af3b
+SHA512: 4d36913f6db658bc21b97d0d8383263b8561acc908b0e5bd3ce441a3eeafd47cce91f66daec8f8f6a65149868d0e11da5574100cf32d97375eee46d3a3a091f9
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 398
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.3_all.deb
+Size: 71368
+MD5sum: 8da1ece655592ebfb9edc2eefeb25231
+SHA1: 19b7b70c0f4dc58b19ba29ae82d9c8b19c88e344
+SHA256: e2617222c72c1e67282fe1059e66a293497695668d3112153fe3c4deff7c3efa
+SHA512: f222b092ea12082259da196000591c7364e3b3339b4f5298737abd9e0d5abd853f26b59a06024e931377315133051f5b48e412ef2ce824a826c742e8ba837cbf
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.4
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 398
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.4_all.deb
+Size: 71410
+MD5sum: 73a71ba60c2d97b43606b6290ab669c8
+SHA1: 2356ad0f6456fd55cf216597ce62ec899ecde3fa
+SHA256: 4afd1963342accf00819e6389c0dc7dcfdd943eabb35fb11868e242d714a9cac
+SHA512: c1b4eef9af50cdb32ed3aa468555c2ea44b9855d0f3d7a832e2e74e7c124327ab994057e5718ce8a209ed1f95bdb243ac7ee01950ad0241badcf321d915e1f75
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 398
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.5_all.deb
+Size: 71440
+MD5sum: 6b48d3a92028cf0d3626bbce7dddcb32
+SHA1: 8f6d160c861f282de3ddc24f686c6281b5cc8b82
+SHA256: 17819c1dc950aea39207aec8ddbf81ba61313142b5cc18b76b35e27c2b43497d
+SHA512: 7ffe09eda49f2389ca07049eaa16fb3e34b464bf83ee379cc945ef6943b133c93c422c3bcb313fe37f648d9d4d09d72039f7447b7d01f74d2a03fe38dfb07608
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.6
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 398
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.6_all.deb
+Size: 71620
+MD5sum: 723b088eae847e3ccb58c4bda0b22962
+SHA1: 66db8fb37690f937c9acebfbc8a745ef544a33f2
+SHA256: f2fd0eedb5500f8a8ed428585173d1770f7d69d1d10ccc4b08d228cef2d2d302
+SHA512: 08f7ac19d6f09dd4f057698fad82e15967613405b5efe8371be651720d598efaef728cccc87217ee205a387a8c4417a57031408ed561a56bcdc26e10eeb03931
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.7
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 416
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.7_all.deb
+Size: 71660
+MD5sum: 8c289ce22142b47131bbb18e8ce3aafb
+SHA1: e4cfbb44772c769d2daf0e34ddc5aa65c6f772b9
+SHA256: ef06bae85bc915d26ad5dc3e674c9e0aeef95f3526370527742ffdeef56a96ff
+SHA512: 4915deb6fc9f41aecc0b1e46ce5631e8c9b080b86fe1402e930130138f092570e11c02e980fbfbdcbcc21b1ceba442a27a2dd82e3331fc42e2b495ed273886ed
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.8
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 443
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.8_all.deb
+Size: 73856
+MD5sum: aadf8340dcaeecb710e2b1ad39605b1d
+SHA1: 4a20ed663c1b442b04fc9dfb2560e58bdf665fa2
+SHA256: e3acc576ed4e40f4e0632bfdc4474c7c26f4da9aaa8472e16c9a66e8e72082b5
+SHA512: b02b1a5613343aa300c5d1049c4b53503e9f9389c65c7d29011ddc0e183657b6a55a8bf20d276a69b19d3336f143d3373caa0288d50bac1edb98f3bca92270ea
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 4.1.9
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 449
+Depends: apt-transport-https, dirmngr, gnupg, openmediavault (>= 4.0.4)
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_4.1.9_all.deb
+Size: 75416
+MD5sum: 758171887d682921ed3328477c9b1f97
+SHA1: 99658a8f35954907fc7213ed102a870b2e6cf85e
+SHA256: 4f2589a605ec5a6df8bc9b39835364857ed5caf973a3c5300d312750fe6cc7b3
+SHA512: 8e692ad1f728fe7c954eb64611f7458086dddc4a1a09e2137b80da3c2f6858a347c758e363496bc236ce29abd7528ed45d93e8780b6b06b35dc8ef55f7f19a22
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-openvpn
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 269
+Depends: openmediavault (>= 4.0.12), openvpn
+Filename: ./openmediavault-openvpn/openmediavault-openvpn_4.0_all.deb
+Size: 26468
+MD5sum: e9b7372370078a69e0303fda723b1e11
+SHA1: e90c0e5d75c16db5362de2bf37b548db482bfcc9
+SHA256: 89d6e03419a5acb04ac306adf5389bc8a2adf08f1d06d58ad8860ad8760b9936
+SHA512: 71f4efc6b4eef656fd7843c1cbc21d815440dea5ce6f55af5830c6fc9b47e3831729d091ed36e1c7077e5f8762de8aa1cc90ba00f6d44ec6676c7c089ace666e
+Description: OpenVPN plugin for OpenMediaVault.
+ Allow controlling OpenVPN directly from OpenMediaVault.
+Plugin-Section: remote
+
+Package: openmediavault-virtualbox
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 258
+Depends: build-essential, linux-headers-686-pae | linux-headers-amd64, makepasswd, openmediavault (>= 4.0.4), php7.0-soap, phpvirtualbox, virtualbox, virtualbox-ext-pack-installer, init-system-helpers (>= 1.18~)
+Filename: ./openmediavault-virtualbox/openmediavault-virtualbox_4.0_all.deb
+Size: 33350
+MD5sum: 0bdfd922ec8d2312da7dcf275a6baa29
+SHA1: f4576237d3dda3bbf8538164b06605d7bdbe7797
+SHA256: 30c3b29c29146426a896d1322dc1659e4a0493996f476aae3897ef9c8a528b8a
+SHA512: 0a5a6588a11232f0492de3f88340ac933156e1f75bebf03b5cfd62174d58cad7ca2a5d1f034ca3bd7ee645eb878519b1e0328a9236c8349946e414cee8a470ea
+Description: VirtualBox plugin for OpenMediaVault.
+ VirtualBox is a powerful x86 and AMD64/Intel64
+ virtualization product.
+Plugin-Section: virtualization
+
+Package: openmediavault-virtualbox
+Architecture: all
+Version: 4.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 267
+Depends: build-essential, linux-headers-686-pae | linux-headers-amd64, makepasswd, openmediavault (>= 4.1.4), php7.0-soap, phpvirtualbox (>= 5.2-0-1), virtualbox (>= 5.2.8), virtualbox-ext-pack-installer, init-system-helpers (>= 1.18~)
+Filename: ./openmediavault-virtualbox/openmediavault-virtualbox_4.1_all.deb
+Size: 34560
+MD5sum: 092468c5c3cda601505cb7350aaf7ea4
+SHA1: 3eb98d5e827ca1a61db530718b45244c5a71dfce
+SHA256: 9463334f6dc6d2a1c4b197d28d373edc6afea48c90ef0369e252e696203b5fb7
+SHA512: 941bf031794871500bbe0091a278c2c6641f5da2f0bf6e52c38b7741434132376dd890ab63fa85a51dde93abaab2b83ab5f77080a52d2092ac46453f4187baa8
+Description: VirtualBox plugin for OpenMediaVault.
+ VirtualBox is a powerful x86 and AMD64/Intel64
+ virtualization product.
+Plugin-Section: virtualization
+
+Package: openmediavault-zfs
+Architecture: amd64
+Version: 4.0.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 489
+Depends: linux-headers-amd64, openmediavault (>= 4.1.0), openmediavault-omvextrasorg (>= 4.0.3), zfs-dkms, zfsutils-linux, zfs-zed
+Filename: ./openmediavault-zfs/openmediavault-zfs_4.0.3_amd64.deb
+Size: 55510
+MD5sum: a502660d52eee163e896101ed6f3a257
+SHA1: 300817ac36500af6235bd493ed9689dd6fb8331f
+SHA256: f72ed9d0f2b9b65118364d4844fbe0bf0d910c874c0f7c0f00625cb5265498e5
+SHA512: 2613dcb33e480cb4602e04a53d54df9963e26f03240da13e0db7ce32aa942d110371fb6a1f6716d5cc411993f485f665769590e99f9d3f8b37dc5f6f225aeea8
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for ZFS
+ ZFS is a combined file system and logical volume manager designed
+ by Sun Microsystems. The features of ZFS include protection against
+ data corruption, support for high storage capacities, efficient data
+ compression, integration of the concepts of filesystem and volume
+ management, snapshots and copy-on-write clones, continuous integrity
+ checking and automatic repair, RAID-Z and native NFSv4 ACLs.
+ .
+ The native Linux kernel port of the ZFS filesystem.
+Plugin-Section: filesystems
+
+Package: openmediavault-zfs
+Architecture: amd64
+Version: 4.0.4
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 489
+Depends: libnvpair1linux, libuutil1linux, libzfs2linux, libzpool2linux, linux-headers-amd64 | pve-headers, openmediavault (>= 4.1.0), openmediavault-omvextrasorg (>= 4.0.3), zfs-dkms | pve-headers, zfsutils-linux, zfs-zed
+Filename: ./openmediavault-zfs/openmediavault-zfs_4.0.4_amd64.deb
+Size: 55778
+MD5sum: e8bda6237fdfe49486e813520374b5bf
+SHA1: 34e13a8bd1a597a862cf59b7c6a20820f3ea1867
+SHA256: 2b4461505cf5e663d06542bfb84a7e04a2a1f2d93bb33841cf4f4a07476547d5
+SHA512: 3efc7e8984cb1226d9f0c13cded07ca0cd9dba5145e2a7b1294aae2a8b347c903ac6b2d4be48d937211c8bc43e0b4b426e421956c20e037527850b2a66eb954e
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for ZFS
+ ZFS is a combined file system and logical volume manager designed
+ by Sun Microsystems. The features of ZFS include protection against
+ data corruption, support for high storage capacities, efficient data
+ compression, integration of the concepts of filesystem and volume
+ management, snapshots and copy-on-write clones, continuous integrity
+ checking and automatic repair, RAID-Z and native NFSv4 ACLs.
+ .
+ The native Linux kernel port of the ZFS filesystem.
+Plugin-Section: filesystems
+
+Package: phpvirtualbox
+Architecture: all
+Version: 5.2-1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 15748
+Depends: virtualbox (>= 5.1), virtualbox (<< 5.3)
+Filename: ./phpvirtualbox/phpvirtualbox_5.2-1_all.deb
+Size: 2811502
+MD5sum: b17afa286f3aa504ad8794949cb59951
+SHA1: a65e4e2684cb357d0f1b5c6944c0f9dae1f4aa32
+SHA256: e64a46fba55ddd67583f485fb8e90bde71711e323ef97c901885794e763cd54d
+SHA512: 5e3d6232c33b8d680928014b44695dbc95dd53de9926585db124633fc4de64afeb1e845e224f103757d6dfdf9b942331b4807509010bbdd7c9a1e54302555080
+Description: Web interface for VirtualBox.
+ An open source, AJAX implementation of the VirtualBox user interface written
+ in PHP. As a modern web interface, it allows you to access and control remote
+ VirtualBox instances. PhpVirtualBox is designed to allow users to administer
+ VirtualBox in a headless environment - mirroring the VirtualBox GUI through
+ its web interface.
+
+Package: spl-dbgsym
+Architecture: amd64
+Version: 0.7.3-1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: spl (= 0.7.3-1)
+Filename: ./spl-dbgsym/spl-dbgsym_0.7.3-1_amd64.deb
+Size: 22014
+MD5sum: 2976d72bb72158b27ecc967904f13cd7
+SHA1: 88ed989590efcc7e4940dcf395cc33764728a633
+SHA256: 8d163ccf2f9745b0832360a692eb69881edd73c8553ec860297f8b209a0b8253
+SHA512: 3e7eadb5fe3420073e3dded243323f8874b36b696c256d99af1757f0713e60f3caf4ff5b2ba95b54f45de34fc8548b122cbfca29d18bc414ba5c4a8c2bb1b664
+Homepage: http://www.zfsonlinux.org/
+Description: Debug symbols for spl
+Build-Ids: 07c088216f63a5432c107d095f8893fdc9682a7e
+
+Package: spl-dbgsym
+Architecture: amd64
+Version: 0.7.4-1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: spl (= 0.7.4-1)
+Filename: ./spl-dbgsym/spl-dbgsym_0.7.4-1_amd64.deb
+Size: 22012
+MD5sum: 8f1655d456d7b4bce199673a84626318
+SHA1: cc601e0d72cb98dce8033932ccac751e5f49b931
+SHA256: 8c428e092159aee5ba883a12f2ee3038873b07c4e5260d854f7bfd824ed65951
+SHA512: 547f4ace10e0f4f1e00d113764f55c34b84d990102a6a57fa6c390f4db24c04d691f967c5042153887d403b59242ff90ba6a05af17adb25c766ccd019670b973
+Homepage: http://www.zfsonlinux.org/
+Description: Debug symbols for spl
+Build-Ids: 07c088216f63a5432c107d095f8893fdc9682a7e
+
+Package: spl-dbgsym
+Architecture: amd64
+Version: 0.7.9-2
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 34
+Depends: spl (= 0.7.9-2)
+Filename: ./spl-dbgsym/spl-dbgsym_0.7.9-2_amd64.deb
+Size: 18434
+MD5sum: 2c1c108c7b59469269a1b67f996215e8
+SHA1: 5504ba2a3ebc33ec5111c9e6d64b911312cf64e4
+SHA256: ec696d0ae6090561349b454ee18eae34b0b889e7ed5f80e0d8c05ba4a68e69f4
+SHA512: d2777ca3e6f4c95d517a8c8716c36a6018290607c184d9f49d1b369352fefa4c1cb9968d30f8ad88813e12d38e725b2eedd4d1741a72d0f7c5e5226a94592c3c
+Homepage: http://www.zfsonlinux.org/
+Description: Debug symbols for spl
+Build-Ids: eccfb7ca5f3d9db57628dae3a4e4d218e041a83a
+
+Package: spl-dkms
+Architecture: all
+Version: 0.7.3-1
+Priority: optional
+Section: kernel
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 3028
+Provides: spl-modules
+Depends: dkms (>> 2.2.1.0), file, libc-dev, lsb-release
+Recommends: spl (>= 0.7.3)
+Filename: ./spl-dkms/spl-dkms_0.7.3-1_all.deb
+Size: 392890
+MD5sum: 98cb2b21484daf082e97940f21896dba
+SHA1: af1a1b0ea56a99544819c4178e4b6cb3219e0109
+SHA256: b8db5bf17a246ab68242ee825aa3a6dc65d3ddb128cdee2632f7f2b8d2c9aaa1
+SHA512: 9f9066602aaab6641818810b29d5a7cffc1f07f9992e74fc88204a832995c7f891ef0378ce7c306451c1fab9522749fe13ff43d1cf61b0eb48d01c9ecfd16c9f
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris Porting Layer kernel modules for Linux
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This package contains the source code for the SPL and SPLAT Linux kernel
+ modules, which can be used with DKMS, so that local kernel modules are
+ automatically built and installed every time the kernel packages are
+ upgraded.
+
+Package: spl-dkms
+Architecture: all
+Version: 0.7.4-1
+Priority: optional
+Section: kernel
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 3038
+Provides: spl-modules
+Depends: dkms (>> 2.2.1.0), file, libc-dev, lsb-release
+Recommends: spl (>= 0.7.4)
+Filename: ./spl-dkms/spl-dkms_0.7.4-1_all.deb
+Size: 393470
+MD5sum: 38605a805afb21f63c77a03ebc38747e
+SHA1: 9e1665c4f40795dd190999fa4255ba38e7b33982
+SHA256: 3b1ada08f2878a2499b2451259570cac4c3db5201d2b985c7cab29ff1a254ef0
+SHA512: 9ac62be739ddb15f569b430b08eda4cdb9881108ad7ec381550c7ec1afeab6149e19bad56362e522959f2695e5893a05d7645e5021462ac9cda30038ebde1198
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris Porting Layer kernel modules for Linux
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This package contains the source code for the SPL and SPLAT Linux kernel
+ modules, which can be used with DKMS, so that local kernel modules are
+ automatically built and installed every time the kernel packages are
+ upgraded.
+
+Package: spl-dkms
+Architecture: all
+Version: 0.7.9-2
+Priority: optional
+Section: kernel
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 3024
+Provides: spl-modules
+Depends: dkms (>> 2.2.1.0), file, libc-dev, libelf-dev, lsb-release
+Suggests: spl (>= 0.7.9), linux-libc-dev (<< 4.17)
+Conflicts: spl (<< 0.7.9~)
+Filename: ./spl-dkms/spl-dkms_0.7.9-2_all.deb
+Size: 397646
+MD5sum: 8d1269791d2c2c23aeff8cb8fa670641
+SHA1: 68979611f31ac49f379f88e61b1a3ec8d437fb9d
+SHA256: 46a2fa0dbc85f36720b2f2cc21e13b0185ef76e54b473da0796f56c82952a7f1
+SHA512: 356bc54eb2d101838c724dc9780ac340cde1ed3d09f469f53d0ae1966d1f7b01fda533174d86e38e5a6b959f1a7d5a62008a29d892d7bdc1011cf3435a3dad1d
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris Porting Layer kernel modules for Linux
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This package contains the source code for the SPL and SPLAT Linux kernel
+ modules, which can be used with DKMS, so that local kernel modules are
+ automatically built and installed every time the kernel packages are
+ upgraded.
+
+Package: spl
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: kernel
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 56
+Depends: libc6 (>= 2.4)
+Recommends: spl-modules | spl-dkms
+Conflicts: spl-dev, splat
+Filename: ./spl/spl_0.7.3-1_amd64.deb
+Size: 20070
+MD5sum: 0c7fa6d362b28cb6caf96931286e8168
+SHA1: 77d13facc2b4bad695f7f89d23da00db53e171f7
+SHA256: a50d09d96c642eaba018496ec11d6bc502b23644fb7a9127f6ac3f9614c57609
+SHA512: beaf3b46d29f434c288ea9698a07805554f931b33fba9fa5385d0ace8d55e2c6a94e48e8e9e2dc8868698e361b217ec738d49f2ab86dd4900b4a4acfc7e78875
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris Porting Layer user-space utilities for Linux
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This package includes the user space utilities needed to test and debug
+ the SPL and SPLAT kernel modules.
+
+Package: spl
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: kernel
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 56
+Depends: libc6 (>= 2.4)
+Recommends: spl-modules | spl-dkms
+Conflicts: spl-dev, splat
+Filename: ./spl/spl_0.7.4-1_amd64.deb
+Size: 20216
+MD5sum: ae5969bff8ccb0a0920180a3081fa7b0
+SHA1: aadfc2d7801353e612dc41033b032a4f6cde5078
+SHA256: f8bd0b80be1a40ee3156f45417fef678f811a225de751d901373d20d4770dfe9
+SHA512: 4eb4f897bb012cbd8fd066fa8dbd02661a1f097b51bca30c2e648b69dfb0a852a681c461516b15395fb6ce5177845fa4b2b02f45feb50c81671c3fd924e99ec7
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris Porting Layer user-space utilities for Linux
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This package includes the user space utilities needed to test and debug
+ the SPL and SPLAT kernel modules.
+
+Package: spl
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: kernel
+Source: spl-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: libc6 (>= 2.4)
+Recommends: spl-modules | spl-dkms
+Conflicts: spl-dev, splat
+Filename: ./spl/spl_0.7.9-2_amd64.deb
+Size: 14876
+MD5sum: 10b73822604dd71d27cee1fb3b0c2946
+SHA1: f96cf908cdc279273c60811ce9460f94cdcb1af3
+SHA256: 689c4f48326702f2bd47bbe37f81edb0fc654d24b9c9608609085449a2f1fb22
+SHA512: cddaa9ad94bbcbda4bdadb9a1e31ab5f42578cf94a3e99c6cbff0a40c15d889e13316c2ca729d7c33e17aa67328edf15999a017f9ffab8f48caa827d03051502
+Homepage: http://www.zfsonlinux.org/
+Description: Solaris Porting Layer user-space utilities for Linux
+ The Solaris Porting Layer (SPL) is a Linux kernel module which provides
+ many of the Solaris kernel APIs. This shim layer makes it possible to
+ run Solaris kernel code in the Linux kernel with relatively minimal
+ modification. The Solaris Porting LAyer Tests (SPLAT) is a Linux kernel
+ module which provides a testing harness for the SPL module.
+ .
+ SPL can be particularly useful when you want to track upstream Illumos
+ (or any other OpenSolaris fork) development closely and don't want the
+ overhead of maintaining a large patch which converts Solaris primitives
+ to Linux primitives.
+ .
+ This package includes the user space utilities needed to test and debug
+ the SPL and SPLAT kernel modules.
+
+Package: timeshift
+Architecture: amd64
+Version: 18.6.1
+Priority: extra
+Section: utils
+Maintainer: Tony George <tony.george.kol@gmail.com>
+Installed-Size: 4003
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.13.2), libvte-2.91-0, rsync
+Replaces: timeshift-btrfs
+Filename: ./timeshift/timeshift_18.6.1_amd64.deb
+Size: 675938
+MD5sum: 90e36dfc54330caf1c509b38789a1ba7
+SHA1: 84aa6cc0797b9ca96c89bb2be0aa56737e9e4c81
+SHA256: d27dbe961655e3285dd7502bfc0209559788a69e9f54cd9a0aa82df9cf7aa014
+SHA512: 01fbd7c5dd82f970cfb96d595bae949f88a6651b832c98bfaae4d856e4524266278f0419dc01a0a4cd6a15dec73a73c526c888fc7c119862ae7dbddb0a9e1db5
+Homepage: http://teejeetech.blogspot.in/
+Description: System restore utility
+ Timeshift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo system changes. Creates incremental snapshots
+ using rsync or BTRFS snapshots using BTRFS tools.
+
+Package: timeshift
+Architecture: i386
+Version: 18.6.1
+Priority: extra
+Section: utils
+Maintainer: Tony George <tony.george.kol@gmail.com>
+Installed-Size: 3734
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.13.2), libvte-2.91-0, rsync
+Replaces: timeshift-btrfs
+Filename: ./timeshift/timeshift_18.6.1_i386.deb
+Size: 658982
+MD5sum: 9dc025436a43bb0c13ae50cbac30b398
+SHA1: 51c2f0f0aa79a7051bf2720fe21e1214226679fd
+SHA256: bdb01178e40fb281a9415c5c315f80e408b58d8199b59d7d5673759547d079eb
+SHA512: cbc9ef1d68f87981f17e644940befdd87f52e1cda3901171f4f191e64d75df315d7fa4df093c144ca9a41d3b97da9ff9afadbcc98cd1d633731b9ff050a5833f
+Homepage: http://teejeetech.blogspot.in/
+Description: System restore utility
+ Timeshift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo system changes. Creates incremental snapshots
+ using rsync or BTRFS snapshots using BTRFS tools.
+
+Package: virtualbox-dkms
+Architecture: all
+Version: 5.2.8-dfsg-5
+Priority: optional
+Section: contrib/kernel
+Source: virtualbox
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Installed-Size: 5277
+Provides: virtualbox-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: virtualbox (>= 5.2.8-dfsg-5)
+Filename: ./virtualbox-dkms/virtualbox-dkms_5.2.8-dfsg-5_all.deb
+Size: 682968
+MD5sum: cc9c229172605b9b78144b209dbbe2d2
+SHA1: ed2b415e6a8478077cdf6ee4b537577396f8b47f
+SHA256: 21c97f682a89fdb7dbfc79522c0fe6eff33c99370950f2320ac386437364bedf
+SHA512: 835934c8840aafe38795276a026022de09f7aeaef5b8cf8ff681d9941caba66dfba7864a6d79b163d8647fbe148426a53f327c86f99605742bc9a4cb148912e0
+Homepage: http://www.virtualbox.org/
+Description: x86 virtualization solution - kernel module sources for dkms
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the source code for the virtualbox kernel module to be
+ build with dkms. Kernel sources or headers are required to compile this
+ module.
+
+Package: virtualbox
+Architecture: amd64
+Version: 5.2.8-dfsg-5
+Priority: optional
+Section: contrib/misc
+Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
+Installed-Size: 76535
+Depends: adduser, iproute2, procps, virtualbox-dkms (>= 5.2.8-dfsg-5) | virtualbox-source (>= 5.2.8-dfsg-5) | virtualbox-modules, init-system-helpers (>= 1.18~), python3 (<< 3.6), python3 (>= 3.5~), python3.5, python3:any (>= 3.3.2-2~), libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libdevmapper1.02.1 (>= 2:1.02.97), libgcc1 (>= 1:3.0), libgsoap10, libpng16-16 (>= 1.6.2-1), libpython2.7 (>= 2.7), libpython3.5 (>= 3.5.0~b1), libsdl1.2debian (>= 1.2.11), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libvncserver1 (>= 0.9.10), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxmu6, libxt6, zlib1g (>= 1:1.1.4)
+Recommends: virtualbox-qt (= 5.2.8-dfsg-5), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5opengl5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2)
+Suggests: vde2, virtualbox-guest-additions-iso
+Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2, virtualbox-4.3, virtualbox-5.0, virtualbox-5.1
+Filename: ./virtualbox/virtualbox_5.2.8-dfsg-5_amd64.deb
+Size: 17014166
+MD5sum: 393ad5c356fabf23963e30174ce4556f
+SHA1: 3e53c3404aab3bc7d442b1d33b5dffd9ae776037
+SHA256: cda6c45430e54e8fadeef85b8783fc8bcd612d7a9e976dcfa0e2402b0ae189a0
+SHA512: c7435d86ec64b716d440625a4e72871bb485908bff9cb59f2d05442ce333deb46e8903ee102e76e28df28a7f614f5dd92d408b7a22a0845c8194445c257c6ad5
+Homepage: http://www.virtualbox.org/
+Description: x86 virtualization solution - base binaries
+ VirtualBox is a free x86 virtualization solution allowing a wide range
+ of x86 operating systems such as Windows, DOS, BSD or Linux to run on a
+ Linux system.
+ .
+ This package provides the binaries for VirtualBox. Either the virtualbox-dkms
+ or the virtualbox-source package is also required in order to compile the
+ kernel modules needed for virtualbox. A graphical user interface for
+ VirtualBox is provided by the package virtualbox-qt.
+
+Package: zfs-dbg
+Architecture: amd64
+Version: 0.7.3-1
+Priority: extra
+Section: contrib/debug
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 4314
+Depends: libnvpair1linux (= 0.7.3-1), libuutil1linux (= 0.7.3-1), libzfs2linux (= 0.7.3-1), libzpool2linux (= 0.7.3-1), zfsutils-linux (= 0.7.3-1), zfs-zed (= 0.7.3-1)
+Filename: ./zfs-dbg/zfs-dbg_0.7.3-1_amd64.deb
+Size: 3700104
+MD5sum: 6a452c5f70aea54b1fc25f2f84c15341
+SHA1: 32c428d1ff5e1fca589fe8204b45260cf16f382d
+SHA256: 3ae79aecc7c4ac0690d7347a822904a35fe0978ce0e204cbe1f85e1fb6ad00e4
+SHA512: 65017487be8b1a362c83f9858e113b750bb6654d7ab4db5716fd1e32c8711b9076bc64109a7ea3c271b609529f84214d26901ab6930521a5c52c986905ce0770
+Homepage: http://www.zfsonlinux.org/
+Description: Debugging symbols for OpenZFS userland libraries and tools
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package contains the debugging symbols for libzpool2linux, libzfs2linux,
+ libnvpair1linux, libuutil1linux, zfs-zed and zfsutils-linux.
+Build-Ids: 0bc6b5defe7f7cd6cdffdf4fb7e3d933ccacc2eb
+
+Package: zfs-dbg
+Architecture: amd64
+Version: 0.7.3-3
+Priority: extra
+Section: contrib/debug
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 4314
+Depends: libnvpair1linux (= 0.7.3-3), libuutil1linux (= 0.7.3-3), libzfs2linux (= 0.7.3-3), libzpool2linux (= 0.7.3-3), zfsutils-linux (= 0.7.3-3), zfs-zed (= 0.7.3-3)
+Filename: ./zfs-dbg/zfs-dbg_0.7.3-3_amd64.deb
+Size: 3700308
+MD5sum: af79460cb54f93c57fcd7425ca287125
+SHA1: 28165cb2be2ceca074909bc46e3790f842372d56
+SHA256: e0e1d70e4406d5ebfbfe0d12a38bba965badfc591296ae7a3eeae1f0bd2039ab
+SHA512: b4531adef60ec78505debb85304cf96b14c5083e3fc38e57ac1864bd73ec21984b1393d455ed37d0a2a64686e54af2f37e963fcb330e6d151c6aa68479014d5f
+Homepage: http://www.zfsonlinux.org/
+Description: Debugging symbols for OpenZFS userland libraries and tools
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package contains the debugging symbols for libzpool2linux, libzfs2linux,
+ libnvpair1linux, libuutil1linux, zfs-zed and zfsutils-linux.
+Build-Ids: 0bc6b5defe7f7cd6cdffdf4fb7e3d933ccacc2eb
+
+Package: zfs-dbg
+Architecture: amd64
+Version: 0.7.4-1
+Priority: extra
+Section: contrib/debug
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 4323
+Depends: libnvpair1linux (= 0.7.4-1), libuutil1linux (= 0.7.4-1), libzfs2linux (= 0.7.4-1), libzpool2linux (= 0.7.4-1), zfsutils-linux (= 0.7.4-1), zfs-zed (= 0.7.4-1)
+Filename: ./zfs-dbg/zfs-dbg_0.7.4-1_amd64.deb
+Size: 3703544
+MD5sum: bb6ea7cdebc8e6a48ffc70a75bc9a3cb
+SHA1: 2375700c49bce96cf830badc4f9c97c2bd02dbfe
+SHA256: 365d005fdada967f09244404966d005dc1073bec1bdaf65d6e882693be5f3a04
+SHA512: a063b6eee1fa6a06ad55cbb08521cb5b4c8ba89e343f0647823bed0ceb4fd08cbb3fdd24f0fce5ac36728cb1007a0da696a602e8a225efd9b54dad447738cbe4
+Homepage: http://www.zfsonlinux.org/
+Description: Debugging symbols for OpenZFS userland libraries and tools
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package contains the debugging symbols for libzpool2linux, libzfs2linux,
+ libnvpair1linux, libuutil1linux, zfs-zed and zfsutils-linux.
+Build-Ids: 0bc6b5defe7f7cd6cdffdf4fb7e3d933ccacc2eb
+
+Package: zfs-dbg
+Architecture: amd64
+Version: 0.7.9-2
+Priority: extra
+Section: contrib/debug
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 4361
+Depends: libnvpair1linux (= 0.7.9-2), libuutil1linux (= 0.7.9-2), libzfs2linux (= 0.7.9-2), libzpool2linux (= 0.7.9-2), zfs-zed (= 0.7.9-2), zfsutils-linux (= 0.7.9-2)
+Filename: ./zfs-dbg/zfs-dbg_0.7.9-2_amd64.deb
+Size: 3726840
+MD5sum: d06b831558b73a067dfb527c8d9cc317
+SHA1: 62b44e427504555fd1abcb18a69eab0f702ba985
+SHA256: 9f1858ffb9e9be0f7fed3f72561e08164efaa9b70d3022ab9d1ec610199e94c6
+SHA512: 7f526d821664787d807feae63580c9da08afaa10351ac3942aaf9dc7ebe227ab944efc2194c5e30de96d8d2d20cb0a450bd993c453ead292617ca98967e6027a
+Homepage: http://www.zfsonlinux.org/
+Description: Debugging symbols for OpenZFS userland libraries and tools
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package contains the debugging symbols for libzpool2linux, libzfs2linux,
+ libnvpair1linux, libuutil1linux, zfs-zed and zfsutils-linux.
+Build-Ids: ec56dc2e72a742e03dd711ebf559c9bc26dacb8b
+
+Package: zfs-dkms
+Architecture: all
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 10427
+Provides: zfs-modules
+Pre-Depends: spl-dkms (>= 0.7.3)
+Depends: dkms (>> 2.1.1.2-5), lsb-release, debconf (>= 0.5) | debconf-2.0
+Recommends: zfsutils-linux, zfs-zed
+Filename: ./zfs-dkms/zfs-dkms_0.7.3-1_all.deb
+Size: 1384800
+MD5sum: 2ec79a9d9aa24c6f4feb4607fb854675
+SHA1: e6234c0d272f7f33cc6b272e589bbc5918d2a288
+SHA256: 12c7d01e8b94608e348fd2aee490c6d393e2803cc6617e5560abe15d7ad0e1e8
+SHA512: 6675c80b64d3b8e99138e21a153746a404ea3c96a5d7f98efb879105d62ae925dc70f2a56ad3ef0a10befd97e58328f6944fc12dffad8cc1c5f23807aed2ce36
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem kernel modules for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This DKMS package includes the SPA, DMU, ZVOL, and ZPL components of
+ OpenZFS.
+
+Package: zfs-dkms
+Architecture: all
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 10427
+Provides: zfs-modules
+Pre-Depends: spl-dkms (>= 0.7.3), spl-dkms (<< 0.7.3.)
+Depends: dkms (>> 2.1.1.2-5), lsb-release, debconf (>= 0.5) | debconf-2.0
+Recommends: zfsutils-linux, zfs-zed
+Filename: ./zfs-dkms/zfs-dkms_0.7.3-3_all.deb
+Size: 1385050
+MD5sum: cd6846f68c158e12939dc3814eeca0b6
+SHA1: 57dd81ecf8db2533a12964fc2272d927025bbe80
+SHA256: aa641f72b1ffb4541a487e64b5812bb082477174cfb8265b52db46f9f4fd0901
+SHA512: fd807e49a62d8becc0ac5e1cc505262526fc57e78250d71277e6a1cdd68ad8ec01219cb4b35869588be6a3247e7e33e3970eb1e1c3888e3024129b149277c452
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem kernel modules for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This DKMS package includes the SPA, DMU, ZVOL, and ZPL components of
+ OpenZFS.
+
+Package: zfs-dkms
+Architecture: all
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 10431
+Provides: zfs-modules
+Pre-Depends: spl-dkms (>= 0.7.4), spl-dkms (<< 0.7.4.)
+Depends: dkms (>> 2.1.1.2-5), lsb-release, debconf (>= 0.5) | debconf-2.0
+Recommends: zfsutils-linux, zfs-zed
+Filename: ./zfs-dkms/zfs-dkms_0.7.4-1_all.deb
+Size: 1386118
+MD5sum: d174733f20478ceb533735bf98940b2e
+SHA1: 9b9509423abbbec91a26f52c8daea5853e8af25a
+SHA256: b58f5b293c55aaa2c69a46677823b7e3993beb042e23ad850f38fee2412b1dc3
+SHA512: f5ad92a3d1ca2d70e1cd57d7f8038d5221bb0180161c507b3505bb5c224275bfaa7210494b05bedc0d5548e7e272bb0e00694657f2b0d350643a4e4cb854ec50
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem kernel modules for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This DKMS package includes the SPA, DMU, ZVOL, and ZPL components of
+ OpenZFS.
+
+Package: zfs-dkms
+Architecture: all
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 10562
+Provides: zfs-modules
+Pre-Depends: spl-dkms (<< 0.7.9.), spl-dkms (>= 0.7.9)
+Depends: dkms (>> 2.1.1.2-5), lsb-release, debconf (>= 0.5) | debconf-2.0
+Recommends: zfs-zed, zfsutils-linux (>= 0.7.9-2), linux-libc-dev (<< 4.17)
+Filename: ./zfs-dkms/zfs-dkms_0.7.9-2_all.deb
+Size: 1397988
+MD5sum: ab5c3e82d24455375adb8e025685d7dc
+SHA1: a453ca888a3691f62cf92790cf7fc1968aafc2fb
+SHA256: 3163aa48dcbdeb797a0977097385b3cc98953d618e5b89b61273038852d54084
+SHA512: 2364a838cf1bb72ad88219d8ff23087be1500459ab7b603022291a7b8f20591103994fa1f548b1e15561521480eab37471a309d5a79941f30e347724a241f954
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS filesystem kernel modules for Linux
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This DKMS package includes the SPA, DMU, ZVOL, and ZPL components of
+ OpenZFS.
+
+Package: zfs-dracut
+Architecture: all
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 86
+Depends: dracut, zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-dracut/zfs-dracut_0.7.3-1_all.deb
+Size: 20650
+MD5sum: 6b4012eaa07673f770ee81bd23be09e9
+SHA1: cae33a806c9639c2ca1bcc02001643fe73951b08
+SHA256: eda1399059f1bc94f04e0d266067f97afddbd39e1b9d742c0cdfdc93ba1a4e97
+SHA512: 84fe41e7478ad5f3ef9f6534bc9d35c425649dc5516938e8aaba14706e6f14b8d0027d79a8e5349016647e1da52212a07a4de3492d137cc0b350fda4dacb2c29
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - dracut
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the dracut infrastructure.
+
+Package: zfs-dracut
+Architecture: all
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 86
+Depends: dracut, zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-dracut/zfs-dracut_0.7.3-3_all.deb
+Size: 20838
+MD5sum: baf424b4647036e019627eb4fba3b234
+SHA1: ecdd74832c082338d57d7d285e3f95ab715fa488
+SHA256: c1556f178f92adc7669aa7509312d62659802a215c6fef0aa35e25470849533d
+SHA512: e65dc6b4b9aa78c287c7f39edfca96543a864261e7be23459db9b25de604c8a375b572e39c275f588944cc3dd0e105819fe3d8ed91c7cdae35616849e40bc815
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - dracut
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the dracut infrastructure.
+
+Package: zfs-dracut
+Architecture: all
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 86
+Depends: dracut, zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-dracut/zfs-dracut_0.7.4-1_all.deb
+Size: 20950
+MD5sum: 6c4c87e6af4e44e5b6936f98177cfaca
+SHA1: 05cbd1778bee65e7af42d6747a0d8682459839ab
+SHA256: f27adcb2d807630be441ae377ae2219b6e3a5cb4c568ba3c4b316e1defdbeb6e
+SHA512: 93582769831293d8fb64393dff3f121d35c179c8eeb1e123ad9b6857995b48be3c3a4f4f3eaaba20465e1bf073f9b00f4c39347889d412c4a1d7518cd7957a05
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - dracut
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the dracut infrastructure.
+
+Package: zfs-dracut
+Architecture: all
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 87
+Depends: dracut, zfs-modules | zfs-dkms, zfsutils-linux (>= 0.7.9-2)
+Filename: ./zfs-dracut/zfs-dracut_0.7.9-2_all.deb
+Size: 21440
+MD5sum: 974db86170b5540256e06dd7eca9f430
+SHA1: f0d0fdf4a84854071032637dd5f83837c74fc17e
+SHA256: 5bf3fad61736a3840d3285672ec8b95b1a8120e2611167cf3c82fdc109f21d15
+SHA512: 24973e70156da637f9efd04f7eaadbe46f5f6249205a051cbb35d0a2ff783afcfc5fd359f2f45f8134c518d122243f655c79b50dcbb54ee814b622fc8b8d6dfc
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - dracut
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the dracut infrastructure.
+
+Package: zfs-initramfs
+Architecture: all
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: initramfs-tools, busybox-initramfs | busybox-static | busybox, zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-initramfs/zfs-initramfs_0.7.3-1_all.deb
+Size: 24200
+MD5sum: 79566df9fc781290ab8d5e689bc686af
+SHA1: 05ab7578f52074629a8e8bda932a4309a99d0665
+SHA256: 7b9e27500a24b3afe7346e8cb99e0ad9fbc63a3f3ee8bb789c40564f9d730462
+SHA512: 73b2f0824e3f62bb202f554437589bd682f3ccab1d9db4022e3a9ce4d09b153f04e1d5c5d3c4fef50f85bc3c1fe63d71e171446d109cf2a5ad78e7dcb37636a4
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - initramfs
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the initramfs-tools infrastructure.
+
+Package: zfs-initramfs
+Architecture: all
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: initramfs-tools, busybox-initramfs | busybox-static | busybox, zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-initramfs/zfs-initramfs_0.7.3-3_all.deb
+Size: 24390
+MD5sum: 22f0d241da9d7d0c4c23b3f2fed64466
+SHA1: ff2ac9043bf86c456dafd090cee5c464cfb7fc5f
+SHA256: 1e43093078418a71c43a28658c773a1d4aab189fb3288911d0c35e6254c3ef91
+SHA512: d272c0f4c705a48539c5307041d9386b12af1cc8a93dbcd0040a4c62b3441bc3080a1e55b6acd56e55c46f2d8c0045985909fc9d5b645b5b43770333dc4d30e3
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - initramfs
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the initramfs-tools infrastructure.
+
+Package: zfs-initramfs
+Architecture: all
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: initramfs-tools, busybox-initramfs | busybox-static | busybox, zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-initramfs/zfs-initramfs_0.7.4-1_all.deb
+Size: 24736
+MD5sum: 38c19a5ef2be85ad7276de73321c2fee
+SHA1: ab1e46f6e1f5b5a10e306bf5a89dfa767b54e214
+SHA256: bbcc5f5d14e012eaeb5077da98c515a7ba2dcd7d1e1b67a23c0e6e080719dd3b
+SHA512: 7ac3d0375e079dc91d8003e27ea325a43b36bcfa697a681678ad0c88fc7ce1e50c76193a377d05faab2dd7526d947d90b47517faebaae7d6c4e0a15070964d4a
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - initramfs
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the initramfs-tools infrastructure.
+
+Package: zfs-initramfs
+Architecture: all
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/kernel
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 103
+Depends: busybox-initramfs | busybox-static | busybox, initramfs-tools, zfs-modules | zfs-dkms, zfsutils-linux (>= 0.7.9-2)
+Filename: ./zfs-initramfs/zfs-initramfs_0.7.9-2_all.deb
+Size: 25204
+MD5sum: 7166a66837ce71391615208c462fc42d
+SHA1: d09eac595cfa1197b698f645a767dd08d203644f
+SHA256: 592294be00175c70390b365e16a0d8ddd76e55a613c34cdd1e8c48f2ba099391
+SHA512: 28c2fc4ec67147c02e782e825a350bb92e8e046555558adaf9cac6cb2b8bb6657354f1ffd1c8dc04c98943f1794005479d5419abf8d21915d14c4bb9a624392a
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS root filesystem capabilities for Linux - initramfs
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the initramfs-tools infrastructure.
+
+Package: zfs-test
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6109
+Depends: libc6 (>= 2.14), libnvpair1linux, libuuid1 (>= 2.16), libuutil1linux, libzfs2linux, libzpool2linux, zlib1g (>= 1:1.1.4), zfs-modules | zfs-dkms, zfsutils-linux, parted, lsscsi, mdadm, bc, ksh, fio, acl, sudo, sysstat, python
+Filename: ./zfs-test/zfs-test_0.7.3-1_amd64.deb
+Size: 2463952
+MD5sum: 9818e2ec62511251a4ae4c991310d7ca
+SHA1: 9beee7d2d5faddaecaa749aa2a1dea4a4a6f65d6
+SHA256: 342a433d058958ff8ccd5dd11d9ffdd6e6b685a93172e68c3c00f4022cd82d76
+SHA512: f0bf530470c08a45328003ca26e31d6540aaacead853414a1a17c3d792b2f1d1b2fb7e6635334ec319b319dd4c744957a4a24028f0f2a98bc18c97dfc64b55f4
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS test infrastructure an support scripts
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS test infrastructure for destructively
+ testing and validating a system using OpenZFS. It is entirely optional
+ and should only be installed and used in test environments.
+
+Package: zfs-test
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6109
+Depends: libc6 (>= 2.14), libnvpair1linux (>= 0.7.3), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.3), libzfs2linux (>= 0.7.3), libzpool2linux (>= 0.7.3), zlib1g (>= 1:1.1.4), zfs-modules | zfs-dkms, zfsutils-linux, parted, lsscsi, mdadm, bc, ksh, fio, acl, sudo, sysstat, python
+Breaks: zfsutils-linux (<= 0.6.5.11-1)
+Replaces: zfsutils-linux (<= 0.6.5.11-1)
+Filename: ./zfs-test/zfs-test_0.7.3-3_amd64.deb
+Size: 2464750
+MD5sum: c54616ed7e3ee767ee5d7e2060ea179c
+SHA1: 7f788f78bd63e826e1e6fc109b20015d65936d1c
+SHA256: e35bf34c5b91e67e1a9259ef47724e9bafff7478dc5c38f08d18e9cb9806bcee
+SHA512: 6c4d4ee357e2a06beb257ac70812c2777259a79eb66b9f861cb8ad22dde217432978eeac1162817026f886fc66e1ef76ceb95850e632794933938a6e595cf7de
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS test infrastructure an support scripts
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS test infrastructure for destructively
+ testing and validating a system using OpenZFS. It is entirely optional
+ and should only be installed and used in test environments.
+
+Package: zfs-test
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6132
+Depends: libc6 (>= 2.14), libnvpair1linux (>= 0.7.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.4), libzfs2linux (>= 0.7.4), libzpool2linux (>= 0.7.4), zlib1g (>= 1:1.1.4), zfs-modules | zfs-dkms, zfsutils-linux, parted, lsscsi, mdadm, bc, ksh, fio, acl, sudo, sysstat, python
+Breaks: zfsutils-linux (<= 0.6.5.11-1)
+Replaces: zfsutils-linux (<= 0.6.5.11-1)
+Filename: ./zfs-test/zfs-test_0.7.4-1_amd64.deb
+Size: 2468110
+MD5sum: abdba4522699d459ba0a809bee7256ba
+SHA1: a05fbe08c2d2cf9f4b640bc8576d2ae4bab16d72
+SHA256: c6f811a051fd4712ef3bcb04b6ef74953256651081fccab2addab8cc068ea371
+SHA512: 8005937d3c0e09a8836fd1939f7d24645579b5cbc4077b09d8629d8a1df1f85009df5933b25f6124eb5f55224c1071509611366d92d8b4dd4d32d08fd43534f7
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS test infrastructure an support scripts
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS test infrastructure for destructively
+ testing and validating a system using OpenZFS. It is entirely optional
+ and should only be installed and used in test environments.
+
+Package: zfs-test
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 6330
+Depends: acl, bc, fio, ksh, lsscsi, mdadm, parted, python, sudo, sysstat, zfs-modules | zfs-dkms, zfsutils-linux (>= 0.7.9-2), libc6 (>= 2.14), libnvpair1linux (>= 0.7.9), libudev1 (>= 183), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.9), libzfs2linux (>= 0.7.9), libzpool2linux (>= 0.7.9), zlib1g (>= 1:1.1.4)
+Conflicts: zutils
+Breaks: zfsutils-linux (<= 0.6.5.11-1)
+Replaces: zfsutils-linux (<= 0.6.5.11-1)
+Filename: ./zfs-test/zfs-test_0.7.9-2_amd64.deb
+Size: 2524370
+MD5sum: 2ab849df849fb36011c2291929017794
+SHA1: c2fc808d24199265c5c02ee67b2777978f4c7a48
+SHA256: d31e24ff0bda0134e4cfa929782042fe182731c12eea0fe18a8faddc7cbc7708
+SHA512: 1a6ead991fba4666c958441aa126a49fe0d2738b4effb0ad9c0afffedb05dde22f45acc6a857e6c7392e5e42d4ba65d382ec99cb64b88e3cd7961daeeda909fb
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS test infrastructure an support scripts
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS test infrastructure for destructively
+ testing and validating a system using OpenZFS. It is entirely optional
+ and should only be installed and used in test environments.
+
+Package: zfs-zed
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 232
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.14), libnvpair1linux, libuuid1 (>= 2.16), libuutil1linux, libzfs2linux, libzpool2linux, zlib1g (>= 1:1.1.4), zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-zed/zfs-zed_0.7.3-1_amd64.deb
+Size: 59282
+MD5sum: 1949a35e43028d90a945635ac2c5f330
+SHA1: 716c5189c7d2dd6e55d1458e01513ce24de8fe6c
+SHA256: fbbaa4ed6fd771e7fd3e53d8dfc05cb2b9cf7e886a9cee441d2d850992d54f3d
+SHA512: f7083f497de66f7091d750cf2d6acaf6217b0a87c315bd896e35688d312070e966d413f6826e7ceddb46205d9c02b57b8a2283de59816313f62284e8649dadd5
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS Event Daemon
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS Event Daemon (zed).
+
+Package: zfs-zed
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 232
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.14), libnvpair1linux (>= 0.7.3), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.3), libzfs2linux (>= 0.7.3), libzpool2linux (>= 0.7.3), zlib1g (>= 1:1.1.4), zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-zed/zfs-zed_0.7.3-3_amd64.deb
+Size: 59450
+MD5sum: a07c94445993f1404d2cf2e0e7ccd5ac
+SHA1: 4510b6513b73e3c43d4770f6906d11a7f5350151
+SHA256: 767bdd87ad38feb5a0c891b9a1ab77d0f61e52b74b436082708edc0890df42c5
+SHA512: f7d2fc192465734a4f571d01177b60572ea4afe364e6681fc3fa20429c1feda3d22531f03a0a2f659ad76d9ba8ca9da081eb5190a351d210690c5e6adb7b9729
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS Event Daemon
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS Event Daemon (zed).
+
+Package: zfs-zed
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 232
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.14), libnvpair1linux (>= 0.7.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.4), libzfs2linux (>= 0.7.4), libzpool2linux (>= 0.7.4), zlib1g (>= 1:1.1.4), zfs-modules | zfs-dkms, zfsutils-linux
+Filename: ./zfs-zed/zfs-zed_0.7.4-1_amd64.deb
+Size: 59564
+MD5sum: 596b64c1c6eee012b4b1b3602f09eebd
+SHA1: 31fe0b529e1b51340bb58bbddcb1feeff637f665
+SHA256: d440c069a8533946726cd20ce3326a08ffdf6351e2059fe7a160b222b13ecd51
+SHA512: 8a626ac8028960c85730c67a998bf5d8b9284855e858567c599068e133b8e360806724948635c18faa3c6af9361a6a2a785fa095fdf1290797ee22f5caeb7efd
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS Event Daemon
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS Event Daemon (zed).
+
+Package: zfs-zed
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 241
+Depends: zfs-modules | zfs-dkms, zfsutils-linux (>= 0.7.9-2), init-system-helpers (>= 1.18~), libc6 (>= 2.14), libnvpair1linux (>= 0.7.9), libudev1 (>= 183), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.9), libzfs2linux (>= 0.7.9), libzpool2linux (>= 0.7.9), zlib1g (>= 1:1.1.4)
+Filename: ./zfs-zed/zfs-zed_0.7.9-2_amd64.deb
+Size: 62646
+MD5sum: f53006fcd99ef4236bec1283f5ae68e8
+SHA1: d2612a9844e663d4dc81e27fd73b8951fc007cdc
+SHA256: 9f0edf5995c21f90c9bd83da6b6ca75e325c7d048598d54d016b929ca68cd27c
+SHA512: 1ddde872537e38fdb52fb15f2f2cc1732c32eb374daca32c60103b723e47cc53c83e6a8d2bc6d4ca95f0a171f099847432806bd424a173b5bcbb51a0655d3131
+Homepage: http://www.zfsonlinux.org/
+Description: OpenZFS Event Daemon
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the OpenZFS Event Daemon (zed).
+
+Package: zfsutils-linux
+Architecture: amd64
+Version: 0.7.3-1
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 1087
+Provides: zfsutils
+Depends: init-system-helpers (>= 1.18~), libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux, libuuid1 (>= 2.16), libuutil1linux, libzfs2linux, libzpool2linux, zlib1g (>= 1:1.1.4), python3:any, python3
+Recommends: lsb-base, zfs-modules | zfs-dkms, zfs-zed
+Suggests: nfs-kernel-server, samba-common-bin (>= 3.0.23), zfs-initramfs | zfs-dracut
+Conflicts: zfs, zfs-fuse, zutils
+Filename: ./zfsutils-linux/zfsutils-linux_0.7.3-1_amd64.deb
+Size: 346138
+MD5sum: 7e4c2cd880e847be81306871c4d6ab88
+SHA1: 5e3e92d7442c3d87b18742c0f3c338d084dc8b8b
+SHA256: 8b6c9038bb56bc7b867b508d490231e57a2c1dfe8e168ee6e8507ea5045e00e8
+SHA512: b43322eb79fb5ac6ade4e2c39d08a84ba575d5296d7f58b6ecc328ebf8dcc22460c564c987e0e273d852b18544ed1cb06eb34fda4a0a6453541737e3a6ccfedc
+Homepage: http://www.zfsonlinux.org/
+Description: command-line tools to manage OpenZFS filesystems
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the zfs and zpool commands to create and administer
+ OpenZFS filesystems.
+
+Package: zfsutils-linux
+Architecture: amd64
+Version: 0.7.3-3
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 1087
+Provides: zfsutils
+Depends: init-system-helpers (>= 1.18~), libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux (>= 0.7.3), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.3), libzfs2linux (>= 0.7.3), libzpool2linux (>= 0.7.3), zlib1g (>= 1:1.1.4), python3:any, python3
+Recommends: lsb-base, zfs-modules | zfs-dkms, zfs-zed
+Suggests: nfs-kernel-server, samba-common-bin (>= 3.0.23), zfs-initramfs | zfs-dracut
+Conflicts: zfs, zfs-fuse, zutils
+Filename: ./zfsutils-linux/zfsutils-linux_0.7.3-3_amd64.deb
+Size: 346232
+MD5sum: 12497f3908c876c54e32b9d37a70f3a0
+SHA1: 84594de14ea9c4e9b66f11360623b54f4093ae50
+SHA256: 8383a5f4553ff73f740840a6f85d11072de47c327e9888b77055cf0819f2cb7b
+SHA512: 9680fafab819f9406372db53a536a09bfc7933427e7259fbd78cacf8b36bb9eb0222d3955176ae5bc83cf24618274e4f791bb020452355234234ef91b1089660
+Homepage: http://www.zfsonlinux.org/
+Description: command-line tools to manage OpenZFS filesystems
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the zfs and zpool commands to create and administer
+ OpenZFS filesystems.
+
+Package: zfsutils-linux
+Architecture: amd64
+Version: 0.7.4-1
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 1089
+Provides: zfsutils
+Depends: init-system-helpers (>= 1.18~), libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux (>= 0.7.4), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.4), libzfs2linux (>= 0.7.4), libzpool2linux (>= 0.7.4), zlib1g (>= 1:1.1.4), python3:any, python3
+Recommends: lsb-base, zfs-modules | zfs-dkms, zfs-zed
+Suggests: nfs-kernel-server, samba-common-bin (>= 3.0.23), zfs-initramfs | zfs-dracut
+Conflicts: zfs, zfs-fuse, zutils
+Filename: ./zfsutils-linux/zfsutils-linux_0.7.4-1_amd64.deb
+Size: 347462
+MD5sum: aede22ea6b3871199dc57189c28cc8e1
+SHA1: 2d26b9a2881b34da198e8eb4f32aa692ec1f389b
+SHA256: 0e3cd4d19c77582306b3a661b90a5e53c987fd3b5ef7262804c5f9686f407313
+SHA512: 4f8b920cfeef584de9a3fd47a5e026b07e772125d0f3513c3a17a298f1c29bfff610484f9b9b84ea2652c86407fb3f3a1fbc4a260fe09e0c907b64d3940484cc
+Homepage: http://www.zfsonlinux.org/
+Description: command-line tools to manage OpenZFS filesystems
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the zfs and zpool commands to create and administer
+ OpenZFS filesystems.
+
+Package: zfsutils-linux
+Architecture: amd64
+Version: 0.7.9-2
+Priority: optional
+Section: contrib/admin
+Source: zfs-linux
+Maintainer: Debian ZFS on Linux maintainers <pkg-zfsonlinux-devel@lists.alioth.debian.org>
+Installed-Size: 1108
+Provides: zfsutils
+Depends: python3, init-system-helpers (>= 1.18~), python3:any, libblkid1 (>= 2.16), libc6 (>= 2.14), libnvpair1linux (>= 0.7.9), libudev1 (>= 183), libuuid1 (>= 2.16), libuutil1linux (>= 0.7.9), libzfs2linux (>= 0.7.9), libzpool2linux (>= 0.7.9), zlib1g (>= 1:1.1.4)
+Recommends: lsb-base, zfs-modules | zfs-dkms, zfs-zed
+Suggests: nfs-kernel-server, samba-common-bin (>= 3.0.23), zfs-initramfs | zfs-dracut
+Conflicts: zfs, zfs-fuse
+Breaks: zfs-dkms (>> 0.7.9-2), zfs-dkms (<< 0.7.9-2)
+Filename: ./zfsutils-linux/zfsutils-linux_0.7.9-2_amd64.deb
+Size: 312210
+MD5sum: ab9f19d6bb3509828c9404ef1d46f5ba
+SHA1: d773815edacc616f61908b7036eae98e79f887e1
+SHA256: bfd30721302b6453625775f00cff7963f9f0d45e64f0dc45fadb7abbd0111cf4
+SHA512: aee0ffb3e21070b76fd3bafef3fd18014557d370f5950fe5942b19e74317a441a7c42f51051181b6df5b58f59340b230d5dd02be1f8db3009107ff21992199ab
+Homepage: http://www.zfsonlinux.org/
+Description: command-line tools to manage OpenZFS filesystems
+ The Z file system is a pooled filesystem designed for maximum data
+ integrity, supporting data snapshots, multiple copies, and data
+ checksums.
+ .
+ This package provides the zfs and zpool commands to create and administer
+ OpenZFS filesystems.
+

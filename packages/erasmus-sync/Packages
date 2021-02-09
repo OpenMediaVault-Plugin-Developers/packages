@@ -1,0 +1,210 @@
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 142
+Depends: openmediavault (>= 3.0), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.0_all.deb
+Size: 22734
+MD5sum: 912426f1f7160bef7a70277436e8d9a4
+SHA1: 2fc1018ae7510662c3e883b0a9b9ac80fe10d802
+SHA256: 588140c6e6fef4954e1b5bedef173d987e596e29b93a09560ad2f7a105ba8dae
+SHA512: 0bf71298991cc9fdb192c0809a1d6a2aa2f42d7daeb3356e1bf2fa013cbdd2aa58a44e3daeee0f35df5b78adcea97e26b044add4ad697e84c7d4bdc8c9465528
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.10
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 112
+Depends: openmediavault (>= 3.0.67), syncthing, syncthing-inotify
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.10_all.deb
+Size: 18682
+MD5sum: 9faf32dc975eb71027c0e3b853c80f97
+SHA1: 2ba632481379e289c9336f727c644f034727e610
+SHA256: 35b501e857e2b7c5fe69cc56166110509ff32dd14a8d2d704da3cf1c995574c6
+SHA512: d7f65f8ebcd17f590609752ea541ede368ce7569680d63f29b6846bbeebee1eaf983cb16ddd539ded8b18fa0f052fd48c1067ac0b32dd65bd2668acb53214182
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.11
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 201
+Depends: openmediavault (>= 3.0.67), syncthing
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.11_all.deb
+Size: 20036
+MD5sum: e717b23e9aa466c501f896a9e6b0bf4e
+SHA1: 2ca172be9aebc7611af6486dfe613876b1bf1f41
+SHA256: 675695a5d8992eee35d18ea9cad560b64195683e020345ec75c7deee7524361d
+SHA512: 47d77a5f64b8df43e5b9d0ea6b6c3204b57b76debf9d559067db3538445110329401e076cf1a0f7d79f5dbc5e152b9beb2ca19aad3fda53f39bfaa48949bd1e2
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 130
+Depends: openmediavault (>= 3.0.15), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.2_all.deb
+Size: 22210
+MD5sum: 97e7d3f27967eb8c5bc1a2c7fccb9534
+SHA1: 4887d7cfbadd342d7871ef4e9143484894bdbb7b
+SHA256: 4aaf518cb1d9b12f08a6b025c19111e6d1fed560b83167ce84da9b7d3382588d
+SHA512: c4c3b73c30ba72360b81caf5b40fa1946b49aa0c58c76ca885efafe8129d6a36b4bb68cb225c79e2355b077f97849fe1183a0076950ba9c3b3ceb48b119b474d
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 129
+Depends: openmediavault (>= 3.0.21), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.3_all.deb
+Size: 22180
+MD5sum: aa9aeba52a51541cb9ada54376eae2e1
+SHA1: 59cc705fd400cee144769ec0a6cfdfa2b4f10b6b
+SHA256: e3205d968994967cc15b515c37ee325acddb3017a82f49fe490ea9fd56ca52ac
+SHA512: 90ada4b18e9e41dd8bf0d1b50b6a67175d7f2be60a7a7bb0f3e166740447f353cf12c575a438228c4407ceb357c34848ba71a246d80ab9aa523cfd26a3330b6a
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.4
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 129
+Depends: openmediavault (>= 3.0.26), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.4_all.deb
+Size: 22362
+MD5sum: 6b62e9312641f84f73af11a0131c71b6
+SHA1: b590081be2aa4239350527e1e99dc5d52315201f
+SHA256: 25f087e760730a562ae27557519400e7769fe92e9308394f1c93c1a87a7a4aca
+SHA512: 233182d3537f7d2724ec922e0369c7cf69070e897f20b2fc6057eb2a44719d96e6ff91c62329fb093052a90c2c155b1610f47585ef1deb4635017a04b71a3251
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 129
+Depends: openmediavault (>= 3.0.26), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.5_all.deb
+Size: 22388
+MD5sum: ea60ab5598e9664f812d5820a6a8c508
+SHA1: d42b6a836fffda79e121e8c1f9195cb849399f7e
+SHA256: 14cd6111ac3c192edad0b14aaa4eda2c6d8e8e86f1b0bf95f85c863f435d57fa
+SHA512: 26c8870feb5b5e6c67e7d6111347b991b250411f19b1eb0628d5d4d4d855f8054de2b1e9ff50814e4e6cb379d0064ee62657f65fcb861a6ab9be2653de674b24
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.6
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 129
+Depends: openmediavault (>= 3.0.31), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.6_all.deb
+Size: 22358
+MD5sum: 28c8345b20157fce7d633683d688d79f
+SHA1: 1b2a79d01722f261f71ad3c8930920c5ca9cc4a0
+SHA256: 5751b10fcbba8832b2504283c15c387d36d910d5727d9a907c416772ff04521f
+SHA512: 78984c8b72dcb5afd4e473179705ab28a73c8e7394d195845de553a4ecce3cce392d7c9d7e2c24df7b1c1669489ccf9f20235cffb0e9f43e7fc471d750f12cdc
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.7
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 129
+Depends: openmediavault (>= 3.0.40), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.7_all.deb
+Size: 22384
+MD5sum: f9c73f7a53c591550e72f8d5391231bb
+SHA1: a594b61ff0bc295e015fb48a35d7ac3bb7fc10df
+SHA256: e608c02fd27833547c723d43e3eb583a2058fa14d4014628203cd6dd49a58da1
+SHA512: 645ee35cd226c6c375b61e58613ec25478d30bcfe88184116730645bbf54a30351400ec85d48e027581daf4d07db27bbb6836509ce8c782d2be630bb5c530512
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+
+Package: openmediavault-syncthing
+Architecture: all
+Version: 3.8
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 129
+Depends: openmediavault (>= 3.0.40), syncthing (>= 0.12)
+Filename: ./openmediavault-syncthing/openmediavault-syncthing_3.8_all.deb
+Size: 22384
+MD5sum: 7ead1ffac9c595e801a3d9299b22641d
+SHA1: 1858bccc62771b8d2a3bef1753cab9c4228034cd
+SHA256: 9be1bd4bed0896173738d4a464fc425ea60ad53fec4f173aecf610b567560172
+SHA512: a4eeb50472461efe4125b1e65c12f5bf3be4032b1f1152625ee858d6d63f917235e2491df9509040b3b02911de810b531425472fab53c5d12beded094c50528c
+Description: Syncthing plugin for OpenMediaVault.
+ Syncthing replaces proprietary sync and cloud services with something
+ open, trustworthy and decentralized. Your data is your data alone and
+ you deserve to choose where it is stored, if it is shared with some
+ third party and how it's transmitted over the Internet.
+Plugin-Section: backup
+

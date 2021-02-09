@@ -1,0 +1,38 @@
+Package: openmediavault-hpraid
+Architecture: all
+Version: 3.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 7
+Depends: openmediavault (>= 3.0.25), hpacucli
+Filename: ./openmediavault-hpraid/openmediavault-hpraid_3.0_all.deb
+Size: 3266
+MD5sum: 08bd0b103f33925d464f83f1998765e7
+SHA1: 0453fb77d04f3ba6bf243e985ab1fc37f64a65d1
+SHA256: b32b0fd7f6fe545c8102d4ff4510e1a3664cf2685a84cebccc4772dfe28689fb
+SHA512: 929a37c67d994d3b9f8bc94a14d622103c9446ec007731a823f277521d8782e1af1728f466a09e1ebe64497ee5305e48e67c3c9ccf80b93b5aa90180bf7eaca2
+Homepage: http://omv-extras.org/simple/
+Description: HPRaid plugin for OpenMediaVault.
+ Plugin to view information about HP hardware raid.
+Plugin-Section: utilities
+
+Package: openmediavault-hpraid
+Architecture: all
+Version: 3.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 10
+Depends: openmediavault (>= 3.0.25), hpacucli
+Filename: ./openmediavault-hpraid/openmediavault-hpraid_3.1_all.deb
+Size: 3948
+MD5sum: 23bea5b56eceafa69a32c32a3c97e619
+SHA1: cdfbbfcd4071a10873b53381a348ab3489ba6e25
+SHA256: 6a18083579d86db58ca38404d26ae58f0cf4611a14cd0e1b7909229dd859f5de
+SHA512: 83ae444bc87f589894450c603b27a22fa1ab92a52f947e48a82e9fecff827dc7fc17cc70a7b7a50fd0d3950126fb145bf8cad4633bc1abee1fc181aa6bc48778
+Homepage: http://omv-extras.org/simple/
+Description: HPRaid plugin for OpenMediaVault.
+ Plugin to view information about HP hardware raid.
+Plugin-Section: utilities
+

@@ -1,0 +1,171 @@
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.0.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 558
+Depends: docker-ce, omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.0.1_all.deb
+Size: 58378
+MD5sum: 9427c079283c170d57e6e8fc0107275e
+SHA1: 2d07c4c26816a3185e1bbf13b28177efc535e3c1
+SHA256: a3143e97de65aa727efe8cbfc304805540483643c279c4a2ba6bbca118a32e00
+SHA512: 0c905ca1377f636c6e024d27a84276f139f6e123f2da86ff710b8c154a0c0a161e0877428bc5f81a0d94b360bac80e3c2630fe9446148d623a4f029422e682a1
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 557
+Depends: docker-ce, omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.0_all.deb
+Size: 58282
+MD5sum: 0ff8382e378e71f5ce2571081181cefe
+SHA1: f2403440bdf786424d41d6b2be25507521911d84
+SHA256: e07f67c922a8cc9fc8413e8d094d758de5b681c41bf5c5c48511ffe56602306e
+SHA512: cf5c2f00a8a146a597825a98e9d432a4dfb0acfb922fe9c48d3ffa0a630bb3e1f6b6bdc45ef029ccb9cd103c9d20d5e95b5f837d6fde731e21273b9374d97d57
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 568
+Depends: docker-ce (>= 5:18.09), docker-ce (<< 5:18.10), omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1.1_all.deb
+Size: 60200
+MD5sum: 7dcc350b8da081d578c27a3687039735
+SHA1: 912358573a83b867e27f07e93b2643df4df80b14
+SHA256: ebb672a45f38fe2b825551075efcd7bf498612ededd67203a9bc3d6d2a113734
+SHA512: c5595f5b54bbd42c9ad5aa22fab78595d94f4de257b3a74c9dd947e9c0ba88f3dcadff9da9d104825c187466948548a5d88696dbee6ee701e2113a820f235e55
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 667
+Depends: docker-ce (>= 5:18.09), docker-ce (<< 5:18.10), jq, omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1.2_all.deb
+Size: 59696
+MD5sum: 3d00780198f9f3bf305029351e8fd559
+SHA1: c6f19ccfe824b29943212d25bba76670d7f57c1d
+SHA256: f2a38d29e0b97e4462059e7329a4d41850b0a94dd147f3b705ea7ee360a4821b
+SHA512: 95c7d931455d49d951cb59576753490666460d1ad3d2e9ffa4c07d6f670d722ae8feda9e0544168d9765305ef0184cafcdc5ce484fac0d33704244ed6d8ba048
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 669
+Depends: docker-ce (>= 5:18.09), docker-ce (<< 5:18.10), jq, omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1.3_all.deb
+Size: 61356
+MD5sum: f70c198e5810a68df814641ad9a56466
+SHA1: 95ead2b87a9f6db9ce62988014778c3b2fa22d6c
+SHA256: 066674da7bc19368dac4c746c9ba01d1d83faab0f8136592876b00d227afaeac
+SHA512: 9655ce9230735ec1d05faf37389dd2340c9f972bf4f6dda88e174d48b945efcbd701c4d0e3cdf82c7c2b7cc32bb744257aef0534afb1582cfcad2fd082d1d4d0
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1.4
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 670
+Depends: docker-ce (>= 5:18.09), docker-ce (<< 5:18.10), jq, omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1.4_all.deb
+Size: 61474
+MD5sum: d9e7663655d9ec598f3408c2389baaf6
+SHA1: 03f39bb4f21f84570c4f7e717c5c92feb1d2909a
+SHA256: 2f3b842628981de39199de0ff77c636fcd22fa1a6e778a534537e1b5643e7724
+SHA512: 3f248cb77295ffbc44d5f90db03c840b1ff3b2e3757d270918f64a7cd54ee30e1d9a4c058c51ee5d7c0903ccb3a70337d4d93a401772aba32ba27a438d0a1f3f
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 672
+Depends: docker-ce (>= 5:19.03), docker-ce (<< 5:19.04), jq, omvextras-common, openmediavault (>= 4.1.23), openmediavault-omvextrasorg (>= 4.1.15), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1.5_all.deb
+Size: 62776
+MD5sum: a3877dd23ce9b97a335461d1949c2961
+SHA1: 584c19c3a27ac89b8151fb995fc9fbd08ffe7438
+SHA256: 956cdf89671db10df7939f87d3f1834177c13721a657d7aca420a16cdca8e958
+SHA512: eee913434b812367128ed7366fb1c9959146aa89ca37c4ff4243221a211f3f20bf272fa9c2196cf534e702b610d767f9c61b611efbd6f8d987027e95a1d410c0
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1.6
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 672
+Depends: docker-ce (>= 5:19.03), docker-ce (<< 5:19.04), jq, omvextras-common, openmediavault (>= 4.1.23), openmediavault-omvextrasorg (>= 4.1.15), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1.6_all.deb
+Size: 62904
+MD5sum: 5699f5de049d048681136ed3a4d37288
+SHA1: f831c3c902b90bb917d4c800a594877e48ac4a95
+SHA256: 32609fadbb07da7100b653fa5e2de8e6ca9f5b1b307d96d8bd4d4ab75661ddf9
+SHA512: f5d53b88f51f1e3d1ade8dafbc9f58f8b933a1a97171c84a2c05778e30553ea0fbcd391ccb9880217f0f4cba61c4b117dbf6aa0e612f6f0e02156cee9c0f3202
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: all
+Version: 4.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 564
+Depends: docker-ce (>= 5:18.09), docker-ce (<< 5:18.10), omvextras-common, openmediavault (>= 4.0.5), openmediavault-omvextrasorg (>= 4.0.2), php-curl, php-imagick
+Conflicts: docker, docker-engine, docker.io
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_4.1_all.deb
+Size: 59140
+MD5sum: db3835c01897ad13529bed79cf0107ef
+SHA1: 7545ce54a70ef2507580d00266045e36da72c167
+SHA256: ad67535f76b3679c7da75456878ec858b498994aaed9ac04ab693c0d81fe4b96
+SHA512: 79f9e8fd4f2be24e88f61c95f0113a30b2d35818cd356ec4032701523f93cb857266228d70764db1aee462116cfc9aaaa1bd2fac73af8776bec3cbe16a3a8989
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+

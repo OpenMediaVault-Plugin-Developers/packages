@@ -1,0 +1,54 @@
+Package: openmediavault-docker-gui
+Architecture: amd64
+Version: 3.1.8
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 383
+Depends: docker-engine (>= 1.10), omvextras-common, openmediavault (>= 3.0.67), openmediavault-omvextrasorg (>= 3.4.24), php5-curl, php5-imagick
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_3.1.8_amd64.deb
+Size: 42744
+MD5sum: 03a193ca9f610ffa99cdb5d9759f4438
+SHA1: fb52de6b12e5e889f33d77b4b373280cf33f445f
+SHA256: 3fb610e3febad0bce562a4e3aa6213c479bd541330525065423bc73154505504
+SHA512: 83ce9b1dc996c14f9723251e80eee93a971cf0d58ab38695bc8931e31755d7fb43611c13c5cdbcda4463f23f189e5570bdf78cbe232240af368d72ff88a0c313
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: armhf
+Version: 3.1.8
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 436
+Depends: docker-engine (>= 1.10), omvextras-common, openmediavault (>= 3.0.67), openmediavault-omvextrasorg (>= 3.4.24), php5-curl, php5-imagick
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_3.1.8_armhf.deb
+Size: 42726
+MD5sum: 1d9e5d1e2268cfd2da0c977b46f528d9
+SHA1: de419d696fe807e2223cd20f1817f3195dc4ee5b
+SHA256: 207a2d955beacf5dfb75596b4fd0a288f95a055dbc29e0e951905f4b9712b6ed
+SHA512: 5ba7dda99a91b7ca17caee77c47eed79937d901ab351e5378538c6fe6081a3069e8a843e24d3ca45491b5b7383537c884c6751cd0d58299d84955a5f8c218f09
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+
+Package: openmediavault-docker-gui
+Architecture: amd64
+Version: 3.1.9
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 670
+Depends: docker-engine (>= 1.12), omvextras-common, openmediavault (>= 3.0.67), openmediavault-omvextrasorg (>= 3.4.24), php5-curl, php5-imagick
+Filename: ./openmediavault-docker-gui/openmediavault-docker-gui_3.1.9_amd64.deb
+Size: 49522
+MD5sum: 0d95d540d31afd065b3b0806190b2819
+SHA1: 8d00b07fafeef5b4398894cfdf6b141863e53bc8
+SHA256: 86fca93965c6ce578cfa5e9acd6184491d5a3c22c4115c1e887cb91291e0cfb8
+SHA512: 5a691f5d2170212cef415e871b0384f3587b21a330f5cd85fdcda62af5fc96956f8e2d5728f875d685e0de9c13df14a86197fac619737bac3f83e5e42c4cfc5f
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault plugin for Docker
+Plugin-Section: virtualization
+

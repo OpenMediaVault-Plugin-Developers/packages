@@ -1,0 +1,130 @@
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 5.0.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 437
+Depends: dirmngr, gnupg, openmediavault (>= 5.0)
+Breaks: openmediavault (<< 5.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.0.2_all.deb
+Size: 62280
+MD5sum: c09a44093ea6820823356dd9f4fcd179
+SHA1: 8289c0996d27d625fb94f3f64ddcfab79e6e5054
+SHA256: 82bdf0c295f52b94f5bf434f9a161e5f04dff715960b5fe9211de39bce08c861
+SHA512: 612882368f959dc84514dd37a1ee310a64531af905c2c77437d801575e5ebf70f776397515c9e880fb625f4fec4deb0751f0d213f1d276d886656fab92b1769e
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 5.0.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 458
+Depends: dirmngr, gnupg, openmediavault (>= 5.0)
+Breaks: openmediavault (<< 5.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.0.5_all.deb
+Size: 63772
+MD5sum: 1298be59b8e8295fa5356796911bbc45
+SHA1: e628277e55d87977adc9c59981b743a21e5110f0
+SHA256: f45993182418f2374a7b6bfc2a04f2f11dc84a31a566539a4a1252c50afc80d2
+SHA512: 5cf6a7aac6653b09e6d5882874984c4216adb8fbe67a742caa246885f70d665745f6736b77948d9521a17f2ef1363947ebdf2758c45a0268a9cffc891fddd147
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 5.0.7
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 459
+Depends: dirmngr, gnupg, openmediavault (>= 5.0)
+Breaks: openmediavault (<< 5.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.0.7_all.deb
+Size: 63988
+MD5sum: 16b69e0d458e33cc7dba5432731dcfbd
+SHA1: 4b80413854956c49e258c71b2b16831f88982a05
+SHA256: 8bed57500d75cbcf158cb62948fca9a02ef9db65548daa3064c4e1430de47cb2
+SHA512: 850a04cc3fa5c94912bbeac597535c517fe3f5d380207d4be615ccc373f5f93f60a3cb1eb3a75847acfeb3137fb73310cc6b531358bd3758be608cf2f43e57c5
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 5.1.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 492
+Depends: dirmngr, gnupg, openmediavault (>= 5.0)
+Breaks: openmediavault (<< 5.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.1.1_all.deb
+Size: 65324
+MD5sum: 8aacfd1ee4cbceb6586d9208e79d6d7a
+SHA1: 49b350cd264668407df60cf821bf744b830a5d47
+SHA256: a92fc0b5a79725a3490008996a598cd0aef9f206f162158470489f1454b7ad7c
+SHA512: a7a865e62044f3964a48631113000ef8f6577b0a3a4ccf1be003ffff88d2596aa96450240ec45e8de94bfe35c537abd6c8b7b6389e76912652c5b06f316ec839
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
+Package: openmediavault-omvextrasorg
+Architecture: all
+Version: 5.1.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 497
+Depends: dirmngr, gnupg, openmediavault (>= 5.0)
+Breaks: openmediavault (<< 5.0)
+Filename: ./openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.1.2_all.deb
+Size: 67256
+MD5sum: 734d385c784dd73429a3087d565cac22
+SHA1: 22077e7c604efe55e67ea796d4b8341a5f733311
+SHA256: ead558a76e3108ee8457223872cef3658ff3934b8b7e0a64c3b9020f7fd24871
+SHA512: 85f4d7a616b7bcd2fb63647dbb3e9d4ca3783f578cab8c3f95b2312363f1b6c3d1b3804bdc2c9e63d589d4445efccb6faf6f7ca29cd829b7fa8da344b0ca2538
+Homepage: http://omv-extras.org/
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+

@@ -1,0 +1,81 @@
+Package: openmediavault-developer
+Architecture: all
+Version: 3.10
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 264
+Depends: build-essential, curl, debhelper, devscripts, dh-systemd, equivs, fakeroot, git, libfile-fcntllock-perl, omvextras-netrc, openmediavault (>= 3.0.67), php5-curl | php7.0-curl, quilt, sshpass, transifex-client
+Filename: ./openmediavault-developer/openmediavault-developer_3.10_all.deb
+Size: 25918
+MD5sum: 1414f27d0a4a9cfafb28d5dcaa36620b
+SHA1: 4f508efed9b13e78b716d9557ae18e1105efb21e
+SHA256: 674155f9cb689c606e572c5caa5455288aa5d2ae4babd0c048474fc5ceb206de
+SHA512: 981a027a729ed289a0eceda9e144a85a85f6bbb79b87747b11f22bcb42b21dc113c3cf27b1e32f782e8b4fa0ffa367c539046fff252dd963315eceaf64eedeee
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Developer plugin
+ Plugin to help developer download/ plugin code and setup system for
+ plugin development.
+Plugin-Section: utilities
+
+Package: openmediavault-developer
+Architecture: all
+Version: 3.8
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 364
+Depends: build-essential, curl, debhelper, devscripts, dh-systemd, equivs, fakeroot, git, libfile-fcntllock-perl, omvextras-netrc, openmediavault (>= 3.0.60), php5-curl | php7.0-curl, quilt, sshpass, transifex-client
+Filename: ./openmediavault-developer/openmediavault-developer_3.8_all.deb
+Size: 25656
+MD5sum: 38c09817be498b5023cd83ea31dbfac4
+SHA1: 99d4ccca9e89b50a50fd73067ae0f5d5e33154eb
+SHA256: 4070e1d5bbb0572eba79195f00b0e81d8a35c56903b0979bb9aeae148297c014
+SHA512: bbd21253a94d120c45b16f65539723b24375745c2ed67600d35cd3d3abc40b9b266b1a43aed66a8d495b4663b71892d872f1d7f53a268ac7d310bc85ea0e996d
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Developer plugin
+ Plugin to help developer download/ plugin code and setup system for
+ plugin development.
+Plugin-Section: utilities
+
+Package: openmediavault-developer
+Architecture: all
+Version: 3.9
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 264
+Depends: build-essential, curl, debhelper, devscripts, dh-systemd, equivs, fakeroot, git, libfile-fcntllock-perl, omvextras-netrc, openmediavault (>= 3.0.67), php5-curl | php7.0-curl, quilt, sshpass, transifex-client
+Filename: ./openmediavault-developer/openmediavault-developer_3.9_all.deb
+Size: 25968
+MD5sum: 9c98c2ad9d72f146f23b584287c9ee52
+SHA1: 7944794ab428f2bbf6334ef73001c61fcda514be
+SHA256: 29b45233490ea2b66f327bff6f23517f1eb674622ae61c4c8d6567d58efac795
+SHA512: ad3548b96f52f9de1b36c8ee15c06e66485c1966be546a2ecf7535e6ac917d6222825fe6f838dec8c639c36272f42b384c42f8db346f8c18351040c612243b21
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Developer plugin
+ Plugin to help developer download/ plugin code and setup system for
+ plugin development.
+Plugin-Section: utilities
+
+Package: openmediavault-developer
+Architecture: all
+Version: 4.0
+Priority: optional
+Section: misc
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 364
+Depends: build-essential, curl, debhelper, devscripts, dh-systemd, equivs, fakeroot, git, libfile-fcntllock-perl, omvextras-netrc, openmediavault (>= 4.0.4), php7.0-curl, quilt, sshpass, transifex-client
+Breaks: openmediavault (<< 4.0)
+Filename: ./openmediavault-developer/openmediavault-developer_4.0_all.deb
+Size: 25736
+MD5sum: 926fd4eba539e383cfd05b50f8b5e8c2
+SHA1: 32ef5a80c8021d9f4adc777a7b55bfbff996fd7b
+SHA256: bad0f56d70c886d2de3918f6ba90ff55766590051898a33be46783cf05d41c5b
+SHA512: d4f8f43c5d85cc72ef50b8990a6b7e842b4d213173390a2e15033313feb0c4c021fe7e9d41ff169634318d089c41c4471c3a423e94cc39cb5e769f6de52bb599
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Developer plugin
+ Plugin to help developer download/ plugin code and setup system for
+ plugin development.
+Plugin-Section: utilities
+

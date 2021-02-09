@@ -1,0 +1,548 @@
+Package: openmediavault-openvpnas
+Architecture: all
+Version: 3.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 36
+Depends: openmediavault (>= 3.0), openvpn-as (>= 2.0.24)
+Filename: ./openmediavault-openvpnas/openmediavault-openvpnas_3.0_all.deb
+Size: 12808
+MD5sum: 93f1d14145b1ecb0e44a49104a361e15
+SHA1: 14f639c2459591bc236ebc7b27bc072e8afaec4a
+SHA256: bce0801dd5c30da67262d313fca1c36d44ae3cc0619aa589e9618ec1bd670fc6
+SHA512: 6245fff53b4e7689c9c909ce8bd3ca1576197e281ced455a9faadc76b88d76749dfd5632be5d81c19b67799b1f5164dcf7486ec3c7dc902657b9d60d87623095
+Description: OpenVPN Acess Server plugin for OpenMediaVault.
+Plugin-Section: remote
+
+Package: openmediavault-openvpnas
+Architecture: all
+Version: 3.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 36
+Depends: openmediavault (>= 3.0.21), openvpn-as (>= 2.0.24)
+Filename: ./openmediavault-openvpnas/openmediavault-openvpnas_3.2_all.deb
+Size: 12980
+MD5sum: 2d1e21ec61dd338e28de5f89be9a0398
+SHA1: e684b1d6a525d13a8745147167c0ad14d4a08a32
+SHA256: 7874cb3fa4c0f4191e171e09b5a3c80b19e57d421378117c4acf7dc706849fe4
+SHA512: c560855c68401f039c5b3602d1313c415c54a921dd535efe5ebcd90442dc44817cc33bdbce294aabffed0b0272d98bfdf0232af3a0cad7738eef3b7758bff140
+Description: OpenVPN Acess Server plugin for OpenMediaVault.
+Plugin-Section: remote
+
+Package: openmediavault-openvpnas
+Architecture: all
+Version: 3.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 36
+Depends: openmediavault (>= 3.0.21), openvpn-as (>= 2.0.24)
+Filename: ./openmediavault-openvpnas/openmediavault-openvpnas_3.3_all.deb
+Size: 13008
+MD5sum: 5bbc1c69048d81ba07a2f6c39849da67
+SHA1: c1b2431b99c356934a83996a9635aaa6e119fb9a
+SHA256: ce9b04ddbfff96d4a8de724b9ba63177cf5da404620ee017f3d47e0e70841425
+SHA512: 52003faeb5295fc9532ecf87d52690e163213c6c990a4f8e4942208515831b7f2db3fd1209f0775262a6d93ea396ed59253e5b54cffea0c9c7cfc6ecf2ec6f60
+Description: OpenVPN Acess Server plugin for OpenMediaVault.
+Plugin-Section: remote
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.0
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 101
+Depends: openmediavault (>= 3.0), plexmediaserver, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.0_all.deb
+Size: 20682
+MD5sum: c6db826e3569b8d1da01d6fcdbb1a234
+SHA1: 468acdb3081210a888bce1392587447fe6296bb9
+SHA256: 635a940b7630fb6d0712e6563f6c2b1f483d0a11d36aa68c0139a7a479d5f7a4
+SHA512: 3c4012c3180a44868969f7a9a9fe90f2b56f760deec96b64078f66eb70b6567402e71b0f9dcd33fe1135288292da72d1e7f3c7452689d5d4eba396758688e43c
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 102
+Depends: openmediavault (= 3.0.13), plexmediaserver, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.2_all.deb
+Size: 21334
+MD5sum: 95ff26871cc57cf47f767fa89897cda7
+SHA1: 278dafc1307e6c7ffa217d572e83b405cc14a1bc
+SHA256: 9a56731d7716ea425c46692c33f1e800bbb34b2a1f90a7f80ba515a0d4012330
+SHA512: c4eee69fa2feac31015976d09f20140169776d81041271456ebcaa01009572667f84a4de7b7eeb9450e1ff20863c42c9a32352653b9f70ceb31982cc4331c549
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.3
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 99
+Depends: openmediavault (>= 3.0.21), plexmediaserver, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.3_all.deb
+Size: 21076
+MD5sum: 31011c2936534d957010057c30ec08b8
+SHA1: e9c7f015d1ffd6c23458203af3d2c8327d5eabc9
+SHA256: f265f8de777baac11811043eaeb61817e1622d30c6f21eb722aaabb4310750b3
+SHA512: 7bc8c50083286e21f547647a4bf6ae27f100f267b55a8cd1b7faf6263b976552b56dee7ba2504395bacd67b53e13f682af674d670a6d54a60088bc23317c5f3e
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.4
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: openmediavault (>= 3.0.21), plexmediaserver, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.4_all.deb
+Size: 21284
+MD5sum: 1ed27eceecc7155e258ec5229c6e2a50
+SHA1: 5a8c2d1176b7f5cb78fd42889808e41cc29805f6
+SHA256: 6e1890add88e967a25a2da4fc6f726473fa270c7bcce50de91d22cbdf80b6b65
+SHA512: 3c0e4b1a7b668011e372b5c937e6182e6aa2a151cae93c41b194f08833417f60b015593b5300da885e34607df0ed4fb64416b28c0771931fd9ea783e941ff309
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.5
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: openmediavault (>= 3.0.21), plexmediaserver, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.5_all.deb
+Size: 21308
+MD5sum: 141115839b3c21a686918a6c8a80c817
+SHA1: 54716bf9745bf96af08835853792db5c0a18e71a
+SHA256: d7ddc525ab0a879846603a21f762c43ed12df2b926924a2d09a67bd85fcdfd9d
+SHA512: 55897ebd10e52508e659b77187d4914b8f0b69f648f062c43d59093fae0e57919fcbe67bfe016db29d32fdd2916804ce2fde4b0ef5a353dd7aba31cc8d49a7de
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.6
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: openmediavault (>= 3.0.21), plexmediaserver, avahi-utils, avahi-daemon, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.6_all.deb
+Size: 21450
+MD5sum: 3f626e1055ad30c22486cd5a704e0dd0
+SHA1: 62aca9d4d7c0252fcb9b1f1144fe93b421333304
+SHA256: 12a91309ded5c0a13d616ad6912f11d50fd93f57ccf84b57d0cb34cdee6df947
+SHA512: 911be22f3fb1289e5c4bca70d30967c25ed3bff62166565ac59dc8113e9766e5f988fb565fed7f25aa6a5742181b2b7e2c2bf2211092f2a4f030b43e4e26d4bd
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.7
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: openmediavault (>= 3.0.21), plexmediaserver | plexmediaserver-installer, avahi-utils, avahi-daemon, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.7_all.deb
+Size: 21432
+MD5sum: 8bea5288cd58dcdad012d239ce49591c
+SHA1: cf5f940d993763c3d7f86af82a0482a97b18c715
+SHA256: 385478e35b39ac50b7532796b1c4ee9fc76672419e3c5be5bbfff48db540da23
+SHA512: df2164cea3c54d6447c20d78ef029084daf94344cc1718dbf7658508410a675a8b8691c3dc37c2f418052da8baf0d1d83654c085404f8339cff54f1a57adf662
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.8.1
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: openmediavault (>= 3.0.21), plexmediaserver | plexmediaserver-installer, avahi-utils, avahi-daemon, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.8.1_all.deb
+Size: 21470
+MD5sum: b7ad874f7671b5fee745fed57edad673
+SHA1: 6d03d325f921f6508003387fb7b6e2942ed128bf
+SHA256: 404573e2821e271a8017a30ed587b9349bb8f9bc26758af1a44d26c04302ae81
+SHA512: a9b70ee04d751886da06ccd355ebcd949827485f58e15fb8687eeed157612034609277a950ba77de63ac003f06ebd3d2c1a5892f99b68ce7eba5ef8189755a22
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.8.2
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 178
+Depends: openmediavault (>= 3.0.21), plexmediaserver | plexmediaserver-installer, avahi-utils, avahi-daemon, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.8.2_all.deb
+Size: 21294
+MD5sum: 96bb13451fb38adbb3bb36cdf8af31c0
+SHA1: a4fab54d620bb271b9569a0d3529128fdfdcddf2
+SHA256: 9e8243303c6124a7ecb05b4adc346489714c0adda4847524129e21a4e70e4ca9
+SHA512: e6760aa03665926b463357c41f93f716506d3c8399d363ae99293f6e220b1397b51ed1c45f0d14f0efd3f8ee2b678526469ea8a4ec1f392c95fe3e3232d28820
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: openmediavault-plexmediaserver
+Architecture: all
+Version: 3.8
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: openmediavault (>= 3.0.21), plexmediaserver | plexmediaserver-installer, avahi-utils, avahi-daemon, git-core, python
+Filename: ./openmediavault-plexmediaserver/openmediavault-plexmediaserver_3.8_all.deb
+Size: 21450
+MD5sum: 64a2727a3ddb944150bb5dc7d5b4726f
+SHA1: 73d9bb8900c7f3f64b24c59bdfdd75da6a50e5a1
+SHA256: 8b94373830cfaca084fefd740970b56123e47a386e637269198302f966b889aa
+SHA512: 3f16c0b1805e87ba6f3228fa53f8b1131586ad9075a57daac45570aba509b08f504a72e9c9266fe4c93085c10d536047bc0f157146a3d6fe6ca632534914c601
+Homepage: http://omv-extras.org/
+Description: OpenMediaVault Plex Media Server plugin
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.10.1.4602-f54242b6b-1
+Multi-Arch: foreign
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.10.1.4602-f54242b6b-1_armhf.deb
+Size: 7526
+MD5sum: 1752ffb6a585d015a72681bb6333005d
+SHA1: 82b40bbf2893b9e8d910f5f5b5045028c5ed8986
+SHA256: 0cdc1a217202cca855d62c7f3fa22e68bf504b125f98366745dc05a62b7c8e91
+SHA512: 2ab70e587a6d77ebd6f1d5f5c5bf4a211c932daf0b1b348e264eb95b7a17829284e36924855c550e54e9a616a4ba54b37953d5f410e510c5567f2aec0fea2d0c
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.12.0.4829-6de959918-1
+Multi-Arch: foreign
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.12.0.4829-6de959918-1_armhf.deb
+Size: 7526
+MD5sum: 6b087c22753bb8abc934e7a8b0d59922
+SHA1: f8b8c0053060b8b9a6feb0bd27296aa5a9c44c9d
+SHA256: 379af1f8797968cea365abdc6e8fa150f2dbff314b45bd151c313c8cda1c7604
+SHA512: f87ee2dc264b4050c2b11cad99510ac606afaf81d8a52f4fd1bb752f9826b05eb9acb949c41cd8a96f39d70d00b4e34ceea7bb6f8782925df4a15a642599f77b
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.12.1.4885-1046ba85f-1
+Multi-Arch: foreign
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.12.1.4885-1046ba85f-1_armhf.deb
+Size: 7520
+MD5sum: 23ce9d7c71e38caecbbc4b94eb8ed0c2
+SHA1: 856c5cdad9f0daba6dcfd2e12be5d1e7a36b29dc
+SHA256: 147f8445b3b5e9f7545dbbc244b3a279309693e9c6f927f4ea377959b6498837
+SHA512: ba2aef9ddb9719af29f0ae65a346ba0cd30c3c41108d825a2d39a13f37aca6190e81f547e8650d69d4270a7640cde2dd5b4eded25e386f58de16d323e29e7dd5
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.2.7.2987-1bef33a-1~jessie
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 52
+Depends: curl
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.2.7.2987-1bef33a-1~jessie_armhf.deb
+Size: 4494
+MD5sum: c13297280accdf68928d15b7fe65f4dd
+SHA1: 4118f8b07c4f5d6d8f503e4fe44fcab3b9f434bb
+SHA256: ed1bf54830c198479869ee3072768f6b4f78be793f1b63ef6021b038028c0406
+SHA512: 7cce46e0da3a6453262964f46724e9b6c74ab53a450dc42a42f6641ce3a4f1a42669e93e725d50412d07df42e10dee3145b322e673b98087d1080eab13c4997d
+Description: Plex Media Server for Linux
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.3.3.3148-b38628e-1~jessie
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 51
+Depends: curl
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.3.3.3148-b38628e-1~jessie_armhf.deb
+Size: 4052
+MD5sum: 2294f5ceebc6934a5e52189d214c8de3
+SHA1: a3d552e27417ffdd34e38d65076641dcf483fc25
+SHA256: a7c0c4886c6eb88f0073eaf5040ec5c80c56ac5b19a664026975bc8e28bb8bad
+SHA512: 5d497f5f2bb69afcec716ea9f831cd1a17179e6e1013208204e8d2ce97b7f57a84c55af4df35549a0023958cb60d65ef38078dd32268591744176fd4efe2307c
+Description: Plex Media Server for Linux
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.3.4.3285-b46e0ea-1~jessie
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 51
+Depends: curl
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.3.4.3285-b46e0ea-1~jessie_armhf.deb
+Size: 4108
+MD5sum: 37fb6dc6b97526b21d54add3af6d2357
+SHA1: f73c3b04e6f41e7754ad68520a2f771b044ebbc2
+SHA256: 671307f23b6f4474f8ac4f88822cfd23fe08953b18d2cc635eb16eff26ba0104
+SHA512: 1cf1094f0ed6b4416e85d09e5aadc372d999493ccff0900fb487c3a75e76fa4fdeed1a13c458ce6e55c575df8dbd41ce40f862eb9a2631b78684feb4c71c8159
+Description: Plex Media Server for Linux
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: plexmediaserver-installer
+Architecture: arm64
+Version: 1.5.3.3580-4b377d295-1~jessie
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 51
+Depends: curl
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.5.3.3580-4b377d295-1~jessie_arm64.deb
+Size: 4154
+MD5sum: 1f2feb4ebfefc78e71e633380c4c5c08
+SHA1: 19fbb93aa53253d368a86f22f5713732e64737bc
+SHA256: 4152e5a62c5f0446930d66549982b170fd79471e3522b173c9e9862ba500ae48
+SHA512: 083f3fcf916216097de3d1a49ea83969716e9cad44ae6ee73162251b019ab235ffc7f2d06b3a32dbafd0d3c2c2aef0c6665efd0dd39a12a7e17aba65d047eaef
+Description: Plex Media Server for Linux
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.5.3.3580-4b377d295-1~jessie
+Priority: optional
+Section: net
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 51
+Depends: curl
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.5.3.3580-4b377d295-1~jessie_armhf.deb
+Size: 4110
+MD5sum: e3d0c483686e2f87b11ed221a98fe08b
+SHA1: c9d1f7e467005ceb9f86d46779536de413072a78
+SHA256: a30a9ed56594d894c9ce6017db73468084623e79f17969e2225fb1bda58701ff
+SHA512: 91b6f98f7bab292b908d43d48575308b79219929740a873e922e4f830ad918d3513f85a8b0af32b694a53722cca1ac1f32f2fc51e24db89991f15c240932f544
+Description: Plex Media Server for Linux
+ Stream media everywhere(tm)
+ .
+ Plex Media Server simplifies your life by organizing all of your
+ personal media, making it beautiful and streaming it to all of
+ your devices.
+Plugin-Section: multimedia
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.5.6.3790-4613ce077-1~jessie
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.5.6.3790-4613ce077-1~jessie_armhf.deb
+Size: 4188
+MD5sum: 7a68d691177117a64314c622fbcfc658
+SHA1: c85bdf7f39ebcd9ee71057526e28c082e6289382
+SHA256: 546277187b628421e3962731a4b554b403e809966a86bb44c56cfef234dcdc8f
+SHA512: 834bbfca61fc3b792aba7ce00b2b905e5ba99cdca0ee039249195aa3978485d3414961d29a6d62f33edb83ca283429ae5802afa776aec012ae9a1fe87a17caf6
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.8.1.4139-c789b3fbb-1
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.8.1.4139-c789b3fbb-1_armhf.deb
+Size: 4026
+MD5sum: 00bcca545ea193be4e25219dd6b4cdde
+SHA1: cc7e1ff360c69ca82c547b830afc078ef812ac01
+SHA256: 06a67b663cf7046c5cd8e50c47d15b142abbab1cace504e8d27a2d9510e55084
+SHA512: 888f336b2fd7b20deba1e7489ab89740bbd8cb69dc4de0299282f5134570ddb6e56f3541ecedac5c666797b12e8bd34e2ace5a6d26b631e98e048faadd5c1cf0
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.9.2.4285-9f65b88ae-1
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.9.2.4285-9f65b88ae-1_armhf.deb
+Size: 7512
+MD5sum: b42e16c0e22adb64133059ba93f6215d
+SHA1: 0ae6bc719c07cefe9583ed2ea82b04e23df8a0fe
+SHA256: 27de568d08374db2ef6b4d70474f62127657672e95f40655b41bf35058e4631f
+SHA512: 7c91521eb0aaece9030082c9812fae0242c10610c9bf306260f877b0e7b33585f7ff5afec3af31f883baeca3d9825cf057a77c69a0a515cd059d2bb723b3307a
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.9.4.4325-1bf240a65-1
+Multi-Arch: foreign
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.9.4.4325-1bf240a65-1_armhf.deb
+Size: 7522
+MD5sum: dab6be60f070791eb7f169d50fc43c94
+SHA1: 341fb32325ca3ca7b5b9ddde92658c3daa4dac0c
+SHA256: 739321f242996bc0ae3d149e7b8f5a2638e048feb7cc08a3ac50074e42f268aa
+SHA512: af551e2fa47f15411db94453e319eace7fc928cc28b52c1542ab9908f400bfc3975388b379f10daa577e8f9b14dd996586117ee1c2720647f953d320a5cee37e
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
+Package: plexmediaserver-installer
+Architecture: armhf
+Version: 1.9.7.4460-a39b25852-1
+Multi-Arch: foreign
+Priority: extra
+Section: video
+Maintainer: Jan Friedrich (uglymagoo) <jft@dev2day.de>
+Depends: libc6 (>= 2.19), curl
+Breaks: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Replaces: plexmediaserver (<< 0.9.16.4.1911-ee6e505), plexmediaserver-installer-neonless (<< 1.0.0.2261-a17e99e)
+Filename: ./plexmediaserver-installer/plexmediaserver-installer_1.9.7.4460-a39b25852-1_armhf.deb
+Size: 7522
+MD5sum: bf5e3eb086622c028fbadadadd8ff718
+SHA1: 4ae6e27dcc5a7ea837120e1ffd77e3b751044f98
+SHA256: c994306f6952d2909e1b12679864ea96d9cc8e107a32032608063d234ac55398
+SHA512: 60d203fa93eb78f4dac566880d2e63af73814ba0c55fcb8f88d85417ed490b1137412b5f61a8d2c878e7105db0297ea5aeb69223fbabde56634226cff8d311c1
+Homepage: http://www.plex.tv
+Description: Plex Media Server for Linux
+  Stream media everywhere(tm)
+
