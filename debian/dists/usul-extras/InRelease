@@ -1,0 +1,63 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: usul-extras
+Date: Wed, 10 Feb 2021 14:34:31 UTC
+Architectures: i386 amd64 armhf arm64
+Components: main
+Description: omv-extras plugin repository for OMV 5.x Usul extras
+MD5Sum:
+ 56078d33ef77aa7b159c0c766a1a9e03 968 main/binary-i386/Packages
+ 3969f456927ec8bbede94ea61f44c67e 592 main/binary-i386/Packages.gz
+ 04bc17194053e1164b96c4933cb84bd0 101 main/binary-i386/Release
+ 56078d33ef77aa7b159c0c766a1a9e03 968 main/binary-amd64/Packages
+ 3969f456927ec8bbede94ea61f44c67e 592 main/binary-amd64/Packages.gz
+ b3c2da95ba1f7c25fa4f9284585e33f4 102 main/binary-amd64/Release
+ 56078d33ef77aa7b159c0c766a1a9e03 968 main/binary-armhf/Packages
+ 3969f456927ec8bbede94ea61f44c67e 592 main/binary-armhf/Packages.gz
+ 39c944cb58ef39122128945ad3445e23 102 main/binary-armhf/Release
+ 56078d33ef77aa7b159c0c766a1a9e03 968 main/binary-arm64/Packages
+ 3969f456927ec8bbede94ea61f44c67e 592 main/binary-arm64/Packages.gz
+ 648516e4c60e91f12bf3e4cf3ba2a9fa 102 main/binary-arm64/Release
+SHA1:
+ ed0d475873aec6217f32c4ebb7d8b5c5b09485f8 968 main/binary-i386/Packages
+ af22e42b0255603b4fb1f5fc59183070035f534b 592 main/binary-i386/Packages.gz
+ 944e8f779f43dfb7e215ca94c291545ac8bd9b62 101 main/binary-i386/Release
+ ed0d475873aec6217f32c4ebb7d8b5c5b09485f8 968 main/binary-amd64/Packages
+ af22e42b0255603b4fb1f5fc59183070035f534b 592 main/binary-amd64/Packages.gz
+ cc4e5934652951378adae83831f35db55d298633 102 main/binary-amd64/Release
+ ed0d475873aec6217f32c4ebb7d8b5c5b09485f8 968 main/binary-armhf/Packages
+ af22e42b0255603b4fb1f5fc59183070035f534b 592 main/binary-armhf/Packages.gz
+ ca2bcff8c89614a9230b72cafbdd9b64a76388a8 102 main/binary-armhf/Release
+ ed0d475873aec6217f32c4ebb7d8b5c5b09485f8 968 main/binary-arm64/Packages
+ af22e42b0255603b4fb1f5fc59183070035f534b 592 main/binary-arm64/Packages.gz
+ 263c2696eccefb701d05eb9eea97412fb7bf03b5 102 main/binary-arm64/Release
+SHA256:
+ 18d1455a473c1c8a36e3e83e678e6f143ff8a04b3011431181ca068100222e87 968 main/binary-i386/Packages
+ 41354485bfcaf9ae2c8ec2674f58185d5caf3e9745f211d36722fb5004126421 592 main/binary-i386/Packages.gz
+ e94c7dc96334020e2b582ed35b9f5c1b26af0d99e6da24799fe124336368ea61 101 main/binary-i386/Release
+ 18d1455a473c1c8a36e3e83e678e6f143ff8a04b3011431181ca068100222e87 968 main/binary-amd64/Packages
+ 41354485bfcaf9ae2c8ec2674f58185d5caf3e9745f211d36722fb5004126421 592 main/binary-amd64/Packages.gz
+ 90e665857aebf4117edafe3a02295c31e87fcc652fe3f7d34529e64eeb999f07 102 main/binary-amd64/Release
+ 18d1455a473c1c8a36e3e83e678e6f143ff8a04b3011431181ca068100222e87 968 main/binary-armhf/Packages
+ 41354485bfcaf9ae2c8ec2674f58185d5caf3e9745f211d36722fb5004126421 592 main/binary-armhf/Packages.gz
+ 2907df7c724bdead61183ee6558f3f8a27dcf19a79fe7264b431c9ac069a0c58 102 main/binary-armhf/Release
+ 18d1455a473c1c8a36e3e83e678e6f143ff8a04b3011431181ca068100222e87 968 main/binary-arm64/Packages
+ 41354485bfcaf9ae2c8ec2674f58185d5caf3e9745f211d36722fb5004126421 592 main/binary-arm64/Packages.gz
+ d9e6c697a21a50f29c3cb5b6ad210b09f322931e5b5d4f8638c73459cb67d9cc 102 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmAj7vcACgkQMmqDXml7
+iQoZYg//Z3UqlBU79I/W3+WEJ8knl1FgWH45VriKcCQBEQbnRwaioxv3aBHHJT4r
+guWLZOrsMAFKLBmy1t0+PUyCawb3+8j9uGVsFzYPgRypxmpZyNw/KNHoYXy4aV6M
+npqyCbEoxbsa7xR5OwHPYtkV5Lqe4WkKag4kfmOTiWyWQ3jlf85pm7N8xAJVF1oe
+4siAwBv8mxCUaNS1zBkE5EAvh6Gvj7jIfyWvywlEUkaURnBTxEbXKZrpae71g3vF
+plQN+gYt5tPIDsV8VZIWxYAS8v7m2Oohz7160LpQCtKDhtKLY4qZemrwJq6kwXII
+q82OrqjGXOCR9vUQ978760wBu+Rn/faXeokBnNWF5s5JTE/SwufJRGSkHy21g3Ok
+4mRAyMpDcKhilKu1C2DDZEnIhfH3mTpz6hnP1Bif7R+AYcQQY0ney5cZJH1z9nWJ
+YLHe30yXBA/86B0F9rVKJDeP6i+DH/dSlJxEtVwYDnbEGBJ/wvjbqcLD2htw24Lv
+DddBKdcUsdAfTlqQ+2m12M2fxBWQ+hK6N6o8ne3TzDW+HjNjcMHhKQUPBRu6gIAd
+ri6Vo6B3aJHdkSmNarx69wed7cnGdlAeNAdM8rAE51GJppaN3b1STtqEwODHwhxW
+zjGbnEAptDU5IXGD2oUziyfEpSiTKrX1otbRKJCqe4czV4depuE=
+=qFCT
+-----END PGP SIGNATURE-----
