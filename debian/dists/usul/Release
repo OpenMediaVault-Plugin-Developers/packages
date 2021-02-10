@@ -1,0 +1,44 @@
+Codename: usul
+Date: Wed, 10 Feb 2021 13:48:09 UTC
+Architectures: i386 amd64 armhf arm64
+Components: main
+Description: omv-extras plugin repository for OMV 5.x Usul
+MD5Sum:
+ 3195c0edf9f6d2e486c9036c88051780 24731 main/binary-i386/Packages
+ 6f7c7bf08e6c219c445a3ed00b4521a3 7916 main/binary-i386/Packages.gz
+ 6748a4c84d1888d8a7106c7e0bf6fef9 94 main/binary-i386/Release
+ 48598cfca30b2dbcc91576937a1b2ad6 24721 main/binary-amd64/Packages
+ 80fcaeb65fa66e9515a468ce4d6e4946 7918 main/binary-amd64/Packages.gz
+ 89883ad8f854e9bc8473bee5fc938607 95 main/binary-amd64/Release
+ b2831f48975c6b6dfffa8628c57c8928 23433 main/binary-armhf/Packages
+ bef1339e64d521d4db3488cef25a9afb 7582 main/binary-armhf/Packages.gz
+ 1bc1c16b59acfa308cfc00d3a341988e 95 main/binary-armhf/Release
+ 91011049dbbebc30604613a2db6c483f 23433 main/binary-arm64/Packages
+ 0abbb6ee97d477cabd0508398b8a3c50 7583 main/binary-arm64/Packages.gz
+ a0930d416de696112b8472b639bb92ac 95 main/binary-arm64/Release
+SHA1:
+ b9b19decc796fb6c7fe6cf4ac1f56c8c8d26e998 24731 main/binary-i386/Packages
+ 1e42ddea0724dd6d14ce0bbcf3ef74779718a9ba 7916 main/binary-i386/Packages.gz
+ 08912a40597f2c7252ce733d72c12d6a6836c27d 94 main/binary-i386/Release
+ c66e66b7f91e673fd41b20e8dd68ec61822f40b7 24721 main/binary-amd64/Packages
+ d80ae54750c1af6db8b981ef5aa693bf649474e0 7918 main/binary-amd64/Packages.gz
+ 6b64e9d23763716b5dc8149f300b6ce7379b8b49 95 main/binary-amd64/Release
+ 2b81f3aa2851b00052c0cdac29303d48f18b412f 23433 main/binary-armhf/Packages
+ 1a715e9b27dc8ce566294e7ccdcf99bf1fc820da 7582 main/binary-armhf/Packages.gz
+ 1094d8f043e8245e1592b20b64943dd3b762e1d5 95 main/binary-armhf/Release
+ e00545f4f637aacb3b691e305c5e75bf88d16c0f 23433 main/binary-arm64/Packages
+ fe8a766b43baec294b9f3d8b4eedf7516e48a6e7 7583 main/binary-arm64/Packages.gz
+ adfe23ad7893567f5996e1861dc7c1dc8e45b16e 95 main/binary-arm64/Release
+SHA256:
+ 3c82349e8e6faef7a13a8130d460112f5162a47d4f708ec675dbd6877b6de6be 24731 main/binary-i386/Packages
+ 147bae32ae5719a764f3bd747c88073e86b6389f4683b08327cdfdd878181d92 7916 main/binary-i386/Packages.gz
+ 911302da57140df1991a4aaddffb763dfb32cf31798b25efb9432dca8f1ead11 94 main/binary-i386/Release
+ 523218e6134719ec8508a888a6eacfb9ad2f47582519cf03587d84448f39363f 24721 main/binary-amd64/Packages
+ 6f649ab5d83770be69887cb61cb8dcbf38a32bcdabed7bdf76bc0dff2ce983e8 7918 main/binary-amd64/Packages.gz
+ cdf6a8a9adac32474a499a261b379750d1e8eeb1c0f6f658a007ac2fa884adb8 95 main/binary-amd64/Release
+ 0f1e5378cbbacc336f0f7bca9dddc79399f1e2935991ced85852f9b7e30dc844 23433 main/binary-armhf/Packages
+ 77dd7a36ce13817fb943b471812d79ee2ec3200dce284756a15b78e239bf287c 7582 main/binary-armhf/Packages.gz
+ c1c656f3e638402e9bb975c8c00f8c4158491b7b31527a860c2ed16cb6b4b37f 95 main/binary-armhf/Release
+ 6017c5f930743bfcdcea4d1500aa6bf8b742a560748992b678d4fb43d119134a 23433 main/binary-arm64/Packages
+ 9660047baf982bf07f7d52fc73875766c6a7bc4360da6b50dde9760a211e2803 7583 main/binary-arm64/Packages.gz
+ ba0d534106d964485833d6072b8537f5683b21ba22142753a67f15ab37beebd3 95 main/binary-arm64/Release
