@@ -138,20 +138,20 @@ Description: apt tool plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-autoshutdown
-Version: 5.1.10
+Version: 5.1.11
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 406
+Installed-Size: 411
 Depends: fping, openmediavault (>= 4.0.16), pm-utils, sysstat, net-tools
 Conflicts: autoshutdown
 Homepage: http://omv-extras.org
 Priority: optional
 Section: misc
-Filename: pool/main/o/openmediavault-autoshutdown/openmediavault-autoshutdown_5.1.10_all.deb
-Size: 46464
-SHA256: 4b2a5fceb0c54fac7e407d7ce51bcc2224d6de80bd1ff6611ec61110cc8e7d0a
-SHA1: 5538e05578dafbbbb155d17186948f06dd39660a
-MD5sum: 1f9210e562b34ec3d0b1816e7456d807
+Filename: pool/main/o/openmediavault-autoshutdown/openmediavault-autoshutdown_5.1.11_all.deb
+Size: 48112
+SHA256: cf775ed187b5190083fa0fb08f790dc41a82fde7be166aa7f688cfad712b5097
+SHA1: 507120de035fa5f3fe745788e963b3ecd0b61d22
+MD5sum: 56028ebb1a789570229b20d031a2a70b
 Description: OpenMediaVault AutoShutdown Plugin
  Web interface for autoshutdown script.
  .
