@@ -647,3 +647,33 @@ Description: OpenMediaVault plugin for ZFS
  The native Linux kernel port of the ZFS filesystem.
 Plugin-Section: filesystems
 
+Package: snapraid
+Version: 11.3-1
+Architecture: i386
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 564
+Depends: libc6 (>= 2.17)
+Homepage: http://snapraid.sourceforge.net/
+Priority: extra
+Section: utils
+Filename: pool/main/s/snapraid/snapraid_11.3-1_i386.deb
+Size: 286700
+SHA256: f07194ec5ae2ecb29ad12bdf87a65568277cc32ee612a493ce629e60344b7a10
+SHA1: c75aaf8fc88a39f7a6c5059089892de924ee7f5c
+MD5sum: a8092580958ec4946cc200035aa0c947
+Description: SnapRAID is a backup program for disk arrays.
+ SnapRAID is a backup program for disk arrays.
+ .
+ SnapRAID stores redundancy information in the disk array, and it allows recovering from up to two disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, where you have a lot of big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, the other features of SnapRAID are:
+ - You can start using SnapRAID with already filled disks.
+ - The disks of the array can have different sizes.
+ - You can add more disks at any time.
+ - If you accidentally delete some files in a disk, you can recover them.
+ - If more than two disks fail, you lose the data only on the failed disks. All the data in the other disks is safe.
+ - It doesn't lock-in your data. You can stop using SnapRAID at any time without the need to reformat or move data.
+ - All your data is hashed to ensure data integrity and avoid silent corruption.
+
