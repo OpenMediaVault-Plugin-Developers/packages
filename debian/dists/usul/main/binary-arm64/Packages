@@ -263,6 +263,23 @@ Description: folder2ram plugin for OpenMediaVault
  This allows the installation of OMV on flash thumb drives and SD cards.
 Plugin-Section: filesystems
 
+Package: openmediavault-helios4
+Version: 5.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 15
+Depends: openmediavault (>= 5.6)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-helios4/openmediavault-helios4_5.0_all.deb
+Size: 1844
+SHA256: a8fd172109e061ce8d057e29dc9bf0ed5fced7a2cfeadfab49e5049ccbec4f6b
+SHA1: c632321e0b186c434e8687c59b410fcebc7fce1b
+MD5sum: 73b5d63919b9bd0edf7956af45f1d579
+Description: Helios4 plugin for OpenMediaVault
+Plugin-Section: utilities
+
 Package: openmediavault-locate
 Version: 3.5
 Architecture: all
