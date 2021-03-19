@@ -1,5 +1,5 @@
 Package: openmediavault-kvm
-Version: 5.0.13
+Version: 5.0.14
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 609
@@ -7,11 +7,11 @@ Depends: dnsmasq-base, libvirt-clients, libvirt-daemon, libvirt-daemon-system, n
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.0.13_all.deb
-Size: 39684
-SHA256: 2baa7eab45232bc7c3a7a132e5bcb0e2e729dd7b6f5503a268a5c8c50d0fe768
-SHA1: 509b7d9089516c7e6f6c35d6e7b04c2c901e6a42
-MD5sum: 6cb296ebc8a25ad044925cbbdd978042
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.0.14_all.deb
+Size: 39768
+SHA256: 20de604004c01c3f5ae73dce9c7f9268240e97f48f607d2696395a798446dba7
+SHA1: 86b073714db7535247e4213cf44d3769d0e38fad
+MD5sum: 8cd2bfcf28a5ac3aed68a9c483719261
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
