@@ -366,7 +366,7 @@ Description: nilfs2 plugin for OpenMediaVault
 Plugin-Section: filesystems
 
 Package: openmediavault-omvextrasorg
-Version: 5.5.7
+Version: 5.5.8
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 571
@@ -375,11 +375,11 @@ Breaks: openmediavault (<< 5.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.5.7_all.deb
-Size: 66460
-SHA256: d10d36ce3d5218b3a28b20b9014bedaba2b36360ab08743585b62e7db776d7eb
-SHA1: 9277e9c88f9611200dc783c18367d8fe16364dc6
-MD5sum: f36bb8e58c00d48f1476eb03b624c155
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_5.5.8_all.deb
+Size: 66632
+SHA256: 63d70d9f59f7f3ccc90be4ef7d5e20b787aea8a9b939111dc33ba7337b2c4fa1
+SHA1: e3ded760dc02c49bac6bac050eb0db3f1aff0902
+MD5sum: a70d288d4ca3c56cba200f8020d205fd
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
  Allows enabling of multiple repositories hosted by omv-extras.org.
  .
