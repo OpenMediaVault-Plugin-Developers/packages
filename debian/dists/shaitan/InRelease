@@ -1,0 +1,63 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: shaitan
+Date: Thu, 08 Apr 2021 21:50:28 UTC
+Architectures: i386 amd64 armhf arm64
+Components: main
+Description: omv-extras plugin repository for OMV 6.x Shaitan
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ 46d1a39d03e99eb2a185970f563710f8 97 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 1501a7b1121a7bfe5570e441eee6e608 98 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ 45d870279c927ec61e47aef473d62b61 98 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ f5cd27b98f9ebb9a88c1d329ce87c9b7 98 main/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 54ddb50b870ab258570bc0d8b4380780fb2b9734 97 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ ae2d9567c2cba1c068575c4103e5d8de18ed056e 98 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ ca3d60c448e7be584b88768b9b9836bb8fc34c91 98 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 6f4cf7baf53bc4cc565474c3a97bff37725c5c7a 98 main/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 0b163505e122d02edbbf287f9f61559432e089b4b41a50eb8c9f1f136e2668c6 97 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 36d3df7a5e04a8bb168cfba1a68f0be6d8185df3c3d158aba21445f6b845d6c5 98 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ f42bee7df129033e47bac5723bd2959caf09075ade1eb544836950d5ff730e09 98 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 1e6b9e8e532f1d0b8282fa1ac122737ce2870444147f51aa0e3f124eef4a3b42 98 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmBveqQACgkQMmqDXml7
+iQoAKRAAicEMePk6ba0zSy+t8+elJH3ZpqUoowl20hs4/17kcahmOvXRAU32KX29
+29NQa1UzISOLYcOODo01aXnXbPb9wXH8N42/fSCNiP18gd550n4x1dPdhx/GLXVV
+N9/cJlXu3EHlAYbABrQRvQwYrlo+5nEgGTaKZcTtawthlpSKJ2AhrVI8MFGwzckN
+4lh8D3/hdXWYgwUy5ulfijJ78+QIb4Xga1XglJpxGQEOtauyusgtb1w7BmX3qCoM
+3/mtYmkrJ9CalINadlkh+4nlwqSLKW1qSFU5/tP/TE8Q7jyBQy7MHRY3+lArKOCy
+IJ5YqE/AAPIsdJkmWAmiung3jiWA8qjIwJ1TgYr8fpv9ncjwcaIytN6pPxXDxQ5A
+AwC5MZlKgfLUDiZpFrrnAlM9UXA7R40973J2kuFbNg5zsPt4h7Hdzmn6RtPQGLpF
+IZBwx6tID6x4iAM30ZkjhpNnze+1WKMlOynV4mI01Et3GhVqBNE19Q1qj4MoVCHR
+PlZUUtt6ulToz984gG8W44RNL+y/6Wg63NcrYsdvbkQxp8kzp/oqx4xoI/RaNtJ1
+sBDLBq9eWDnCq+aDuZf1BakD7UqtIXtGCxPkakrPx+e4fW8vhHnN/IEpWUscXTzo
+5tG+d1pCupyuMO9ZzyEX4ZSAAnAH9bY08vQ9J1AEFFuC/lCWiGc=
+=k9mO
+-----END PGP SIGNATURE-----

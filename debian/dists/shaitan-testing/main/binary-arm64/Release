@@ -1,0 +1,3 @@
+Component: main
+Architecture: arm64
+Description: omv-extras plugin repository for OMV 6.x Shaitan testing
