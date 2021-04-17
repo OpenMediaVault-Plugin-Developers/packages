@@ -17,3 +17,47 @@ Description: another FUSE union filesystem
  management of files across numerous commodity storage devices. It is
  similar to mhddfs, unionfs, and aufs.
 
+Package: openmediavault-flashmemory
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 26
+Depends: folder2ram (>= 0.3.1), openmediavault (>= 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_6.0_all.deb
+Size: 4540
+SHA256: 15e7aada85d8c4c46293af8e7caa931ebc6a856264b5c74388d9a43f605b11d9
+SHA1: ae450c3b5e0b91023bb59e7491aacb1f74e65e41
+MD5sum: 4a7ae9ac7057999bbc1f6e9f1cadbbb1
+Description: folder2ram plugin for openmediavault
+ folder2ram manages temporary file systems across reboots, to decrease writes on permanent storage.
+ This allows the installation of OMV on flash thumb drives and SD cards.
+Plugin-Section: filesystems
+
+Package: openmediavault-omvextrasorg
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 526
+Depends: dirmngr, gnupg, openmediavault (>= 6.0)
+Breaks: openmediavault (<< 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.0_all.deb
+Size: 60264
+SHA256: 47a6f7a5345683ed133d625a14541323cb216d06477e5aa0e4e0c2b9bd7789ab
+SHA1: 491f4cb185cd499f33e7cfae96d4105408fb09be
+MD5sum: 4c3f3eb9f53a579d75dca7171e563023
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ Allows enabling of multiple repositories hosted by omv-extras.org.
+ .
+ The plugin allows installation of the backports kernel for increased
+ compatibility with newer hardware.
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
