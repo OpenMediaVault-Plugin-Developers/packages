@@ -1,3 +1,20 @@
+Package: folder2ram
+Version: 0.3.3
+Architecture: all
+Maintainer: Alberto Bursi <alberto.bursi@outlook.it>
+Installed-Size: 57
+Depends: debconf (>= 0.5) | debconf-2.0, rsync, gawk
+Priority: optional
+Section: admin
+Filename: pool/main/f/folder2ram/folder2ram_0.3.3_all.deb
+Size: 13404
+SHA256: 5a3699827f6bd3f057288d754ef6021d8f81cf8a0a5988852b2b05bbd03402ee
+SHA1: 250cef7e03a2103c07ef3221e9740d8ae8c71a2d
+MD5sum: 8f75c967323a89354beb556cabba77a4
+Description: script-based utility to manage tmpfs folders
+ It syncs data on power up, on shutdown, and on request.
+ Mostly useful for long-term usage of flash drives as system drive.
+
 Package: mergerfs
 Version: 2.32.4~debian-buster
 Architecture: armhf
