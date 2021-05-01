@@ -280,6 +280,23 @@ MD5sum: 73b5d63919b9bd0edf7956af45f1d579
 Description: Helios4 plugin for OpenMediaVault
 Plugin-Section: utilities
 
+Package: openmediavault-kvm
+Version: 5.0.18
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 618
+Depends: dnsmasq-base, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, openmediavault (>= 5.6), ovmf, omvextras-common, php-libvirt-php, php-xml, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-common, qemu-system-data, qemu-system-x86, qemu-utils
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.0.18_all.deb
+Size: 41488
+SHA256: c32a7253b5079b13ea7ec07f4de723409cde20c5c6a5a65544914856772fd918
+SHA1: 7931c9680d5aab71132a3328867456389a7a4ca5
+MD5sum: 4b60f7c992b346667646133e413582c9
+Description: kvm plugin for OpenMediaVault.
+Plugin-Section: utilities
+
 Package: openmediavault-locate
 Version: 3.5
 Architecture: all
