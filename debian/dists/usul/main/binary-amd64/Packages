@@ -86,7 +86,7 @@ Description: union filesystems backend plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-anacron
-Version: 5.0.2
+Version: 5.0.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 183
@@ -94,11 +94,11 @@ Depends: anacron, openmediavault (>= 5.0.6)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: misc
-Filename: pool/main/o/openmediavault-anacron/openmediavault-anacron_5.0.2_all.deb
-Size: 19004
-SHA256: f3a04f5963baa5e5b9e1aee77abd77d2d3dc05c9c9d329ffba6c64076bff540b
-SHA1: c9bdf93cb8eb7b28efce697e1cbe73cd589e72dc
-MD5sum: 04c46f4f5c4632afd5ab85b84be057a5
+Filename: pool/main/o/openmediavault-anacron/openmediavault-anacron_5.0.3_all.deb
+Size: 19100
+SHA256: 0027dd07a179d58dfaaa74a9942718b568b45deeecea625da633ad3db8ed33c3
+SHA1: 3f5c24b576a27638f9264ddd55bbd1edf698ebd2
+MD5sum: 655f09c15726a95ba7a2da287e3dd0fa
 Description: anacron plugin for OpenMediaVault.
 Plugin-Section: utilities
 
