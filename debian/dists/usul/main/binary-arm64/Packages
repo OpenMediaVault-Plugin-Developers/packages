@@ -281,19 +281,19 @@ Description: Helios4 plugin for OpenMediaVault
 Plugin-Section: utilities
 
 Package: openmediavault-kvm
-Version: 5.1.1
+Version: 5.1.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 626
+Installed-Size: 627
 Depends: dnsmasq-base, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, novnc, openmediavault (>= 5.6), ovmf, omvextras-common, php-libvirt-php, php-xml, python-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-common, qemu-system-data, qemu-system-x86, qemu-utils, spice-html5
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.1.1_all.deb
-Size: 41776
-SHA256: ef6310f1e534fa2a1fedbac363e0bdadd909d22e9c76f730f53cb6daab151569
-SHA1: 08c7632ab2bcb0d6e786df9318a13de7840cfb98
-MD5sum: 6928cb152147d2bcae12b9ea520c6345
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.1.2_all.deb
+Size: 41904
+SHA256: 815a87c92130ffc0c637de7fef44c26dffb214bc506bf614e463ba7077361d71
+SHA1: 1261add2643eb05a6753bca8d7ebf698627fec6f
+MD5sum: 13fd1af39cd030a4b08fc9c926b86c46
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
