@@ -8,16 +8,13 @@ version=$(dpkg -l openmediavault | awk '$2 == "openmediavault" { print substr($3
 
 echo ${version}
 
-if [ ${version} -eq 5 ]; then
-  echo "Downloading omv-extras.org plugin for openmediavault 5.x ..."
-  file="openmediavault-omvextrasorg_latest_all5.deb"
-elif [ ${version} -eq 4 ]; then
-  echo "Downloading omv-extras.org plugin for openmediavault 4.x ..."
-  file="openmediavault-omvextrasorg_latest_all4.deb"
-else
+if [ ${version} -lt 4 ]; then
   echo "Unsupported version of openmediavault"
   exit 0
 fi
+
+echo "Downloading omv-extras.org plugin for openmediavault ${version}.x ..."
+file="openmediavault-omvextrasorg_latest_all${version}.deb"
 
 echo "Updating repos before installing..."
 apt-get update
