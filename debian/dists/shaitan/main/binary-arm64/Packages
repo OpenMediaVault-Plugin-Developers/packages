@@ -54,7 +54,7 @@ Description: folder2ram plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-omvextrasorg
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 525
@@ -63,11 +63,11 @@ Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.0.2_all.deb
-Size: 60256
-SHA256: 3206087e8b3c5bd10f0a9b190620d0e23da5c9ed25b41f2e33735021f1c25977
-SHA1: 4a5f33f22ac7e7c56fb33fbf43f3ddf4bc4e0335
-MD5sum: 1d4aa8f7852d427f0b0d10dd573b2091
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.0.3_all.deb
+Size: 60276
+SHA256: e03f13d898af0a912978cfdb69c44f0243e1f44126e5c6fb3ab6b78242e4e63f
+SHA1: 9a0b7104636c0b1761d2936166086100ad114133
+MD5sum: cf156a5e5d8290b236c561ff718c1a9f
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
  Allows enabling of multiple repositories hosted by omv-extras.org.
  .
