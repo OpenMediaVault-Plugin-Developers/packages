@@ -569,18 +569,18 @@ Description: Teamviewer Host plugin for OpenMediaVault.
 Plugin-Section: network
 
 Package: openmediavault-tgt
-Version: 5.1.3
+Version: 5.1.4
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 89
 Depends: tgt, omvextras-common, openmediavault (>= 5.3)
 Priority: optional
 Section: devel
-Filename: pool/main/o/openmediavault-tgt/openmediavault-tgt_5.1.3_all.deb
-Size: 10220
-SHA256: 2a590f494ff8c6026dcb6a55160426115b3ee5cfdd240045f9696011e81aff01
-SHA1: eaa281f28b1174bf72ef7163bece15bb0f098dc6
-MD5sum: 0491ebe1029f21ed6e9e3c3595a808c4
+Filename: pool/main/o/openmediavault-tgt/openmediavault-tgt_5.1.4_all.deb
+Size: 10268
+SHA256: 62659e2442d8a4b97da1d4c6a517c8be977e1a6ccc7f50913cdcf85826926f54
+SHA1: fb79785e84c7695f2bdc78607dd970f25b5f856d
+MD5sum: 2012afc517d8c085ab73fe5fc5826940
 Description: OpenMediaVault tgt plugin
  Plugin to setup tgt iscsi targets.
 Plugin-Section: network
