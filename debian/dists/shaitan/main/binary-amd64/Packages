@@ -78,3 +78,23 @@ Description: OMV-Extras.org Package Repositories for OpenMediaVault
  problems and saving hard drive space in some instances.
 Plugin-Section: utilities
 
+Package: openmediavault-resetperms
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 51
+Depends: openmediavault (>= 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-resetperms/openmediavault-resetperms_6.0_all.deb
+Size: 7196
+SHA256: bff62bdb1542f2ea5118043f1a72841d47520ef298740b35647c37a24fc62df6
+SHA1: 595dfd3e8c5347d7ad729594e183c20da4dccf5b
+MD5sum: 23013f08baf828a841ae16c129f95126
+Description: Reset Permissions
+ Reset permissions of shared folder.
+ .
+ View plugins that are using each shared folder.
+Plugin-Section: utilities
+
