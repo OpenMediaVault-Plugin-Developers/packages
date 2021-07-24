@@ -98,3 +98,20 @@ Description: Reset Permissions
  View plugins that are using each shared folder.
 Plugin-Section: utilities
 
+Package: openmediavault-tgt
+Version: 6.0.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 80
+Depends: tgt, openmediavault (>= 6.0)
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmediavault-tgt/openmediavault-tgt_6.0.0_all.deb
+Size: 9132
+SHA256: 5934adf263466c0046bbc4a5a9b55179fc5fb0cfe4a374c0c06b3d8fbc2aaba2
+SHA1: 27db025dd7a06bd16454e45231218bef07149132
+MD5sum: c4a94c470e2edff32b549b53625398f5
+Description: OpenMediaVault tgt plugin
+ Plugin to setup tgt iscsi targets.
+Plugin-Section: network
+
