@@ -649,19 +649,19 @@ Description: OpenMediaVault plugin for ZFS
 Plugin-Section: filesystems
 
 Package: snapraid
-Version: 11.3-1
+Version: 11.5-1
 Architecture: armhf
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 405
+Installed-Size: 456
 Depends: libc6 (>= 2.17)
 Homepage: http://snapraid.sourceforge.net/
 Priority: extra
 Section: utils
-Filename: pool/main/s/snapraid/snapraid_11.3-1_armhf.deb
-Size: 263552
-SHA256: 6dc3b75ee6ffdcd13cd5909aa6dbd946941a8c7be6ec473bd61e6da35c256175
-SHA1: e9b238cf2ccdc303f626688e46923d36f78452a4
-MD5sum: 9096a55327b3b3341080e773720d7f27
+Filename: pool/main/s/snapraid/snapraid_11.5-1_armhf.deb
+Size: 257636
+SHA256: 48764a162242ced3cd4e1a2135e50abf6be310b4dd5fbb4713a46ede85fdbfb3
+SHA1: a83c4c3d29c407eaf2938af65bababd7c2804de2
+MD5sum: 50fa29cbb00c476f0bf795cb147fffd1
 Description: SnapRAID is a backup program for disk arrays.
  SnapRAID is a backup program for disk arrays.
  .
