@@ -264,19 +264,19 @@ Description: folder2ram plugin for OpenMediaVault
 Plugin-Section: filesystems
 
 Package: openmediavault-kvm
-Version: 5.1.6
+Version: 5.1.7
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 667
+Installed-Size: 692
 Depends: dnsmasq-base, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, novnc, openmediavault (>= 5.6), ovmf, omvextras-common, php-libvirt-php, php-xml, python-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-common, qemu-system-data, qemu-system-x86, qemu-utils, spice-html5, virtinst
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.1.6_all.deb
-Size: 43236
-SHA256: 13e9ea78ac2e5d3dfd19e3afb983056376ab930e10819df5467a8b4f65b5098e
-SHA1: 0f9ae7b74be15cdaf79a38403d31b5b8f53b7fd4
-MD5sum: 2c85428e26c23a1858740ad68d324bf0
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_5.1.7_all.deb
+Size: 44992
+SHA256: 3d25d8c0e5259e236e71bbbfc079eee07dc413f74e6435117d6e22fc206f7c39
+SHA1: fb1a92c72693d92b5590c37cebfd560f690cfc55
+MD5sum: 2fc9117d5782ba266f0c230b8b22b955
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
