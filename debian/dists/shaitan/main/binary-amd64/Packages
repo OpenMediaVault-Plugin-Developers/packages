@@ -96,20 +96,20 @@ Description: folder2ram plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-kernel
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 66
+Installed-Size: 69
 Depends: openmediavault (>= 6.0)
 Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_6.0_all.deb
-Size: 9064
-SHA256: 3e2a8a6c7fc98e27369bbdd0509f059187b029beccf68816dacaed0c57144c54
-SHA1: ac724a18c5d78cb0765e69f069b3f811d413cea1
-MD5sum: f6bf8b126c9668fc4d4db19f0003970b
+Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_6.0.1_all.deb
+Size: 10420
+SHA256: 40a40a20951682831c1c17b54e6c6da862e37aa28783ba749a261d035ebc495a
+SHA1: 591c7ba59931ff16994d4cc614ddb0b92369bcab
+MD5sum: b49fbf4abd66d7cb4215bddfc22a9556
 Description: kernel package
  The plugin allows installation of the Proxmo kernel for increased
  compatibility with newer hardware.
