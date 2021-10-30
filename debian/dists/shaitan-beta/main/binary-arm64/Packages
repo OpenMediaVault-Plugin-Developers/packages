@@ -1,0 +1,20 @@
+Package: openmediavault-developer
+Version: 6.0.1
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 242
+Depends: build-essential, curl, debhelper, devscripts, dh-systemd, equivs, fakeroot, git, libfile-fcntllock-perl, omvextras-netrc, openmediavault (>= 6.0), php-curl, quilt, sshpass, transifex-client
+Breaks: openmediavault (<< 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: misc
+Filename: pool/main/o/openmediavault-developer/openmediavault-developer_6.0.1_all.deb
+Size: 22276
+SHA256: 81ec768fc5dc607192b06450d85ba3b10a75c1c48f97ce0b108224fb81f50565
+SHA1: fefb99e65469c12ce954dbaf17be081660c176e5
+MD5sum: 1fe61e74ec5e4c2c50ce70cbde584682
+Description: OpenMediaVault Developer plugin
+ Plugin to help developer download/ plugin code and setup system for
+ plugin development.
+Plugin-Section: utilities
+
