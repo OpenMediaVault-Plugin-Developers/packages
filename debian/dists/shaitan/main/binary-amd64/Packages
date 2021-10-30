@@ -95,6 +95,28 @@ Description: folder2ram plugin for openmediavault
  This allows the installation of OMV on flash thumb drives and SD cards.
 Plugin-Section: filesystems
 
+Package: openmediavault-kernel
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 66
+Depends: openmediavault (>= 6.0)
+Breaks: openmediavault (<< 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_6.0_all.deb
+Size: 9064
+SHA256: 3e2a8a6c7fc98e27369bbdd0509f059187b029beccf68816dacaed0c57144c54
+SHA1: ac724a18c5d78cb0765e69f069b3f811d413cea1
+MD5sum: f6bf8b126c9668fc4d4db19f0003970b
+Description: kernel package
+ The plugin allows installation of the Proxmo kernel for increased
+ compatibility with newer hardware.
+ .
+ Allows installation of various ISOs to boot from.
+Plugin-Section: utilities
+
 Package: openmediavault-minidlna
 Version: 6.0
 Architecture: all
