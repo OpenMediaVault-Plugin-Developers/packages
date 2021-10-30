@@ -147,6 +147,60 @@ Description: Reset Permissions
  View plugins that are using each shared folder.
 Plugin-Section: utilities
 
+Package: openmediavault-snapraid
+Version: 6.0.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 395
+Depends: openmediavault (>= 6.0), snapraid (>= 11.5)
+Homepage: https://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_6.0.0_all.deb
+Size: 41324
+SHA256: a26ebe3b753e1da0f1b70998e07be5a30bd765d1cfcd05b4f2d877f23a667bb7
+SHA1: 44c50ecd1fc0ca61bea43724b4dc00086ab710a2
+MD5sum: ffb669f5890dd72a31f060c58627a077
+Description: snapraid plugin for OpenMediaVault.
+ SnapRAID is a backup program for disk arrays. It stores parity
+ information of your data and it's able to recover from up to two
+ disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, with a lot of
+ big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, other features of
+ SnapRAID are:
+ * All your data is hashed to ensure data integrity and to avoid
+   silent corruption.
+ * If the failed disks are too many to allow a recovery, you lose the
+   data only on the failed disks. All the data in the other disks is safe.
+ * If you accidentally delete some files in a disk, you can recover them.
+ * You can start with already filled disks.
+ * The disks of the array can have different sizes.
+ * You can add disks at any time.
+ * It doesn't lock-in your data. You can stop using SnapRAID at any time
+   without the need to reformat or move data.
+Plugin-Section: filesystems
+
+Package: openmediavault-symlinks
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 42
+Depends: openmediavault (>= 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-symlinks/openmediavault-symlinks_6.0_all.deb
+Size: 5876
+SHA256: effd8fd92b8610d530b38e0729871417aa2159d546b7cb51f37b1eab4086c6d8
+SHA1: 69c972852319318a7a66d1ff0dff6ef2268bb432
+MD5sum: a5a02b82ebf1f6649e92856ebe2dc815
+Description: OpenMediaVault symlinks plugin
+ Allow creation of symlinks.
+Plugin-Section: filesystems
+
 Package: openmediavault-tgt
 Version: 6.0.0
 Architecture: all
