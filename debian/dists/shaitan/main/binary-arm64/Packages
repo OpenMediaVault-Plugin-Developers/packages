@@ -73,6 +73,35 @@ Description: folder2ram plugin for openmediavault
  This allows the installation of OMV on flash thumb drives and SD cards.
 Plugin-Section: filesystems
 
+Package: openmediavault-minidlna
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 214
+Depends: minidlna (>= 1.1.6), openmediavault (>= 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_6.0_all.deb
+Size: 20876
+SHA256: f8257dc7e0eeb0efc8ac86db3e79523988079959b4fea4df753e86dec1890e55
+SHA1: eec354a48a5ad88936d4b749472c17eea24a10cd
+MD5sum: 013ab79b1a70903d8ed96aac5d541240
+Description: OpenMediaVault miniDLNA (DLNA server) plugin
+ lightweight DLNA/UPnP-AV server targeted at embedded systems
+ MiniDLNA (aka ReadyDLNA) is server software with the aim of being
+ fully compliant with DLNA/UPnP-AV clients.
+ .
+ The minidlna daemon serves media files (music, pictures, and video)
+ to clients on your network.  Example clients include applications
+ such as totem and xbmc, and devices such as portable media players,
+ smartphones, and televisions.
+ .
+ MiniDLNA is a simple, lightweight alternative to mediatomb, but has
+ fewer features. It does not have a web interface for administration
+ and must be configured by editing a text file.
+Plugin-Section: multimedia
+
 Package: openmediavault-omvextrasorg
 Version: 6.0.3
 Architecture: all
