@@ -34,6 +34,26 @@ Description: another FUSE union filesystem
  management of files across numerous commodity storage devices. It is
  similar to mhddfs, unionfs, and aufs.
 
+Package: openmediavault-backup
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 227
+Depends: fsarchiver, openmediavault (>= 6), borgbackup, rsync
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: misc
+Filename: pool/main/o/openmediavault-backup/openmediavault-backup_6.0_all.deb
+Size: 24420
+SHA256: f8f3ac7ce02effd860647ca5280f66da7bb047e705491c2cf898ac2c3994160b
+SHA1: f0aaa5d6101129705c5c4c96c1198b01766c55fa
+MD5sum: b0c13923f651aa83d2ca2fe878d6789f
+Description: backup plugin for OpenMediaVault.
+ This plugin will backup the entire OpenMediaVault
+ system minus data drives or system drive for
+ restoration in emergency situations.
+Plugin-Section: backup
+
 Package: openmediavault-flashmemory
 Version: 6.0
 Architecture: all
@@ -114,4 +134,29 @@ MD5sum: c4a94c470e2edff32b549b53625398f5
 Description: OpenMediaVault tgt plugin
  Plugin to setup tgt iscsi targets.
 Plugin-Section: network
+
+Package: openmediavault-zfs
+Version: 6.0
+Architecture: arm64
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 428
+Depends: libzfs3linux | libzfs4linux, openmediavault (>= 6), zfs-zed
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_6.0_arm64.deb
+Size: 49020
+SHA256: 909de2510630aebb4104209f9884e668ce25b23aee9f3dafca5aa30be64877b6
+SHA1: 1ecad934c96a6e3155d58e93cb26588e3d17a72c
+MD5sum: 82c1ee770675d084bc2e8ff1aee8a209
+Description: OpenMediaVault plugin for ZFS
+ ZFS is a combined file system and logical volume manager designed
+ by Sun Microsystems. The features of ZFS include protection against
+ data corruption, support for high storage capacities, efficient data
+ compression, integration of the concepts of filesystem and volume
+ management, snapshots and copy-on-write clones, continuous integrity
+ checking and automatic repair, RAID-Z and native NFSv4 ACLs.
+ .
+ The native Linux kernel port of the ZFS filesystem.
+Plugin-Section: filesystems
 
