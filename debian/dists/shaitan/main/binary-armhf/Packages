@@ -169,6 +169,24 @@ Description: Reset Permissions
  View plugins that are using each shared folder.
 Plugin-Section: utilities
 
+Package: openmediavault-sftp
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 210
+Depends: openmediavault (>= 6)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-sftp/openmediavault-sftp_6.0_all.deb
+Size: 19880
+SHA256: 50597c950fcc68716621575434278d3a68f90ce56942b2e9125668acbf24967e
+SHA1: 29f61d9f4f65f49132f6843fa3516a184a64ea74
+MD5sum: 5b823c5cfad5a90c8bee4f5e6d122840
+Description: sftp server
+ Configure sftp server using jails
+Plugin-Section: network
+
 Package: openmediavault-snapraid
 Version: 6.0.0
 Architecture: all
