@@ -35,20 +35,20 @@ Description: another FUSE union filesystem
  similar to mhddfs, unionfs, and aufs.
 
 Package: openmediavault-autoshutdown
-Version: 6.0.1
+Version: 6.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 441
+Installed-Size: 445
 Depends: fping, openmediavault (>= 6.0), pm-utils, sysstat, net-tools
 Conflicts: autoshutdown
 Homepage: http://omv-extras.org
 Priority: optional
 Section: misc
-Filename: pool/main/o/openmediavault-autoshutdown/openmediavault-autoshutdown_6.0.1_all.deb
-Size: 39920
-SHA256: f8ae5199c99fdbc6ec6df8fbd4b2decb853be0abf4239e221f4499df3a80ad24
-SHA1: a242f6131f0db62a53197ebe6a9e90bbd548877f
-MD5sum: ff2c64eee2d6128bb7b3b8067f5b6bcf
+Filename: pool/main/o/openmediavault-autoshutdown/openmediavault-autoshutdown_6.0.2_all.deb
+Size: 42072
+SHA256: 71fc07ac28b59bf5dc9608d8949186ac5e09b8ec918d7142260d32ad5905ac52
+SHA1: 9ed27ef03ae81edd67d759656a58b0504a65fac6
+MD5sum: 2c93c43856d3346a7ece287fd7011cbe
 Description: OpenMediaVault AutoShutdown Plugin
  Web interface for autoshutdown script.
  .
