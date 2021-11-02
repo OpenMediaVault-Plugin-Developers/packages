@@ -77,19 +77,19 @@ Description: backup plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-flashmemory
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 26
+Installed-Size: 29
 Depends: folder2ram (>= 0.3.1), openmediavault (>= 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_6.0_all.deb
-Size: 4540
-SHA256: 15e7aada85d8c4c46293af8e7caa931ebc6a856264b5c74388d9a43f605b11d9
-SHA1: ae450c3b5e0b91023bb59e7491aacb1f74e65e41
-MD5sum: 4a7ae9ac7057999bbc1f6e9f1cadbbb1
+Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_6.0.1_all.deb
+Size: 4788
+SHA256: 542b2f50bc5f8bfd7dbdc9d5206d675e4613bd90a85c4f1577b9af905c0d857d
+SHA1: 809832a867ae7069d750a25a90525672bcb42b68
+MD5sum: 3e6d4d02aa9a35165a8e1d9db43c4c10
 Description: folder2ram plugin for openmediavault
  folder2ram manages temporary file systems across reboots, to decrease writes on permanent storage.
  This allows the installation of OMV on flash thumb drives and SD cards.
