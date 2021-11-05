@@ -207,7 +207,7 @@ Description: sftp server
 Plugin-Section: network
 
 Package: openmediavault-snapraid
-Version: 6.0.1
+Version: 6.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 366
@@ -215,11 +215,11 @@ Depends: openmediavault (>= 6.0), snapraid (>= 11.5)
 Homepage: https://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_6.0.1_all.deb
-Size: 34388
-SHA256: 4032dbb84baad5fe8d760219171210e28be4641a0d7cffe8baebe46484a1e37c
-SHA1: e3548071eae1bd707ace900ea48ae3b27c8a68f2
-MD5sum: cdfc47d7505083df3ffdf2386288d5c0
+Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_6.0.2_all.deb
+Size: 34448
+SHA256: 5050ad06acaa79a5f5778980a43a4f0d24d42277108c98418398ff6f07a25e60
+SHA1: 15a95028f89a3fc112fe90684dccfef2673b5fce
+MD5sum: a519a1d6b3f1d75bbb61015d724222e0
 Description: snapraid plugin for OpenMediaVault.
  SnapRAID is a backup program for disk arrays. It stores parity
  information of your data and it's able to recover from up to two
