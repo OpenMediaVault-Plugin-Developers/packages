@@ -324,3 +324,24 @@ Description: OpenMediaVault plugin for ZFS
  The native Linux kernel port of the ZFS filesystem.
 Plugin-Section: filesystems
 
+Package: rsnapshot
+Version: 1.4.3-2
+Architecture: all
+Maintainer: Michael Lustfield <michael@lustfield.net>
+Installed-Size: 462
+Depends: perl:any, rsync, logrotate, liblchown-perl
+Recommends: openssh-client | ssh-client, cron-daemon | anacron
+Homepage: https://www.rsnapshot.org/
+Priority: optional
+Section: utils
+Filename: pool/main/r/rsnapshot/rsnapshot_1.4.3-2_all.deb
+Size: 126968
+SHA256: 846ac933b4e3a62d67c390e4ef7c5dbfb8e8ae3e1dd267fbf842365b99e0d002
+SHA1: fb0b4154a192f505750c2a8321517201cfda7643
+MD5sum: 288f4378fc26e516e5f7a6a324839b08
+Description: local and remote filesystem snapshot utility
+ rsnapshot is an rsync-based filesystem snapshot utility. It can take
+ incremental backups of local and remote filesystems for any number of
+ machines. rsnapshot makes extensive use of hard links, so disk space is
+ only used when absolutely necessary.
+
