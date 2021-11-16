@@ -137,19 +137,19 @@ Description: kernel package
 Plugin-Section: utilities
 
 Package: openmediavault-minidlna
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 214
+Installed-Size: 228
 Depends: minidlna (>= 1.1.6), openmediavault (>= 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_6.0_all.deb
-Size: 20876
-SHA256: f8257dc7e0eeb0efc8ac86db3e79523988079959b4fea4df753e86dec1890e55
-SHA1: eec354a48a5ad88936d4b749472c17eea24a10cd
-MD5sum: 013ab79b1a70903d8ed96aac5d541240
+Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_6.0.1_all.deb
+Size: 21216
+SHA256: 4c4c3c47fa666e53c52fbdbdb21c240aabce1f34fa2a09f4b23904c01b656ea8
+SHA1: 0860e6eaca461790068af25af975f11e4dfb0c67
+MD5sum: 71efe5e0b7204d19711f915cd99e5e1a
 Description: OpenMediaVault miniDLNA (DLNA server) plugin
  lightweight DLNA/UPnP-AV server targeted at embedded systems
  MiniDLNA (aka ReadyDLNA) is server software with the aim of being
