@@ -320,6 +320,42 @@ Description: OpenMediaVault tgt plugin
  Plugin to setup tgt iscsi targets.
 Plugin-Section: network
 
+Package: openmediavault-wakealarm
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 174
+Depends: openmediavault (>= 6.0.2), python3-croniter
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-wakealarm/openmediavault-wakealarm_6.0_all.deb
+Size: 13972
+SHA256: 0c00120db8bf1a8559b70fdc6591603e49627e4c2c0815a9d9783ceb6ad2f406
+SHA1: 77dcbb0a75452c3fd79cb095061b51da737dbbc5
+MD5sum: 4fd70ada6bb86c84ef270815f2a31e46
+Description: wakealarm plugin for OpenMediaVault.
+ Schedule times to wake machine using wakealarm
+Plugin-Section: utilities
+
+Package: openmediavault-wol
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 182
+Depends: etherwake, nast, openmediavault (>= 6), util-linux, wakeonlan
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-wol/openmediavault-wol_6.0_all.deb
+Size: 17084
+SHA256: 3682f36e32faf3acfd29d918aecb15bca3d41a12db2353bb6f46126752c8cf62
+SHA1: 699118c1dc9741af342a712967bb3427882c3de2
+MD5sum: e9ac2e5d9ac04fc42ac17db99dadfe55
+Description: OpenMediaVault WOL plugin
+ Plugin to send wake-on-lan magic packets and put system in standby
+ to wake at a specified time using rtcwake and wakeonlan.
+Plugin-Section: utilities
+
 Package: openmediavault-zfs
 Version: 6.0
 Architecture: arm64
