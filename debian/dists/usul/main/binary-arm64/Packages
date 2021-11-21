@@ -1,16 +1,16 @@
 Package: folder2ram
-Version: 0.3.3
+Version: 0.3.5
 Architecture: all
 Maintainer: Alberto Bursi <alberto.bursi@outlook.it>
-Installed-Size: 57
+Installed-Size: 58
 Depends: debconf (>= 0.5) | debconf-2.0, rsync, gawk
 Priority: optional
 Section: admin
-Filename: pool/main/f/folder2ram/folder2ram_0.3.3_all.deb
-Size: 13404
-SHA256: 5a3699827f6bd3f057288d754ef6021d8f81cf8a0a5988852b2b05bbd03402ee
-SHA1: 250cef7e03a2103c07ef3221e9740d8ae8c71a2d
-MD5sum: 8f75c967323a89354beb556cabba77a4
+Filename: pool/main/f/folder2ram/folder2ram_0.3.5_all.deb
+Size: 13952
+SHA256: 7b317530e0d13d2232f83d4d81704ea04dde34fe56ae88d782d0eb023cf24c9a
+SHA1: d45d06118187e5d5bba2508d5e7c2abe515b12b9
+MD5sum: e35275ce9ef2ca1379334c0e852e7be1
 Description: script-based utility to manage tmpfs folders
  It syncs data on power up, on shutdown, and on request.
  Mostly useful for long-term usage of flash drives as system drive.
@@ -245,7 +245,7 @@ Description: OpenMediaVault Fail2ban plugin
 Plugin-Section: network
 
 Package: openmediavault-flashmemory
-Version: 5.0.8
+Version: 5.0.9
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 188
@@ -253,11 +253,11 @@ Depends: folder2ram (>= 0.3.1), openmediavault (>= 5.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_5.0.8_all.deb
-Size: 17796
-SHA256: d0b496f7ff304489a29762cdb6f4593faade827101a278cfc2134b4bf8bd9d2f
-SHA1: 623945b401041c63338e35b64a31e73dd38221d9
-MD5sum: aed756d23bf484f119c574d5e8324dea
+Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_5.0.9_all.deb
+Size: 17848
+SHA256: c800f38c4577aebc7a3448477540e41b17d406aa5b63cf0416e7c58744ca0792
+SHA1: 037f44563bc4bb62fc219611491722314bfb219d
+MD5sum: f6cce5270ee8d40a7692236bdfc30f23
 Description: folder2ram plugin for OpenMediaVault
  folder2ram manages temporary file systems across reboots, to decrease writes on permanent storage.
  This allows the installation of OMV on flash thumb drives and SD cards.
