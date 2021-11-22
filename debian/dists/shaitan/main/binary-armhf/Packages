@@ -134,19 +134,19 @@ Description: folder2ram plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-minidlna
-Version: 6.0.1
+Version: 6.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 228
+Installed-Size: 222
 Depends: minidlna (>= 1.1.6), openmediavault (>= 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_6.0.1_all.deb
-Size: 21216
-SHA256: 4c4c3c47fa666e53c52fbdbdb21c240aabce1f34fa2a09f4b23904c01b656ea8
-SHA1: 0860e6eaca461790068af25af975f11e4dfb0c67
-MD5sum: 71efe5e0b7204d19711f915cd99e5e1a
+Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_6.0.2_all.deb
+Size: 20344
+SHA256: 82f1a744ee1601256ae9caa8ecf4c8b364d27019a447a81ec6f180f7bec68e37
+SHA1: 49b34945a00edb536ee9d77b37904c113a7fe4a3
+MD5sum: ab63354fa3044b3df4bf22ca27806310
 Description: OpenMediaVault miniDLNA (DLNA server) plugin
  lightweight DLNA/UPnP-AV server targeted at embedded systems
  MiniDLNA (aka ReadyDLNA) is server software with the aim of being
