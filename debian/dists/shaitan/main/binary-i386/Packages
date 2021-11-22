@@ -134,7 +134,7 @@ Description: folder2ram plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-kernel
-Version: 6.1
+Version: 6.1.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 55
@@ -143,11 +143,11 @@ Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_6.1_all.deb
-Size: 9892
-SHA256: f2cf98d238f13f525ef10b423a24cc5b2f4f446b0eb77a0791d7d76b4be0e38d
-SHA1: ecf37543396a2049caf5c47945273098ac27c9d8
-MD5sum: a3be760a4fc2873403ca0ce2ff90331c
+Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_6.1.1_all.deb
+Size: 10012
+SHA256: 93433e0e6dbc3c4317a9b84cf92d5a29d940bcd1a1cee8e0c7f56c6557342725
+SHA1: 447221ea3c9f408b80dd4398ad4f529f9d17e05b
+MD5sum: 4db3c05be89f9f91dc28b623d41bba8a
 Description: kernel package
  The plugin allows the user to select which grub entry to boot from and
  installation of the Proxmox kernel.  It also allows for the download
