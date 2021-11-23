@@ -157,6 +157,24 @@ Description: kernel package
    - SystemRescue
 Plugin-Section: utilities
 
+Package: openmediavault-locate
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 24
+Depends: mlocate, openmediavault (>= 6.0.4)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-locate/openmediavault-locate_6.0_all.deb
+Size: 4132
+SHA256: d5a3fb749fabc09a094a131f29f8aadb2f9afa8f75b858a8a25fecdaeed7efd2
+SHA1: 1e95a2d1eba4f8ffc68b6aeb0889fbe25e6497eb
+MD5sum: 008ec8b24aac137f13b770998ae39699
+Description: locate plugin for OpenMediaVault.
+ Locate file on system using search term.
+Plugin-Section: utilities
+
 Package: openmediavault-minidlna
 Version: 6.0.3
 Architecture: all
