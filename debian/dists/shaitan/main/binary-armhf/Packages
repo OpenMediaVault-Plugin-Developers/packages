@@ -356,31 +356,6 @@ Description: OpenMediaVault WOL plugin
  to wake at a specified time using rtcwake and wakeonlan.
 Plugin-Section: utilities
 
-Package: openmediavault-zfs
-Version: 6.0
-Architecture: armhf
-Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 428
-Depends: libzfs3linux | libzfs4linux, openmediavault (>= 6), zfs-zed
-Homepage: http://omv-extras.org/
-Priority: optional
-Section: net
-Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_6.0_armhf.deb
-Size: 49024
-SHA256: b8610589523c1a5e78e6f220e731436f151268c98920b30aba48079fc35e9d7b
-SHA1: 19010fa8878d245952a4ca954918b8e506b5d7d8
-MD5sum: 771d57fce2270903e21321da95c7f12d
-Description: OpenMediaVault plugin for ZFS
- ZFS is a combined file system and logical volume manager designed
- by Sun Microsystems. The features of ZFS include protection against
- data corruption, support for high storage capacities, efficient data
- compression, integration of the concepts of filesystem and volume
- management, snapshots and copy-on-write clones, continuous integrity
- checking and automatic repair, RAID-Z and native NFSv4 ACLs.
- .
- The native Linux kernel port of the ZFS filesystem.
-Plugin-Section: filesystems
-
 Package: rsnapshot
 Version: 1.4.3-2
 Architecture: all
