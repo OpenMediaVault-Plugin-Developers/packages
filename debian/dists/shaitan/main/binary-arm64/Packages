@@ -356,19 +356,19 @@ Description: wakealarm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-wol
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 182
+Installed-Size: 180
 Depends: etherwake, nast, openmediavault (>= 6), util-linux, wakeonlan
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wol/openmediavault-wol_6.0_all.deb
-Size: 17084
-SHA256: 3682f36e32faf3acfd29d918aecb15bca3d41a12db2353bb6f46126752c8cf62
-SHA1: 699118c1dc9741af342a712967bb3427882c3de2
-MD5sum: e9ac2e5d9ac04fc42ac17db99dadfe55
+Filename: pool/main/o/openmediavault-wol/openmediavault-wol_6.0.1_all.deb
+Size: 15820
+SHA256: 079961aa52e0d7f7f36a6bb16a5f60911603fde80947978b4d1aedac7266865b
+SHA1: 3222b6bf5a8c9d45d91e20940a8994fa5ba3d2e1
+MD5sum: e0b5031e243f169d85d0f0c4018744e8
 Description: OpenMediaVault WOL plugin
  Plugin to send wake-on-lan magic packets and put system in standby
  to wake at a specified time using rtcwake and wakeonlan.
