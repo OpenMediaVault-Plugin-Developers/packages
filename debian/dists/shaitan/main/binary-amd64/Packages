@@ -34,6 +34,24 @@ Description: another FUSE union filesystem
  management of files across numerous commodity storage devices. It is
  similar to mhddfs, unionfs, and aufs.
 
+Package: openmediavault-apttool
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 156
+Depends: openmediavault (>= 6)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-apttool/openmediavault-apttool_6.0_all.deb
+Size: 12020
+SHA256: 59e2bb29552ae59cfa75a870cf0d77c0e6d84773ce5ed8ce458248eb19c6c0bb
+SHA1: bdd5a05df303b88e5a4f15f07b6334aa79136e98
+MD5sum: 35e97ec56fcf9ef193701f4b510352e9
+Description: apt tool plugin for OpenMediaVault.
+ Find, install, and remove packages in apt repositories.
+Plugin-Section: utilities
+
 Package: openmediavault-autoshutdown
 Version: 6.0.4
 Architecture: all
