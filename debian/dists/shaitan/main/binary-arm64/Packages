@@ -35,7 +35,7 @@ Description: another FUSE union filesystem
  similar to mhddfs, unionfs, and aufs.
 
 Package: openmediavault-anacron
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 156
@@ -43,11 +43,11 @@ Depends: anacron, openmediavault (>= 6)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: misc
-Filename: pool/main/o/openmediavault-anacron/openmediavault-anacron_6.0_all.deb
-Size: 14684
-SHA256: 5978bbe7ce603bae945c7088094d07cca08a49686d22b3c3e505357ff5b7026a
-SHA1: 6facdfd35ef6af10345ad351a5ed77f546315095
-MD5sum: ef21ddce81f187b14645517d2b873d06
+Filename: pool/main/o/openmediavault-anacron/openmediavault-anacron_6.0.1_all.deb
+Size: 14704
+SHA256: eb5faea0a26dc07396bcb0787f4538a0f3733b116db015c123356ecfa1f49703
+SHA1: 4d9d20edee3ef5c5cf3d14c6262f7e4cfb8dd323
+MD5sum: 6068014a6b6c0d8046cd7ebad662d78c
 Description: anacron plugin for OpenMediaVault.
 Plugin-Section: utilities
 
