@@ -211,7 +211,7 @@ Description: locate plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-mergerfs
-Version: 6.0.4
+Version: 6.0.5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 86
@@ -219,11 +219,11 @@ Depends: mergerfs, openmediavault (>= 6)
 Replaces: omvextras-unionbackend, openmediavault-mergerfsfolders, openmediavault-unionfilesystems
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-mergerfs/openmediavault-mergerfs_6.0.4_all.deb
-Size: 12072
-SHA256: ec862e21acc613e98fbdf51b35a5e43c46e102687881e5d3e3b2f47fa39b1df4
-SHA1: c0ef6bdb02520dfbb50f5a7bf4ca416ed26402a9
-MD5sum: b0d9ba4c81ab05330641d1881bd20ddc
+Filename: pool/main/o/openmediavault-mergerfs/openmediavault-mergerfs_6.0.5_all.deb
+Size: 12096
+SHA256: 1d95b3ca49e211d8e18425903df0ebba82f1549e92e078b3a85979d2b321d7a3
+SHA1: 98ec3348fd0dfc3a018e126474ae1394976fa21e
+MD5sum: 3ecb9ac657c22968d58eb5924fa8be41
 Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
