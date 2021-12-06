@@ -192,6 +192,23 @@ Description: kernel package
    - SystemRescue
 Plugin-Section: utilities
 
+Package: openmediavault-kvm
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 543
+Depends: dnsmasq-base, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, novnc, openmediavault (>= 6), ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-x86, qemu-utils, spice-html5, virtinst
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.0_all.deb
+Size: 37948
+SHA256: 6792f5aa2b2b1c9e6dbf97ae6695b251abda39960cb4756bf42d4d47badd0f33
+SHA1: 5a13fad89a0ae6784593d816eb47f3ef063e081d
+MD5sum: 8d440d10a1b9530efaa79e0901f5bd7e
+Description: kvm plugin for OpenMediaVault.
+Plugin-Section: utilities
+
 Package: openmediavault-locate
 Version: 6.0
 Architecture: all
