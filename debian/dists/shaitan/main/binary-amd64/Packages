@@ -52,19 +52,19 @@ Description: anacron plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-apttool
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 156
+Installed-Size: 161
 Depends: openmediavault (>= 6)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-apttool/openmediavault-apttool_6.0_all.deb
-Size: 12020
-SHA256: 59e2bb29552ae59cfa75a870cf0d77c0e6d84773ce5ed8ce458248eb19c6c0bb
-SHA1: bdd5a05df303b88e5a4f15f07b6334aa79136e98
-MD5sum: 35e97ec56fcf9ef193701f4b510352e9
+Filename: pool/main/o/openmediavault-apttool/openmediavault-apttool_6.0.1_all.deb
+Size: 12500
+SHA256: b02eb32479bf9ed3e012131868cdda751f9cb15f39963c2fba363f3645660b5e
+SHA1: c23efff8a36d98052027b0e7ba6ffeda179a7d2b
+MD5sum: 7ebe7af8fe311ce713ccf90b41774108
 Description: apt tool plugin for OpenMediaVault.
  Find, install, and remove packages in apt repositories.
 Plugin-Section: utilities
