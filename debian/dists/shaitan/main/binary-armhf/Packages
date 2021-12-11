@@ -411,18 +411,18 @@ Description: OpenMediaVault symlinks plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-tgt
-Version: 6.0.0
+Version: 6.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 80
-Depends: tgt, openmediavault (>= 6.0)
+Installed-Size: 79
+Depends: tgt, openmediavault (>= 6.0), openmediavault-sharerootfs
 Priority: optional
 Section: devel
-Filename: pool/main/o/openmediavault-tgt/openmediavault-tgt_6.0.0_all.deb
-Size: 9132
-SHA256: 5934adf263466c0046bbc4a5a9b55179fc5fb0cfe4a374c0c06b3d8fbc2aaba2
-SHA1: 27db025dd7a06bd16454e45231218bef07149132
-MD5sum: c4a94c470e2edff32b549b53625398f5
+Filename: pool/main/o/openmediavault-tgt/openmediavault-tgt_6.0.2_all.deb
+Size: 9200
+SHA256: 143ba5958dd97cb5d1096439fbe0baaa9ffd6071c8429f9432feb7ec73e749b0
+SHA1: 65f8bde2434b991de7bf863ed01c5974dc4351ba
+MD5sum: 28c7e6b6b6c3719e521142200b5f00ef
 Description: OpenMediaVault tgt plugin
  Plugin to setup tgt iscsi targets.
 Plugin-Section: network
