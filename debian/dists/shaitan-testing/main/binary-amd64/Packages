@@ -1,3 +1,21 @@
+Package: openmediavault-diskclone
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 28
+Depends: fsarchiver, openmediavault (>= 6)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: misc
+Filename: pool/main/o/openmediavault-diskclone/openmediavault-diskclone_6.0_all.deb
+Size: 4188
+SHA256: c6d5a8420d0f979eab481ffa370428e357f656ddfdee19702ab2c21ad401dfe7
+SHA1: 212bb93f43e2ccb3fd0998d1e2c4f0c32c28f1fb
+MD5sum: bf973807833c3624a85db96861f90732
+Description: disk clone plugin for OpenMediaVault.
+ This plugin will clone one disk to another.
+Plugin-Section: backup
+
 Package: openmediavault-mergerfs
 Version: 6.0.9
 Architecture: all
