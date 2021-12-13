@@ -92,19 +92,19 @@ Description: OpenMediaVault AutoShutdown Plugin
 Plugin-Section: utilities
 
 Package: openmediavault-backup
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 227
+Installed-Size: 239
 Depends: fsarchiver, openmediavault (>= 6), borgbackup, rsync
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: misc
-Filename: pool/main/o/openmediavault-backup/openmediavault-backup_6.0_all.deb
-Size: 24420
-SHA256: f8f3ac7ce02effd860647ca5280f66da7bb047e705491c2cf898ac2c3994160b
-SHA1: f0aaa5d6101129705c5c4c96c1198b01766c55fa
-MD5sum: b0c13923f651aa83d2ca2fe878d6789f
+Filename: pool/main/o/openmediavault-backup/openmediavault-backup_6.0.1_all.deb
+Size: 25800
+SHA256: dfa89628d448dcbcb9d030720890e1eebcbd8bbbf58c928a08a5032bcc2c6c64
+SHA1: 7330b33e52c20fa251d778daf79ab57b0f27fe09
+MD5sum: 6cdf9102ff53a2559b4de8f800a3deb9
 Description: backup plugin for OpenMediaVault.
  This plugin will backup the entire OpenMediaVault
  system minus data drives or system drive for
