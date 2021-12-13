@@ -17,7 +17,7 @@ Description: disk clone plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-mergerfs
-Version: 6.0.9
+Version: 6.0.10
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 95
@@ -25,11 +25,11 @@ Depends: libarchive-zip-perl, mergerfs, openmediavault (>= 6)
 Replaces: omvextras-unionbackend, openmediavault-mergerfsfolders, openmediavault-unionfilesystems
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-mergerfs/openmediavault-mergerfs_6.0.9_all.deb
-Size: 13484
-SHA256: 50214b6a9f6c1fe62e207e62e407a017225a5ab68300e196c5f0cc2d6562f632
-SHA1: b20d9b805f326d1e257c6c737c82a7de6ca5416e
-MD5sum: 7c478ce407ed2f867c0caa39f9e3e45a
+Filename: pool/main/o/openmediavault-mergerfs/openmediavault-mergerfs_6.0.10_all.deb
+Size: 13496
+SHA256: 87eb63d992dd1ff3cc65a7e3a12acff33b819dbd94929fc1691c35246d95cf65
+SHA1: 7e06782e7b0548c03329d4b7339b746672cd8aa6
+MD5sum: 1d67e9b7137943e237907a3d6e08e1bc
 Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
