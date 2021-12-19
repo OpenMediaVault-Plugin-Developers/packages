@@ -130,6 +130,33 @@ Description: borgbackup plugin for OpenMediaVault.
  encryption.
 Plugin-Section: backup
 
+Package: openmediavault-downloader
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 194
+Depends: aria2, curl, openmediavault (>= 6), python3, wget
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-downloader/openmediavault-downloader_6.0_all.deb
+Size: 16936
+SHA256: 457eb143c290a09c713734d259b3e209448ae98e2aa07553611699b31029f5f7
+SHA1: 9d9d6f5e5b0a359a847b63de21be93ab44d584c5
+MD5sum: d06cccebbbac24e0c83207ee713f6647
+Description: OpenMediaVault downloader plugin
+ Plugin to download files to a specified share using aria2, curl, or
+ yt-dlp.
+ .
+ aria2 is a lightweight multi-protocol & multi-source command-line
+ download utility. It supports HTTP/HTTPS, FTP, BitTorrent and Metalink.
+ .
+ curl is a command line tool for transferring data with URL syntax
+ .
+ yt-dlp is a small command-line program to download videos from
+ YouTube.com and a few more sites (forked from youtube-dl).
+Plugin-Section: downloaders
+
 Package: openmediavault-fail2ban
 Version: 6.0.1
 Architecture: all
