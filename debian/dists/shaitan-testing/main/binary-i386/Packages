@@ -16,6 +16,23 @@ Description: disk clone plugin for OpenMediaVault.
  This plugin will clone one disk to another.
 Plugin-Section: backup
 
+Package: openmediavault-kvm
+Version: 6.1
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 636
+Depends: dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, novnc, openmediavault (>= 6.0.13), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, uuid, virtinst
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1_all.deb
+Size: 49256
+SHA256: 77a3f4c47ff67fa1807f3b0775e082ba116805069214e80d86c2ecd54938f73b
+SHA1: 4f23c0fcf26c819e53ef34bb0eeaeabe703a2e12
+MD5sum: 099173435c49bd6108ac9a64a1cb9020
+Description: kvm plugin for OpenMediaVault.
+Plugin-Section: utilities
+
 Package: openmediavault-mergerfs
 Version: 6.0.10
 Architecture: all
