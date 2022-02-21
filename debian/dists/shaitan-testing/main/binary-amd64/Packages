@@ -17,7 +17,7 @@ Description: disk clone plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-kvm
-Version: 6.1.2
+Version: 6.1.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 710
@@ -25,11 +25,11 @@ Depends: dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon,
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1.2_all.deb
-Size: 51772
-SHA256: cb44e3ed8d59eab6a7c0c2d082351d7ee8d30411d445edd669aec0df2d5e72b4
-SHA1: 9bac09ad1f6040d8142d5c1f28c184fe4e6b350e
-MD5sum: 932a5377f3b39e593d6700b663e8b05a
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1.3_all.deb
+Size: 51832
+SHA256: ad2366f5f1c5b9e5bc52d4b0f2bf945c7bd76b52addd1498da810119cc81815e
+SHA1: acc7044be93baee641a145574919ada9c15a8a4b
+MD5sum: 042fd751fe1854a11c1176956d4a7ccf
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
