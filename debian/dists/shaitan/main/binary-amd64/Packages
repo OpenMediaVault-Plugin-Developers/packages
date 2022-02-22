@@ -341,20 +341,20 @@ Description: OpenMediaVault miniDLNA (DLNA server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-omvextrasorg
-Version: 6.0.7
+Version: 6.0.8
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 551
+Installed-Size: 558
 Depends: dirmngr, gnupg, openmediavault (>= 6.0)
 Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.0.7_all.deb
-Size: 57764
-SHA256: c2824f50195c0253ed00d2d9c2b248f4cae11168d60014112c10a1a11b2504f3
-SHA1: ce561a07659944ad3f5834194cb9dd54b30f01f0
-MD5sum: dc9f21179ce997bd957f1cebf34b6682
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.0.8_all.deb
+Size: 59040
+SHA256: 8d53a8632323fdb71aaeb1fa0f3bde538b01678164b3a2c8cb9dd0b93c417dc1
+SHA1: b6edd453fb2aaabf65e61ce3498f14f016d670ed
+MD5sum: 21b26c9920820fc22039a531b477b86a
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
  Allows enabling of multiple repositories hosted by omv-extras.org.
  .
