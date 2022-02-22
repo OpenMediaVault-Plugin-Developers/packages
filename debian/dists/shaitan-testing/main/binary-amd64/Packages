@@ -17,19 +17,19 @@ Description: disk clone plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-kvm
-Version: 6.1.3
+Version: 6.1.4
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 710
+Installed-Size: 713
 Depends: dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, novnc, openmediavault (>= 6.0.13), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, uuid, virtinst
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1.3_all.deb
-Size: 51832
-SHA256: ad2366f5f1c5b9e5bc52d4b0f2bf945c7bd76b52addd1498da810119cc81815e
-SHA1: acc7044be93baee641a145574919ada9c15a8a4b
-MD5sum: 042fd751fe1854a11c1176956d4a7ccf
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1.4_all.deb
+Size: 52104
+SHA256: b3f3c0b028c166fb8876428bd4475167bce93562462052dc5e46f9ea1f32c030
+SHA1: b17f180a544dc18304773b74d144e214f3f87c88
+MD5sum: b1b6bf5413dc37ac94102b1574c14f60
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
