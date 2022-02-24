@@ -13,7 +13,7 @@ version=$(dpkg -l openmediavault | awk '$2 == "openmediavault" { print substr($3
 
 echo ${version}
 
-if [ ${version} -lt 4 ]; then
+if [ ${version} -lt 5 ]; then
   echo "Unsupported version of openmediavault"
   exit 0
 fi
