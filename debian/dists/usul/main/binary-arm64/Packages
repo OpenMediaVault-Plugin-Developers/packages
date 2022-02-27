@@ -587,18 +587,18 @@ Description: OpenMediaVault tgt plugin
 Plugin-Section: network
 
 Package: openmediavault-unionfilesystems
-Version: 5.1.2
+Version: 5.1.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 194
 Depends: omvextras-unionbackend, openmediavault (>= 5.2)
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-unionfilesystems/openmediavault-unionfilesystems_5.1.2_all.deb
-Size: 20212
-SHA256: d95d375e90dfda0a75c5f27fb7767aa8789739448943bddcc45320db96c7cf02
-SHA1: 1e53ac65cf54438da9edaaffbe53b1b5ce60090b
-MD5sum: fe11285c9feb883294c5a0f0171aff19
+Filename: pool/main/o/openmediavault-unionfilesystems/openmediavault-unionfilesystems_5.1.3_all.deb
+Size: 20296
+SHA256: 3318bbe66da801f8d012e8aff79cd77fa21bff691e2a2241c60d221a08b78d6f
+SHA1: 9ec37f237b62a74dd90fcc7d43ddc78208125bb6
+MD5sum: 5182f751378b78113685703f618d5217
 Description: Union filesystems plugin for OpenMediaVault.
  Makes it possible to mount drives under a single mountpoint with the union
  filesystem mergerfs.
