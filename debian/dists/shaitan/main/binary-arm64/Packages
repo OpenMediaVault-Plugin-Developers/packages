@@ -212,19 +212,19 @@ Description: OpenMediaVault Fail2ban plugin
 Plugin-Section: network
 
 Package: openmediavault-flashmemory
-Version: 6.1
+Version: 6.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 36
+Installed-Size: 37
 Depends: folder2ram (>= 0.3.1), openmediavault (>= 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_6.1_all.deb
-Size: 5548
-SHA256: f167090727d7bde91eaba16262d559cb824e1b3983721be20cc9281c64bf0032
-SHA1: 036d4c5f5498bc87eaa1f4c569de91e116ab75f6
-MD5sum: 1ebbe89a5d51d6ad968d87d2430f746f
+Filename: pool/main/o/openmediavault-flashmemory/openmediavault-flashmemory_6.2_all.deb
+Size: 5880
+SHA256: 8ebde67a2525df090caeaf2985bcac0be2473cad2d98d0f194931149068382a2
+SHA1: 4df06e08ebc828fadb3117cbf441e80509202f6d
+MD5sum: 47245e733d9083f06cbb37f92a8779ab
 Description: folder2ram plugin for openmediavault
  folder2ram manages temporary file systems across reboots, to decrease writes on permanent storage.
  This allows the installation of OMV on flash thumb drives and SD cards.
