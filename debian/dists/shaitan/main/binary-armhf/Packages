@@ -16,7 +16,7 @@ Description: script-based utility to manage tmpfs folders
  Mostly useful for long-term usage of flash drives as system drive.
 
 Package: mergerfs
-Version: 2.33.3~debian-bullseye
+Version: 2.33.5~debian-bullseye
 Architecture: armhf
 Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
 Installed-Size: 443
@@ -24,11 +24,11 @@ Depends: libc6 (>= 2.28), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2), fuse
 Homepage: http://github.com/trapexit/mergerfs
 Priority: optional
 Section: utils
-Filename: pool/main/m/mergerfs/mergerfs_2.33.3~debian-bullseye_armhf.deb
-Size: 242304
-SHA256: 62aa80590880447f1c324b032def2c9041e364fc9be8dcb1f0ec6c043bbe6cc5
-SHA1: 44a236cdc1faaba4be9a67d2ccaa839a143f905f
-MD5sum: 6fe97da15334980ab9a7ed3d95f87937
+Filename: pool/main/m/mergerfs/mergerfs_2.33.5~debian-bullseye_armhf.deb
+Size: 242676
+SHA256: 6a726db455b9b2683d70e78bcf9e13dcaea203784c831aa2b2092569289d01b1
+SHA1: 2b83af3e4b60c853a5b2860d65451dca7834a3ab
+MD5sum: e82e8cf47f8aa3ba9dcb3a96c2d85b7d
 Description: another FUSE union filesystem
  mergerfs is a union filesystem geared towards simplifying storage and
  management of files across numerous commodity storage devices. It is
