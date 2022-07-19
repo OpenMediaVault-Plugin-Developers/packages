@@ -50,5 +50,7 @@ else
   echo "There was a problem downloading the package."
 fi
 
+echo -e "\n\nPress ctrl-shift-R in the browser after signing in to the OMV web interface."
+
 exit 0
 
