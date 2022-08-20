@@ -634,3 +634,33 @@ Description: local and remote filesystem snapshot utility
  machines. rsnapshot makes extensive use of hard links, so disk space is
  only used when absolutely necessary.
 
+Package: snapraid
+Version: 12.2-0
+Architecture: arm64
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 503
+Depends: libc6 (>= 2.29)
+Homepage: http://snapraid.sourceforge.net/
+Priority: extra
+Section: utils
+Filename: pool/main/s/snapraid/snapraid_12.2-0_arm64.deb
+Size: 266412
+SHA256: 6d77c63ccfd95aeb68f24edc8c8a9159778a84e3f91a166335e5aeac325b347a
+SHA1: 2cab5fedfad73bbd220ed1609fd3054862e5f3e5
+MD5sum: 8a557658f868adce58f7f9360fabaff6
+Description: SnapRAID is a backup program for disk arrays.
+ SnapRAID is a backup program for disk arrays.
+ .
+ SnapRAID stores redundancy information in the disk array, and it allows recovering from up to two disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, where you have a lot of big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, the other features of SnapRAID are:
+ - You can start using SnapRAID with already filled disks.
+ - The disks of the array can have different sizes.
+ - You can add more disks at any time.
+ - If you accidentally delete some files in a disk, you can recover them.
+ - If more than two disks fail, you lose the data only on the failed disks. All the data in the other disks is safe.
+ - It doesn't lock-in your data. You can stop using SnapRAID at any time without the need to reformat or move data.
+ - All your data is hashed to ensure data integrity and avoid silent corruption.
+

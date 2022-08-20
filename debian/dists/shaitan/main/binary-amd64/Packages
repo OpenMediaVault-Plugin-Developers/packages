@@ -635,19 +635,19 @@ Description: local and remote filesystem snapshot utility
  only used when absolutely necessary.
 
 Package: snapraid
-Version: 11.5-1
+Version: 12.2-0
 Architecture: amd64
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 579
-Depends: libblkid1 (>= 2.16), libc6 (>= 2.17)
+Installed-Size: 587
+Depends: libc6 (>= 2.29)
 Homepage: http://snapraid.sourceforge.net/
 Priority: extra
 Section: utils
-Filename: pool/main/s/snapraid/snapraid_11.5-1_amd64.deb
-Size: 284508
-SHA256: 5aca37decb1aec256fcdf16c83f095a45e889b16aa8d731ef7963e7d66d6cd0d
-SHA1: 6e4c287daec28662eb32d96154cb19d837c13548
-MD5sum: a632cbe77c4340e9248162d8ac6bed92
+Filename: pool/main/s/snapraid/snapraid_12.2-0_amd64.deb
+Size: 287596
+SHA256: 46360d1e984b1fe2ef30d051ebba944432d5672faf14673cc9a80c678f1ed8d8
+SHA1: f06f6b6c78d0de111b76aeea9cbed3cef214409a
+MD5sum: 6767ecebe769e4eca57cbb42a668cb2a
 Description: SnapRAID is a backup program for disk arrays.
  SnapRAID is a backup program for disk arrays.
  .
