@@ -312,7 +312,7 @@ Description: OpenMediaVault LUKS encryption plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-mergerfs
-Version: 6.3.2
+Version: 6.3.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 292
@@ -320,11 +320,11 @@ Depends: libarchive-zip-perl, mergerfs, openmediavault (>= 6)
 Replaces: omvextras-unionbackend, openmediavault-mergerfsfolders, openmediavault-unionfilesystems
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-mergerfs/openmediavault-mergerfs_6.3.2_all.deb
-Size: 25968
-SHA256: 7be65f0e0da27302eb390e265f45e439e1020ed1a09486978651d15837b9f075
-SHA1: 8ce09704655b259adf6daa94ed123c294a36a226
-MD5sum: bcca16c26da4d8836a7ec642bbe449cc
+Filename: pool/main/o/openmediavault-mergerfs/openmediavault-mergerfs_6.3.3_all.deb
+Size: 25984
+SHA256: d8f965b80182d51e96e129445ff728fc6a973fc5d0d67c86976ea0a6cb92cc58
+SHA1: ffb597bdcd42e1ff2c65b68f582580e387a5ca35
+MD5sum: 101068d508c80632b4e9d366ac5cf381
 Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
