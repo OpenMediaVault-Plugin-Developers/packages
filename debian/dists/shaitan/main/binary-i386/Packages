@@ -613,6 +613,30 @@ Description: OpenMediaVault plugin for ZFS
  The native Linux kernel port of the ZFS filesystem.
 Plugin-Section: filesystems
 
+Package: qemu-system-data
+Source: qemu
+Version: 1:7.1+dfsg-2
+Architecture: all
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Installed-Size: 8123
+Conflicts: openbios-ppc, openbios-sparc, qemu-skiboot, qemu-slof, sgabios
+Breaks: qemu-system-common (<< 1:2.12+dfsg-2~), qemu-system-ppc (<< 1:6.1-4~), qemu-system-sparc (<< 1:4.2-4~)
+Replaces: openbios-ppc, openbios-sparc, qemu-slof, qemu-system-common (<< 1:2.12+dfsg-2~), qemu-system-ppc (<< 1:6.1-4~), qemu-system-sparc (<< 1:4.2-4~), sgabios
+Provides: openbios-ppc, openbios-sparc, qemu-keymaps, qemu-skiboot, qemu-slof, sgabios
+Multi-Arch: foreign
+Homepage: http://www.qemu.org/
+Priority: optional
+Section: otherosfs
+Filename: pool/main/q/qemu/qemu-system-data_7.1+dfsg-2_all.deb
+Size: 1319628
+SHA256: cf2c354487f2420e7788dab34c9ef648dfa90256b0b74a734608f5e3b4c6884b
+SHA1: 722bc5a78305c5d8478c6381717d04f57d005902
+MD5sum: 9384d86d33d9a9aadb14ee3421e36dc1
+Description: QEMU full system emulation (data files)
+ This package provides architecture-neutral data files
+ (such as keyboard definitions, icons) for system-mode
+ QEMU emulation (qemu-system-*) packages.
+
 Package: rsnapshot
 Version: 1.4.3-2
 Architecture: all
