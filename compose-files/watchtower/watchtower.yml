@@ -1,0 +1,23 @@
+---
+version: '3'
+services:
+  watchtower:
+    container_name: watchtower
+    image: v2tec/watchtower
+    restart: unless-stopped
+    hostname: omv
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime
+    environment:
+      - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      - WATCHTOWER_NOTIFICATIONS=email
+      - WATCHTOWER_NOTIFICATION_EMAIL_FROM=watchtower@omv
+      - WATCHTOWER_NOTIFICATION_EMAIL_SERVER=smtp.gmail.com
+      - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT=587
+      - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_USER=changeme@gmail.com
+      - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PASSWORD=changeme
+      - WATCHTOWER_NOTIFICATION_EMAIL_TO=changeme@gmail.com
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_INCLUDE_RESTARTING=true
+      - WATCHTOWER_POLL_INTERVAL=86400

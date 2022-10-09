@@ -1,0 +1,9 @@
+version: '2'
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    ports:
+      - 8080:80
+    volumes:
+      - /path/to/bitwardenrs/:/data/
+    restart: unless-stopped

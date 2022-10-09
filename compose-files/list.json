@@ -1,0 +1,66 @@
+[
+  {
+    "name": "dozzle",
+    "description": "dozzle"
+  },
+  {
+    "name": "freshrss",
+    "description": "freshrss"
+  },
+  {
+    "name": "jackett",
+    "description": "jackett"
+  },
+  {
+    "name": "netdata",
+    "description": "netdata"
+  },
+  {
+    "name": "plex",
+    "description": "plex"
+  },
+  {
+    "name": "portainer",
+    "description": "portainer"
+  },
+  {
+    "name": "qbittorrent-vpn",
+    "description": "qbittorrent-vpn"
+  },
+  {
+    "name": "radarr",
+    "description": "radarr"
+  },
+  {
+    "name": "scrutiny",
+    "description": "scrutiny"
+  },
+  {
+    "name": "smokeping",
+    "description": "smokeping"
+  },
+  {
+    "name": "sonarr",
+    "description": "sonarr"
+  },
+  {
+    "name": "tautulli",
+    "description": "tautulli"
+  },
+  {
+    "name": "torproxy",
+    "description": "torproxy"
+  },
+  {
+    "name": "unifi",
+    "description": "unifi"
+  },
+  {
+    "name": "vaultwarden",
+    "description": "vaultwarden"
+  },
+  {
+    "name": "watchtower",
+    "description": "watchtower"
+  }
+]

@@ -1,0 +1,12 @@
+---
+version: "3"
+services:
+  torproxy:
+    image: dperson/torproxy
+    container_name: torproxy
+    ports:
+      - 8118:8118
+      - 9050:9050
+    environment:
+      - TZ=America/New_York
+    restart: unless-stopped

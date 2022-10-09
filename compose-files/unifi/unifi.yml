@@ -1,0 +1,11 @@
+version: '2'
+services:
+  unifi-controller:
+    image: lscr.io/linuxserver/unifi-controller:latest
+    network_mode: host
+    restart: unless-stopped
+    volumes:
+      - /path/to/unifi:/config
+    environment:
+      - PUID=1001
+      - PGID=1001

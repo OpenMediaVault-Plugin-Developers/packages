@@ -1,0 +1,17 @@
+---
+version: "2.1"
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1001
+      - PGID=100
+      - VERSION=latest
+    volumes:
+      - /dev/shm:/transcode
+      - /srv/d0/plexmediaserver-database:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /path/to/multimedia:/multimedia
+    restart: unless-stopped

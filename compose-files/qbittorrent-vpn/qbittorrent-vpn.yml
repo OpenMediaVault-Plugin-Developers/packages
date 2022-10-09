@@ -1,0 +1,26 @@
+---
+version: "2"
+services:
+  qbittorrentvpn:
+    image: markusmcnugen/qbittorrentvpn
+    container_name: qbittorrent-vpn
+    privileged: true   
+    environment:
+      - VPN_USERNAME=redacted
+      - VPN_PASSWORD=redacted
+      - PUID=1001
+      - PGID=100
+      - WEBUI_PORT=8080
+      - VPN_ENABLED=yes
+      - LAN_NETWORK=192.168.1.0/24
+      - NAME_SERVERS=8.8.8.8,8.8.4.4
+      - UMASK=002
+      - TZ=America/New_York
+    ports:
+      - 8080:8080
+#      - 9999:9999
+#      - 9999:9999/udp
+    volumes:
+      - /path/to/docker/docker-config/qbittorrent-vpn:/config
+      - /path/to/multimedia/.tmp/qbittorrent-downloads:/downloads
+    restart: unless-stopped

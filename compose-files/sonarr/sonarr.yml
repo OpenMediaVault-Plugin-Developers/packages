@@ -1,0 +1,19 @@
+---
+version: "2.1"
+services:
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:amd64-latest
+    container_name: sonarr
+    environment:
+      - PUID=1001
+      - PGID=100
+      - TZ=America/New_York
+    volumes:
+      - /etc/hosts:/etc/hosts
+      - /path/to/docker/docker-config/sonarr:/config
+      - /path/to/multimedia/.tmp/qbittorrent-downloads:/downloads
+      - /etc/localtime:/etc/localtime:ro
+      - /path/to/multimedia/tv-series:/tv
+    ports:
+      - 8989:8989
+    restart: unless-stopped
