@@ -51,6 +51,23 @@ Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
 
+Package: openmediavault-webdav
+Version: 6.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 146
+Depends: openmediavault (>= 6.0.25), libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-webdav/openmediavault-webdav_6.0_all.deb
+Size: 10312
+SHA256: 4f5d3b0c4740d61da957fbea09b75bb0e7afa07dff5323f3ffad68f61622367f
+SHA1: dbb66a1f595457460d636471f5cc932b3afa4698
+MD5sum: d2bc95dcea8f66b5232e8916b03928da
+Description: OpenMediaVault WebDAV plugin.
+ Web interface to enable WebDAV and select a share for files.
+Plugin-Section: filesystems
+
 Package: snapraid
 Version: 12.1
 Architecture: amd64
