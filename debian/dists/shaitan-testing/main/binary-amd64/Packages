@@ -52,18 +52,18 @@ Description: mergerfs plugin for openmediavault.
 Plugin-Section: filesystems
 
 Package: openmediavault-webdav
-Version: 6.0
+Version: 6.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 146
 Depends: openmediavault (>= 6.0.25), libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-webdav/openmediavault-webdav_6.0_all.deb
-Size: 10312
-SHA256: 4f5d3b0c4740d61da957fbea09b75bb0e7afa07dff5323f3ffad68f61622367f
-SHA1: dbb66a1f595457460d636471f5cc932b3afa4698
-MD5sum: d2bc95dcea8f66b5232e8916b03928da
+Filename: pool/main/o/openmediavault-webdav/openmediavault-webdav_6.0.1_all.deb
+Size: 10376
+SHA256: 89ab4e58e35f2e7e6b7a7f5b9682089910b77c3d8b937c359760265f2fec9edf
+SHA1: c9157ac22ecdddabf14d3421d194b92240f127af
+MD5sum: 6220aa7e1045c32515de1746558a894f
 Description: OpenMediaVault WebDAV plugin.
  Web interface to enable WebDAV and select a share for files.
 Plugin-Section: filesystems
