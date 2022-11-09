@@ -17,19 +17,19 @@ Description: disk clone plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-kvm
-Version: 6.1.5
+Version: 6.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 714
-Depends: dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, netcat-openbsd, novnc, openmediavault (>= 6.0.13), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, uuid, virtinst
+Installed-Size: 781
+Depends: distro-info, dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 6.0.46), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1.5_all.deb
-Size: 52204
-SHA256: f24ee75637ec2caee58149fabac0969d314becde9b521a1120846f583a493183
-SHA1: 1b76aa8fbd6e166fd657aa1f869905e91eb6cf21
-MD5sum: 6a950a4948270335794b1c0096b5eddc
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2_all.deb
+Size: 56856
+SHA256: 0ec0ed295291cf99c88b53bd4b6784993ec49b5cf4e65cd06cd4591b8acbc370
+SHA1: 55c78ff81f8c09425a0a4c1e97edfd547df13345
+MD5sum: d3a19af497ed60392d3ce56e13ad4244
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
