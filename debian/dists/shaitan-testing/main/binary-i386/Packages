@@ -17,19 +17,19 @@ Description: disk clone plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-kvm
-Version: 6.2.1
+Version: 6.2.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 780
-Depends: distro-info, dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 6.0.46), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois
+Depends: distro-info, dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 6.0.46), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.1_all.deb
-Size: 56896
-SHA256: 4df2b7bf7c943868dd0f9e3dee5b7d082723b49355fb4e24edfc401c02409a03
-SHA1: 7ed0b1cae3a395af84e0be0f59da412fd741cd12
-MD5sum: 133199a5345c8e4b684a4c23a0e69113
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.2_all.deb
+Size: 56824
+SHA256: c6b01c5a1b163ac6982e8bfb36aa517c26bf2512a1f5c4d04303ed36a6f473ea
+SHA1: 117cfeaff2ed8430f04d2f488d2ba98afb80ee3d
+MD5sum: 0d5b8aac4888d611e3dee138ce0943b7
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
