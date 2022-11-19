@@ -255,19 +255,19 @@ Description: kernel package
 Plugin-Section: utilities
 
 Package: openmediavault-kvm
-Version: 6.1.23
+Version: 6.2.4
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 792
-Depends: dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-system, lsscsi, netcat-openbsd, novnc, openmediavault (>= 6.0.30), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst
+Installed-Size: 781
+Depends: distro-info, dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 6.0.46), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.1.23_all.deb
-Size: 56016
-SHA256: 32fb3bce6c1d2be7cfdbd66c82fd49761f0c2c2f2ec666fe01991d0cd97d8bd3
-SHA1: 86b3aaaa7f20438f48f5e3e6eee1a1b5eb22edd8
-MD5sum: 0831a073e45d9efc09c29b2b51d22834
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.4_all.deb
+Size: 57084
+SHA256: f37a5055003b31e11425891358e3de82228f6440784c009156ced00896238dde
+SHA1: b12f576fe15ed7d92320fdec320fc65c98a5e526
+MD5sum: e0a20d6005efbddbe0a945a10d191bb4
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
