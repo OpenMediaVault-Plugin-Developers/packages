@@ -51,6 +51,42 @@ Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
 
+Package: openmediavault-snapraid
+Version: 6.2
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 412
+Depends: openmediavault (>= 6.0), openmediavault-sharerootfs, snapraid (>= 11.5)
+Homepage: https://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_6.2_all.deb
+Size: 40288
+SHA256: dd3be573aeb1bd557bcf20b92832d5dfa90ca5f7c9b6388462baeb24a6fc1045
+SHA1: abd2ab4f01d999c604ce979d11d4adfcc35bcc9c
+MD5sum: c61f9e106f59250b0aea1d71f10f4dfb
+Description: snapraid plugin for OpenMediaVault.
+ SnapRAID is a backup program for disk arrays. It stores parity
+ information of your data and it's able to recover from up to two
+ disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, with a lot of
+ big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, other features of
+ SnapRAID are:
+ * All your data is hashed to ensure data integrity and to avoid
+   silent corruption.
+ * If the failed disks are too many to allow a recovery, you lose the
+   data only on the failed disks. All the data in the other disks is safe.
+ * If you accidentally delete some files in a disk, you can recover them.
+ * You can start with already filled disks.
+ * The disks of the array can have different sizes.
+ * You can add disks at any time.
+ * It doesn't lock-in your data. You can stop using SnapRAID at any time
+   without the need to reformat or move data.
+Plugin-Section: filesystems
+
 Package: openmediavault-webdav
 Version: 6.0.1
 Architecture: all
