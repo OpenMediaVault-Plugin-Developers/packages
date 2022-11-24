@@ -52,7 +52,7 @@ Description: mergerfs plugin for openmediavault.
 Plugin-Section: filesystems
 
 Package: openmediavault-snapraid
-Version: 6.2
+Version: 6.2.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 412
@@ -60,11 +60,11 @@ Depends: openmediavault (>= 6.0), openmediavault-sharerootfs, snapraid (>= 11.5)
 Homepage: https://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_6.2_all.deb
-Size: 40288
-SHA256: dd3be573aeb1bd557bcf20b92832d5dfa90ca5f7c9b6388462baeb24a6fc1045
-SHA1: abd2ab4f01d999c604ce979d11d4adfcc35bcc9c
-MD5sum: c61f9e106f59250b0aea1d71f10f4dfb
+Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_6.2.1_all.deb
+Size: 40284
+SHA256: 90d19f2ac8d0bd421c161d4b8e9721661466875e48b6fec26906f19b7b0e53b3
+SHA1: 83e43888c3ef7bacafbc7cd894fe474a4e14ff06
+MD5sum: 366d69b6ad00b4c6d95f75ede4765947
 Description: snapraid plugin for OpenMediaVault.
  SnapRAID is a backup program for disk arrays. It stores parity
  information of your data and it's able to recover from up to two
