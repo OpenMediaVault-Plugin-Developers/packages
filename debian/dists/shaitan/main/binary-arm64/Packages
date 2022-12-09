@@ -255,19 +255,19 @@ Description: kernel package
 Plugin-Section: utilities
 
 Package: openmediavault-kvm
-Version: 6.2.5
+Version: 6.2.6
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 790
+Installed-Size: 792
 Depends: distro-info, dnsmasq-base, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 6.0.46), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-mips, qemu-system-ppc, qemu-system-x86, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.5_all.deb
-Size: 57592
-SHA256: de28f3da8dd33bacf5bc6c660595528dd9c3365e0a3d7269b7fbfbd2929702fe
-SHA1: 53232ffa66d29092d5f432744eacfe395d58ed43
-MD5sum: 216d3db959f9b3eb6f8997df5fc5a3dd
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.6_all.deb
+Size: 58092
+SHA256: def38d8d5ce5c417234780a257ebfb816aa9ca8a31c2680ae86074079df3ee66
+SHA1: 4730379ae8d9179d58165d3fa0a4925342605de5
+MD5sum: 2833cb896016df1758d12581d0fed5e4
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
