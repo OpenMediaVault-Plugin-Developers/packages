@@ -131,19 +131,19 @@ Description: borgbackup plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-compose
-Version: 6.4.2
+Version: 6.5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 104
+Installed-Size: 110
 Depends: docker-ce | docker.io, docker-compose-plugin | docker-compose, openmediavault (>= 6.1), openmediavault-sharerootfs, python3-pretty-yaml
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-compose/openmediavault-compose_6.4.2_all.deb
-Size: 11348
-SHA256: d11a7878622ee280648e89897a0ab123192c3a5e3c542e823084da6e68f1a017
-SHA1: 570ad47542b75627a5ea0c0433a5296f86fcf8ee
-MD5sum: 4fff271adc181f1973310e5178de2a57
+Filename: pool/main/o/openmediavault-compose/openmediavault-compose_6.5_all.deb
+Size: 11884
+SHA256: 502760b133c0f5f4279b396fd32352240b0a414c104ff52ccc78fe18fb51d886
+SHA1: 077963555f49cf83ec9f2abc7730ddf5fe71fbc8
+MD5sum: 1683d00d5cbbe483b5913eb842bdb9c5
 Description: OpenMediaVault compose plugin
  lightweight plugin to maintain and execute docker-compose files.
 Plugin-Section: utilities
