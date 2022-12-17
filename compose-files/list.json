@@ -12,6 +12,10 @@
     "description": "jackett"
   },
   {
+    "name": "mysql-phpmyadmin",
+    "description": "mysql-phpmyadmin"
+  },
+  {
     "name": "netdata",
     "description": "netdata"
   },
