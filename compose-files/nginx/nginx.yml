@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - /path/to/pages:/usr/share/nginx/html
