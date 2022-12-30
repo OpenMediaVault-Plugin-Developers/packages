@@ -20,6 +20,10 @@
     "description": "netdata"
   },
   {
+    "name": "nginx",
+    "description": "nginx"
+  },
+  {
     "name": "plex",
     "description": "plex"
   },
