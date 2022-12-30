@@ -10,3 +10,5 @@ omv-extras.org .deb releases
 ```console
  sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | sudo bash
 ```
+
+For issues with compose files, please start a thread on the forum - https://forum.openmediavault.org/
