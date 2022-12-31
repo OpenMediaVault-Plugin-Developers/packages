@@ -68,6 +68,10 @@
     "description": "vaultwarden"
   },
   {
+    "name": "virt-manager",
+    "description": "virt-manager"
+  },
+  {
     "name": "watchtower",
     "description": "watchtower"
   }
