@@ -149,19 +149,19 @@ Description: OpenMediaVault compose plugin
 Plugin-Section: utilities
 
 Package: openmediavault-cputemp
-Version: 6.1.1
+Version: 6.1.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 21
+Installed-Size: 30
 Depends: openmediavault (>= 6.0.13)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-cputemp/openmediavault-cputemp_6.1.1_all.deb
-Size: 3268
-SHA256: 8a5de0ce398c9c53d9a07a3af3b3fbf38400ae4821ea3c9daff20bca88386628
-SHA1: 8ac747d74364af1b0d249d7067799057215835a1
-MD5sum: e9b1295f9934bf73ca188f8c0087b0f2
+Filename: pool/main/o/openmediavault-cputemp/openmediavault-cputemp_6.1.2_all.deb
+Size: 3876
+SHA256: d03e5a6e4bd9281761d89270531ac1d1cc768d8a29c5de5e32f85dc44059d61b
+SHA1: 3005ae72a2a72a3cfde6e906b2c1ccd7f0658193
+MD5sum: af5c4dbcdd049d98fe6673a19cc6b746
 Description: cpu temperature plugin for openmediavault
 Plugin-Section: filesystems
 
