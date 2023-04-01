@@ -1,3 +1,22 @@
+Package: mergerfs
+Version: 2.35.0~debian-bullseye
+Architecture: i386
+Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
+Installed-Size: 877
+Depends: libc6 (>= 2.28), libgcc-s1 (>= 4.2), libstdc++6 (>= 6), fuse
+Homepage: http://github.com/trapexit/mergerfs
+Priority: optional
+Section: utils
+Filename: pool/main/m/mergerfs/mergerfs_2.35.0~debian-bullseye_i386.deb
+Size: 354388
+SHA256: f8917a70026d80c0fb13567fde641309d3d977f01b9756dd1bcb4ab407ea5ca5
+SHA1: bf64c1dc9d2a3a0dafaf8868baecf57f09c51d6e
+MD5sum: 3e2d6a44586fe90a9febba017d397aff
+Description: another FUSE union filesystem
+ mergerfs is a union filesystem geared towards simplifying storage and
+ management of files across numerous commodity storage devices. It is
+ similar to mhddfs, unionfs, and aufs.
+
 Package: openmediavault-diskclone
 Version: 6.0
 Architecture: all
