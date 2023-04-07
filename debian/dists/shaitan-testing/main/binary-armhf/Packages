@@ -71,7 +71,7 @@ Description: mergerfs plugin for openmediavault.
 Plugin-Section: filesystems
 
 Package: openmediavault-omvextrasorg
-Version: 6.2
+Version: 6.2.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 579
@@ -80,11 +80,11 @@ Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.2_all.deb
-Size: 52764
-SHA256: 8c123f54b95077238188e8869382efc8bcffe01eb1031f10731c5f9d0f8e7cdd
-SHA1: 44a4cb8dc8463cf587d1ebc0a36b8488f20c255f
-MD5sum: f98294c28037e500f9b64e4a7993ba55
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.2.1_all.deb
+Size: 52772
+SHA256: a8686d0112f799a07583c1b820bae214b879a853c60b42c609de2f2eb0db5ae3
+SHA1: f8a2883ecc9267bb0827ca5136ec75e8f4004669
+MD5sum: c8f2ce8ae7813602cd428ac5e45c74a4
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
  Allows enabling of multiple repositories hosted by omv-extras.org.
  .
