@@ -8,6 +8,10 @@
     "description": "freshrss"
   },
   {
+    "name": "immich",
+    "description": "immich"
+  },
+  {
     "name": "jackett",
     "description": "jackett"
   },
