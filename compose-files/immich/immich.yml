@@ -7,6 +7,8 @@ services:
     entrypoint: ["/bin/sh", "./start-server.sh"]
     volumes:
       - ${UPLOAD_LOCATION}:/usr/src/app/upload
+    env_file:
+      - immich.env
     depends_on:
       - redis
       - database
@@ -19,6 +21,8 @@ services:
     entrypoint: ["/bin/sh", "./start-microservices.sh"]
     volumes:
       - ${UPLOAD_LOCATION}:/usr/src/app/upload
+    env_file:
+      - immich.env
     depends_on:
       - redis
       - database
@@ -31,12 +35,16 @@ services:
     volumes:
       - ${UPLOAD_LOCATION}:/usr/src/app/upload
       - model-cache:/cache
+    env_file:
+      - immich.env
     restart: always
 
   immich-web:
     container_name: immich_web
     image: ghcr.io/immich-app/immich-web:release
     entrypoint: ["/bin/sh", "./entrypoint.sh"]
+    env_file:
+      - immich.env
     restart: always
 
   typesense:
@@ -59,6 +67,8 @@ services:
   database:
     container_name: immich_postgres
     image: postgres:14
+    env_file:
+      - immich.env
     environment:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
       POSTGRES_USER: ${DB_USERNAME}
