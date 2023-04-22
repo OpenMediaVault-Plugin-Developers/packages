@@ -149,19 +149,19 @@ Description: OpenMediaVault WebDAV plugin.
 Plugin-Section: filesystems
 
 Package: snapraid
-Version: 12.1
+Version: 12.2.1
 Architecture: amd64
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 574
-Depends: libc6 (>= 2.29)
+Installed-Size: 575
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.29)
 Homepage: http://snapraid.sourceforge.net/
 Priority: extra
 Section: utils
-Filename: pool/main/s/snapraid/snapraid_12.1_amd64.deb
-Size: 274400
-SHA256: d01aa1883a537f4be2afc3b4d1fa963f7d66f11741e9fb5f5fc09392333647fb
-SHA1: 33937d878d1fd3ba7c1462a78b91b4c9c89d80a7
-MD5sum: a8eca24f0f8c9409f794c03b5486ad87
+Filename: pool/main/s/snapraid/snapraid_12.2.1_amd64.deb
+Size: 274692
+SHA256: 0f06b26ade24b37ea9a6eb43b1c731f0b4ad863b590fdcf0d2bb25906a29eb34
+SHA1: e567ea7c36db95f236e080cccd71344c55a0b023
+MD5sum: c184214e1944b0da32951c8a34c8b618
 Description: SnapRAID is a backup program for disk arrays.
  SnapRAID is a backup program for disk arrays.
  .
