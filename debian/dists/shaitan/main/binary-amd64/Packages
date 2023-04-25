@@ -255,7 +255,7 @@ Description: kernel package
 Plugin-Section: utilities
 
 Package: openmediavault-kvm
-Version: 6.2.12
+Version: 6.2.13
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 796
@@ -263,11 +263,11 @@ Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clien
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.12_all.deb
-Size: 58996
-SHA256: f73df16e3656f336d820e9639b28f7da892c19fc41774b1eedae5918d425a93a
-SHA1: e645aceab25bc842f6fdf6b5d258677064a16a91
-MD5sum: c2bc07d8ebb979a844cbe911faefd955
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_6.2.13_all.deb
+Size: 59208
+SHA256: e9b8df5b7b4aadab041cc3096980c2f389371ad4433d91aaa72d75f169774003
+SHA1: 07d2b2f8f5ddf278218ebfc9ddc96fd9b7b13105
+MD5sum: 7f53862c2f8fbc66804c7b304bc11ba9
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
