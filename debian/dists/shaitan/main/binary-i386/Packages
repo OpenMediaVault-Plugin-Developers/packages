@@ -166,19 +166,19 @@ Description: cpu temperature plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-downloader
-Version: 6.0.1
+Version: 6.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 194
-Depends: aria2, curl, openmediavault (>= 6), python3, wget
+Installed-Size: 193
+Depends: aria2, curl, openmediavault (>= 6), python3, python3-pip, wget, ffmpeg, tor
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-downloader/openmediavault-downloader_6.0.1_all.deb
-Size: 17424
-SHA256: b887835e6590e9e9fb28b714386f650e2a9029669586b7ded06d54f554bef23f
-SHA1: 046bd00ca275a51b0e23254fc38eef2c8f4e8b77
-MD5sum: 5c67731e9793d784207e317d4b1dd5c7
+Filename: pool/main/o/openmediavault-downloader/openmediavault-downloader_6.0.2_all.deb
+Size: 18660
+SHA256: 84114a99c16ea703752c630301a1277b2566201126b96e2f6d6020ced9a2b6ca
+SHA1: d4a8142077511aea2d1a11ad59c5a69d7a972cc7
+MD5sum: af7f39d6293aa5b8c62ae7a9d54e57c4
 Description: OpenMediaVault downloader plugin
  Plugin to download files to a specified share using aria2, curl, or
  yt-dlp.
@@ -190,6 +190,9 @@ Description: OpenMediaVault downloader plugin
  .
  yt-dlp is a small command-line program to download videos from
  YouTube.com and a few more sites (forked from youtube-dl).
+ .
+ ulozto-downloader is a parallel downloader from Uloz.to (https://uloz.to/)
+ with automatic CAPTCHA solving.
 Plugin-Section: downloaders
 
 Package: openmediavault-fail2ban
