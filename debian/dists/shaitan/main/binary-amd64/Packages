@@ -166,19 +166,19 @@ Description: cpu temperature plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-downloader
-Version: 6.0.2
+Version: 6.0.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 193
-Depends: aria2, curl, openmediavault (>= 6), python3, python3-pip, wget, ffmpeg, tor
+Depends: aria2, curl, openmediavault (>= 6), python3, wget, ffmpeg
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-downloader/openmediavault-downloader_6.0.2_all.deb
-Size: 18660
-SHA256: 84114a99c16ea703752c630301a1277b2566201126b96e2f6d6020ced9a2b6ca
-SHA1: d4a8142077511aea2d1a11ad59c5a69d7a972cc7
-MD5sum: af7f39d6293aa5b8c62ae7a9d54e57c4
+Filename: pool/main/o/openmediavault-downloader/openmediavault-downloader_6.0.3_all.deb
+Size: 18676
+SHA256: d1b42301098ac33fa5e59295232288259100ccdd0a14ad28836f64f9bfb1ae95
+SHA1: 5c169ef7cc4457d64b4c85f802d5538e2c4671c0
+MD5sum: 2d45d89104a6928e44f9e7aba202e090
 Description: OpenMediaVault downloader plugin
  Plugin to download files to a specified share using aria2, curl, or
  yt-dlp.
