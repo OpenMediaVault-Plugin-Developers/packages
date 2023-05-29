@@ -36,6 +36,10 @@
     "description": "portainer"
   },
   {
+    "name": "portainer-omvextras",
+    "description": "portainer-omvextras"
+  },
+  {
     "name": "qbittorrent-vpn",
     "description": "qbittorrent-vpn"
   },
