@@ -71,25 +71,21 @@ Description: mergerfs plugin for openmediavault.
 Plugin-Section: filesystems
 
 Package: openmediavault-omvextrasorg
-Version: 6.2.1
+Version: 6.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 579
-Depends: dirmngr, gnupg, openmediavault (>= 6.0.33)
+Installed-Size: 508
+Depends: openmediavault (>= 6.4), gnupg
 Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.2.1_all.deb
-Size: 52772
-SHA256: a8686d0112f799a07583c1b820bae214b879a853c60b42c609de2f2eb0db5ae3
-SHA1: f8a2883ecc9267bb0827ca5136ec75e8f4004669
-MD5sum: c8f2ce8ae7813602cd428ac5e45c74a4
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.3_all.deb
+Size: 45668
+SHA256: 190f005f6e7f275b925a8909270a67b3df8ff70304cbfaf6205502d08983d712
+SHA1: 481ca49d9590bf33349191756a47e9667e8adf72
+MD5sum: bf04d523cd9d6ffc652f2165e20e85d5
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
- Allows enabling of multiple repositories hosted by omv-extras.org.
- .
- The plugin allows installation of the backports kernel for increased
- compatibility with newer hardware.
  .
  An apt cleaning function is also available for fixing repository cache
  problems and saving hard drive space in some instances.

@@ -362,25 +362,21 @@ Description: OpenMediaVault miniDLNA (DLNA server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-omvextrasorg
-Version: 6.1.1
+Version: 6.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 606
-Depends: dirmngr, gnupg, openmediavault (>= 6.0)
+Installed-Size: 508
+Depends: openmediavault (>= 6.4), gnupg
 Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.1.1_all.deb
-Size: 59732
-SHA256: 9f118f5c75114261cacc421acd5056be6a1fc20a171ee85db1ca216665f704a7
-SHA1: a9ed8894104fc2055ec97f81e91ecb43e164a3b6
-MD5sum: d05bec50c9cb009b10483f771ae8a9fa
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_6.3_all.deb
+Size: 45668
+SHA256: 190f005f6e7f275b925a8909270a67b3df8ff70304cbfaf6205502d08983d712
+SHA1: 481ca49d9590bf33349191756a47e9667e8adf72
+MD5sum: bf04d523cd9d6ffc652f2165e20e85d5
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
- Allows enabling of multiple repositories hosted by omv-extras.org.
- .
- The plugin allows installation of the backports kernel for increased
- compatibility with newer hardware.
  .
  An apt cleaning function is also available for fixing repository cache
  problems and saving hard drive space in some instances.
