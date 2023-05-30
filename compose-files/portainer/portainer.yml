@@ -13,4 +13,3 @@ services:
       - /path/to/docker/docker-data/portainer-data:/data
     ports:
       - 9000:9000
-    restart: unless-stopped
