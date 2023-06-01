@@ -1,0 +1,43 @@
+---
+version: "2.2"
+services:
+  qbittorrentvpn:
+    image: binhex/arch-qbittorrentvpn
+    container_name: binhex-qbittorrentvpn
+    #wireguard
+    privileged: true 
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Europe/London
+      - UMASK=000
+      - VPN_ENABLED=yes
+      - VPN_PROV=custom
+      #- VPN_CLIENT=openvpn
+      - VPN_CLIENT=wireguard         
+      #- STRICT_PORT_FORWARD=yes
+      - LAN_NETWORK=192.168.1.0/24 
+      - NAME_SERVERS=1.1.1.1,1.0.0.1,9.9.9.9 
+      - DEBUG=false
+      - WEBUI_PORT=8080 
+      - ENABLE_PRIVOXY=no
+      #- VPN_OPTIONS=<additional openvpn cli options> \
+    volumes:
+      - /root/docker/data:/data 
+      - /root/docker/config:/config
+      - /etc/localtime:/etc/localtime:ro
+      #wireguard
+      - /lib/modules:/lib/modules   
+    ports: 
+      - 6881:6881 
+      - 6881:6881/udp 
+      - 8080:8080 
+      - 8118:8118
+    cap_add:
+      - NET_ADMIN 
+      #wireguard
+      - SYS_MODULE
+    #Needed for wireguard
+    sysctls:
+      - net.ipv4.conf.all.src_valid_mark=1
+    restart: unless-stopped

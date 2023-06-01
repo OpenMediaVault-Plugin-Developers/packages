@@ -1,0 +1,18 @@
+---
+version: '3'
+services:
+  lms:
+    container_name: lms
+    image: lmscommunity/logitechmediaserver
+    volumes:
+      - /<somewhere>:/config:rw
+      - /<somewhere>:/music:ro
+      - /<somewhere>:/playlist:rw
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    ports:
+      - 9000:9000/tcp
+      - 9090:9090/tcp
+      - 3483:3483/tcp
+      - 3483:3483/udp
+    restart: unless-stopped

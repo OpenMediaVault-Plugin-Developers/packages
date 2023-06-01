@@ -1,11 +1,55 @@
 [
   {
+    "name": "binhex-delugevpn",
+    "description": "binhex-delugevpn"
+  },
+  {
+    "name": "binhex-qbittorrentvpn",
+    "description": "binhex-qbittorrentvpn"
+  },
+  {
+    "name": "code-server",
+    "description": "code-server"
+  },
+  {
+    "name": "deluge",
+    "description": "deluge"
+  },
+  {
+    "name": "diun",
+    "description": "diun"
+  },
+  {
+    "name": "dokuwiki",
+    "description": "dokuwiki"
+  },
+  {
     "name": "dozzle",
     "description": "dozzle"
   },
   {
+    "name": "duplicati",
+    "description": "duplicati"
+  },
+  {
+    "name": "flaresolverr",
+    "description": "flaresolverr"
+  },
+  {
     "name": "freshrss",
     "description": "freshrss"
+  },
+  {
+    "name": "frigate",
+    "description": "frigate"
+  },
+  {
+    "name": "gluetun",
+    "description": "gluetun"
+  },
+  {
+    "name": "homepage",
+    "description": "homepage"
   },
   {
     "name": "immich",
@@ -14,6 +58,10 @@
   {
     "name": "jackett",
     "description": "jackett"
+  },
+  {
+    "name": "logitechmediaserver",
+    "description": "logitechmediaserver"
   },
   {
     "name": "mysql-phpmyadmin",
@@ -40,12 +88,20 @@
     "description": "portainer-omvextras"
   },
   {
+    "name": "prowlarr",
+    "description": "prowlarr"
+  },
+  {
     "name": "qbittorrent-vpn",
     "description": "qbittorrent-vpn"
   },
   {
     "name": "radarr",
     "description": "radarr"
+  },
+  {
+    "name": "sabnzbd",
+    "description": "sabnzbd"
   },
   {
     "name": "scrutiny",
@@ -60,12 +116,20 @@
     "description": "sonarr"
   },
   {
+    "name": "syncthing",
+    "description": "syncthing"
+  },
+  {
     "name": "tautulli",
     "description": "tautulli"
   },
   {
     "name": "torproxy",
     "description": "torproxy"
+  },
+  {
+    "name": "transmission",
+    "description": "transmission"
   },
   {
     "name": "unifi",
@@ -82,5 +146,9 @@
   {
     "name": "watchtower",
     "description": "watchtower"
+  },
+  {
+    "name": "wireguard",
+    "description": "wireguard"
   }
 ]
