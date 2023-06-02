@@ -1,4 +1,5 @@
 ---
+# https://crazymax.dev/diun/install/docker/
 version: "3.5"
 services:
   diun:
@@ -18,3 +19,4 @@ services:
       - "DIUN_PROVIDERS_DOCKER=true"
       - "DIUN_PROVIDERS_DOCKER_WATCHBYDEFAULT=true"
     restart: unless-stopped
+

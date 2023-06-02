@@ -1,4 +1,5 @@
 ---
+# https://github.com/blakeblackshear/frigate
 version: "3.9"
 services:
   frigate:

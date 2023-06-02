@@ -1,4 +1,5 @@
 ---
+#https://hub.docker.com/r/linuxserver/prowlarr
 version: "2.1"
 services:
   prowlarr:
