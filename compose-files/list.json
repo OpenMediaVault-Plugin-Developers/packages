@@ -1,39 +1,55 @@
 [
   {
+    "name": "beets",
+    "description": "Beets is a music library manager"
+  },
+  {
     "name": "binhex-delugevpn",
-    "description": "binhex-delugevpn"
+    "description": "Deluge is a full-featured ​BitTorrent client with VPN"
   },
   {
     "name": "binhex-qbittorrentvpn",
-    "description": "binhex-qbittorrentvpn"
+    "description": "qBittorrent is a bittorrent client with VPN"
+  },
+  {
+    "name": "bookstack",
+    "description": "Bookstack is a free and open source Wiki"
   },
   {
     "name": "code-server",
-    "description": "code-server"
+    "description": "Code-server is VS Code running on a remote server."
   },
   {
     "name": "deluge",
-    "description": "deluge"
+    "description": "Deluge is a lightweight, Free Software, cross-platform BitTorrent client."
   },
   {
     "name": "diun",
-    "description": "diun"
+    "description": "Docker Image Update Notifier "
   },
   {
     "name": "dokuwiki",
-    "description": "dokuwiki"
+    "description": "A simple to use and highly versatile Open Source wiki "
   },
   {
     "name": "dozzle",
     "description": "dozzle"
   },
   {
+    "name": "duckdns",
+    "description": "Duckdns is a free service DNS"
+  },
+  {
     "name": "duplicati",
-    "description": "duplicati"
+    "description": "Works with standard protocols like FTP, SSH, WebDAV Backup"
+  },
+  {
+    "name": "fail2ban",
+    "description": " daemon to ban hosts that cause multiple authentication errors"
   },
   {
     "name": "flaresolverr",
-    "description": "flaresolverr"
+    "description": "FlareSolverr is a proxy server to bypass Cloudflare protection"
   },
   {
     "name": "freshrss",
@@ -41,15 +57,19 @@
   },
   {
     "name": "frigate",
-    "description": "frigate"
+    "description": "A complete and local CCTV NVR "
   },
   {
     "name": "gluetun",
-    "description": "gluetun"
+    "description": "VPN client to multiple VPN service providers"
+  },
+  {
+    "name": "homeassistant-core",
+    "description": "Home Assistant Core"
   },
   {
     "name": "homepage",
-    "description": "homepage"
+    "description": "Customizable application dashboard"
   },
   {
     "name": "immich",
@@ -60,8 +80,16 @@
     "description": "jackett"
   },
   {
+    "name": "jellyfin",
+    "description": "Jellyfin is a Free Media System"
+  },
+  {
+    "name": "lidarr",
+    "description": "Lidarr is a music collection manager"
+  },
+  {
     "name": "logitechmediaserver",
-    "description": "logitechmediaserver"
+    "description": "Logitech Media Server"
   },
   {
     "name": "mysql-phpmyadmin",
@@ -74,6 +102,14 @@
   {
     "name": "nginx",
     "description": "nginx"
+  },
+  {
+    "name": "nzbhydra2",
+    "description": "Nzbhydra2 is a meta search application for NZB indexers"
+  },
+  {
+    "name": "overseerr",
+    "description": "A request management and media discovery tool built to work with your existing Plex ecosystem."
   },
   {
     "name": "plex",
@@ -89,7 +125,11 @@
   },
   {
     "name": "prowlarr",
-    "description": "prowlarr"
+    "description": " indexer manager/proxy"
+  },
+  {
+    "name": "qbittorrent",
+    "description": "qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library."
   },
   {
     "name": "qbittorrent-vpn",
@@ -100,8 +140,12 @@
     "description": "radarr"
   },
   {
+    "name": "rdesktop",
+    "description": "Rdesktop - full desktop environments in many popular flavors"
+  },
+  {
     "name": "sabnzbd",
-    "description": "sabnzbd"
+    "description": "Makes Usenet as simple and streamlined as possible "
   },
   {
     "name": "scrutiny",
@@ -116,8 +160,12 @@
     "description": "sonarr"
   },
   {
+    "name": "swag",
+    "description": "Secure Web Application Gateway "
+  },
+  {
     "name": "syncthing",
-    "description": "syncthing"
+    "description": "Replaces proprietary sync and cloud services with something open"
   },
   {
     "name": "tautulli",
@@ -129,7 +177,7 @@
   },
   {
     "name": "transmission",
-    "description": "transmission"
+    "description": "Bittorrent client designed for easy, powerful use"
   },
   {
     "name": "unifi",
@@ -149,6 +197,6 @@
   },
   {
     "name": "wireguard",
-    "description": "wireguard"
+    "description": "Extremely simple yet fast and modern VPN "
   }
 ]
