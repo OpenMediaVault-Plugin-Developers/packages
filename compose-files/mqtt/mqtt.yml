@@ -1,0 +1,17 @@
+---
+# https://mosquitto.org/
+version: "2"
+services:
+  mqtt:
+    container_name: mqtt
+    image: eclipse-mosquitto:latest
+    volumes:
+      - /mqtt/config:/mosquitto/config
+      - /mqtt/data:/mosquitto/data
+      - /mqtt/log:/mosquitto/log
+      
+    ports:
+      - 1883:1883
+      - 9001:9001        
+
+    restart: unless-stopped

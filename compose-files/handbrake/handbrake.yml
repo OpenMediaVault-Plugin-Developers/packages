@@ -1,0 +1,14 @@
+---
+# https://github.com/jlesage/docker-handbrake
+version: '3'
+services:
+  handbrake:
+    image: jlesage/handbrake
+    ports:
+      - "5800:5800"
+    volumes:
+      - "/docker/appdata/handbrake:/config:rw"
+      - "/home/user:/storage:ro"
+      - "/home/user/HandBrake/watch:/watch:rw"
+      - "/home/user/HandBrake/output:/output:rw"
+      

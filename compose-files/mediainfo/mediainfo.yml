@@ -1,0 +1,11 @@
+---
+# https://github.com/jlesage/docker-mediainfo
+version: '3'
+services:
+  mediainfo:
+    image: jlesage/mediainfo
+    ports:
+      - "5800:5800"
+    volumes:
+      - "/docker/appdata/mediainfo:/config:rw"
+      - "/home/user:/storage:ro"

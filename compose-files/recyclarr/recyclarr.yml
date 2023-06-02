@@ -1,0 +1,13 @@
+---
+# https://recyclarr.dev/wiki/installation/
+version: '2.1'
+services:
+  recyclarr:
+    image: ghcr.io/recyclarr/recyclarr
+    container_name: recyclarr
+    init: true
+    user: 1000:1000
+    volumes:
+      - ./config:/config
+    environment:
+      - TZ=Europe/London

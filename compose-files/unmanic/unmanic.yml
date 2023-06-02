@@ -1,0 +1,24 @@
+  # Variables that will need to be changed:
+  #     <PUID>                            -  User id for folder/file permissions
+  #     <PGID>                            -  Group id for folder/file permissions
+  #     <PATH_TO_CONFIG>                  -  Path where Unmanic will store config files
+  #     <PATH_TO_LIBRARY>                 -  Path where you store the files that Unmanic will scan
+  #     <PATH_TO_ENCODE_CACHE>            -  Cache path for in-progress encoding tasks
+  #
+
+---
+https://hub.docker.com/r/josh5/unmanic#!
+version: '2.4'
+services:
+  unmanic:
+    container_name: unmanic
+    image: josh5/unmanic:latest
+    ports:
+      - 8888:8888
+    environment:
+      - PUID=<PUID>
+      - PGID=<PGID>
+    volumes:
+      - <PATH_TO_CONFIG>:/config
+      - <PATH_TO_LIBRARY>:/library
+      - <PATH_TO_ENCODE_CACHE>:/tmp/unmanic

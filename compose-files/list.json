@@ -64,6 +64,10 @@
     "description": "VPN client to multiple VPN service providers"
   },
   {
+    "name": "handbrake",
+    "description": "tool for converting video from nearly any format"
+  },
+  {
     "name": "homeassistant-core",
     "description": "Home Assistant Core"
   },
@@ -84,12 +88,24 @@
     "description": "Jellyfin is a Free Media System"
   },
   {
+    "name": "jellyseerr",
+    "description": "Fork of Overseerr for managing requests for your media library"
+  },
+  {
     "name": "lidarr",
     "description": "Lidarr is a music collection manager"
   },
   {
     "name": "logitechmediaserver",
     "description": "Logitech Media Server"
+  },
+  {
+    "name": "mediainfo",
+    "description": "Convenient unified display of technical and tag data for video and audio files."
+  },
+  {
+    "name": "mqtt",
+    "description": "message broker for IoT"
   },
   {
     "name": "mysql-phpmyadmin",
@@ -144,6 +160,10 @@
     "description": "Rdesktop - full desktop environments in many popular flavors"
   },
   {
+    "name": "recyclarr",
+    "description": "automatically synchronize recommended settings from the TRaSH guides to your Sonarr/Radarr "
+  },
+  {
     "name": "sabnzbd",
     "description": "Makes Usenet as simple and streamlined as possible "
   },
@@ -168,6 +188,10 @@
     "description": "Replaces proprietary sync and cloud services with something open"
   },
   {
+    "name": "tailscale",
+    "description": "Connect your devices and users together in your own secure virtual private network"
+  },
+  {
     "name": "tautulli",
     "description": "tautulli"
   },
@@ -184,6 +208,10 @@
     "description": "unifi"
   },
   {
+    "name": "unmanic",
+    "description": "simple tool for optimising your file library."
+  },
+  {
     "name": "vaultwarden",
     "description": "vaultwarden"
   },
@@ -198,5 +226,9 @@
   {
     "name": "wireguard",
     "description": "Extremely simple yet fast and modern VPN "
+  },
+  {
+    "name": "yacht",
+    "description": "Management UI with a focus on templates and 1-click deployments"
   }
 ]
