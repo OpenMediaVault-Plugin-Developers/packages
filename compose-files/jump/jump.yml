@@ -1,0 +1,19 @@
+---
+# https://github.com/daledavies/jump
+version: '3'
+services:
+    web:
+        image: daledavies/jump
+        container_name: jump
+            ports:
+            - 8123:8080
+        volumes:
+            - ./backgrounds:/backgrounds
+            - ./favicon:/favicon
+            - ./search:/search
+            - ./sites:/sites
+        environment:
+            SITENAME: 'Custom site name'
+            OWMAPIKEY: '0a1b2c3d4e5f6a7b8c9d0a1b'
+            LATLONG: '51.509865,-0.118092'
+        restart: unless-stopped

@@ -1,5 +1,9 @@
 [
   {
+    "name": "audiobookshelf",
+    "description": "A self-hosted audiobook and podcast server."
+  },
+  {
     "name": "beets",
     "description": "Beets is a music library manager"
   },
@@ -18,6 +22,10 @@
   {
     "name": "code-server",
     "description": "Code-server is VS Code running on a remote server."
+  },
+  {
+    "name": "dashy",
+    "description": "help organize your self-hosted services by making them accessible from a single place "
   },
   {
     "name": "deluge",
@@ -76,6 +84,10 @@
     "description": "Customizable application dashboard"
   },
   {
+    "name": "homer",
+    "description": "A dead simple static HOMepage for your servER to keep your services on hand "
+  },
+  {
     "name": "immich",
     "description": "immich"
   },
@@ -90,6 +102,18 @@
   {
     "name": "jellyseerr",
     "description": "Fork of Overseerr for managing requests for your media library"
+  },
+  {
+    "name": "joplin",
+    "description": "A free open source note taking and to-do application"
+  },
+  {
+    "name": "jump",
+    "description": "self-hosted startpage and real-time status page for your server designed to be simple, fast, secure"
+  },
+  {
+    "name": "kavita",
+    "description": "Kavita is a free and open source web based Manga e-reader."
   },
   {
     "name": "lidarr",
@@ -126,6 +150,10 @@
   {
     "name": "overseerr",
     "description": "A request management and media discovery tool built to work with your existing Plex ecosystem."
+  },
+  {
+    "name": "pihole",
+    "description": "A DNS sinkhole that protects your devices from unwanted content "
   },
   {
     "name": "plex",
@@ -200,6 +228,10 @@
     "description": "torproxy"
   },
   {
+    "name": "traefik",
+    "description": "A modern HTTP reverse proxy, load balancer makes deploying microservices easy."
+  },
+  {
     "name": "transmission",
     "description": "Bittorrent client designed for easy, powerful use"
   },
@@ -210,6 +242,10 @@
   {
     "name": "unmanic",
     "description": "simple tool for optimising your file library."
+  },
+  {
+    "name": "uptime-kuma",
+    "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool"
   },
   {
     "name": "vaultwarden",
@@ -226,6 +262,10 @@
   {
     "name": "wireguard",
     "description": "Extremely simple yet fast and modern VPN "
+  },
+  {
+    "name": "wordle",
+    "description": "Clone project of the popular word guessing game we all know and love."
   },
   {
     "name": "yacht",

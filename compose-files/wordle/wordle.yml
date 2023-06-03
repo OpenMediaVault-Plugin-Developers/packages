@@ -1,0 +1,10 @@
+---
+# https://hub.docker.com/r/modem7/wordle
+version: "2.4"
+services:
+  wordle:
+    image: modem7/wordle:latest
+    container_name: Wordle
+    ports:
+      - 80:8080
+    restart: unless-stopped
