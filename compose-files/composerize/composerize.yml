@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  composerize:
+    image: alcapone1933/composerize:latest
+    container_name: composerize
+    restart: unless-stopped
+    ports:
+      - 28082:80
+    environment:
+      - TZ=America/Chicago

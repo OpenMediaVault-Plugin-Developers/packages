@@ -24,6 +24,10 @@
     "description": "Code-server is VS Code running on a remote server."
   },
   {
+    "name": "composerize",
+    "description": "composerize converts docker run commands to a docker-compose file"
+  },
+  {
     "name": "dashy",
     "description": "help organize your self-hosted services by making them accessible from a single place "
   },
