@@ -1,15 +1,15 @@
 ---
 # https://hub.docker.com/r/b4bz/homer
 version: "2"
- services:
-   homer:
-     image: b4bz/homer
-     container_name: homer
-     volumes:
-       - ./assets/:/www/assets
-     ports:
-       - 8080:8080
-     environment:
-       - PUID=1000
-       - PGID=100
-     restart: unless-stopped
+services:
+  homer:
+    image: b4bz/homer
+    container_name: homer
+    volumes:
+      - ./assets/:/www/assets
+    ports:
+      - 8080:8080
+    environment:
+      - PUID=1000
+      - PGID=100
+    restart: unless-stopped
