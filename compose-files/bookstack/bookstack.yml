@@ -35,4 +35,3 @@ services:
     volumes:
       - ./bookstack_db_data:/config
     restart: unless-stopped
-

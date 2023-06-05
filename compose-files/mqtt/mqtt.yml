@@ -9,9 +9,7 @@ services:
       - /mqtt/config:/mosquitto/config
       - /mqtt/data:/mosquitto/data
       - /mqtt/log:/mosquitto/log
-      
     ports:
       - 1883:1883
-      - 9001:9001        
-
+      - 9001:9001
     restart: unless-stopped

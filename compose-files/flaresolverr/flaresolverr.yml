@@ -13,4 +13,4 @@ services:
       - TZ=Europe/London
     ports:
       - 8191:8191
-    restart: unless-stopped 
+    restart: unless-stopped

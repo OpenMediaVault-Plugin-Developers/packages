@@ -1,5 +1,5 @@
+---
 version: "3.8"
-
 services:
   immich-server:
     container_name: immich_server
@@ -14,7 +14,6 @@ services:
       - database
       - typesense
     restart: always
-
   immich-microservices:
     container_name: immich_microservices
     image: ghcr.io/immich-app/immich-server:release
@@ -28,7 +27,6 @@ services:
       - database
       - typesense
     restart: always
-
   immich-machine-learning:
     container_name: immich_machine_learning
     image: ghcr.io/immich-app/immich-machine-learning:release
@@ -38,7 +36,6 @@ services:
     env_file:
       - immich.env
     restart: always
-
   immich-web:
     container_name: immich_web
     image: ghcr.io/immich-app/immich-web:release
@@ -46,7 +43,6 @@ services:
     env_file:
       - immich.env
     restart: always
-
   typesense:
     container_name: immich_typesense
     image: typesense/typesense:0.24.0
@@ -58,12 +54,10 @@ services:
     volumes:
       - tsdata:/data
     restart: always
-
   redis:
     container_name: immich_redis
     image: redis:6.2
     restart: always
-
   database:
     container_name: immich_postgres
     image: postgres:14
@@ -77,7 +71,6 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     restart: always
-
   immich-proxy:
     container_name: immich_proxy
     image: ghcr.io/immich-app/immich-proxy:release
@@ -92,7 +85,6 @@ services:
     depends_on:
       - immich-server
     restart: always
-
 volumes:
   pgdata:
   model-cache:

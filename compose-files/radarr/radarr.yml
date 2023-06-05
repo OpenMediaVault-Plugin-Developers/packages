@@ -1,3 +1,4 @@
+---
 version: "2.1"
 services:
   radarr:
@@ -9,7 +10,7 @@ services:
       - TZ=Europe/Istanbul
     volumes:
       - /path/to/radarr/config:/config
-      - /path/to/radarr/movies:/movies 
+      - /path/to/radarr/movies:/movies
       - /path/to/radarr/downloads:/downloads
     ports:
       - 7878:7878

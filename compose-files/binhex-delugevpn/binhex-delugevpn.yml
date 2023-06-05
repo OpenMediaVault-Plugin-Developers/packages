@@ -6,8 +6,7 @@ services:
     image: binhex/arch-delugevpn:latest
     container_name: binhex-delugevpn
     #wireguard
-    privileged: true 
-
+    privileged: true
     environment:
       - PUID=1000
       - PGID=100
@@ -16,34 +15,29 @@ services:
       - VPN_ENABLED=yes
       - VPN_PROV=custom
       #- VPN_CLIENT=openvpn
-      - VPN_CLIENT=wireguard         
-      - LAN_NETWORK=192.168.1.0/24 
-      - NAME_SERVERS=1.1.1.1,9.9.9.9 
-      - DELUGE_DAEMON_LOG_LEVEL=info 
+      - VPN_CLIENT=wireguard
+      - LAN_NETWORK=192.168.1.0/24
+      - NAME_SERVERS=1.1.1.1,9.9.9.9
+      - DELUGE_DAEMON_LOG_LEVEL=info
       - DELUGE_WEB_LOG_LEVEL=info
       - DEBUG=false
       - ENABLE_PRIVOXY=no
- 
     volumes:
-      - /apps/docker/deluge/data:/data 
+      - /apps/docker/deluge/data:/data
       - /apps/docker/deluge/config:/config
       - /etc/localtime:/etc/localtime
       #wireguard
-      - /lib/modules:/lib/modules   
-       
-    ports: 
-      - 8112:8112 
-      - 8118:8118 
-      - 58846:58846 
-      - 58946:58946 
- 
+      - /lib/modules:/lib/modules
+    ports:
+      - 8112:8112
+      - 8118:8118
+      - 58846:58846
+      - 58946:58946
     cap_add:
-      - NET_ADMIN 
+      - NET_ADMIN
       #wireguard
       - SYS_MODULE
-    
     #Needed for wireguard
     sysctls:
       - net.ipv4.conf.all.src_valid_mark=1
-
     restart: unless-stopped

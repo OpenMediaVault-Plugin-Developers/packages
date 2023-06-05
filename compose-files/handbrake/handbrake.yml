@@ -11,4 +11,3 @@ services:
       - "/home/user:/storage:ro"
       - "/home/user/HandBrake/watch:/watch:rw"
       - "/home/user/HandBrake/output:/output:rw"
-      
