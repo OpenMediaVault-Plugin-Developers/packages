@@ -4,14 +4,14 @@ version: "2.4"
 services:
   tailscale:
     privileged: true
-    hostname: tailscale                                  # This will become the tailscale device name
+    hostname: tailscale # This will become the tailscale device name
     network_mode: "host"
     container_name: tailscale
     image: tailscale/tailscale:latest
     volumes:
-      - "/opt/appdata/tailscale/var_lib:/var/lib"        # State data will be stored in this directory
-      - "/dev/net/tun:/dev/net/tun"                      # Required for tailscale to work
-    cap_add:                                             # Required for tailscale to work
+      - "/opt/appdata/tailscale/var_lib:/var/lib" # State data will be stored in this directory
+      - "/dev/net/tun:/dev/net/tun" # Required for tailscale to work
+    cap_add: # Required for tailscale to work
       - net_admin
       - sys_module
     command: tailscaled

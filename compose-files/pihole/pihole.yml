@@ -1,7 +1,6 @@
 ---
 # https://hub.docker.com/r/pihole/pihole
 version: "3"
-
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
   pihole:

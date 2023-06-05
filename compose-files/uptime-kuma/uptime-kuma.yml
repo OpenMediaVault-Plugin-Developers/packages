@@ -1,7 +1,6 @@
 ---
 # https://github.com/louislam/uptime-kuma
 version: '3.3'
-
 services:
   uptime-kuma:
     image: louislam/uptime-kuma:1
@@ -9,5 +8,5 @@ services:
     volumes:
       - ./uptime-kuma-data:/app/data
     ports:
-      - 3001:3001  # <Host Port>:<Container Port>
+      - 3001:3001 # <Host Port>:<Container Port>
     restart: unless-stopped

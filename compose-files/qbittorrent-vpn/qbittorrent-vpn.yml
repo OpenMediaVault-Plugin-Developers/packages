@@ -18,8 +18,8 @@ services:
       - TZ=America/New_York
     ports:
       - 8080:8080
-#      - 9999:9999
-#      - 9999:9999/udp
+      #      - 9999:9999
+      #      - 9999:9999/udp
     volumes:
       - /path/to/docker/docker-config/qbittorrent-vpn:/config
       - /path/to/multimedia/.tmp/qbittorrent-downloads:/downloads

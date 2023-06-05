@@ -1,7 +1,6 @@
 ---
 # https://doc.traefik.io/traefik/
 version: '3'
-
 services:
   reverse-proxy:
     # The official v2 Traefik docker image

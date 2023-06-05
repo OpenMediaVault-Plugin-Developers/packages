@@ -1,7 +1,6 @@
 ---
 # https://github.com/advplyr/audiobookshelf
 version: "3.7"
-
 services:
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf
