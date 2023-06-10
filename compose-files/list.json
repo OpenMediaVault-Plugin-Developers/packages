@@ -60,6 +60,10 @@
     "description": " daemon to ban hosts that cause multiple authentication errors"
   },
   {
+    "name": "firefox",
+    "description": "Firefox web browser"
+  },
+  {
     "name": "flaresolverr",
     "description": "FlareSolverr is a proxy server to bypass Cloudflare protection"
   },
