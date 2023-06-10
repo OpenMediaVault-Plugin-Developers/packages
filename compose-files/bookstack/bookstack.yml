@@ -12,7 +12,7 @@ services:
       - DB_HOST=bookstack_db
       - DB_PORT=3306
       - DB_USER=bookstack
-      - DB_PASS=<yourdbpass>
+      - DB_PASS=YOUR_DB_PASSWORD
       - DB_DATABASE=bookstackapp
     volumes:
       - ./bookstack_app_data:/config
@@ -27,11 +27,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - MYSQL_ROOT_PASSWORD=<yourdbpass>
+      - MYSQL_ROOT_PASSWORD=YOUR_DB_ROOT_PASSWORD
       - TZ=Europe/London
       - MYSQL_DATABASE=bookstackapp
       - MYSQL_USER=bookstack
-      - MYSQL_PASSWORD=<yourdbpass>
+      - MYSQL_PASSWORD=YOUR_DB_PASSWORD
     volumes:
       - ./bookstack_db_data:/config
     restart: unless-stopped

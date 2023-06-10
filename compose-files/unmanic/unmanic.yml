@@ -8,9 +8,9 @@ services:
     ports:
       - 8888:8888
     environment:
-      - PUID=<PUID>
-      - PGID=<PGID>
+      - PUID=1001
+      - PGID=100
     volumes:
-      - <PATH_TO_CONFIG>:/config
-      - <PATH_TO_LIBRARY>:/library
-      - <PATH_TO_ENCODE_CACHE>:/tmp/unmanic
+      - /path/to/config:/config
+      - /path/to/library:/library
+      - /path/to/encode_cache:/tmp/unmanic

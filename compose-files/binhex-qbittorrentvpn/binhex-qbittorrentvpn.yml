@@ -22,7 +22,7 @@ services:
       - DEBUG=false
       - WEBUI_PORT=8080
       - ENABLE_PRIVOXY=no
-      #- VPN_OPTIONS=<additional openvpn cli options> \
+      #- VPN_OPTIONS=additional openvpn cli options \
     volumes:
       - /root/docker/data:/data
       - /root/docker/config:/config

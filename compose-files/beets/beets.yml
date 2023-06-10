@@ -10,9 +10,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - </path/to/appdata/config>:/config
-      - </path/to/music/library>:/music
-      - </path/to/ingest>:/downloads
+      - /path/to/appdata/config:/config
+      - /path/to/music/library:/music
+      - /path/to/ingest:/downloads
     ports:
       - 8337:8337
     restart: unless-stopped
