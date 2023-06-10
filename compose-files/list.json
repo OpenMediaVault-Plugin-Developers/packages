@@ -37,7 +37,7 @@
   },
   {
     "name": "diun",
-    "description": "Docker Image Update Notifier "
+    "description": "Docker Image Update Notifier"
   },
   {
     "name": "dokuwiki",
@@ -130,6 +130,10 @@
   {
     "name": "logitechmediaserver",
     "description": "Logitech Media Server"
+  },
+  {
+    "name": "makemkv",
+    "description": "MakeMKV is a format converter or transcoder"
   },
   {
     "name": "mediainfo",

@@ -1,0 +1,17 @@
+---
+# https://hub.docker.com/r/jlesage/makemkv
+# https://github.com/jlesage/docker-makemkv
+version: '3.3'
+services:
+  makemkv:
+    image: jlesage/makemkv
+    container_name: makemkv
+    ports:
+      - '5800:5800'
+    volumes:
+      - '/path/to/config:/config:rw'
+      - '/path/to/storage:/storage:ro'
+      - '/path/to/output:/output:rw'
+    devices:
+      - /dev/sr0
+      - /dev/sr1
