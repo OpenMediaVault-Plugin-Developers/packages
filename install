@@ -30,7 +30,7 @@ echo "Updating repos before installing..."
 apt-get update
 
 echo "Install prerequisites..."
-apt-get --yes --no-install-recommends install dirmngr gnupg
+apt-get --yes --no-install-recommends install gnupg
 
 if [ -f "${file}" ]; then
   rm ${file}
