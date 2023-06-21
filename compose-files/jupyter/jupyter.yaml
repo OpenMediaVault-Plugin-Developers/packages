@@ -1,0 +1,16 @@
+version: '2'
+services:
+  datascience-notebook:
+    image: jupyter/base-notebook:latest
+    volumes:
+      - /tmp/jupyter_test_dir:/home/docker_worker/work            
+    ports:
+      - 8891:8888
+    command: "start-notebook.sh"
+    user: root
+    environment:
+      NB_USER: testuser
+      NB_UID: 1001
+      NB_GID: 100
+      CHOWN_HOME: 'yes'
+      CHOWN_HOME_OPTS: -R

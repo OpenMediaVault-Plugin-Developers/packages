@@ -120,6 +120,10 @@
     "description": "self-hosted startpage and real-time status page for your server designed to be simple, fast, secure"
   },
   {
+    "name": "jupyter",
+    "description": "Jupyter Notebook stack"
+  },
+  {
     "name": "kavita",
     "description": "Kavita is a free and open source web based Manga e-reader."
   },
