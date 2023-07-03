@@ -1,7 +1,7 @@
 ---
 # https://github.com/butlerx/wetty
 # will have to append /wetty to url that compose plugin opens
-# change HOST_IP_ADDRESS and CONTAINER_NAME
+# change HOST_IP_ADDRESS, USER_NAME, and CONTAINER_NAME
 version: '3.9'
 services:
   wetty:
@@ -12,7 +12,7 @@ services:
       - "--ssh-host=HOST_IP_ADDRESS"
       - "--command"
       - "docker exec -it CONTAINER_NAME /bin/bash"
-      - "--ssh-user=aaron"
+      - "--ssh-user=USER_NAME"
     entrypoint:
       - "yarn"
       - "start"
