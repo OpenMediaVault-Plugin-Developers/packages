@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  wetty:
+    image: wettyoss/wetty
+    ports:
+      - '3001:3000'
+    command:
+      - "--ssh-host=HOST_IP_ADDRESS"
+      - "--command"
+      - "docker exec -it CONTAINER_NAME /bin/bash"
+      - "--ssh-user=aaron"
+    entrypoint:
+      - "yarn"
+      - "start"

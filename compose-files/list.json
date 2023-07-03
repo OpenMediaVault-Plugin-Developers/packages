@@ -276,6 +276,10 @@
     "description": "watchtower"
   },
   {
+    "name": "wettyexec",
+    "description": "wetty container especially for using docker exec in another container"
+  },
+  {
     "name": "wireguard",
     "description": "Extremely simple yet fast and modern VPN "
   },
