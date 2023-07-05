@@ -710,3 +710,24 @@ Description: SnapRAID is a backup program for disk arrays.
  - It doesn't lock-in your data. You can stop using SnapRAID at any time without the need to reformat or move data.
  - All your data is hashed to ensure data integrity and avoid silent corruption.
 
+Package: yq
+Version: 3.1.0-3
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 72
+Depends: jq, python3-argcomplete, python3-toml, python3-xmltodict, python3-yaml, python3:any
+Multi-Arch: foreign
+Homepage: https://github.com/kislyuk/yq
+Priority: optional
+Section: utils
+Filename: pool/main/y/yq/yq_3.1.0-3_all.deb
+Size: 19228
+SHA256: 977e041c6caf8edfe799ccd6648d0588f47415f1db1b60c00525c85cdd44bf28
+SHA1: e9b9a7e90518c5c01197541edb32165b07ba2258
+MD5sum: d82b3455afb635cde014d9af9a10f19a
+Description: Command-line YAML processor - jq wrapper for YAML documents
+ yq transcodes YAML documents to JSON and passes them to jq. The
+ package also includes xq, which transcodes XML to JSON using
+ xmltodict and pipes it to jq, and tomlq, which uses the toml library
+ to transcode TOML to JSON, then pipes it to jq
+
