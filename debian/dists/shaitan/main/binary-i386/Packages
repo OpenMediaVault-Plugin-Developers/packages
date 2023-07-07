@@ -131,20 +131,20 @@ Description: borgbackup plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-compose
-Version: 6.8
+Version: 6.9
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 200
+Installed-Size: 549
 Depends: openmediavault (>= 6.4.5), openmediavault-omvextrasorg (>= 6.3), openmediavault-sharerootfs, python3-docker, python3-pretty-yaml
 Recommends: docker-ce, docker-compose-plugin
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-compose/openmediavault-compose_6.8_all.deb
-Size: 22792
-SHA256: 6cb4a9bf4adcb7bc456232db4a13a74bcd2d77c6090dd18b51ddaae1e4614d50
-SHA1: 3aac67468a869fd5360b36f48b7cac7fc61485bc
-MD5sum: 5e97a492d12511c55fdda4a72e838045
+Filename: pool/main/o/openmediavault-compose/openmediavault-compose_6.9_all.deb
+Size: 35512
+SHA256: 61bc577e29958aefcf712e0cde936aefb85de9d7ba3bb4e4991b1a70e63829d4
+SHA1: 72fda2fa4cabbde09b25d171320c962897ce0cef
+MD5sum: f193c5f57aa172adc5a5e9bf52c59f83
 Description: OpenMediaVault compose plugin
  lightweight plugin to maintain and execute docker-compose files.
 Plugin-Section: utilities
@@ -709,25 +709,4 @@ Description: SnapRAID is a backup program for disk arrays.
  - If more than two disks fail, you lose the data only on the failed disks. All the data in the other disks is safe.
  - It doesn't lock-in your data. You can stop using SnapRAID at any time without the need to reformat or move data.
  - All your data is hashed to ensure data integrity and avoid silent corruption.
-
-Package: yq
-Version: 3.1.0-3
-Architecture: all
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 72
-Depends: jq, python3-argcomplete, python3-toml, python3-xmltodict, python3-yaml, python3:any
-Multi-Arch: foreign
-Homepage: https://github.com/kislyuk/yq
-Priority: optional
-Section: utils
-Filename: pool/main/y/yq/yq_3.1.0-3_all.deb
-Size: 19228
-SHA256: 977e041c6caf8edfe799ccd6648d0588f47415f1db1b60c00525c85cdd44bf28
-SHA1: e9b9a7e90518c5c01197541edb32165b07ba2258
-MD5sum: d82b3455afb635cde014d9af9a10f19a
-Description: Command-line YAML processor - jq wrapper for YAML documents
- yq transcodes YAML documents to JSON and passes them to jq. The
- package also includes xq, which transcodes XML to JSON using
- xmltodict and pipes it to jq, and tomlq, which uses the toml library
- to transcode TOML to JSON, then pipes it to jq
 
