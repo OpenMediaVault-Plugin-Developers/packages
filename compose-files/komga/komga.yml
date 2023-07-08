@@ -1,0 +1,21 @@
+---
+version: "3.3"
+networks:
+  my-net:
+    external: true
+services:
+  komga:
+    image: gotson/komga
+    container_name: komga
+    networks:
+      my-net:
+    volumes:
+      - $ConfigPath/komga:/config
+      - $Comic:/data
+      - $Temp:/tmp
+    ports:
+      - 88:8080
+    user: "$PUID:$PGID"
+    environment:
+      - TZ=$TZ
+    restart: unless-stopped

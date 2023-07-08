@@ -1,0 +1,16 @@
+---
+version: "3.3"
+services:
+  glances:
+    image: nicolargo/glances:latest-full
+    container_name: glances
+    pid: host
+    network_mode: host
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro
+      - $ConfigPath/glances:/glances/conf
+    environment:
+      - "GLANCES_OPT=-w"
+      - TZ=$TZ
+    restart: unless-stopped

@@ -1,0 +1,27 @@
+---
+version: "3"
+networks:
+  my-net:
+    external: true
+services:
+  webdav:
+    image: dgraziotin/nginx-webdav-nononsense:1.24.0
+    container_name: webdav
+    networks:
+      my-net:
+    volumes:
+      - $Descargas:/data  # Folder to share by WebDav
+      # user and password
+      # - $HOME/docker/webdav/htpasswd:/etc/nginx/htpasswd:ro
+    environment:
+      - WEBDAV_USERNAME=$User
+      - WEBDAV_PASSWORD=$Password
+      - SERVER_NAMES=webdav.$URL
+      - CLIENT_MAX_BODY_SIZE=5G # must end with M(egabytes) or G(igabytes)
+      - TIMEOUTS_S=1200 # these are seconds
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    ports:
+      - 88:80
+    restart: unless-stopped

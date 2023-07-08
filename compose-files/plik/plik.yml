@@ -1,0 +1,16 @@
+version: "3"
+networks:
+  my-net:
+    external: true
+services:
+  plik:
+    image: rootgg/plik:dev
+    container_name: plik
+    networks:
+      my-net:
+    # volumes:
+      # - $ConfigPath/plik/:/home/plik/server/
+      # - $Descargas/plik:/home/plik/server/files  
+    ports:
+      - 99:8080
+    restart: unless-stopped

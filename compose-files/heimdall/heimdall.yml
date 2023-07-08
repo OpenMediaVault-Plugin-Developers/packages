@@ -1,0 +1,21 @@
+---
+version: "3"
+services:
+  heimdall:
+    image: linuxserver/heimdall
+    container_name: heimdall
+    networks:
+      my-net:
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    volumes:
+      - $ConfigPath/heimdall:/config
+    ports:
+      - 444:443
+      - 99:80 #optional
+    restart: unless-stopped
+networks:
+  my-net:
+    external: true

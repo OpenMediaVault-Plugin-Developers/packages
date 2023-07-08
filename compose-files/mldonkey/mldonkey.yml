@@ -1,0 +1,30 @@
+version: "3"
+services:
+  mldonkey:
+    image: logicwar/mldonkey
+    container_name: mldonkey
+    networks:
+      my-net:
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    volumes:
+      - $ConfigPath/mldonkey:/var/lib/mldonkey
+      - $Descargas/mldonkey:/mnt/mldonkey_completed
+      - $Temp/mldonkey:/mnt/mldonkey_tmp
+    ports:
+      - 4000:4000
+      - 4001:4001
+      - 4080:4080
+      - 16965:16965
+      - 16965:16965/udp
+      - 20562:20562
+      - 20562:20562/udp
+      - 20566:20566/udp
+      - 6209:6209
+      - 6209:6209/udp
+    restart: unless-stopped
+networks:
+  my-net:
+    external: true

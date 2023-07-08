@@ -1,0 +1,20 @@
+---
+version: "3"
+networks:
+  my-net:
+    external: true
+services:
+  wetty:
+    image: wettyoss/wetty:latest
+    container_name: wetty
+    networks:
+      my-net:
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - SSHHOST=192.168.1.2  # Your NAS Ip here
+      - SSHPORT=22 # You SSH port Here
+      - SSHUSER=root
+    ports:
+      - 3000:3000
+    restart: unless-stopped

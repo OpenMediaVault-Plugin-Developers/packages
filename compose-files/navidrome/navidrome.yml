@@ -1,0 +1,23 @@
+version: "3"
+networks:
+  my-net:
+    external: true
+services:
+  navidrome:
+    image: deluan/navidrome:latest
+    networks:
+      my-net:
+    container_name: navidrome
+    user: $PUID:$PGID
+    ports:
+      - "4040:4533"
+    environment:
+      # Optional: put your config options customization here. Examples:
+      ND_SCANSCHEDULE: 1h
+      ND_LOGLEVEL: info
+      ND_SESSIONTIMEOUT: 24h      
+      ND_BASEURL: "navidrome.$URL"
+    volumes:
+      - "$ConfigPath/navidrome:/data"
+      - "$Musica:/music:ro"
+    restart: unless-stopped

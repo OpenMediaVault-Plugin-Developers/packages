@@ -1,0 +1,26 @@
+version: "3"
+networks:
+  my-net:
+    external: true
+services:
+  pigallery2:
+    image: bpatrik/pigallery2:latest
+    container_name: pigallery2
+    networks:
+      my-net:
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - NODE_ENV=production # set to 'debug' for full debug logging
+    volumes:
+      - $ConfigPath/pigallery:/app/data/config # CHANGE ME
+      - db-data:/app/data/db
+      - $Fotos:/app/data/images:ro # CHANGE ME, ':ro' means read-only
+      - $Temp/pigallery:/app/data/tmp # CHANGE ME
+    ports:
+      - 82:80
+    restart: always
+
+volumes:
+  db-data:
