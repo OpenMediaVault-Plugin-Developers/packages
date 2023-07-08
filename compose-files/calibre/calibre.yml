@@ -8,7 +8,7 @@ services:
     image: lscr.io/linuxserver/calibre:latest
     container_name: calibre
     networks:
-       my-net:
+      my-net:
     environment:
       - PUID=$PUID
       - PGID=$PGID

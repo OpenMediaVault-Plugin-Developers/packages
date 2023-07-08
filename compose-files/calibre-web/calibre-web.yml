@@ -13,7 +13,7 @@ services:
       - PUID=$PUID
       - PGID=$PGID
       - TZ=$TZ
-      - DOCKER_MODS=ghcr.io/linuxserver/mods:universal-calibre  #optional
+      - DOCKER_MODS=ghcr.io/linuxserver/mods:universal-calibre #optional
       # - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
       - $ConfigPath/calibre-web:/config

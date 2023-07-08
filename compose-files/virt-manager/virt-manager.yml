@@ -1,5 +1,5 @@
 ---
-https://hub.docker.com/r/mber5/virt-manager
+# https://hub.docker.com/r/mber5/virt-manager
 services:
   virt-manager:
     image: mber5/virt-manager:latest

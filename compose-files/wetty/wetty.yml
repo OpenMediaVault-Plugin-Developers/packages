@@ -12,7 +12,7 @@ services:
     cap_add:
       - NET_ADMIN
     environment:
-      - SSHHOST=192.168.1.2  # Your NAS Ip here
+      - SSHHOST=192.168.1.2 # Your NAS Ip here
       - SSHPORT=22 # You SSH port Here
       - SSHUSER=root
     ports:

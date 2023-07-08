@@ -11,10 +11,10 @@ services:
     cap_add:
       - NET_ADMIN
     networks:
-      MyMacVlan:                        # <-- MACVlan Name You need to create first in Portainer WebGUI.
-        ipv4_address: 192.168.1.3       # <-- Update to your desired Pihole IPv4
-# https://www.youtube.com/watch?v=4741-YR31fM
-# https://www.youtube.com/watch?v=o7nn6Tv-PAw
+      MyMacVlan: # <-- MACVlan Name You need to create first in Portainer WebGUI.
+        ipv4_address: 192.168.1.3 # <-- Update to your desired Pihole IPv4
+        # https://www.youtube.com/watch?v=4741-YR31fM
+        # https://www.youtube.com/watch?v=o7nn6Tv-PAw
     volumes:
       - /path/to/work:/opt/adguardhome/work
       - /path/to/conf:/opt/adguardhome/conf

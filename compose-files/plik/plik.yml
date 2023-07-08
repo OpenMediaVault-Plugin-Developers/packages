@@ -9,8 +9,8 @@ services:
     networks:
       my-net:
     # volumes:
-      # - $ConfigPath/plik/:/home/plik/server/
-      # - $Descargas/plik:/home/plik/server/files  
+    # - $ConfigPath/plik/:/home/plik/server/
+    # - $Descargas/plik:/home/plik/server/files
     ports:
       - 99:8080
     restart: unless-stopped

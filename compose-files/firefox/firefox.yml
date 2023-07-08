@@ -10,8 +10,8 @@ services:
       - PGID=100
       - TZ=America/Chicago
     ports:
-      - 3000:3000  # http
-#      - 3001:3001 # https
+      - 3000:3000 # http
+      #- 3001:3001 # https
     volumes:
       - /path/to/config:/config
     shm_size: "1gb"

@@ -21,6 +21,5 @@ services:
     ports:
       - 82:80
     restart: always
-
 volumes:
   db-data:

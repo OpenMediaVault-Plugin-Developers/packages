@@ -10,7 +10,7 @@ services:
     networks:
       my-net:
     volumes:
-      - $Descargas:/data  # Folder to share by WebDav
+      - $Descargas:/data # Folder to share by WebDav
       # user and password
       # - $HOME/docker/webdav/htpasswd:/etc/nginx/htpasswd:ro
     environment:
