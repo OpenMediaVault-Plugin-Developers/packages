@@ -1,5 +1,9 @@
 [
   {
+    "name": "adguard",
+    "description": "ad blocker"
+  },
+  {
     "name": "audiobookshelf",
     "description": "A self-hosted audiobook and podcast server."
   },
@@ -18,6 +22,14 @@
   {
     "name": "bookstack",
     "description": "Bookstack is a free and open source Wiki"
+  },
+  {
+    "name": "calibre",
+    "description": "e-book manager"
+  },
+  {
+    "name": "calibre-web",
+    "description": "e-book manager"
   },
   {
     "name": "code-server",
@@ -76,12 +88,20 @@
     "description": "A complete and local CCTV NVR "
   },
   {
+    "name": "glances",
+    "description": "system monitoring dashboard"
+  },
+  {
     "name": "gluetun",
     "description": "VPN client to multiple VPN service providers"
   },
   {
     "name": "handbrake",
     "description": "tool for converting video from nearly any format"
+  },
+  {
+    "name": "heimdall",
+    "description": "organise all those links to your most used web sites and web applications in a simple way"
   },
   {
     "name": "homeassistant-core",
@@ -128,6 +148,10 @@
     "description": "Kavita is a free and open source web based Manga e-reader."
   },
   {
+    "name": "komga",
+    "description": "Free and open source comics/mangas media server"
+  },
+  {
     "name": "lidarr",
     "description": "Lidarr is a music collection manager"
   },
@@ -144,12 +168,20 @@
     "description": "Convenient unified display of technical and tag data for video and audio files."
   },
   {
+    "name": "mldonkey",
+    "description": "p2p client"
+  },
+  {
     "name": "mqtt",
     "description": "message broker for IoT"
   },
   {
     "name": "mysql-phpmyadmin",
     "description": "mysql-phpmyadmin"
+  },
+  {
+    "name": "navidrome",
+    "description": "enjoy music collection from anywhere"
   },
   {
     "name": "netdata",
@@ -168,12 +200,20 @@
     "description": "A request management and media discovery tool built to work with your existing Plex ecosystem."
   },
   {
+    "name": "pigallery",
+    "description": "self-hosted directory-first photo gallery website"
+  },
+  {
     "name": "pihole",
     "description": "A DNS sinkhole that protects your devices from unwanted content "
   },
   {
     "name": "plex",
     "description": "plex"
+  },
+  {
+    "name": "plik",
+    "description": "temporary file upload system"
   },
   {
     "name": "portainer",
@@ -274,6 +314,14 @@
   {
     "name": "watchtower",
     "description": "watchtower"
+  },
+  {
+    "name": "webdav",
+    "description": "webdav server"
+  },
+  {
+    "name": "wetty",
+    "description": "Terminal access in the browser"
   },
   {
     "name": "wettyexec",
