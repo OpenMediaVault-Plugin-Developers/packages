@@ -546,19 +546,19 @@ Description: wakealarm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-wireguard
-Version: 6.3.3
+Version: 6.3.4
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 234
+Installed-Size: 265
 Depends: qrencode, wireguard, openmediavault (>= 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wireguard/openmediavault-wireguard_6.3.3_all.deb
-Size: 16876
-SHA256: a329c6fd4c4b7a2b35e598cd95572d824bd1289bf6315d8860965c0a4d95ed81
-SHA1: 237ce8661a273f7ee9de581d6e870faf82b43839
-MD5sum: f4acf643ede19c973b5c17a151225279
+Filename: pool/main/o/openmediavault-wireguard/openmediavault-wireguard_6.3.4_all.deb
+Size: 17480
+SHA256: ca6e79134bc21f3d84f048c0ae8f6009f13eed4fc93d7fa63168ff1e940c3a3a
+SHA1: 682cc2ebfb0caf36d2936d15e373693680a535ba
+MD5sum: f939bc02bbd3fa400eb10c0220a7bd67
 Description: openmediavault WireGuard plugin
  WireGuard is an extremely simple yet fast and modern VPN
  that utilizes state-of-the-art cryptography. It aims to be
