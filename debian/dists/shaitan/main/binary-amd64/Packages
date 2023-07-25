@@ -614,19 +614,19 @@ Description: OpenMediaVault plugin for ZFS
 Plugin-Section: filesystems
 
 Package: osinfo-db
-Version: 0.20221130-2
+Version: 0.20230719-1
 Architecture: all
 Maintainer: Guido Günther <agx@sigxcpu.org>
-Installed-Size: 3720
+Installed-Size: 3994
 Multi-Arch: foreign
 Homepage: https://libosinfo.org/
 Priority: optional
 Section: libs
-Filename: pool/main/o/osinfo-db/osinfo-db_0.20221130-2_all.deb
-Size: 142320
-SHA256: 029492837cf4c49b38b78ac8dff4392ef258da89562bb6a838f6d3bcb4a06dbe
-SHA1: f8c2b856c0622672728eb9235dc8c03558624f68
-MD5sum: ffa8b8d63eb23bf5e954f0495c376f56
+Filename: pool/main/o/osinfo-db/osinfo-db_0.20230719-1_all.deb
+Size: 149888
+SHA256: 7a06f18608365b8db2ef7d9ca21e108069114beca6b04f0eb799660d0c1a7883
+SHA1: 5f15049820b796fe9d3309062a5f897cc3208325
+MD5sum: 2bc88983e9c6cc85bcaa1ef62268b11c
 Description: Operating system database files
  libosinfo is a GObject based library API for managing information about
  operating systems, hypervisors and the (virtual) hardware devices they
