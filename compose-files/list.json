@@ -124,6 +124,10 @@
     "description": "jackett"
   },
   {
+    "name": "jdownloader",
+    "description": "download management tool"
+  },
+  {
     "name": "jellyfin",
     "description": "Jellyfin is a Free Media System"
   },
