@@ -9,12 +9,12 @@ services:
     container_name: grafana
     restart: always
     ports:
-     - 3000:3000
+      - 3000:3000
     volumes:
       - your/path/:/var/lib/grafana
     networks:
       - grafana
 networks:
-   grafana:
-     name: grafana
-     driver: bridge
+  grafana:
+    name: grafana
+    driver: bridge
