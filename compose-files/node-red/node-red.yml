@@ -1,0 +1,18 @@
+---
+version: "3.7"
+
+services:
+  node-red:
+    image: nodered/node-red:latest
+    ports:
+      - 1880:1880
+    networks:
+      - node-red-net
+    volumes:
+      - path to node-red-data:/data
+
+volumes:
+  node-red-data:
+
+networks:
+  node-red-net:
