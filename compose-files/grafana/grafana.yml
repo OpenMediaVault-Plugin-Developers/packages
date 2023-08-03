@@ -1,0 +1,20 @@
+---
+version: "3.8"
+#
+# default login: admin admin
+#
+services:
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: always
+    ports:
+     - 3000:3000
+    volumes:
+      - your/path/:/var/lib/grafana
+    networks:
+      - grafana
+networks:
+   grafana:
+     name: grafana
+     driver: bridge

@@ -1,0 +1,29 @@
+---
+version: '3.8'
+
+services:
+    mosquitto:
+        image: eclipse-mosquitto:latest
+        ports:
+            - 1883:1883
+            - 8883:8883
+            - 9001:9001 # some images use this port, check and change the host port accordingly
+        volumes:
+            - /path/to/mosquitto/config:/mosquitto/config # you've to create a conf file, see below for sample
+            - /path/to/mosquitto/data:/mosquitto/data
+            - /path/to/mosquitto/log:/mosquitto/log
+        networks:
+            - mosquitto
+networks:
+    mosquitto:
+        name: mosquitto
+        driver: bridge
+#####
+# Sample mosquitto.conf
+#####
+# persistence true
+# persistence_location /mosquitto/data/
+# log_dest file /mosquitto/log/mosquitto.log
+# allow_anonymous true
+# listener 1883
+#####
