@@ -128,6 +128,10 @@
     "description": "immich"
   },
   {
+    "name": "influxdb2",
+    "description": "influxdb 2.x"
+  },
+  {
     "name": "jackett",
     "description": "jackett"
   },
@@ -202,6 +206,10 @@
   {
     "name": "nginx",
     "description": "nginx"
+  },
+  {
+    "name": "nginx-proxy-manager",
+    "description": "nginx-proxy-manager, using Maria DB"
   },
   {
     "name": "node-red",
