@@ -2,12 +2,12 @@
 version: "3.8"
 # https://community.torproject.org/relay/setup/snowflake/standalone/
 services:
-    snowflake-proxy:
-        network_mode: host
-        image: thetorproject/snowflake-proxy:latest
-        container_name: snowflake-proxy
-        restart: unless-stopped
-        #command: [ "-ephemeral-ports-range", "30000:60000" ]
+  snowflake-proxy:
+    network_mode: host
+    image: thetorproject/snowflake-proxy:latest
+    container_name: snowflake-proxy
+    restart: unless-stopped
+    #command: [ "-ephemeral-ports-range", "30000:60000" ]
 ####
 #
 # There is not much to see, check container log and you will, every other hour, see lines like this:
