@@ -1,0 +1,19 @@
+---
+# https://hub.docker.com/r/vladgh/minidlna/
+# https://github.com/vladgh/docker_base_images/tree/main/minidlna
+version: '3'
+services:
+  dlna:
+    image: vladgh/minidlna:latest
+    container_name: minidlna
+    restart: unless-stopped
+    volumes:
+      - /mnt/audio:/media/audio
+      - /mnt/video:/media/video
+    environment:
+      MINIDLNA_MEDIA_DIR_1: /media/audio
+      MINIDLNA_MEDIA_DIR_2: /media/video
+      MINIDLNA_FRIENDLY_NAME: omvdlna
+      PUID=1001 
+      PGID=100
+    network_mode: "host"
