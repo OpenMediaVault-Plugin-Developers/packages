@@ -184,6 +184,10 @@
     "description": "Convenient unified display of technical and tag data for video and audio files."
   },
   {
+    "name": "minidlna",
+    "description": "dlna server"
+  },
+  {
     "name": "mldonkey",
     "description": "p2p client"
   },
