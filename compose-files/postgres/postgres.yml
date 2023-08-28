@@ -10,3 +10,4 @@ services:
       - '5432:5432'
     volumes: 
       - YOUR_PATH/postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
