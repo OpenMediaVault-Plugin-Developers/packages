@@ -11,9 +11,9 @@ services:
       - /mnt/audio:/media/audio
       - /mnt/video:/media/video
     environment:
-      MINIDLNA_MEDIA_DIR_1: /media/audio
-      MINIDLNA_MEDIA_DIR_2: /media/video
-      MINIDLNA_FRIENDLY_NAME: omvdlna
-      PUID=1001 
-      PGID=100
+      - MINIDLNA_MEDIA_DIR_1=/media/audio
+      - MINIDLNA_MEDIA_DIR_2=/media/video
+      - MINIDLNA_FRIENDLY_NAME=omvdlna
+      - PUID=1001
+      - PGID=100
     network_mode: "host"
