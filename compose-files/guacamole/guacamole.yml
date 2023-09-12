@@ -1,0 +1,12 @@
+---
+# https://hub.docker.com/r/jwetzell/guacamole
+# https://github.com/jwetzell/docker-guacamole
+version: '2'
+services:
+  guac2:
+    image: jwetzell/guacamole
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+    volumes:
+      - /path/to/config:/config
