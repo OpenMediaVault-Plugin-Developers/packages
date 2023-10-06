@@ -1,0 +1,16 @@
+---
+# https://github.com/rix1337/docker-ripper
+version: '3.3'
+services:
+  docker-ripper:
+    image: rix1337/docker-ripper:manual-latest
+    container_name: ripper
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/docker-ripper/config:/config:rw
+      - CHANGE_TO_COMPOSE_DATA_PATH/docker-ripper/out:/out:rw
+    devices:
+      - '/dev/sr0:/dev/sr0'
+      - '/dev/sr1:/dev/sr1'
+      - '/dev/sr2:/dev/sr2'
+    ports:
+      - 9090:9090

@@ -52,6 +52,10 @@
     "description": "Docker Image Update Notifier"
   },
   {
+    "name": "docker-ripper",
+    "description": "automatically rip optical disks"
+  },
+  {
     "name": "dokuwiki",
     "description": "A simple to use and highly versatile Open Source wiki "
   },
