@@ -1,0 +1,44 @@
+Codename: sandworm
+Date: Sun, 29 Oct 2023 13:43:24 UTC
+Architectures: i386 amd64 armhf arm64
+Components: main
+Description: omv-extras plugin repository for OMV 7.x Sandworm
+MD5Sum:
+ c7c6a456fab359826599adc51332908b 783 main/binary-i386/Packages
+ dded0e950ddffa6be714bb2650cbd8f7 499 main/binary-i386/Packages.gz
+ fabf70c68dffdf0f4cd0a75f8c2cfca8 98 main/binary-i386/Release
+ c7c6a456fab359826599adc51332908b 783 main/binary-amd64/Packages
+ dded0e950ddffa6be714bb2650cbd8f7 499 main/binary-amd64/Packages.gz
+ 38d5f958d6efe83a7e480ef953162cfa 99 main/binary-amd64/Release
+ c7c6a456fab359826599adc51332908b 783 main/binary-armhf/Packages
+ dded0e950ddffa6be714bb2650cbd8f7 499 main/binary-armhf/Packages.gz
+ 662bb3294a118b2f1f4de0bc708ffe88 99 main/binary-armhf/Release
+ c7c6a456fab359826599adc51332908b 783 main/binary-arm64/Packages
+ dded0e950ddffa6be714bb2650cbd8f7 499 main/binary-arm64/Packages.gz
+ 13f2c74293aeca8f5f837385c7dda2b9 99 main/binary-arm64/Release
+SHA1:
+ 54f5a8135b12d62df8f99e67bdc715c5cfd730fe 783 main/binary-i386/Packages
+ 1cab1c6eec951bd6bfef411a34987333a9ab5304 499 main/binary-i386/Packages.gz
+ 10b559d39e8c81cc23e5f4ba80a7646c6b0ce58e 98 main/binary-i386/Release
+ 54f5a8135b12d62df8f99e67bdc715c5cfd730fe 783 main/binary-amd64/Packages
+ 1cab1c6eec951bd6bfef411a34987333a9ab5304 499 main/binary-amd64/Packages.gz
+ 561d36f14ebd36ce509bd2fdcbec2d1bea0d802e 99 main/binary-amd64/Release
+ 54f5a8135b12d62df8f99e67bdc715c5cfd730fe 783 main/binary-armhf/Packages
+ 1cab1c6eec951bd6bfef411a34987333a9ab5304 499 main/binary-armhf/Packages.gz
+ 5552247f1312e7e7ec2f9236492a547a42e6bcec 99 main/binary-armhf/Release
+ 54f5a8135b12d62df8f99e67bdc715c5cfd730fe 783 main/binary-arm64/Packages
+ 1cab1c6eec951bd6bfef411a34987333a9ab5304 499 main/binary-arm64/Packages.gz
+ 84ae1143646a8cee9395dad25695bc0c670a8566 99 main/binary-arm64/Release
+SHA256:
+ 77ac691e88316e390e5c813a1997e4a777166a117023bea8b29d493b2efd9739 783 main/binary-i386/Packages
+ 65f73c004bca02926f791bd4574d45ea519a234004904387a80ad3a66482fe5e 499 main/binary-i386/Packages.gz
+ bd288d7a20b4d64dfb24c374753f410f859536b9adae2b3996abf2a5f93817ea 98 main/binary-i386/Release
+ 77ac691e88316e390e5c813a1997e4a777166a117023bea8b29d493b2efd9739 783 main/binary-amd64/Packages
+ 65f73c004bca02926f791bd4574d45ea519a234004904387a80ad3a66482fe5e 499 main/binary-amd64/Packages.gz
+ 130333ffbc7452866d12ec558a530c8522f8e9eabc61dfa9d37ab0bdb60ce4c8 99 main/binary-amd64/Release
+ 77ac691e88316e390e5c813a1997e4a777166a117023bea8b29d493b2efd9739 783 main/binary-armhf/Packages
+ 65f73c004bca02926f791bd4574d45ea519a234004904387a80ad3a66482fe5e 499 main/binary-armhf/Packages.gz
+ 2ce0c5d1acdbac46bfbef2b9dff214447c306ba081b9cd58a5611f0e77994af9 99 main/binary-armhf/Release
+ 77ac691e88316e390e5c813a1997e4a777166a117023bea8b29d493b2efd9739 783 main/binary-arm64/Packages
+ 65f73c004bca02926f791bd4574d45ea519a234004904387a80ad3a66482fe5e 499 main/binary-arm64/Packages.gz
+ b1e9221c6bacffd7a726e069c07098cdb62683b3e03d34a2b59790dda250846b 99 main/binary-arm64/Release
