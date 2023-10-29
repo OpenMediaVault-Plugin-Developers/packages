@@ -1,3 +1,22 @@
+Package: mergerfs
+Version: 2.37.1~debian-bookworm
+Architecture: arm64
+Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
+Installed-Size: 1065
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.5), libstdc++6 (>= 11), fuse
+Homepage: http://github.com/trapexit/mergerfs
+Priority: optional
+Section: utils
+Filename: pool/main/m/mergerfs/mergerfs_2.37.1~debian-bookworm_arm64.deb
+Size: 338952
+SHA256: 22e7d4c283cab653f5e7b9d31caa74077000dc515e39efd9d2cbd127025a9d6a
+SHA1: 1dd63562f8e386f32b33d46e24a71f7864d41842
+MD5sum: 75ae85f037961f2e38d3e9dcfa13e128
+Description: another FUSE union filesystem
+ mergerfs is a union filesystem geared towards simplifying storage and
+ management of files across numerous commodity storage devices. It is
+ similar to mhddfs, unionfs, and aufs.
+
 Package: openmediavault-omvextrasorg
 Version: 7.0
 Architecture: all
