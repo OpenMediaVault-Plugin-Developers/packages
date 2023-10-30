@@ -16,19 +16,19 @@ Description: script-based utility to manage tmpfs folders
  Mostly useful for long-term usage of flash drives as system drive.
 
 Package: mergerfs
-Version: 2.37.1~debian-bookworm
+Version: 2.38.0~debian-bookworm
 Architecture: i386
 Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
-Installed-Size: 1077
+Installed-Size: 1053
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), fuse
 Homepage: http://github.com/trapexit/mergerfs
 Priority: optional
 Section: utils
-Filename: pool/main/m/mergerfs/mergerfs_2.37.1~debian-bookworm_i386.deb
-Size: 406420
-SHA256: 4f445a358d75bccc5ab77374026c17bffb6f58bcdbc9d85029184f8dbc45eaee
-SHA1: 434ca9077d6d42e622e017b190a37af8034a8ac4
-MD5sum: 7cc30988e8f44c908dd29f8cf66b83f6
+Filename: pool/main/m/mergerfs/mergerfs_2.38.0~debian-bookworm_i386.deb
+Size: 402736
+SHA256: 1e0087ab514926360504cccaa5331a39f8a6d5eec55f07ebe96b01c7a939ffb6
+SHA1: 81e6ab4c53141b699f8783176401009598f4ed1a
+MD5sum: 36ddd633b4915d13f1d7e9229de27c8c
 Description: another FUSE union filesystem
  mergerfs is a union filesystem geared towards simplifying storage and
  management of files across numerous commodity storage devices. It is
