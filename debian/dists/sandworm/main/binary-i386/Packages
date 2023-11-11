@@ -600,7 +600,7 @@ Description: OpenMediaVault WOL plugin
 Plugin-Section: utilities
 
 Package: openmediavault-zfs
-Version: 7.0
+Version: 7.0.1
 Architecture: i386
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 560
@@ -608,11 +608,11 @@ Depends: libzfs4linux, linux-headers-586 | linux-headers-686 | linux-headers-686
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_7.0_i386.deb
-Size: 55684
-SHA256: ca32c002753994fd13f5db20d9b0386fd060afa3bef66dc342fee6874f94121b
-SHA1: 98296e1508648560625e5605bb7521fe2b29a496
-MD5sum: a82d6d61cd20ea890e0fa4c095e24757
+Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_7.0.1_i386.deb
+Size: 55708
+SHA256: 64da63e9467a081be665a2f4d7df7fae80bced89e6fd1c0e71b9659399a00f74
+SHA1: 4e5b257652406062b2705ffa4ec15f019ac392e6
+MD5sum: 14a494e8b867aa326d3072f8b84d5082
 Description: OpenMediaVault plugin for ZFS
  ZFS is a combined file system and logical volume manager designed
  by Sun Microsystems. The features of ZFS include protection against
