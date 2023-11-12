@@ -252,6 +252,30 @@ Description: folder2ram plugin for openmediavault
  This allows the installation of OMV on flash thumb drives and SD cards.
 Plugin-Section: filesystems
 
+Package: openmediavault-kernel
+Version: 7.0.1
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 65
+Depends: memtest86+, openmediavault (>= 7), openmediavault-omvextrasorg (>= 7)
+Breaks: openmediavault (<< 6.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_7.0.1_all.deb
+Size: 11824
+SHA256: e24fefad290ed214d2dae73b9d9df2888e7fc3d30b23b2377a2c3c89f2354729
+SHA1: 3506b63f13ce6f0740bff5c73b28bdcbd87385fe
+MD5sum: 85823f19ab846926581e547d17ffd554
+Description: kernel package
+ The plugin allows the user to select which grub entry to boot from and
+ installation of the Proxmox kernel.  It also allows for the download
+ and grub entry to boot from the following rescue Linux distros:
+   - Clonezilla
+   - GParted Live
+   - SystemRescue
+Plugin-Section: utilities
+
 Package: openmediavault-kvm
 Version: 7.0
 Architecture: all
