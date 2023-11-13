@@ -52,6 +52,10 @@
     "description": "Docker Image Update Notifier"
   },
   {
+    "name": "docker-ripper",
+    "description": "automatically rip optical disks"
+  },
+  {
     "name": "dokuwiki",
     "description": "A simple to use and highly versatile Open Source wiki "
   },
@@ -66,6 +70,10 @@
   {
     "name": "duplicati",
     "description": "Works with standard protocols like FTP, SSH, WebDAV Backup"
+  },
+  {
+    "name": "eclipse-mosquitto-mqtt",
+    "description": "open source MQTT broker"
   },
   {
     "name": "fail2ban",
@@ -96,6 +104,14 @@
     "description": "VPN client to multiple VPN service providers"
   },
   {
+    "name": "grafana",
+    "description": "grafana create your own dashboards from any DB"
+  },
+  {
+    "name": "guacamole",
+    "description": "guacamole remote access"
+  },
+  {
     "name": "handbrake",
     "description": "tool for converting video from nearly any format"
   },
@@ -118,6 +134,10 @@
   {
     "name": "immich",
     "description": "immich"
+  },
+  {
+    "name": "influxdb2",
+    "description": "influxdb 2.x"
   },
   {
     "name": "jackett",
@@ -172,6 +192,10 @@
     "description": "Convenient unified display of technical and tag data for video and audio files."
   },
   {
+    "name": "minidlna",
+    "description": "dlna server"
+  },
+  {
     "name": "mldonkey",
     "description": "p2p client"
   },
@@ -192,8 +216,20 @@
     "description": "netdata"
   },
   {
+    "name": "nextcloud",
+    "description": "Nextcloud gives you access to all your files wherever you are."
+  },
+  {
     "name": "nginx",
     "description": "nginx"
+  },
+  {
+    "name": "nginx-proxy-manager",
+    "description": "nginx-proxy-manager, using Maria DB"
+  },
+  {
+    "name": "node-red",
+    "description": "node-red"
   },
   {
     "name": "nzbhydra2",
@@ -222,6 +258,10 @@
   {
     "name": "portainer",
     "description": "portainer"
+  },
+  {
+    "name": "portainer-agent",
+    "description": "portainer agent to connect multiple Portainer sessions to one host"
   },
   {
     "name": "portainer-omvextras",
@@ -260,8 +300,16 @@
     "description": "scrutiny"
   },
   {
+    "name": "sftpgo",
+    "description": "SFTP server with optional HTTP/S, FTP/S and WebDAV support"
+  },
+  {
     "name": "smokeping",
     "description": "smokeping"
+  },
+  {
+    "name": "snowflake-proxy",
+    "description": "Help to make internet uncensored available"
   },
   {
     "name": "sonarr",

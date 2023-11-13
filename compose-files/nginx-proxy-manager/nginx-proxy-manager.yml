@@ -15,13 +15,11 @@ services:
       - /path to nginx proxy manager/letsencrypt:/etc/letsencrypt
     depends_on:
       - db
-
   db:
     image: 'jc21/mariadb-aria:latest'
     restart: unless-stopped
     volumes:
       - /path to mysql-maria db/mysql:/var/lib/mysql
-
 ####
 #
 #     Default Administrator User login:

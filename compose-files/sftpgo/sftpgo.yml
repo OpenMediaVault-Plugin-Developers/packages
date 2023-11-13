@@ -1,0 +1,22 @@
+---
+# https://github.com/drakkan/sftpgo
+# runs as root.
+# Change user id in user line and fix permissions of volumes if another user is desired
+# webdav and sftp enabled
+version: "3.9"
+services:
+  sftpgo:
+    image: drakkan/sftpgo:alpine
+    container_name: sftpgo
+    environment:
+      - "SFTPGO_HTTPD__BINDINGS__0__PORT=8090"
+      - "SFTPGO_WEBDAVD__BINDINGS__0__PORT=10080"
+    ports:
+      - "16034:10080"
+      - "16022:2022"
+      - "16037:8090"
+    user: "0:100"
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/sftpgo/data:/srv/sftpgo
+      - CHANGE_TO_COMPOSE_DATA_PATH/sftpgo/home:/var/lib/sftpgo
+    restart: unless-stopped
