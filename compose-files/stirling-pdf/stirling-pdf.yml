@@ -5,11 +5,10 @@ services:
     ports:
       - '8080:8080'
     volumes:
-      -  CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/trainingData:/usr/share/tesseract-ocr/4.00/tessdata #Required for extra OCR languages
-      -  CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/extraConfigs:/configs
-      -  CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/customFiles:/customFiles/
+      - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/trainingData:/usr/share/tesseract-ocr/4.00/tessdata #Required for extra OCR languages
+      - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/extraConfigs:/configs
+      - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/customFiles:/customFiles/
     restart: always
-    
 # get extra OCR languages here:
 # https://github.com/tesseract-ocr/tessdata_fast
 # Copy link of your desired language(s), use wget to download to folder /stirling-pdf/trainingData
