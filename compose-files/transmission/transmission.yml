@@ -16,9 +16,9 @@ services:
       - PEERPORT= #optional
       - HOST_WHITELIST= #optional
     volumes:
-      - /path/to/data:/config
-      - /path/to/downloads:/downloads
-      - /path/to/watch/folder:/watch
+      - CHANGE_TO_COMPOSE_DATA_PATH/transmission/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/transmission/downloads:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/transmission/watch:/watch
     ports:
       - 9091:9091
       - 51413:51413

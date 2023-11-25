@@ -8,8 +8,8 @@ services:
     networks:
       - influxdb2
     volumes:
-      - /your/path/to/influxdb2/data:/var/lib/influxdb2
-      - /your/path/to/influxdb2/config:/etc/influxdb2
+      - CHANGE_TO_COMPOSE_DATA_PATH/influxdb2/data:/var/lib/influxdb2
+      - CHANGE_TO_COMPOSE_DATA_PATH/influxdb2/config:/etc/influxdb2
     ports:
       - 8086:8086
 networks:

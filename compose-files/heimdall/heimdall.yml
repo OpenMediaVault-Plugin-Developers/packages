@@ -11,7 +11,7 @@ services:
       - PGID=$PGID
       - TZ=$TZ
     volumes:
-      - $ConfigPath/heimdall:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/heimdall:/config
     ports:
       - 444:443
       - 99:80 #optional

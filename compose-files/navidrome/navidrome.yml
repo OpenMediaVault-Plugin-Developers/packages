@@ -18,6 +18,6 @@ services:
       ND_SESSIONTIMEOUT: 24h
       ND_BASEURL: "navidrome.$URL"
     volumes:
-      - "$ConfigPath/navidrome:/data"
-      - "$Musica:/music:ro"
+      - CHANGE_TO_COMPOSE_DATA_PATH/navidrome/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/navidrome/music:/music:ro
     restart: unless-stopped

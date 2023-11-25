@@ -13,15 +13,11 @@ services:
     security_opt:
       - apparmor:unconfined
     volumes:
-      - netdataconfig:/etc/netdata
-      - netdatalib:/var/lib/netdata
-      - netdatacache:/var/cache/netdata
+      - CHANGE_TO_COMPOSE_DATA_PATH/netdata/config:/etc/netdata
+      - CHANGE_TO_COMPOSE_DATA_PATH/netdata/lib:/var/lib/netdata
+      - CHANGE_TO_COMPOSE_DATA_PATH/netdata/cache:/var/cache/netdata
       - /etc/passwd:/host/etc/passwd:ro
       - /etc/group:/host/etc/group:ro
       - /proc:/host/proc:ro
       - /sys:/host/sys:ro
       - /etc/os-release:/host/etc/os-release:ro
-volumes:
-  netdataconfig:
-  netdatalib:
-  netdatacache:

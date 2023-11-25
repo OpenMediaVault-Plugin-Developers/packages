@@ -6,5 +6,5 @@ services:
     ports:
       - 8080:80
     volumes:
-      - /path/to/bitwardenrs/:/data/
+      - CHANGE_TO_COMPOSE_DATA_PATH/vaultwarden:/data
     restart: unless-stopped

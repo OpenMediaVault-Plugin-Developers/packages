@@ -16,8 +16,8 @@ services:
       - DOCKER_MODS=ghcr.io/linuxserver/mods:universal-calibre #optional
       # - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
-      - $ConfigPath/calibre-web:/config
-      - $Libreria:/books
+      - CHANGE_TO_COMPOSE_DATA_PATH/calibre-web:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/calibre/libreria:/books
     ports:
       - 8083:8083
     restart: unless-stopped

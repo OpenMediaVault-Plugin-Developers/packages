@@ -11,7 +11,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - your/path/:/var/lib/grafana
+      - CHANGE_TO_COMPOSE_DATA_PATH/grafana:/var/lib/grafana
     networks:
       - grafana
 networks:

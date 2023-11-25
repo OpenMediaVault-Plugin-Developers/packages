@@ -10,8 +10,8 @@ services:
       - TZ=America/New_York
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /path/to/plexmediaserver-database/Library/Application Support/Plex Media Server/Logs:/plex-logs:ro
-      - /path/to/docker/docker-config/tautulli:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/plex/plexmediaserver-database/Library/Application Support/Plex Media Server/Logs:/plex-logs:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/tautulli:/config
     ports:
       - 8181:8181
     restart: unless-stopped

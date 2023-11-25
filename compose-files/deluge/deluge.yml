@@ -11,8 +11,8 @@ services:
       - TZ=Etc/UTC
       - DELUGE_LOGLEVEL=error #optional
     volumes:
-      - /path/to/deluge/config:/config
-      - /path/to/your/downloads:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/deluge/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/downloads:/downloads
     ports:
       - 8112:8112
       - 6881:6881

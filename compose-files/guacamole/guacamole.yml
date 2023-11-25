@@ -9,4 +9,4 @@ services:
       - "8081:8080"
     restart: unless-stopped
     volumes:
-      - /path/to/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/guacamole:/config

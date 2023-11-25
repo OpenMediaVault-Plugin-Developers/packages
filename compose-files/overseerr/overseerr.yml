@@ -10,7 +10,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/overseerr:/config
     ports:
       - 5055:5055
     restart: unless-stopped

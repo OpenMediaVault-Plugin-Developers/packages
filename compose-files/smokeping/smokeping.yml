@@ -9,8 +9,8 @@ services:
       - PGID=100
       - TZ=America/New_York
     volumes:
-      - /path/to/docker/docker-config/smokeping:/config
-      - /path/to/docker/docker-config/smokeping:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/smokeping/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/smokeping/data:/data
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 81:80

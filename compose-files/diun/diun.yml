@@ -7,8 +7,8 @@ services:
     container_name: diun
     command: serve
     volumes:
-      - "./data:/data"
-      - "/var/run/docker.sock:/var/run/docker.sock"
+      - CHANGE_TO_COMPOSE_DATA_PATH/diun/data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - "TZ=Europe/London"
       - "LOG_LEVEL=info"

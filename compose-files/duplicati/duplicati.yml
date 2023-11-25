@@ -11,9 +11,9 @@ services:
       - TZ=Etc/UTC
       - CLI_ARGS= #optional
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/backups:/backups
-      - /path/to/source:/source
+      - CHANGE_TO_COMPOSE_DATA_PATH/duplicati/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/duplicati/backups:/backups
+      - CHANGE_TO_COMPOSE_DATA_PATH/duplicati/source:/source
     ports:
       - 8200:8200
     restart: unless-stopped

@@ -11,9 +11,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/data1:/data1
-      - /path/to/data2:/data2
+      - CHANGE_TO_COMPOSE_DATA_PATH/syncthing/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/syncthing/data1:/data1
+      - CHANGE_TO_COMPOSE_DATA_PATH/syncthing/data2:/data2
     ports:
       - 8384:8384
       - 22000:22000/tcp

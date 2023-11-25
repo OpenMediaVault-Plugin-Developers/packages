@@ -12,8 +12,8 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata:/config
-      - /path/to/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/nextcloud/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/nextcloud/data:/data
     ports:
       - 443:443
     restart: unless-stopped

@@ -21,6 +21,6 @@ services:
       #      - 9999:9999
       #      - 9999:9999/udp
     volumes:
-      - /path/to/docker/docker-config/qbittorrent-vpn:/config
-      - /path/to/multimedia/.tmp/qbittorrent-downloads:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/qbittorrent-vpn/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/qbittorrent-vpn/downloads:/downloads
     restart: unless-stopped

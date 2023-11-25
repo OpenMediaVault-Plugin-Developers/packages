@@ -9,7 +9,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - /path/to/database:/var/lib/mysql
+      - CHANGE_TO_COMPOSE_DATA_PATH/mysql/database:/var/lib/mysql
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: pma

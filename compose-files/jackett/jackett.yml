@@ -10,8 +10,8 @@ services:
       - TZ=America/New_York
       - AUTO_UPDATE=true #optional
     volumes:
-      - /etc/hosts:/etc/hosts
-      - /path/to/docker/docker-config/jackett:/config
+      - /etc/hosts:/etc/hosts:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/jackett:/config
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 9117:9117

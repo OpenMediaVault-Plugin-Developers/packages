@@ -10,9 +10,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/music:/music #optional
-      - /path/to/downloads:/downloads #optional
+      - CHANGE_TO_COMPOSE_DATA_PATH/lidarr/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/lidarr/music:/music #optional
+      - CHANGE_TO_COMPOSE_DATA_PATH/lidarr/downloads:/downloads #optional
     ports:
       - 8686:8686
     restart: unless-stopped

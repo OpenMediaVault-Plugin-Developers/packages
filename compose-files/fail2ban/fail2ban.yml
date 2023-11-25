@@ -14,7 +14,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/fail2ban/config:/config
       - /var/log:/var/log:ro
       - /path/to/airsonic/log:/remotelogs/airsonic:ro #optional
       - /path/to/apache2/log:/remotelogs/apache2:ro #optional

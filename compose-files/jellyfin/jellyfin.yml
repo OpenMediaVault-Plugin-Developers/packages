@@ -11,9 +11,9 @@ services:
       - TZ=Etc/UTC
       - JELLYFIN_PublishedServerUrl=192.168.0.5 #optional
     volumes:
-      - /path/to/library:/config
-      - /path/to/tvseries:/data/tvshows
-      - /path/to/movies:/data/movies
+      - CHANGE_TO_COMPOSE_DATA_PATH/jellyfin/library:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/jellyfin/tvseries:/data/tvshows
+      - CHANGE_TO_COMPOSE_DATA_PATH/jellyfin/movies:/data/movies
     ports:
       - 8096:8096
       - 8920:8920 #optional

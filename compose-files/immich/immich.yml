@@ -6,7 +6,7 @@ services:
     image: ghcr.io/immich-app/immich-server:release
     entrypoint: ["/bin/sh", "./start-server.sh"]
     volumes:
-      - ${UPLOAD_LOCATION}:/usr/src/app/upload
+      - CHANGE_TO_COMPOSE_DATA_PATH/immich/upload:/usr/src/app/upload
     env_file:
       - immich.env
     depends_on:
@@ -19,7 +19,7 @@ services:
     image: ghcr.io/immich-app/immich-server:release
     entrypoint: ["/bin/sh", "./start-microservices.sh"]
     volumes:
-      - ${UPLOAD_LOCATION}:/usr/src/app/upload
+      - CHANGE_TO_COMPOSE_DATA_PATH/immich/upload:/usr/src/app/upload
     env_file:
       - immich.env
     depends_on:
@@ -31,8 +31,8 @@ services:
     container_name: immich_machine_learning
     image: ghcr.io/immich-app/immich-machine-learning:release
     volumes:
-      - ${UPLOAD_LOCATION}:/usr/src/app/upload
-      - model-cache:/cache
+      - CHANGE_TO_COMPOSE_DATA_PATH/immich/upload:/usr/src/app/upload
+      - CHANGE_TO_COMPOSE_DATA_PATH/immich/model-cache:/cache
     env_file:
       - immich.env
     restart: always
@@ -52,7 +52,7 @@ services:
     logging:
       driver: none
     volumes:
-      - tsdata:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/immich/data:/data
     restart: always
   redis:
     container_name: immich_redis
@@ -69,7 +69,7 @@ services:
       POSTGRES_DB: ${DB_DATABASE_NAME}
       PG_DATA: /var/lib/postgresql/data
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/immich/pgdata:/var/lib/postgresql/data
     restart: always
   immich-proxy:
     container_name: immich_proxy
@@ -85,7 +85,3 @@ services:
     depends_on:
       - immich-server
     restart: always
-volumes:
-  pgdata:
-  model-cache:
-  tsdata:

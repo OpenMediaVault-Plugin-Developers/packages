@@ -13,7 +13,7 @@ services:
       - TZ=Etc/UTC
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock #optional
-      - /path/to/data:/config #optional
+      - CHANGE_TO_COMPOSE_DATA_PATH/rdesktop:/config #optional
     ports:
       - 3389:3389
     devices:

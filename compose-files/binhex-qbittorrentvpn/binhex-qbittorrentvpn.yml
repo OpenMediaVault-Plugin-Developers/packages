@@ -24,11 +24,11 @@ services:
       - ENABLE_PRIVOXY=no
       #- VPN_OPTIONS=additional openvpn cli options \
     volumes:
-      - /root/docker/data:/data
-      - /root/docker/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/arch-qbittorrentvpn/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/arch-qbittorrentvpn/config:/config
       - /etc/localtime:/etc/localtime:ro
       #wireguard
-      - /lib/modules:/lib/modules
+      - /lib/modules:/lib/modules:ro
     ports:
       - 6881:6881
       - 6881:6881/udp

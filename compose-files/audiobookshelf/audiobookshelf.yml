@@ -8,7 +8,7 @@ services:
     ports:
       - 13378:80 #do not change :80
     volumes:
-      - ./podcasts:/podcasts
-      - ./metadata:/metadata
-      - ./config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/audiobookshelf/podcasts:/podcasts
+      - CHANGE_TO_COMPOSE_DATA_PATH/audiobookshelf/metadata:/metadata
+      - CHANGE_TO_COMPOSE_DATA_PATH/audiobookshelf/config:/config
     restart: unless-stopped

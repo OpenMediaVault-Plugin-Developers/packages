@@ -6,7 +6,7 @@ services:
     image: louislam/uptime-kuma:1
     container_name: uptime-kuma
     volumes:
-      - ./uptime-kuma-data:/app/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/uptime-kuma/data:/app/data
     ports:
       - 3001:3001 # Host Port:Container Port
     restart: unless-stopped

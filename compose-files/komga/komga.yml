@@ -10,9 +10,9 @@ services:
     networks:
       my-net:
     volumes:
-      - $ConfigPath/komga:/config
-      - $Comic:/data
-      - $Temp:/tmp
+      - CHANGE_TO_COMPOSE_DATA_PATH/komga/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/komga/comic:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/homga/tmp:/tmp
     ports:
       - 88:8080
     user: "$PUID:$PGID"

@@ -6,9 +6,9 @@ services:
     container_name: mqtt
     image: eclipse-mosquitto:latest
     volumes:
-      - /mqtt/config:/mosquitto/config
-      - /mqtt/data:/mosquitto/data
-      - /mqtt/log:/mosquitto/log
+      - CHANGE_TO_COMPOSE_DATA_PATH/mqtt/config:/mosquitto/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/mqtt/data:/mosquitto/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/mqtt/log:/mosquitto/log
     ports:
       - 1883:1883
       - 9001:9001

@@ -7,5 +7,5 @@ services:
     ports:
       - "5800:5800"
     volumes:
-      - "/docker/appdata/mediainfo:/config:rw"
-      - "/home/user:/storage:ro"
+      - CHANGE_TO_COMPOSE_DATA_PATH/mediainfo/config:/config:rw
+      - CHANGE_TO_COMPOSE_DATA_PATH/mediainfo/storage:/storage:ro

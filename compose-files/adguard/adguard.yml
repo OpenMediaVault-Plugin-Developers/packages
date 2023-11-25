@@ -16,6 +16,6 @@ services:
         # https://www.youtube.com/watch?v=4741-YR31fM
         # https://www.youtube.com/watch?v=o7nn6Tv-PAw
     volumes:
-      - /path/to/work:/opt/adguardhome/work
-      - /path/to/conf:/opt/adguardhome/conf
+      - CHANGE_TO_COMPOSE_DATA_PATH/adguard/work:/opt/adguardhome/work
+      - CHANGE_TO_COMPOSE_DATA_PATH/adguard/conf:/opt/adguardhome/conf
     restart: unless-stopped

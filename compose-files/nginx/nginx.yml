@@ -6,4 +6,4 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - /path/to/pages:/usr/share/nginx/html
+      - CHANGE_TO_COMPOSE_DATA_PATH/nginx:/usr/share/nginx/html

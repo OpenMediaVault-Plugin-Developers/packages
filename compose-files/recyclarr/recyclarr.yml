@@ -8,6 +8,6 @@ services:
     init: true
     user: 1000:1000
     volumes:
-      - ./config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/recyclarr:/config
     environment:
       - TZ=Europe/London

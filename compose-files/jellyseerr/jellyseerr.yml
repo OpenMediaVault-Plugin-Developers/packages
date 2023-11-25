@@ -11,5 +11,5 @@ services:
     ports:
       - 5055:5055
     volumes:
-      - /path/to/appdata/config:/app/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/jellyseerr:/app/config
     restart: unless-stopped

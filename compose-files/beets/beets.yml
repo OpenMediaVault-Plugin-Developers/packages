@@ -10,9 +10,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/music/library:/music
-      - /path/to/ingest:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/beets/appdata/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/beets/music/library:/music
+      - CHANGE_TO_COMPOSE_DATA_PATH/beets/ingest:/downloads
     ports:
       - 8337:8337
     restart: unless-stopped

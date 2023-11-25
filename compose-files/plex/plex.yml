@@ -11,7 +11,7 @@ services:
       - VERSION=latest
     volumes:
       - /dev/shm:/transcode
-      - /srv/d0/plexmediaserver-database:/config
       - /etc/localtime:/etc/localtime:ro
-      - /path/to/multimedia:/multimedia
+      - CHANGE_TO_COMPOSE_DATA_PATH/plex/database:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/plex/multimedia:/multimedia
     restart: unless-stopped

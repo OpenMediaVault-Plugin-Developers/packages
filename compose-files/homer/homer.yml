@@ -6,7 +6,7 @@ services:
     image: b4bz/homer
     container_name: homer
     volumes:
-      - ./assets/:/www/assets
+      - CHANGE_TO_COMPOSE_DATA_PATH/homer:/www/assets
     ports:
       - 8080:8080
     environment:

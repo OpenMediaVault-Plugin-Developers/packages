@@ -6,9 +6,9 @@ services:
     container_name: lms
     image: lmscommunity/logitechmediaserver
     volumes:
-      - /path/to/config:/config:rw
-      - /path/to/music:/music:ro
-      - /path/to/playlist:/playlist:rw
+      - CHANGE_TO_COMPOSE_DATA_PATH/lms/config:/config:rw
+      - CHANGE_TO_COMPOSE_DATA_PATH/lms/music:/music:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/lms/playlist:/playlist:rw
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
     ports:

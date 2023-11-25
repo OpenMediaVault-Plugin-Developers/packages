@@ -14,12 +14,10 @@ services:
       - TZ=$TZ
       - NODE_ENV=production # set to 'debug' for full debug logging
     volumes:
-      - $ConfigPath/pigallery:/app/data/config # CHANGE ME
-      - db-data:/app/data/db
-      - $Fotos:/app/data/images:ro # CHANGE ME, ':ro' means read-only
-      - $Temp/pigallery:/app/data/tmp # CHANGE ME
+      - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/config:/app/data/config # CHANGE ME
+      - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/db-data:/app/data/db
+      - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/photos:/app/data/images:ro # CHANGE ME, ':ro' means read-only
+      - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/tmp:/app/data/tmp # CHANGE ME
     ports:
       - 82:80
     restart: always
-volumes:
-  db-data:

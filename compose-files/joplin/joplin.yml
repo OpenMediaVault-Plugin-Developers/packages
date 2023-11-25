@@ -19,7 +19,7 @@ services:
   db:
     image: postgres:15
     volumes:
-      - ./data/postgres:/var/lib/postgresql/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/joplin/postgres:/var/lib/postgresql/data
     ports:
       - "5432:5432"
     restart: unless-stopped

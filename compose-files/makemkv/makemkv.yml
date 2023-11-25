@@ -9,9 +9,9 @@ services:
     ports:
       - '5800:5800'
     volumes:
-      - '/path/to/config:/config:rw'
-      - '/path/to/storage:/storage:ro'
-      - '/path/to/output:/output:rw'
+      - CHANGE_TO_COMPOSE_DATA_PATH/makemkv/config:/config:rw
+      - CHANGE_TO_COMPOSE_DATA_PATH/makemkv/storage:/storage:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/makemkv/output:/output:rw
     devices:
       - /dev/sr0
       - /dev/sr1

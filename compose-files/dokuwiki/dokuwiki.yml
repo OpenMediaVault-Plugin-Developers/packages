@@ -10,7 +10,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/dokuwiki/config:/config
     ports:
       - 80:80
       - 443:443 #optional

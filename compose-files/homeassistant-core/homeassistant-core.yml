@@ -11,7 +11,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/homeassistant:/config
     ports:
       - 8123:8123 #optional
     devices:

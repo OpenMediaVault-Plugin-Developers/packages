@@ -22,7 +22,7 @@ services:
       - EXTRA_DOMAINS= #optional
       - STAGING=false #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/swag/config:/config
     ports:
       - 443:443
       - 80:80 #optional

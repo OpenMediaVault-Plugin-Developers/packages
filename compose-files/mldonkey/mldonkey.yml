@@ -10,9 +10,9 @@ services:
       - PGID=$PGID
       - TZ=$TZ
     volumes:
-      - $ConfigPath/mldonkey:/var/lib/mldonkey
-      - $Descargas/mldonkey:/mnt/mldonkey_completed
-      - $Temp/mldonkey:/mnt/mldonkey_tmp
+      - CHANGE_TO_COMPOSE_DATA_PATH/mldonkey/config:/var/lib/mldonkey
+      - CHANGE_TO_COMPOSE_DATA_PATH/mldonkey/completed:/mnt/mldonkey_completed
+      - CHANGE_TO_COMPOSE_DATA_PATH/mldonkey/tmp:/mnt/mldonkey_tmp
     ports:
       - 4000:4000
       - 4001:4001

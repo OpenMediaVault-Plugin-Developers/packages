@@ -21,7 +21,7 @@ services:
       - PERSISTENTKEEPALIVE_PEERS= #optional
       - LOG_CONFS=true #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/wireguard:/config
       - /lib/modules:/lib/modules #optional
     ports:
       - 51820:51820/udp

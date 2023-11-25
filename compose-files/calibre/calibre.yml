@@ -18,9 +18,9 @@ services:
       - TITLE="Calibre Library"
       # - CLI_ARGS= #optional
     volumes:
-      - $ConfigPath/calibre:/config
-      - $MyBooks:/config/Books
-      - $Libreria:/config/Libreria
+      - CHANGE_TO_COMPOSE_DATA_PATH/calibre/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/calibre/books:/config/Books
+      - CHANGE_TO_COMPOSE_DATA_PATH/calibre/libreria:/config/Libreria
     ports:
       - 8080:8080
       - 8081:8081

@@ -8,8 +8,8 @@ services:
     container_name: minidlna
     restart: unless-stopped
     volumes:
-      - /mnt/audio:/media/audio
-      - /mnt/video:/media/video
+      - CHANGE_TO_COMPOSE_DATA_PATH/minidlna/audio:/media/audio
+      - CHANGE_TO_COMPOSE_DATA_PATH/minidlna/video:/media/video
     environment:
       - MINIDLNA_MEDIA_DIR_1=/media/audio
       - MINIDLNA_MEDIA_DIR_2=/media/video

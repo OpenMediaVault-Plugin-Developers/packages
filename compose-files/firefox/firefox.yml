@@ -13,6 +13,6 @@ services:
       - 3000:3000 # http
       #- 3001:3001 # https
     volumes:
-      - /path/to/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/firefox/config:/config
     shm_size: "1gb"
     restart: unless-stopped

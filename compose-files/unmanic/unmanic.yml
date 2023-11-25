@@ -11,6 +11,6 @@ services:
       - PUID=1001
       - PGID=100
     volumes:
-      - /path/to/config:/config
-      - /path/to/library:/library
-      - /path/to/encode_cache:/tmp/unmanic
+      - CHANGE_TO_COMPOSE_DATA_PATH/unmanic/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/unmanic/library:/library
+      - CHANGE_TO_COMPOSE_DATA_PATH/unmanic/encode_cache:/tmp/unmanic

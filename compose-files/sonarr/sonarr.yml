@@ -9,11 +9,11 @@ services:
       - PGID=100
       - TZ=America/New_York
     volumes:
-      - /etc/hosts:/etc/hosts
-      - /path/to/docker/docker-config/sonarr:/config
-      - /path/to/multimedia/.tmp/qbittorrent-downloads:/downloads
+      - /etc/hosts:/etc/hosts:ro
       - /etc/localtime:/etc/localtime:ro
-      - /path/to/multimedia/tv-series:/tv
+      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/downloads:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/tv-series:/tv
     ports:
       - 8989:8989
     restart: unless-stopped

@@ -9,7 +9,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro
-      - $ConfigPath/glances:/glances/conf
+      - CHANGE_TO_COMPOSE_DATA_PATH/glances:/glances/conf
     environment:
       - "GLANCES_OPT=-w"
       - TZ=$TZ

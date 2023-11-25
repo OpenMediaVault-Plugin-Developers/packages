@@ -4,7 +4,7 @@ services:
   datascience-notebook:
     image: jupyter/base-notebook:latest
     volumes:
-      - /tmp/jupyter_test_dir:/home/docker_worker/work
+      - CHANGE_TO_COMPOSE_DATA_PATH/jupyter:/home/docker_worker/work
     ports:
       - 8891:8888
     command: "start-notebook.sh"

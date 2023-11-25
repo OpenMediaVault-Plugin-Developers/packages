@@ -23,11 +23,11 @@ services:
       - DEBUG=false
       - ENABLE_PRIVOXY=no
     volumes:
-      - /apps/docker/deluge/data:/data
-      - /apps/docker/deluge/config:/config
-      - /etc/localtime:/etc/localtime
+      - CHANGE_TO_COMPOSE_DATA_PATH/deluge/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/deluge/config:/config
+      - /etc/localtime:/etc/localtime:ro
       #wireguard
-      - /lib/modules:/lib/modules
+      - /lib/modules:/lib/modules:ro
     ports:
       - 8112:8112
       - 8118:8118

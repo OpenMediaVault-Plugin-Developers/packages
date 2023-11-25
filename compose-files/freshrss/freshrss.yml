@@ -10,7 +10,7 @@ services:
       - TZ=America/New_York
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /path/to/docker/docker-config/freshrss:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/freshrss:/config
     ports:
       - 9080:80
     restart: unless-stopped

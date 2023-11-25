@@ -10,7 +10,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/prowlarr:/config
     ports:
       - 9696:9696
     restart: unless-stopped

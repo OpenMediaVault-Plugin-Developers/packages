@@ -8,7 +8,7 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - yacht:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/yacht:/config
       - /var/run/docker.sock:/var/run/docker.sock
     image: selfhostedpro/yacht
 volumes:

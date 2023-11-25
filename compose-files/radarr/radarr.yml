@@ -9,9 +9,9 @@ services:
       - PGID=100
       - TZ=Europe/Istanbul
     volumes:
-      - /path/to/radarr/config:/config
-      - /path/to/radarr/movies:/movies
-      - /path/to/radarr/downloads:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/radarr/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/radarr/movies:/movies
+      - CHANGE_TO_COMPOSE_DATA_PATH/radarr/downloads:/downloads
     ports:
       - 7878:7878
     restart: unless-stopped

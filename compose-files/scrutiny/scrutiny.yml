@@ -11,8 +11,8 @@ services:
       - 8086:8086 # influxDB admin
     volumes:
       - /run/udev:/run/udev:ro
-      - /path/to/docker/docker-config/scrutiny:/opt/scrutiny/config
-      - /path/to/docker/docker-config/scrutiny/influxdb:/opt/scrutiny/influxdb
+      - CHANGE_TO_COMPOSE_DATA_PATH/scrutiny/config:/opt/scrutiny/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/scrutiny/influxdb:/opt/scrutiny/influxdb
     devices:
       - /dev/sda
       - /dev/sdb

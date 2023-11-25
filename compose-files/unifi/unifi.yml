@@ -6,7 +6,7 @@ services:
     network_mode: host
     restart: unless-stopped
     volumes:
-      - /path/to/unifi:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/unifi:/config
     environment:
       - PUID=1001
       - PGID=1001

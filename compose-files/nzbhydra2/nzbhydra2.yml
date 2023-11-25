@@ -10,8 +10,8 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
-      - /nzb/download:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/nzbhydra2/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/nzbhydra2/downloads:/downloads
     ports:
       - 5076:5076
     restart: unless-stopped
