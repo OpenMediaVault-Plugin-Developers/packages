@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  podgrab:
+    image: akhilrex/podgrab
+    container_name: podgrab
+    environment:
+      - CHECK_FREQUENCY=${CHECK_FREQUENCY}
+      - PASSWORD=${PASSWORD}     ## Uncomment to enable basic authentication, username = podgrab
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/podgraber/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/podgraber/data:/assets
+    ports:
+      - 8080:8080
+    restart: unless-stopped
