@@ -581,19 +581,19 @@ Description: OpenMediaVault WebDAV plugin.
 Plugin-Section: filesystems
 
 Package: openmediavault-wireguard
-Version: 7.0.1
+Version: 7.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 272
+Installed-Size: 273
 Depends: qrencode, wireguard, openmediavault (>= 7)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wireguard/openmediavault-wireguard_7.0.1_all.deb
-Size: 17952
-SHA256: 5cd27c757697ffe6fe8907f67d56b29dcc37c82c8e89eff30b5a381fd7f0e730
-SHA1: 637ff70a33611badee8f99ce00e1e0820fc89ea7
-MD5sum: 668ac9005df6732ffc05c488d11dc205
+Filename: pool/main/o/openmediavault-wireguard/openmediavault-wireguard_7.0.2_all.deb
+Size: 19192
+SHA256: 824b68180c3eccd260a189a8b5d1a4539573d53768a3b52b3d2fb08592bc8835
+SHA1: 91999eb2f21747ef79be5b61399fc92e930d3c9d
+MD5sum: c3c7300f57f5e744629fed1e86decf91
 Description: openmediavault WireGuard plugin
  WireGuard is an extremely simple yet fast and modern VPN
  that utilizes state-of-the-art cryptography. It aims to be
