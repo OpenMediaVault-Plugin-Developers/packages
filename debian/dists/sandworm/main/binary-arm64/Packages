@@ -540,18 +540,18 @@ Description: wakealarm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-webdav
-Version: 7.0
+Version: 7.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 146
 Depends: openmediavault (>= 7), libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-webdav/openmediavault-webdav_7.0_all.deb
-Size: 10104
-SHA256: 8687a81fb304575c91d9e3049ae4e2644171ff4c7491acd2e99fcc623519b9b3
-SHA1: 54b34323a1d9362447cdb6818fb29ef821eefae4
-MD5sum: 36daf531fa19e491a323d80048c63fa9
+Filename: pool/main/o/openmediavault-webdav/openmediavault-webdav_7.0.1_all.deb
+Size: 10476
+SHA256: 972ae2723b70ad0c81528e8db9d59a88f26a3992f08106b25af26c232645185e
+SHA1: 303a93842ddf9e0803be74fe13fa4a6e0186b951
+MD5sum: a8aa6819580ae868f0765c6fa04ea840
 Description: OpenMediaVault WebDAV plugin.
  Web interface to enable WebDAV and select a share for files.
 Plugin-Section: filesystems
