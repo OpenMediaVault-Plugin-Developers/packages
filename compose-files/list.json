@@ -104,6 +104,10 @@
     "description": "VPN client to multiple VPN service providers"
   },
   {
+    "name": "gotify",
+    "description": "a simple server for sending and receiving messages"
+  },
+  {
     "name": "grafana",
     "description": "grafana create your own dashboards from any DB"
   },
