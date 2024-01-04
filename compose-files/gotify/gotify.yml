@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  gotify:
+    image: gotify/server
+    ports:
+      - 8080:80
+    environment:
+      - GOTIFY_DEFAULTUSER_PASS=${GOTIFY_DEFAULTUSER_PASS} #default user is admin
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/gotify_data:/app/data
