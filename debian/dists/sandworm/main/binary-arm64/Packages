@@ -252,6 +252,26 @@ Description: folder2ram plugin for openmediavault
  This allows the installation of OMV on flash thumb drives and SD cards.
 Plugin-Section: filesystems
 
+Package: openmediavault-iperf3
+Version: 7.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 77
+Depends: iperf3, openmediavault (>= 7)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-iperf3/openmediavault-iperf3_7.0_all.deb
+Size: 8820
+SHA256: 67c02af0580cc1d7a7a7d515b4d7c48e818436a3f1b7fc07995ecbed1ee24620
+SHA1: 848e1840b8927257c5646e7bca2c28be5624fb58
+MD5sum: 1269d3c82518bd32feec6c7dd5858e0d
+Description: OpenMediaVault iPerf3 plugin
+ iperf3 is a tool for performing network throughput measurements.
+ It can test TCP, UDP, or SCTP throughput.  To perform an iperf3
+ test the user must establish both a server and a client.
+Plugin-Section: network
+
 Package: openmediavault-kvm
 Version: 7.0.4
 Architecture: all
@@ -288,18 +308,18 @@ Description: locate plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-luksencryption
-Version: 7.0.1
+Version: 7.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 331
+Installed-Size: 333
 Depends: busybox, coreutils, cryptsetup, cryptsetup-bin, openmediavault (>= 7)
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-luksencryption/openmediavault-luksencryption_7.0.1_all.deb
-Size: 28528
-SHA256: 24ebf8f1f6e26b06711d4d681e5bd0ac078afe91724ababd44339fb0db788886
-SHA1: e5361b89e3111d157be1892ee5e8fca545ef8f19
-MD5sum: 9df288895bd2e7b2272ca837cf6dfe17
+Filename: pool/main/o/openmediavault-luksencryption/openmediavault-luksencryption_7.0.2_all.deb
+Size: 28716
+SHA256: ce67cbe4a598945b8a13f62ff0a8dbd9d190f8052a2db54cfa352b9b120da20e
+SHA1: 9f7c9e6e5c108d769cfc3b3b8d6172697aa8ddb9
+MD5sum: 5ec63deac5211e11092e45b09a7df3d5
 Description: OpenMediaVault LUKS encryption plugin
  LUKS is the standard for Linux hard disk encryption. By providing a
  standard on-disk-format, it not only facilitates compatibility
