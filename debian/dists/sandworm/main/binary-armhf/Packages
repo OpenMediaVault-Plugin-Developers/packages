@@ -253,19 +253,19 @@ Description: folder2ram plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-iperf3
-Version: 7.0
+Version: 7.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 77
+Installed-Size: 82
 Depends: iperf3, openmediavault (>= 7)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-iperf3/openmediavault-iperf3_7.0_all.deb
-Size: 8820
-SHA256: 67c02af0580cc1d7a7a7d515b4d7c48e818436a3f1b7fc07995ecbed1ee24620
-SHA1: 848e1840b8927257c5646e7bca2c28be5624fb58
-MD5sum: 1269d3c82518bd32feec6c7dd5858e0d
+Filename: pool/main/o/openmediavault-iperf3/openmediavault-iperf3_7.0.1_all.deb
+Size: 9384
+SHA256: dab154d970991069debcab70033642f4ea6ec6e2f8014aa75e32c1b8d1b532da
+SHA1: b7354c690a44416857f474ddcd22c8fe43acfac2
+MD5sum: 20c000530fb33a66dd297f8fceeb84db
 Description: OpenMediaVault iPerf3 plugin
  iperf3 is a tool for performing network throughput measurements.
  It can test TCP, UDP, or SCTP throughput.  To perform an iperf3
