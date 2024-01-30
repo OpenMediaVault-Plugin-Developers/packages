@@ -215,18 +215,18 @@ Description: OpenMediaVault downloader plugin
 Plugin-Section: downloaders
 
 Package: openmediavault-fail2ban
-Version: 7.0
+Version: 7.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 242
+Installed-Size: 245
 Depends: fail2ban, openmediavault (>= 7), whois
 Priority: optional
 Section: devel
-Filename: pool/main/o/openmediavault-fail2ban/openmediavault-fail2ban_7.0_all.deb
-Size: 20960
-SHA256: 749d351601793d4d3fb7a856f814abed962a757b53b091b6ec27e9820b41ad4e
-SHA1: ea5dc0ea645b5f1708d531bc8b56115b615f21fd
-MD5sum: bff2cce176883d188de6eaa1e76aa2e0
+Filename: pool/main/o/openmediavault-fail2ban/openmediavault-fail2ban_7.0.1_all.deb
+Size: 22692
+SHA256: 700a34234b927ab2e6f368c74a1fa0fdda78cb6286a9bf021ee3abda66dbda75
+SHA1: 4b5d5606d8b10500f89585031d5f8abb02fd28c3
+MD5sum: 26e559d9af5ae7cf24523dcda5ff7179
 Description: OpenMediaVault Fail2ban plugin
  Protect OMV with Fail2ban. Fail2ban scans log files and bans IPs that
  show the malicious signs -- too many password failures, seeking for
