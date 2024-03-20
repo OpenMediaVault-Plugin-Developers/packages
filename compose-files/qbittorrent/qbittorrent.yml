@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/linuxserver/qbittorrent
-version: "2.1"
 services:
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest

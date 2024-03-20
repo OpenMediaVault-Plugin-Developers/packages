@@ -1,5 +1,4 @@
 ---
-version: "3.8"
 # https://community.torproject.org/relay/setup/snowflake/standalone/
 services:
   snowflake-proxy:

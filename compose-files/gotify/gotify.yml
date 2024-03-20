@@ -1,6 +1,5 @@
 ---
 # https://github.com/gotify/server
-version: "3"
 services:
   gotify:
     image: gotify/server

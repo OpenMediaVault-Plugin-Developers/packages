@@ -1,6 +1,5 @@
 ---
 # https://dashy.to/
-version: "3.8"
 services:
   dashy:
     # To build from source, replace 'image: lissy93/dashy' with 'build: .'

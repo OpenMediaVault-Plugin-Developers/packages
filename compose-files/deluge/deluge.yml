@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/linuxserver/deluge
-version: "2.1"
 services:
   deluge:
     image: lscr.io/linuxserver/deluge:latest

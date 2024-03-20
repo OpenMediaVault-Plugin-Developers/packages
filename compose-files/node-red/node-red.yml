@@ -1,5 +1,4 @@
 ---
-version: "3.7"
 services:
   node-red:
     image: nodered/node-red:latest

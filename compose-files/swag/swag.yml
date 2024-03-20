@@ -1,6 +1,5 @@
 ---
 # https://github.com/linuxserver/docker-swag
-version: "2.1"
 services:
   swag:
     image: lscr.io/linuxserver/swag:latest

@@ -1,6 +1,5 @@
 ---
 # https://github.com/binhex/arch-delugevpn
-version: '2.4'
 services:
   delugeopenvpn:
     image: binhex/arch-delugevpn:latest

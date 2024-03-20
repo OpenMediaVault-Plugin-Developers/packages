@@ -1,6 +1,5 @@
 ---
 # https://github.com/SelfhostedPro/Yacht
-version: "3"
 services:
   yacht:
     container_name: yacht

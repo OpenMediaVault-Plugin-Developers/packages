@@ -1,6 +1,5 @@
 ---
 # https://github.com/rix1337/docker-ripper
-version: '3.3'
 services:
   docker-ripper:
     image: rix1337/docker-ripper:manual-latest

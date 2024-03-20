@@ -1,6 +1,5 @@
 ---
 # https://github.com/jlesage/docker-handbrake
-version: '3'
 services:
   handbrake:
     image: jlesage/handbrake

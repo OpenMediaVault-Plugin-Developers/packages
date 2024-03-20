@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/linuxserver/sabnzbd
-version: "2.1"
 services:
   sabnzbd:
     image: lscr.io/linuxserver/sabnzbd:latest

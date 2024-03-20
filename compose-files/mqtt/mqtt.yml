@@ -1,6 +1,5 @@
 ---
 # https://mosquitto.org/
-version: "2"
 services:
   mqtt:
     container_name: mqtt

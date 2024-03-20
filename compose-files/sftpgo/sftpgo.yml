@@ -3,7 +3,6 @@
 # runs as root.
 # Change user id in user line and fix permissions of volumes if another user is desired
 # webdav and sftp enabled
-version: "3.9"
 services:
   sftpgo:
     image: drakkan/sftpgo:alpine

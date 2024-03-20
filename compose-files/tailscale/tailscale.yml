@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/tailscale/tailscale
-version: "2.4"
 services:
   tailscale:
     privileged: true

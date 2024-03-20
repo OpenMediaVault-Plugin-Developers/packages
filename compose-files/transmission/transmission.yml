@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/linuxserver/transmission
-version: "2.1"
 services:
   transmission:
     image: lscr.io/linuxserver/transmission:latest

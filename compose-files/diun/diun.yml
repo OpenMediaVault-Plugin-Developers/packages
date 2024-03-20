@@ -1,6 +1,5 @@
 ---
 # https://crazymax.dev/diun/install/docker/
-version: "3.5"
 services:
   diun:
     image: crazymax/diun:latest

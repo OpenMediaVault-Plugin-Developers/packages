@@ -1,7 +1,6 @@
 ---
 # https://hub.docker.com/r/vladgh/minidlna/
 # https://github.com/vladgh/docker_base_images/tree/main/minidlna
-version: '3'
 services:
   dlna:
     image: vladgh/minidlna:latest

@@ -1,6 +1,5 @@
 ---
 #https://hub.docker.com/r/linuxserver/beets
-version: "2.1"
 services:
   beets:
     image: lscr.io/linuxserver/beets:latest

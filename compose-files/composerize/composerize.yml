@@ -1,7 +1,6 @@
 ---
 # https://github.com/alcapone1933/docker-composerize
 # https://github.com/magicmark/composerize
-version: "3.9"
 services:
   composerize:
     image: alcapone1933/composerize:latest

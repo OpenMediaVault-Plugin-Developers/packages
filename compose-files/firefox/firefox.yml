@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/linuxserver/firefox
-version: "3.9"
 services:
   firefox:
     image: lscr.io/linuxserver/firefox

@@ -2,7 +2,6 @@
 #################################################################
 # https://hub.docker.com/r/linuxserver/code-server
 #################################################################
-version: "2.1"
 services:
   code-server:
     image: lscr.io/linuxserver/code-server:latest

@@ -1,6 +1,5 @@
 ---
 # https://github.com/FlareSolverr/FlareSolverr
-version: "2.1"
 services:
   flaresolverr:
     # DockerHub mirror flaresolverr/flaresolverr:latest

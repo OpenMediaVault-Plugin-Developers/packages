@@ -2,7 +2,6 @@
 # https://hub.docker.com/r/linuxserver/nextcloud
 # https://docs.linuxserver.io/images/docker-nextcloud
 # only x86-64 and arm64 are supported
-version: "2.1"
 services:
   nextcloud:
     image: lscr.io/linuxserver/nextcloud:latest

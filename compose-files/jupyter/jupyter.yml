@@ -1,5 +1,4 @@
 ---
-version: '2'
 services:
   datascience-notebook:
     image: jupyter/base-notebook:latest

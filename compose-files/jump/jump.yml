@@ -1,6 +1,5 @@
 ---
 # https://github.com/daledavies/jump
-version: '3'
 services:
   web:
     image: daledavies/jump

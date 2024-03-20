@@ -1,6 +1,5 @@
 ---
 # https://recyclarr.dev/wiki/installation/
-version: '2.1'
 services:
   recyclarr:
     image: ghcr.io/recyclarr/recyclarr

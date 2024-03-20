@@ -1,6 +1,5 @@
 ---
 # https://github.com/binhex/arch-qbittorrentvpn
-version: "2.2"
 services:
   qbittorrentvpn:
     image: binhex/arch-qbittorrentvpn

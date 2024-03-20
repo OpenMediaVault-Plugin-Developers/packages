@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/fallenbagel/jellyseerr
-version: '3'
 services:
   jellyseerr:
     image: fallenbagel/jellyseerr:latest

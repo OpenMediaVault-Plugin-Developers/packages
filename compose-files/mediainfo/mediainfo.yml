@@ -1,6 +1,5 @@
 ---
 # https://github.com/jlesage/docker-mediainfo
-version: '3'
 services:
   mediainfo:
     image: jlesage/mediainfo

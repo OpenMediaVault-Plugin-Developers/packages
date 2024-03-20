@@ -1,6 +1,5 @@
 ---
 # https://hub.docker.com/r/lmscommunity/logitechmediaserver
-version: '3'
 services:
   lms:
     container_name: lms

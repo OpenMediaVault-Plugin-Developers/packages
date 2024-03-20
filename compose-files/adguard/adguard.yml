@@ -1,6 +1,5 @@
 ---
 # Note: 192.168.1.xxx is an example network, you must update all these to match your own.
-version: "3"
 networks:
   MyMacVlan:
     external: true
