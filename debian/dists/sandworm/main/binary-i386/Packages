@@ -708,3 +708,46 @@ Description: Operating system database files
  .
  This package contains the actual database files.
 
+Package: snapraid
+Version: 12.3-1
+Architecture: i386
+Maintainer: Mo Zhou <lumin@debian.org>
+Installed-Size: 587
+Depends: libc6 (>= 2.34)
+Homepage: https://github.com/amadvance/snapraid
+Priority: optional
+Section: admin
+Filename: pool/main/s/snapraid/snapraid_12.3-1_i386.deb
+Size: 293828
+SHA256: 785f8edbba35fde39ceb9e5bb0e9f84a9d0e0f2d36e04790d10237cee433a8cf
+SHA1: 13bf6d57bcece54eaece48314e416e551bc9f220
+MD5sum: b12acf28669e8a7703cca474dfcd2d4b
+Description: backup program for disk arrays
+ SnapRAID is a backup program for disk arrays. It stores parity
+ information of your data and it recovers from up to six disk
+ failures.
+ .
+ SnapRAID is mainly targeted for a home media center, where you
+ have a lot of big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, the other
+ features of SnapRAID are:
+ .
+  * You can use disk already filled with files, without the need to
+    reformat them. You will access them like now.
+  * All your data is hashed to ensure data integrity and to avoid
+    silent corruption.
+  * If the failed disks are too many to allow a recovery,
+    you lose the data only on the failed disks.
+    All the data in the other disks is safe.
+  * If you accidentally delete some files in a disk, you can
+    recover them.
+  * The disks can have different sizes.
+  * You can add disks at any time.
+  * It doesn't lock-in your data. You can stop using SnapRAID at any
+    time without the need to reformat or move data.
+  * To access a file, only a single disk needs to spin, saving power and
+    producing less noise.
+ .
+ The official site of SnapRAID is: http://www.snapraid.it/
+
