@@ -10,8 +10,6 @@ services:
       - TZ=America/Chicago
     ports:
       - 3000:3000 # http
-      #- 3001:3001 # https
-    volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/firefox/config:/config
+      - 3001:3001 # https
     shm_size: "1gb"
     restart: unless-stopped
