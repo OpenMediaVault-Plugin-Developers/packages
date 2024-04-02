@@ -244,6 +244,10 @@
     "description": "A request management and media discovery tool built to work with your existing Plex ecosystem."
   },
   {
+    "name": "paperless-ngx",
+    "description": "Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive"
+  },
+  {
     "name": "pigallery",
     "description": "self-hosted directory-first photo gallery website"
   },
