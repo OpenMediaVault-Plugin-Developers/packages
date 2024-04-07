@@ -472,19 +472,19 @@ Description: OpenMediaVault rsnapshot backup plugin.
 Plugin-Section: backup
 
 Package: openmediavault-sftp
-Version: 7.0
+Version: 7.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 215
+Installed-Size: 220
 Depends: openmediavault (>= 7)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-sftp/openmediavault-sftp_7.0_all.deb
-Size: 20128
-SHA256: b5be13f018be2fe5cf86dbf1456b2ba3423ee6d9a517073e79d51c8629455b72
-SHA1: 82e9be83c40df782127cf15839bc36c32d801579
-MD5sum: 4e0d9f25586f5002e917abc98aac431d
+Filename: pool/main/o/openmediavault-sftp/openmediavault-sftp_7.0.1_all.deb
+Size: 21016
+SHA256: 2991297c22b401874ed936b5806ce7c0e92365a7972b649380eb6df6aa5a2ceb
+SHA1: 429ce3d8d9bd1e5b9dad39eb3a47015bb23733c1
+MD5sum: 90a09b25e2ba53bc8978a211aeec4b6c
 Description: sftp server
  Configure sftp server using jails
 Plugin-Section: network
