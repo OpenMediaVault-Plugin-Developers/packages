@@ -254,20 +254,20 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kernel
-Version: 7.0.4
+Version: 7.0.5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 64
+Installed-Size: 65
 Depends: memtest86+, openmediavault (>= 7), openmediavault-omvextrasorg (>= 7)
 Breaks: openmediavault (<< 6.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_7.0.4_all.deb
-Size: 11976
-SHA256: 564b41f786b0751e5a0ea9f5023dde7fff95d9f9036d62847fa1184b568c572e
-SHA1: e1c599c989237874139b018aeef880913b9a6767
-MD5sum: 8b6671672509f8d0c62dac417d6a3168
+Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_7.0.5_all.deb
+Size: 12004
+SHA256: f4fe6bdba1e377aaafece70b2c89bdcf1266f63eeea686d2c5f333eb3f3b95f3
+SHA1: ce65e7a173a60b7cb88191f5c025d04a190e56e0
+MD5sum: e264afb9e95f5ea76282297e276a5831
 Description: kernel package
  The plugin allows the user to select which grub entry to boot from and
  installation of the Proxmox kernel.  It also allows for the download
