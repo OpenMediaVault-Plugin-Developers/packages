@@ -1,0 +1,15 @@
+---
+# https://docs.linuxserver.io/images/docker-chromium/
+services:
+  chromium:
+    image: lscr.io/linuxserver/chromium:latest
+    container_name: chromium
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=America/Chicago
+    ports:
+      - 3000:3000 # http
+      - 3001:3001 # https
+    shm_size: "1gb"
+    restart: unless-stopped

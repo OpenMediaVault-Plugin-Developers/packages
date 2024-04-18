@@ -32,6 +32,10 @@
     "description": "e-book manager"
   },
   {
+    "name": "chromium",
+    "description": "Chromium web browser"
+  },
+  {
     "name": "code-server",
     "description": "Code-server is VS Code running on a remote server."
   },
