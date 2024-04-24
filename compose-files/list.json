@@ -412,6 +412,10 @@
     "description": "Clone project of the popular word guessing game we all know and love."
   },
   {
+    "name": "xwiki",
+    "description": "xwiki - advanced open source enterprise wiki"
+  },
+  {
     "name": "yacht",
     "description": "Management UI with a focus on templates and 1-click deployments"
   }
