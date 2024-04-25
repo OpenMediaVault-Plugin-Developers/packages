@@ -404,6 +404,10 @@
     "description": "wetty container especially for using docker exec in another container"
   },
   {
+    "name": "wikijs",
+    "description": "The most powerful and extensible open source Wiki software"
+  },
+  {
     "name": "wireguard",
     "description": "Extremely simple yet fast and modern VPN "
   },
