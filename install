@@ -2,13 +2,26 @@
 
 # shellcheck disable=SC2086,SC2181
 
+declare -i version
 
 if [[ $(id -u) -ne 0 ]]; then
   echo "This script must be executed as root or using sudo."
   exit 99
 fi
 
-declare -i version
+arch="$(dpkg --print-architecture)"
+echo "Arch :: ${arch}"
+
+# exit if not supported architecture
+case ${arch} in
+  arm64|armhf|amd64|i386)
+    echo "Supported architecture"
+    ;;
+  *)
+    echo "Unsupported architecture :: ${arch}"
+    exit 5
+    ;;
+esac
 
 url="https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/"
 
