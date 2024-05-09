@@ -99,9 +99,3 @@ services:
 # The default language to use for OCR. Set this to the language most of your
 # documents are written in.
       #PAPERLESS_OCR_LANGUAGE: eng
-
-volumes:
-  data:
-  media:
-  pgdata:
-  redisdata:
