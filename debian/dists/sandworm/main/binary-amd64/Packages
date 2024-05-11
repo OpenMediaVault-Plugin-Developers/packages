@@ -496,7 +496,7 @@ Description: OpenMediaVault rsnapshot backup plugin.
 Plugin-Section: backup
 
 Package: openmediavault-scripts
-Version: 7.0.4
+Version: 7.0.5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 224
@@ -504,11 +504,11 @@ Depends: openmediavault (>= 7.1), openmediavault-sharerootfs, pylint, shellcheck
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_7.0.4_all.deb
-Size: 16928
-SHA256: 72ce8b67f72b32c2a0a4b6d350602893d57522633ce42af86985018ea5248542
-SHA1: 282d4d2718184e2d817445534741f2e6c375bcf1
-MD5sum: d6c2fe193f127ada814392924cdc5118
+Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_7.0.5_all.deb
+Size: 16984
+SHA256: 0ad5275688b2f746b3fe5364e0b7a01529ebcada847be4f6ea1651ea1ebcd02b
+SHA1: ec7eeaa6baeeaffd49c2bad00dcfe6906a5c236c
+MD5sum: 0409ddb5a1509b94769bde31ede3c8a8
 Description: OpenMediaVault scripts plugin
  lightweight plugin to maintain and execute docker-scripts files.
 Plugin-Section: utilities
