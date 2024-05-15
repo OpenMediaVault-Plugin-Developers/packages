@@ -1,0 +1,14 @@
+---
+# https://github.com/bitnami/containers/tree/main/bitnami/minio
+services:
+  minio:
+    image: docker.io/bitnami/minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA/minio:/data
+    environment:
+      - MINIO_ROOT_USER=someusername
+      - MINIO_ROOT_PASSWORD=somepasswd
+      - MINIO_DEFAULT_BUCKETS=somebackupname

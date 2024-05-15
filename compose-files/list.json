@@ -204,6 +204,10 @@
     "description": "dlna server"
   },
   {
+    "name": "minio",
+    "description": "object storage server, compatible with Amazon S3 cloud storage service"
+  },
+  {
     "name": "mldonkey",
     "description": "p2p client"
   },
