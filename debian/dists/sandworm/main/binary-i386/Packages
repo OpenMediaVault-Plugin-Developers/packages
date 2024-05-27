@@ -131,7 +131,7 @@ Description: borgbackup plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-cputemp
-Version: 7.0.1
+Version: 7.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 26
@@ -139,11 +139,11 @@ Depends: openmediavault (>= 7)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-cputemp/openmediavault-cputemp_7.0.1_all.deb
-Size: 3776
-SHA256: 99cbb6b5363b2c3314bc5e9cd72509215b23bad65882e149aec29605b1447d71
-SHA1: 359dbb05e5ccc779533d1545473af4407254f114
-MD5sum: 7041982d9003c83001362e4d6b8f7dbb
+Filename: pool/main/o/openmediavault-cputemp/openmediavault-cputemp_7.0.2_all.deb
+Size: 3820
+SHA256: 35f9672fdec642aa247312ced42174d27fa723b0aee18271bfc971e0ef80464b
+SHA1: 57ceab7320c1f596acc2fd57505b7c8df4278c0e
+MD5sum: 1398327e248e7c4ff7861e6f959bc2b9
 Description: cpu temperature plugin for openmediavault
 Plugin-Section: filesystems
 
