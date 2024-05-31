@@ -220,6 +220,10 @@
     "description": "enjoy music collection from anywhere"
   },
   {
+    "name": "netatalk",
+    "description": "Netatalk is a Free and Open Source AFP fileserver"
+  },
+  {
     "name": "netdata",
     "description": "netdata"
   },

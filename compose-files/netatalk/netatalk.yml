@@ -1,0 +1,16 @@
+---
+# https://github.com/Netatalk/netatalk
+services:
+  netatalk:
+    image: netatalk/netatalk3:latest
+    container_name: netatalk
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - /srv/docker/afp:/mnt/afpshare
+      - /var/run/dbus:/var/run/dbus
+    environment:
+      AFP_USER: "xxxx"
+      AFP_PASS: "xxxx"
+    restart: unless-stopped
