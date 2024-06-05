@@ -453,19 +453,19 @@ Description: Reset Permissions
 Plugin-Section: utilities
 
 Package: openmediavault-rsnapshot
-Version: 7.0
+Version: 7.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 237
+Installed-Size: 244
 Depends: openmediavault (>= 7), rsnapshot
 Homepage: http://omv-extras.org
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-rsnapshot/openmediavault-rsnapshot_7.0_all.deb
-Size: 22704
-SHA256: f4ea49498379598afa05d04ef54674e41630a80eccc988ec5a54e938e7aa0a95
-SHA1: 90dcb0da95f743b3cf123ee54357d9d2e9c79d83
-MD5sum: 88a417f30010c99969ee6e7426500fc1
+Filename: pool/main/o/openmediavault-rsnapshot/openmediavault-rsnapshot_7.0.1_all.deb
+Size: 22404
+SHA256: c8b30c7a20ae5906bc429fdb52bb9d04c774c0da23d5e58cc8b0f433c9b575b0
+SHA1: aa5d6280d05cb05cc3dfe56a79ba379173d871a2
+MD5sum: 398b0aa4f6caaab21d41770118a4a2c8
 Description: OpenMediaVault rsnapshot backup plugin.
  Configures Backups by using rsnapshot, allowing rotating
  incremental backups.
