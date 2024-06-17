@@ -384,6 +384,10 @@
     "description": "Uptime Kuma is an easy-to-use self-hosted monitoring tool"
   },
   {
+    "name": "urbackup-server",
+    "description": "an easy to setup Open Source client/server backup system"
+  },
+  {
     "name": "vaultwarden",
     "description": "vaultwarden"
   },
