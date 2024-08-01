@@ -233,6 +233,23 @@ Description: folder2ram plugin for openmediavault
  This allows the installation of OMV on flash thumb drives and SD cards.
 Plugin-Section: filesystems
 
+Package: openmediavault-hddfanctrl
+Version: 7.0
+Architecture: all
+Maintainer: Roc R. C. <roc@ror3d.xyz>
+Installed-Size: 188
+Depends: openmediavault (>= 7), python3 (>= 3.8), python3-venv, lm-sensors, smartmontools
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-hddfanctrl/openmediavault-hddfanctrl_7.0_all.deb
+Size: 14680
+SHA256: 9c3e0e8d90f8e89946fdcaf362f1e1be8464062038dbcc4d85e84a9708cae648
+SHA1: 46f6955ce841bd671336cf8c1bf263d3cb9e9e86
+MD5sum: 7935802a0b90320a6fab934a28315153
+Description: hddfancontrol plugin for openmediavault
+Plugin-Section: utilities
+
 Package: openmediavault-iperf3
 Version: 7.0.1
 Architecture: all
