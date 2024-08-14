@@ -416,6 +416,10 @@
     "description": "The most powerful and extensible open source Wiki software"
   },
   {
+    "name": "win11",
+    "description": "win11 on docker"
+  },
+  {
     "name": "wireguard",
     "description": "Extremely simple yet fast and modern VPN "
   },

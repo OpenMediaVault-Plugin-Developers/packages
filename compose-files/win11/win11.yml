@@ -1,0 +1,27 @@
+---
+# https://github.com/dockur/windows
+# see github page for many more options and windows versions 
+services:
+  windows:
+    image: dockurr/windows
+    container_name: windows
+    environment:
+      VERSION: "win11"
+      #LANGUAGE: "French"
+      #REGION: "en-US"
+      #KEYBOARD: "en-US"
+      #DISK_SIZE: "256G"
+      #RAM_SIZE: "8G"
+      #CPU_CORES: "4"
+      #USERNAME: "bill"
+      #PASSWORD: "gates"
+      #DHCP: "Y"
+    devices:
+      - /dev/kvm
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 8006:8006
+      - 3389:3389/tcp
+      - 3389:3389/udp
+    stop_grace_period: 2m
