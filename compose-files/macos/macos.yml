@@ -1,0 +1,21 @@
+---
+# https://github.com/dockur/macos
+# see github page for many more options and macos versions 
+services:
+  macos:
+    image: dockurr/macos
+    container_name: macos
+    environment:
+      VERSION: "ventura"
+      #DISK_SIZE: "256G"
+      #RAM_SIZE: "8G"
+      #CPU_CORES: "4"
+    devices:
+      - /dev/kvm
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 8006:8006
+      - 5900:5900/tcp
+      - 5900:5900/udp
+    stop_grace_period: 2m

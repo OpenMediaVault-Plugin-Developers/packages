@@ -188,6 +188,10 @@
     "description": "Logitech Media Server"
   },
   {
+    "name": "macos",
+    "description": "macos on docker"
+  },
+  {
     "name": "makemkv",
     "description": "MakeMKV is a format converter or transcoder"
   },
