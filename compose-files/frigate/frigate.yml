@@ -13,16 +13,17 @@ services:
       - /dev/dri/renderD128 # for intel hwaccel, needs to be updated for your hardware
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - CHANGE_TO_COMPOSE_DATA_PATH/frigate/config.yml:/config/config.yml
+      - CHANGE_TO_COMPOSE_DATA_PATH/frigate/config:/config/config
       - CHANGE_TO_COMPOSE_DATA_PATH/frigate/storage:/media/frigate
       - type: tmpfs # Optional: 1GB of memory, reduces SSD/SD Card wear
         target: /tmp/cache
         tmpfs:
           size: 1000000000
     ports:
-      - "5000:5000"
+      # - "5000:5000" # Internal unauthenticated access. Expose carefully.
       - "8554:8554" # RTSP feeds
       - "8555:8555/tcp" # WebRTC over tcp
       - "8555:8555/udp" # WebRTC over udp
+      - "8971:8971"
     environment:
       FRIGATE_RTSP_PASSWORD: "password"
