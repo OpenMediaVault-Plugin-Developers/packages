@@ -180,6 +180,10 @@
     "description": "Free and open source comics/mangas media server"
   },
   {
+    "name": "ldap",
+    "description": "osixia openldap server with phpldapadmin web interface"
+  },
+  {
     "name": "lidarr",
     "description": "Lidarr is a music collection manager"
   },
