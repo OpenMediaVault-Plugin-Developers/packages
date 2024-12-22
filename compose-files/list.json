@@ -8,6 +8,10 @@
     "description": "A self-hosted audiobook and podcast server."
   },
   {
+    "name": "bazarr",
+    "description": "bazarr"
+  },
+  {
     "name": "beets",
     "description": "Beets is a music library manager"
   },
