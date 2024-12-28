@@ -9,7 +9,7 @@
   },
   {
     "name": "bazarr",
-    "description": "bazarr"
+    "description": "Companion Subtitle application to Sonarr and Radarr"
   },
   {
     "name": "beets",
@@ -322,6 +322,10 @@
   {
     "name": "rdesktop",
     "description": "Rdesktop - full desktop environments in many popular flavors"
+  },
+  {
+    "name": "readarr",
+    "description": "Book Manager and Automation (Sonarr for Ebooks)"
   },
   {
     "name": "recyclarr",
