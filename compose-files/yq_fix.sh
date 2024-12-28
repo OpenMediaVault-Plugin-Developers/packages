@@ -5,5 +5,6 @@ for i in *; do
   if [ -f "${file}" ]; then
     yq . ${file} > ${tmp}
     mv ${tmp} ${file}
+    sed -i '/^version:/d' ${file}
   fi
 done
