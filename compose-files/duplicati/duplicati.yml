@@ -8,7 +8,9 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+      - SETTINGS_ENCRYPTION_KEY=
       - CLI_ARGS= #optional
+      - DUPLICATI__WEBSERVICE_PASSWORD= #optional
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/duplicati/config:/config
       - CHANGE_TO_COMPOSE_DATA_PATH/duplicati/backups:/backups
