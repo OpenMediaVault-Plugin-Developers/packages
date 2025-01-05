@@ -88,6 +88,10 @@
     "description": " daemon to ban hosts that cause multiple authentication errors"
   },
   {
+    "name": "filebrowser",
+    "description": "A Web File Manager - default login/password: admin/admin"
+  },
+  {
     "name": "firefox",
     "description": "Firefox web browser"
   },
@@ -102,10 +106,6 @@
   {
     "name": "frigate",
     "description": "A complete and local CCTV NVR "
-  },
-  {
-    "name": "filebrowser",
-    "description": "A Web File Browser"
   },
   {
     "name": "glances",
@@ -240,6 +240,10 @@
     "description": "Netatalk is a Free and Open Source AFP fileserver"
   },
   {
+    "name": "netbootxyz",
+    "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it"
+  },
+  {
     "name": "netdata",
     "description": "netdata"
   },
@@ -262,10 +266,6 @@
   {
     "name": "nzbhydra2",
     "description": "Nzbhydra2 is a meta search application for NZB indexers"
-  },
-  {
-    "name": "netbootxyz",
-    "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it"
   },
   {
     "name": "overseerr",
