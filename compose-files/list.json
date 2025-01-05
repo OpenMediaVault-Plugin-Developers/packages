@@ -104,6 +104,10 @@
     "description": "A complete and local CCTV NVR "
   },
   {
+    "name": "filebrowser",
+    "description": "A Web File Browser"
+  },
+  {
     "name": "glances",
     "description": "system monitoring dashboard"
   },
