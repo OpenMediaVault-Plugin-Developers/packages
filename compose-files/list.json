@@ -104,6 +104,10 @@
     "description": "A complete and local CCTV NVR "
   },
   {
+    "name": "filebrowser",
+    "description": "A Web File Browser"
+  },
+  {
     "name": "glances",
     "description": "system monitoring dashboard"
   },
@@ -258,6 +262,10 @@
   {
     "name": "nzbhydra2",
     "description": "Nzbhydra2 is a meta search application for NZB indexers"
+  },
+  {
+    "name": "netbootxyz",
+    "description": "netboot.xyz is a convenient place to boot into any type of operating system or utility disk without the need of having to go spend time retrieving the ISO just to run it"
   },
   {
     "name": "overseerr",
