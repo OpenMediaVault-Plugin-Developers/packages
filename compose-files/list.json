@@ -84,6 +84,10 @@
     "description": "open source MQTT broker"
   },
   {
+    "name": "embyserver",
+    "description": "Emby Server is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and .NET Core.\n\nIt features a REST-based API with built-in documention to facilitate client development. We also have client libraries for our API to enable rapid development.\n"
+  },
+  {
     "name": "fail2ban",
     "description": " daemon to ban hosts that cause multiple authentication errors"
   },
