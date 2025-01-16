@@ -2,7 +2,6 @@ services:
   emby:
     image: emby/embyserver
     container_name: embyserver
-    runtime: all # Expose all GPUs
     network_mode: host # Enable DLNA and Wake-on-Lan
     environment:
       - UID=1000 # The UID to run emby as (default: 2)
@@ -17,5 +16,4 @@ services:
       - 8920:8920 # HTTPS port
     devices:
       - /dev/dri:/dev/dri # VAAPI/NVDEC/NVENC render nodes
-      - /dev/vchiq:/dev/vchiq # MMAL/OMX on Raspberry Pi
     restart: on-failure
