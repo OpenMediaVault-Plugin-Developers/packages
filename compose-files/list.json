@@ -416,6 +416,10 @@
     "description": "an easy to setup Open Source client/server backup system"
   },
   {
+    "name": "utorrent",
+    "description": "Utorrent Server / torrent download with gui ut or ng"
+  },
+  {
     "name": "vaultwarden",
     "description": "vaultwarden"
   },
