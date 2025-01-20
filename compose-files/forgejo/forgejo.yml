@@ -4,7 +4,7 @@ networks:
     external: false
 services:
   server:
-    image: codeberg.org/forgejo/forgejo:9.0.3
+    image: codeberg.org/forgejo/forgejo:10.0.0
     container_name: gitea
     environment:
       - USER_UID=1001
