@@ -112,6 +112,10 @@
     "description": "A complete and local CCTV NVR "
   },
   {
+    "name": "gitlab",
+    "description": " GitLab is the most comprehensive AI-powered DevSecOps Platform"
+  },
+  {
     "name": "glances",
     "description": "system monitoring dashboard"
   },
