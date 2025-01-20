@@ -1,3 +1,4 @@
+---
 services:
   gitlab:
     image: gitlab/gitlab-ce:latest
@@ -10,9 +11,9 @@ services:
         gitlab_rails['gitlab_shell_ssh_port'] = 2424
         gitlab_rails['initial_root_password'] = 'SET ROOT PASSWORD'
     ports:
-      - '8929:8929' #HTTP
-      - '443:443' #HTTPS
-      - '2424:22' #SSH ?
+      - '8929:8929' # HTTP
+      - '443:443'   # HTTPS
+      - '2424:22'   # SSH
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/gitlab/config:/etc/gitlab
       - CHANGE_TO_COMPOSE_DATA_PATH/gitlab/logs:/var/log/gitlab
