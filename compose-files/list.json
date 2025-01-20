@@ -104,6 +104,10 @@
     "description": "FlareSolverr is a proxy server to bypass Cloudflare protection"
   },
   {
+    "name": "forgejo",
+    "description": "Forgejo is a self-hosted lightweight software forge forked from gitea"
+  },
+  {
     "name": "freshrss",
     "description": "freshrss"
   },

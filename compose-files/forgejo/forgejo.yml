@@ -2,7 +2,6 @@
 networks:
   gitea:
     external: false
-
 services:
   server:
     image: codeberg.org/forgejo/forgejo:9.0.3
