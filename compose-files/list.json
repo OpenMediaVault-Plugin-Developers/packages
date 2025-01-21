@@ -116,6 +116,10 @@
     "description": "A complete and local CCTV NVR "
   },
   {
+    "name": "gitflic",
+    "description": "Gitflic.ru  testing \n\nlogin: adminuser@admin.local\npassword: qwerty123\n"
+  },
+  {
     "name": "gitlab",
     "description": " GitLab is the most comprehensive AI-powered DevSecOps Platform"
   },
