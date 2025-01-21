@@ -3,7 +3,6 @@ networks:
     driver: bridge
     external: false
     name: gitflic_network
-
 services:
   web:
     container_name: gitflic_web
@@ -35,7 +34,6 @@ services:
     depends_on:
       - postgres
       - redis
-
   postgres:
     container_name: gitflic_postgres
     image: zaba141/gitflic_postgres:latest
@@ -46,7 +44,6 @@ services:
       POSTGRES_DB: gitflic
     networks:
       - gitflic
-
   redis:
     container_name: gitflic_redis
     image: redis:6.2-alpine
@@ -56,17 +53,16 @@ services:
       - gitflic
     volumes:
       - ./redis/data:/data
-
   runner:
     container_name: gitflic_runner
     image: zaba141/gitflic_runner:latest
     environment:
-        BASE_URL: ${BASE_URL}
-        PORT: ${PORT}
-        TOKEN: ${TOKEN}
-        DOCKER_REGISTRY_USERNAME: ${DOCKER_REGISTRY_USERNAME}
-        DOCKER_REGISTRY_PASSWORD: ${DOCKER_REGISTRY_PASSWORD}
-        DOCKER_REGISTRY_EMAIL: ${DOCKER_REGISTRY_EMAIL}
+      BASE_URL: ${BASE_URL}
+      PORT: ${PORT}
+      TOKEN: ${TOKEN}
+      DOCKER_REGISTRY_USERNAME: ${DOCKER_REGISTRY_USERNAME}
+      DOCKER_REGISTRY_PASSWORD: ${DOCKER_REGISTRY_PASSWORD}
+      DOCKER_REGISTRY_EMAIL: ${DOCKER_REGISTRY_EMAIL}
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/gitflic:/config-files
       - /var/run/docker.sock:/var/run/docker.sock
