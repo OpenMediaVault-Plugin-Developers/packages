@@ -1,0 +1,74 @@
+networks:
+  gitflic:
+    driver: bridge
+    external: false
+    name: gitflic_network
+
+services:
+  web:
+    container_name: gitflic_web
+    image: zaba141/gitflick_web:latest
+    command: java -jar gitflic.jar --spring.config.additional-location=file:default-config/
+    restart: unless-stopped
+    volumes:
+      - ./gitflic/data/repo:/var/tmp/gitflic/repo
+      - ./gitflic/data/img:/var/tmp/gitflic/img
+      - ./gitflic/data/releases:/var/tmp/gitflic/releases
+      - ./gitflic/data/cicd:/var/tmp/gitflic/cicd
+      - ./gitflic/data/log:/var/tmp/gitflic/log
+      - ./var/gitflic/registry/:/var/gitflic/registry/
+    environment:
+      REDIS_PASS: ${REDIS_PASS}
+      POSTGRES_PASS: ${POSTGRES_PASS}
+      POSTGRES_USER: ${POSTGRES_USER}
+      BASE_URL: ${BASE_URL}:${PORT}
+      TRANSPORT_URL: ${TRANSPORT_URL}
+      EMAIL_USER: ${EMAIL_USER}
+      EMAIL_PASS: ${EMAIL_PASS}
+      EMAIL_SMTP_HOST: ${EMAIL_SMTP_HOST}
+      EMAIL_SMTP_PORT: ${EMAIL_SMTP_PORT}
+    networks:
+      - gitflic
+    ports:
+      - ${PORT}:8080
+      - "222:222"
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    container_name: gitflic_postgres
+    image: zaba141/gitflic_postgres:latest
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASS}
+      POSTGRES_DB: gitflic
+    networks:
+      - gitflic
+
+  redis:
+    container_name: gitflic_redis
+    image: redis:6.2-alpine
+    command: redis-server --requirepass ${REDIS_PASS}
+    restart: unless-stopped
+    networks:
+      - gitflic
+    volumes:
+      - ./redis/data:/data
+
+  runner:
+    container_name: gitflic_runner
+    image: zaba141/gitflic_runner:latest
+    environment:
+        BASE_URL: ${BASE_URL}
+        PORT: ${PORT}
+        TOKEN: ${TOKEN}
+        DOCKER_REGISTRY_USERNAME: ${DOCKER_REGISTRY_USERNAME}
+        DOCKER_REGISTRY_PASSWORD: ${DOCKER_REGISTRY_PASSWORD}
+        DOCKER_REGISTRY_EMAIL: ${DOCKER_REGISTRY_EMAIL}
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/gitflic:/config-files
+      - /var/run/docker.sock:/var/run/docker.sock
+    network_mode: host
+    restart: unless-stopped
