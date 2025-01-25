@@ -284,6 +284,10 @@
     "description": "Nzbhydra2 is a meta search application for NZB indexers"
   },
   {
+    "name": "outline",
+    "description": "Outline wiki"
+  },
+  {
     "name": "overseerr",
     "description": "A request management and media discovery tool built to work with your existing Plex ecosystem."
   },
