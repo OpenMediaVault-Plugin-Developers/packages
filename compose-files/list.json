@@ -424,6 +424,10 @@
     "description": "Teamspeak server"
   },
   {
+    "name": "thingsboard",
+    "description": "ThingsBoard is an open-source IoT platform for data collection, processing, visualization, and device management."
+  },
+  {
     "name": "torproxy",
     "description": "torproxy"
   },
