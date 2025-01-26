@@ -404,6 +404,10 @@
     "description": "tautulli"
   },
   {
+    "name": "teamspeak",
+    "description": "Teamspeak server"
+  },
+  {
     "name": "torproxy",
     "description": "torproxy"
   },
