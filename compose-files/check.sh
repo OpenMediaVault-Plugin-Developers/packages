@@ -4,6 +4,9 @@ for i in */; do
   yml="${file}.yml"
   env="${file}.env"
   readme="${name}/readme"
+  if [ ! -f "${file}" ]; then
+    echo "${file} icon missing!"
+  fi
   if [ ! -f "${yml}" ]; then
     echo "${yml} missing!"
   fi
