@@ -1,0 +1,14 @@
+services:
+  mytb:
+    restart: always
+    image: thingsboard/tb-postgres:latest
+    ports:
+      - 8080:9090
+      - 1883:1883
+      - 7070:7070
+      - 5683-5688:5683-5688/udp
+    environment:
+      TB_QUEUE_TYPE: in-memory
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/thingsboard/mytb-data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/thingsboard/mytb-logs:/var/log/thingsboard
