@@ -17,7 +17,7 @@ services:
       TS3SERVER_DB_WAITUNTILREADY: 30
       TS3SERVER_LICENSE: accept
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/ts3server/datadir:/var/ts3server/ 
+      - CHANGE_TO_COMPOSE_DATA_PATH/ts3server/datadir:/var/ts3server/
   db:
     image: mariadb
     restart: unless-stopped
