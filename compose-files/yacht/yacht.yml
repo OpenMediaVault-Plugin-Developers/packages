@@ -10,5 +10,3 @@ services:
       - CHANGE_TO_COMPOSE_DATA_PATH/yacht:/config
       - /var/run/docker.sock:/var/run/docker.sock
     image: selfhostedpro/yacht
-volumes:
-  yacht:
