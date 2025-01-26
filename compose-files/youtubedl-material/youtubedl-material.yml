@@ -1,0 +1,27 @@
+services:
+    ytdl_material:
+        environment: 
+            ytdl_mongodb_connection_string: 'mongodb://ytdl-mongo-db:27017'
+            ytdl_use_local_db: 'false'
+            write_ytdl_config: 'true'
+        restart: always
+        depends_on:
+            - ytdl-mongo-db
+        volumes:
+            - CHANGE_TO_COMPOSE_DATA_PATH/appdata:/app/appdata
+            - CHANGE_TO_COMPOSE_DATA_PATH/audio:/app/audio
+            - CHANGE_TO_COMPOSE_DATA_PATH/video:/app/video
+            - CHANGE_TO_COMPOSE_DATA_PATH/subscriptions:/app/subscriptions
+            - CHANGE_TO_COMPOSE_DATA_PATH/users:/app/users
+        ports:
+            - "8998:17442"
+        image: tzahi12345/youtubedl-material:latest
+    ytdl-mongo-db:
+        # If you are using a Raspberry Pi, use mongo:4.4.18
+        image: mongo:4
+        logging:
+            driver: "none"          
+        container_name: mongo-db
+        restart: always
+        volumes:
+            - CHANGE_TO_COMPOSE_DATA_PATH/db/:/data/db

@@ -1,0 +1,14 @@
+services:
+  cardigann:
+    image: linuxserver/cardigann
+    container_name: cardigann
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - SOCKS_PROXY=IP:PORT
+      - HTTP_PROXY=IP:PORT
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/cardigann:/config
+    ports:
+      - 5060:5060
+    restart: unless-stopped
