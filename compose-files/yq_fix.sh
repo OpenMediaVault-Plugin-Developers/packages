@@ -1,6 +1,6 @@
 tmp="/tmp/yqtmp"
 for i in *; do
-  echo "compse :: ${i}"
+  echo "compose :: ${i}"
   file="${i}/${i}.yml"
   if [ -f "${file}" ]; then
     yq . ${file} > ${tmp}

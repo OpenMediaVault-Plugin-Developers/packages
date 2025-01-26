@@ -9,7 +9,6 @@ services:
     depends_on:
       - postgres
       - redis
-
   redis:
     image: redis
     env_file: ./docker.env
@@ -23,7 +22,6 @@ services:
       interval: 10s
       timeout: 30s
       retries: 3
-
   postgres:
     image: postgres
     env_file: ./docker.env
@@ -40,7 +38,6 @@ services:
       POSTGRES_USER: 'user'
       POSTGRES_PASSWORD: 'pass'
       POSTGRES_DB: 'outline'
-
   https-portal:
     image: steveltn/https-portal
     env_file: ./docker.env
@@ -62,7 +59,6 @@ services:
       STAGE: 'production'
       WEBSOCKET: 'true'
       CLIENT_MAX_BODY_SIZE: '0'
-
 volumes:
   https-portal-data:
   storage-data:
