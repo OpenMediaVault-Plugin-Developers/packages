@@ -36,6 +36,10 @@
     "description": "e-book manager"
   },
   {
+    "name": "cardigann",
+    "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format."
+  },
+  {
     "name": "chromium",
     "description": "Chromium web browser"
   },
@@ -224,6 +228,10 @@
     "description": "MakeMKV is a format converter or transcoder"
   },
   {
+    "name": "mcmyadmin",
+    "description": "minecraft-server\n\nA Minecraft server with:\n\n    McMyAdmin\n    Ability to specify Mod/Flavor (Vanilla, Spigot, Forge) with ability to specify the Minecraft version\n    Fully configurable using environment variables\n    Volume to access all the configuration files later on\n"
+  },
+  {
     "name": "mediainfo",
     "description": "Convenient unified display of technical and tag data for video and audio files."
   },
@@ -306,6 +314,10 @@
   {
     "name": "plex",
     "description": "plex"
+  },
+  {
+    "name": "plextraktsync",
+    "description": "A python script that syncs the movies, shows and ratings between trakt and Plex"
   },
   {
     "name": "plik",
@@ -486,5 +498,9 @@
   {
     "name": "yacht",
     "description": "Management UI with a focus on templates and 1-click deployments"
+  },
+  {
+    "name": "youtubedl-material",
+    "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend."
   }
 ]
