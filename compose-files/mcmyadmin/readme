@@ -1,0 +1,8 @@
+minecraft-server
+
+A Minecraft server with:
+
+    McMyAdmin
+    Ability to specify Mod/Flavor (Vanilla, Spigot, Forge) with ability to specify the Minecraft version
+    Fully configurable using environment variables
+    Volume to access all the configuration files later on

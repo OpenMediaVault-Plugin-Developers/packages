@@ -1,0 +1,33 @@
+services:
+  mcmyadmin:
+    image: bymatej/minecraft-server:latest
+    container_name: mcmyadmin
+    environment:
+      PUID: 1000
+      PGID: 100
+      EULA: 1
+      MINECRAFT_FLAVOR: Vanilla
+      MINECRAFT_VERSION: 1.12.2
+      MCMA_PASSWORD: StrongPa55!
+      JAVA_MEMORY: 3072
+      JAVA_GC: -XX:+UseG1GC
+      JAVA_CUSTOM_OPTS: -server
+      ENABLE_COMMAND_BLOCK: true
+      LEVEL_NAME: "World By Matej"
+      MOTD: "A Minecraft Server by Matej"
+      DIFFICULTY: easy
+      MAX_PLAYERS: 6
+      ONLINE_MODE: false
+      VIEW_DISTANCE: 5
+      MAX_BUILD_HEIGHT: 128
+      PLAYER_IDLE_TIMEOUT: 60
+      SNOOPER_ENABLED: false
+      SPAWN_PROTECTION: 10
+      MAX_WORLD_SIZE: 14999992
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/minecraft/mcmyadmin:/data
+    ports:
+      - 8080:8080
+      - 25565:25565
+    stop_grace_period: 30s
+    restart: unless-stopped
