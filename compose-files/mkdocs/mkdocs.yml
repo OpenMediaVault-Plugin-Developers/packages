@@ -1,0 +1,12 @@
+services:
+  mkdocs:
+    image: squidfunk/mkdocs-material:latest
+    container_name: mkdocs
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/mkdocs/config:/docs
+    ports:
+      - 8000:8000
+    restart: unless-stopped
