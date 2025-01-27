@@ -248,6 +248,10 @@
     "description": "object storage server, compatible with Amazon S3 cloud storage service"
   },
   {
+    "name": "mkdocs",
+    "description": "Write your documentation in Markdown and create a professional static site for your Open Source or commercial project in minutes – searchable, customizable, more than 50 languages, for all devices. "
+  },
+  {
     "name": "mldonkey",
     "description": "p2p client"
   },
