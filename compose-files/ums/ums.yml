@@ -1,0 +1,15 @@
+services:
+  universalmediaserver:
+    image: universalmediaserver/ums
+    container_name: UMS
+    network_mode: host
+    environment:
+      - UMS_PROFILE=/profile
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/ums/UMS.conf:/profile
+      - CHANGE_TO_COMPOSE_DATA_PATH/media1/:/Media1:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/media2/:/Media2:ro
+    ports:
+      - 9001:9001
+      - 5001:5001
+    restart: 'unless-stopped'
