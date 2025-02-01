@@ -444,6 +444,10 @@
     "description": "Bittorrent client designed for easy, powerful use"
   },
   {
+    "name": "ums",
+    "description": "Universal Media Server\nStream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!\n"
+  },
+  {
     "name": "unifi",
     "description": "unifi"
   },
