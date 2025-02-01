@@ -1,0 +1,13 @@
+services:
+  wowza:
+    image: sameersbn/wowza:4.1.2-8
+    ports:
+      - 1935:tcp
+      - 8086:tcp
+      - 8087:tcp
+      - 8088:tcp
+    environment:
+      WOWZA_ACCEPT_LICENSE: 'yes'
+      WOWZA_KEY: ''
+    volumes:
+      - ':/var/lib/wowza'
