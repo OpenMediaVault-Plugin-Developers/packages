@@ -1,0 +1,17 @@
+---
+services:
+  twitch-points-miner:
+    image: rdavidoff/twitch-channel-points-miner-v2:latest
+    container_name: twitch-points-miner
+    stdin_open: true
+    tty: true
+    environment:
+      - TERM=xterm-256color
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/TwitchPointsMiner/run.py:/usr/src/app/run.py:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/TwitchPointsMiner/cookies:/usr/src/app/cookies
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/TwitchPointsMiner/logs:/usr/src/app/logs
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/TwitchPointsMiner/analytics:/usr/src/app/analytics
+    ports:
+      - 5000:5000
+    restart: unless-stopped

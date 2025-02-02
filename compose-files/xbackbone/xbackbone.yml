@@ -1,0 +1,15 @@
+---
+services:
+  Xbackbone:
+    image: linuxserver/xbackbone:latest
+    container_name: Xbackbone
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Amsterdam
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/xbackbone/config:/config
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped

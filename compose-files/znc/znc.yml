@@ -1,0 +1,14 @@
+---
+services:
+  znc:
+    image: linuxserver/znc:latest
+    container_name: znc
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/Files/AppData/Config/ZNC:/config
+    ports:
+      - 6501:6501
+    restart: unless-stopped

@@ -1,0 +1,13 @@
+---
+services:
+  tt-rss:
+    image: lunik1/tt-rss:latest
+    container_name: tt-rss
+    environment:
+      - PUID=1000
+      - PGID=100
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/config/tt-rss:/config
+    ports:
+      - 80:80
+    restart: unless-stopped

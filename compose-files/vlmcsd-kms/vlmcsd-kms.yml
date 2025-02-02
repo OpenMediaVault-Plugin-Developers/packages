@@ -1,0 +1,8 @@
+---
+services:
+  vlmcsd-kms:
+    image: mikolatero/vlmcsd:latest
+    container_name: vlmcsd-kms
+    ports:
+        - 1688:1688/tcp
+    restart: unless-stopped

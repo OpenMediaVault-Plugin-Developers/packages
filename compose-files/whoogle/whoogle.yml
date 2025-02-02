@@ -1,0 +1,10 @@
+---
+services:
+  whoogle:
+    image: benbusby/whoogle-search:latest
+    container_name: whoogle
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/whoogle/config/whoogle:/config
+    ports:
+      - 5001:5000
+    restart: unless-stopped

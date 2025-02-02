@@ -1,0 +1,13 @@
+---
+services:
+  wizarr:
+    image: ghcr.io/wizarrrr/wizarr
+    container_name: wizarr
+    environment:
+      - APP_URL=https://wizarr.domain.com
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/mediadepot/apps/wizarr:/data/database
+      - /etc/localtime:/etc/localtime
+    ports:
+      - 5690
+    restart: unless-stopped

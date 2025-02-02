@@ -1,0 +1,16 @@
+---
+services:
+  zotero:
+    image: lscr.io/linuxserver/zotero:latest
+    container_name: zotero
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Amsterdam
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/zotero/config:/config
+    ports:
+      - 3000:3000
+      - 3001:3001
+    shm_size: "1gb"
+    restart: unless-stopped
