@@ -1,0 +1,65 @@
+- name: nextcloud
+  image: owncloud/server:latest
+  ports:
+    - ${PORT}:8080
+  volumes:
+    - bind: CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/Owncloud/data
+      container: /mnt/data
+  restart_policy: unless-stopped
+  env:
+    - name: PUID
+      value: ${PUID}
+    - name: PGID
+      value: ${PGID}
+    - name: TZ
+      value: ${TZ}
+    - name: OWNCLOUD_DOMAIN
+      value: ${OWNCLOUD_DOMAIN}
+    - name: OWNCLOUD_DB_TYPE
+      value: mysql
+    - name: OWNCLOUD_DB_NAME
+      value: owncloud
+    - name: OWNCLOUD_DB_USERNAME
+      value: owncloud
+    - name: OWNCLOUD_DB_PASSWORD
+      value: ${DB_PASSWORD}
+    - name: OWNCLOUD_DB_HOST
+      value: owncloudmariadb
+    - name: OWNCLOUD_ADMIN_USERNAME
+      value: ${ADMIN_USERNAME}
+    - name: OWNCLOUD_ADMIN_PASSWORD
+      value: ${ADMIN_PASSWORD}
+    - name: OWNCLOUD_MYSQL_UTF8MB4
+      value: 'true'
+    - name: OWNCLOUD_REDIS_ENABLED
+      value: 'true'
+    - name: OWNCLOUD_REDIS_HOST
+      value: owncloudredis
+- name: owncloudmariadb
+  image: mariadb:10.5
+  volumes:
+    - bind: CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/Owncloud/DB
+      container: /var/lib/mysql
+  restart_policy: unless-stopped
+  env:
+    - name: PUID
+      value: ${PUID}
+    - name: PGID
+      value: ${PGID}
+    - name: TZ
+      value: ${TZ}
+    - name: MYSQL_ROOT_PASSWORD
+      value: ${DB_PASSWORD}
+    - name: MYSQL_USER
+      value: owncloud
+    - name: MYSQL_PASSWORD
+      value: ${DB_PASSWORD}
+    - name: MYSQL_DATABASE
+      value: owncloud
+- name: owncloudredis
+  image: redis:6
+  volumes:
+    - bind: CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/Owncloud/redis
+      container: /data
+  restart_policy: unless-stopped
+  env: []
