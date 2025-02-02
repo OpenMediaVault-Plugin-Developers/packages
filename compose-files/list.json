@@ -408,6 +408,10 @@
     "description": "sonarr"
   },
   {
+    "name": "steamos",
+    "description": "SteamOS is an Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. **This container will only work with modern AMD/Intel GPUs on a real Linux Host**"
+  },
+  {
     "name": "stirling-pdf",
     "description": "Your locally hosted one-stop-shop for all your PDF needs"
   },
@@ -452,6 +456,14 @@
     "description": "Bittorrent client designed for easy, powerful use"
   },
   {
+    "name": "tt-rss",
+    "description": "Tiny Tiny RSS is an open source web-based news feed (RSS/Atom) reader and aggregator, designed to allow you to read news from any location, while feeling as close to a real desktop application as possible."
+  },
+  {
+    "name": "twitch-points-miner",
+    "description": "A simple script that will watch a stream for you and earn the channel points."
+  },
+  {
     "name": "ums",
     "description": "Universal Media Server\nStream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!\n"
   },
@@ -484,6 +496,14 @@
     "description": "virt-manager"
   },
   {
+    "name": "vlmcsd-kms",
+    "description": "This is a replacement for Microsoft's KMS server."
+  },
+  {
+    "name": "vscodium",
+    "description": "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code."
+  },
+  {
     "name": "watchtower",
     "description": "watchtower"
   },
@@ -498,6 +518,10 @@
   {
     "name": "wettyexec",
     "description": "wetty container especially for using docker exec in another container"
+  },
+  {
+    "name": "whoogle",
+    "description": "Self-hosted, ad-free, privacy-respecting Google metasearch engine."
   },
   {
     "name": "wikijs",
@@ -516,6 +540,14 @@
     "description": "Extremely simple yet fast and modern VPN "
   },
   {
+    "name": "wireshark",
+    "description": "Wireshark is the world’s foremost and widely-used network protocol analyzer. It lets you see what’s happening on your network at a microscopic level and is the de facto (and often de jure) standard across many commercial and non-profit enterprises, government agencies, and educational institutions. Wireshark development thrives thanks to the volunteer contributions of networking experts around the globe and is the continuation of a project started by Gerald Combs in 1998."
+  },
+  {
+    "name": "wizarr",
+    "description": " Wizarr is an advanced user invitation and management system for Jellyfin, Plex, Emby etc. "
+  },
+  {
     "name": "wordle",
     "description": "Clone project of the popular word guessing game we all know and love."
   },
@@ -524,15 +556,39 @@
     "description": "Streaming media server"
   },
   {
+    "name": "wps-office",
+    "description": "WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency."
+  },
+  {
+    "name": "xbackbone",
+    "description": "Xbackbone is a simple, self-hosted, lightweight PHP file manager that support the instant sharing tool ShareX and *NIX systems. It supports uploading and displaying images, GIF, video, code, formatted text, and file downloading and uploading. Also have a web UI with multi user management, past uploads history and search support."
+  },
+  {
     "name": "xwiki",
     "description": "xwiki - advanced open source enterprise wiki"
+  },
+  {
+    "name": "yaak",
+    "description": "Yaak is a desktop API client for organizing and executing REST, GraphQL, and gRPC requests. It's built using Tauri, Rust, and ReactJS"
   },
   {
     "name": "yacht",
     "description": "Management UI with a focus on templates and 1-click deployments"
   },
   {
+    "name": "your_spotify",
+    "description": "Your_spotify is a self-hosted application that tracks what you listen and offers you a dashboard to explore statistics about it! It's composed of a web server which polls the Spotify API every now and then and a web application on which you can explore your statistics."
+  },
+  {
     "name": "youtubedl-material",
     "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend."
+  },
+  {
+    "name": "znc",
+    "description": "ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC."
+  },
+  {
+    "name": "zotero",
+    "description": "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research."
   }
 ]
