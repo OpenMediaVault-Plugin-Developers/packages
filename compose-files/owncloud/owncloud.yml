@@ -1,4 +1,4 @@
-- name: nextcloud
+- name: owncloud
   image: owncloud/server:latest
   ports:
     - ${PORT}:8080
