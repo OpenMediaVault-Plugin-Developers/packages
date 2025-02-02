@@ -496,6 +496,10 @@
     "description": "The most powerful and extensible open source Wiki software"
   },
   {
+    "name": "wikijs-artalk",
+    "description": "This guide will help you deploy Artalk on your server. Once deployed, you can integrate the Artalk client into your website or blog to enable comment functionality."
+  },
+  {
     "name": "win11",
     "description": "win11 on docker"
   },
@@ -506,6 +510,10 @@
   {
     "name": "wordle",
     "description": "Clone project of the popular word guessing game we all know and love."
+  },
+  {
+    "name": "wowza",
+    "description": "Streaming media server"
   },
   {
     "name": "xwiki",
