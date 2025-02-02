@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  thelounge:
+    image: linuxserver/thelounge:latest
+    ports:
+      - 9000:9000:tcp
+    environment:
+      PUID: ''
+      PGID: ''
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/TheLounge:/config
