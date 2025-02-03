@@ -1,0 +1,3 @@
+-e # adguardhome-sync
+
+[Adguardhome-sync](https://github.com/bakito/adguardhome-sync/) is a tool to synchronize AdGuardHome config to replica instances.

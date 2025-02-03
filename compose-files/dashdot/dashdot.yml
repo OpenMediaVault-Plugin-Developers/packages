@@ -1,0 +1,17 @@
+---
+services:
+  dashdot:
+    image: mauricenino/dashdot:latest
+    ports:
+      - '9980:3001'
+    environment:
+      'true': ''
+      os,cpu,storage,ram,network: ''
+      os,arch,up_since: ''
+      brand,model,cores,threads,frequency: ''
+      brand,size,type: ''
+      brand,size,type,frequency: ''
+      type,speed_up,speed_down,interface_speed: ''
+      brand, model, memory: ''
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/dashdot/:/mnt/host

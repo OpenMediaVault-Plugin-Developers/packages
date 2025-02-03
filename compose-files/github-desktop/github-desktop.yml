@@ -1,0 +1,15 @@
+---
+services:
+  github-desktop:
+    image: linuxserver/github-desktop:latest
+    container_name: github-desktop
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Amsterdam
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/github-desktop/config:/config
+    ports:
+      - 3000:3000:tcp
+      - 3001:3001:tcp
+    restart: unless-stopped

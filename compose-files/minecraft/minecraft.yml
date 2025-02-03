@@ -1,0 +1,12 @@
+---
+services:
+  minecraft:
+    image: itzg/minecraft-server:latest
+    container_name: minecraft
+    environment:
+      - EULA=TRUE
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/Minecraft-data:/data
+    ports:
+      - 25565:25565:tcp
+    restart: unless-stopped

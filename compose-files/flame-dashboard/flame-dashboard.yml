@@ -1,0 +1,10 @@
+---
+services:
+  flame-dashboard:
+    image: pawelmalak/flame
+    container_name: flame-dashboard
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/flame-dashboard:/app/data
+    ports:
+      - 5005:5005:tcp
+    restart: unless-stopped

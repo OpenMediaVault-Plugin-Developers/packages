@@ -1,0 +1,9 @@
+---
+services:
+  cloudflare-ddns:
+    image: favonia/cloudflare-ddns:latest
+    container_name: cloudflare-ddns
+    environment:
+      - CLOUDFLARE_API_TOKEN=
+      - DOMAINS=
+      - PROXIED=true

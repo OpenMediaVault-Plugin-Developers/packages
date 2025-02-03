@@ -1,0 +1,15 @@
+---
+services:
+  adguardhome-sync:
+    image: linuxserver/adguardhome-sync:latest
+    container_name: adguardhome-sync
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Amsterdam
+      - CONFIGFILE=CHANGE_TO_COMPOSE_DATA_PATH/appdata/config/adguardhome-sync.yaml
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/adguardhome-sync/config:/config
+    ports:
+      - 8080:8080
+    restart: unless-stopped
