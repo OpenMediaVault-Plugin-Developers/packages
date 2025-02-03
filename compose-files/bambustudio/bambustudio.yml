@@ -1,0 +1,16 @@
+---
+services:
+  bambustudio:
+    image: linuxserver/bambustudio:latest
+    container_name: bambustudio
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Amsterdam
+      - DARK_MODE=true
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/bambustudio/config:/config
+    ports:
+      - 3000:3000/tcp
+      - 3001:3001/tcp
+    restart: unless-stopped

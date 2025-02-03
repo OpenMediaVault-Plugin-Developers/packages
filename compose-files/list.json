@@ -4,8 +4,32 @@
     "description": "ad blocker"
   },
   {
+    "name": "adguardhome",
+    "description": "AdGuard Home is a network-wide software for blocking ads & tracking. After you set it up, it’ll cover ALL your home devices, and you don’t need any client-side software for that. With the rise of Internet-Of-Things and connected devices, it becomes more and more important to be able to control your network."
+  },
+  {
+    "name": "adguardhome-sync",
+    "description": "-e # adguardhome-sync\n\n[Adguardhome-sync](https://github.com/bakito/adguardhome-sync/) is a tool to synchronize AdGuardHome config to replica instances.\n"
+  },
+  {
+    "name": "airsonic",
+    "description": "Airsonic is a free, web-based media streamer, providing ubiqutious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room."
+  },
+  {
+    "name": "airsonic-advanced",
+    "description": "-e # airsonic-advanced\n\n[Airsonic-advanced](https://github.com/airsonic-advanced/airsonic-advanced) is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room.\n"
+  },
+  {
+    "name": "alpine-xfce4-novnc",
+    "description": "Alpine xfce4 novnc"
+  },
+  {
     "name": "audiobookshelf",
     "description": "A self-hosted audiobook and podcast server."
+  },
+  {
+    "name": "bambustudio",
+    "description": "[Bambu Studio](https://bambulab.com/en/download/studio) is an open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience."
   },
   {
     "name": "bazarr",
@@ -16,6 +40,10 @@
     "description": "Beets is a music library manager"
   },
   {
+    "name": "beszel",
+    "description": "A lightweight server resource monitoring hub with historical data, docker stats, and alerts."
+  },
+  {
     "name": "binhex-delugevpn",
     "description": "Deluge is a full-featured ​BitTorrent client with VPN"
   },
@@ -24,8 +52,20 @@
     "description": "qBittorrent is a bittorrent client with VPN"
   },
   {
+    "name": "bitwardenrs",
+    "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.."
+  },
+  {
+    "name": "blender",
+    "description": "[Blender](https://www.blender.org/) is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. **This image does not support GPU rendering out of the box only accelerated workspace experience**"
+  },
+  {
     "name": "bookstack",
     "description": "Bookstack is a free and open source Wiki"
+  },
+  {
+    "name": "broadlink-manager",
+    "description": "BroadlinkManager is a Flask powerd, easy to use system that hepls you to work with Broadlink Devices."
   },
   {
     "name": "calibre",
@@ -40,8 +80,28 @@
     "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format."
   },
   {
+    "name": "changedetection",
+    "description": "changedetection.io - The best and simplest self-hosted open source website change detection monitoring and notification service. An alternative to Visualping, Watchtower"
+  },
+  {
+    "name": "chevereto",
+    "description": "Chevereto is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes. Please note that this offers only the free Chevereto version.."
+  },
+  {
     "name": "chromium",
     "description": "Chromium web browser"
+  },
+  {
+    "name": "clamav",
+    "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats."
+  },
+  {
+    "name": "cloudflare-ddns",
+    "description": "A robust Cloudflare DDNS updater with a small footprint. The program will detect your machine's public IP addresses and update DNS records using the Cloudflare API."
+  },
+  {
+    "name": "cockpit-cms",
+    "description": "Cockpit is a headless CMS with an API-first approach that puts content first."
   },
   {
     "name": "code-server",
@@ -50,6 +110,10 @@
   {
     "name": "composerize",
     "description": "composerize converts docker run commands to a docker-compose file"
+  },
+  {
+    "name": "dashdot",
+    "description": "Dashdot is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind. It is intended to be used for smaller VPS and private servers."
   },
   {
     "name": "dashy",
@@ -92,6 +156,10 @@
     "description": "Emby Server is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and .NET Core.\n\nIt features a REST-based API with built-in documention to facilitate client development. We also have client libraries for our API to enable rapid development.\n"
   },
   {
+    "name": "emulatorjs",
+    "description": "[Emulatorjs](https://github.com/linuxserver/emulatorjs) - In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS."
+  },
+  {
     "name": "fail2ban",
     "description": " daemon to ban hosts that cause multiple authentication errors"
   },
@@ -102,6 +170,10 @@
   {
     "name": "firefox",
     "description": "Firefox web browser"
+  },
+  {
+    "name": "flame-dashboard",
+    "description": "Flame is self-hosted startpage for your server. Its design is inspired (heavily) by SUI. Flame is very easy to setup and use. With built-in editors, it allows you to setup your very own application hub in no time - no file editing necessary."
   },
   {
     "name": "flaresolverr",
@@ -122,6 +194,10 @@
   {
     "name": "gitflic",
     "description": "Gitflic.ru  testing \n\nlogin: adminuser@admin.local\npassword: qwerty123\n"
+  },
+  {
+    "name": "github-desktop",
+    "description": "[Github Desktop](https://desktop.github.com/) is an open source Electron-based GitHub app. It is written in TypeScript and uses React."
   },
   {
     "name": "gitlab",
@@ -200,6 +276,10 @@
     "description": "Jupyter Notebook stack"
   },
   {
+    "name": "kali-linux",
+    "description": "[Kali-linux](https://github.com/linuxserver/docker-kali-linux) - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec."
+  },
+  {
     "name": "kavita",
     "description": "Kavita is a free and open source web based Manga e-reader."
   },
@@ -238,6 +318,10 @@
   {
     "name": "mediainfo",
     "description": "Convenient unified display of technical and tag data for video and audio files."
+  },
+  {
+    "name": "minecraft",
+    "description": "This docker image provides a Minecraft Server that will automatically download the latest stable version at startup. You can also run/upgrade to any specific version or the latest snapshot. See the Versions section below for more information."
   },
   {
     "name": "minidlna",

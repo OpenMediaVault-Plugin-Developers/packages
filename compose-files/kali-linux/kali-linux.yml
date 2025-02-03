@@ -1,0 +1,18 @@
+---
+services:
+  kali-linux:
+    image: linuxserver/kali-linux:latest
+    container_name: kali-linux
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Amsterdam
+      - SUBFOLDER=/
+      - TITLE='Kali Linux'
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/kali-linux/config:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 3000:3000:tcp
+      - 3001:3001:tcp
+    restart: unless-stopped

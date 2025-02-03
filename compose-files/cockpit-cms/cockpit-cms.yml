@@ -1,0 +1,8 @@
+---
+services:
+  cockpit-cms:
+    image: agentejo/cockpit:latest
+    container_name: cockpit-cms
+    ports:
+      - 8088:80
+    restart: unless-stopped

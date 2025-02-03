@@ -1,0 +1,10 @@
+---
+services:
+  changedetection:
+    image: ghcr.io/dgtlmoon/changedetection.io:latest
+    container_name: changedetection
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/changedetection:/datastore
+    ports:
+      - 5000
+    restart: unless-stopped

@@ -1,0 +1,18 @@
+---
+services:
+  chevereto:
+    image: nmtan/chevereto:latest
+    container_name: chevereto
+    environment:
+      - PUID=1000
+      - PGID=100
+      - CHEVERETO_DB_HOST=
+      - CHEVERETO_DB_USERNAME=
+      - CHEVERETO_DB_PASSWORD=
+      - CHEVERETO_DB_NAME=
+      - CHEVERETO_DB_PREFIX=
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH:/var/www/html/images
+    ports:
+      - 80
+    restart: unless-stopped

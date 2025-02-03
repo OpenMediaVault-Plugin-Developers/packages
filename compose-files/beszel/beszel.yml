@@ -1,0 +1,9 @@
+---
+services:
+  beszel:
+    image: henrygd/beszel
+    container_name: beszel
+    ports:
+      - 8090:8090
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/beszel:/beszel_data

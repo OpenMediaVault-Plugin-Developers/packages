@@ -1,0 +1,18 @@
+---
+services:
+  adguard-home:
+    image: adguard/adguardhome
+    ports:
+      - 53:53:tcp
+      - 53:53:udp
+      - 67:67:udp
+      - 68:68:tcp
+      - 68:68:udp
+      - 784:784:udp
+      - 853:853:tcp
+      - 3000:3000:tcp
+      - 80:80:tcp
+      - 443:443:tcp
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/adguardhome/workdir:/opt/adguardhome/work
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/adguardhome/confdir:/opt/adguardhome/conf

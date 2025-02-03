@@ -1,0 +1,6 @@
+---
+services:
+  broadlink-manager:
+    image: techblog/broadlinkmanager
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/broadlinkmanager:/opt/broadlinkmanager/data
