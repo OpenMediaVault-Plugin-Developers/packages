@@ -19,7 +19,6 @@ services:
     networks:
       backend:
     restart: always
-
   # MySQL example
   # Most of the documentation that applies to PostgreSQL applies also to MySQL
   #database:
@@ -41,7 +40,6 @@ services:
   #    networks:
   #      backend:
   #    restart: always
-
   app:
     # Uncomment the following section to build the image yourself:
     #build:
@@ -94,12 +92,10 @@ services:
     restart: always
     depends_on:
       - database
-
 # Define networks to allow best isolation
 networks:
   # Internal network for communication with PostgreSQL/MySQL
   backend:
-
 # Define named volumes so data stays in place
 volumes:
   # Volume for PostgreSQL/MySQL database

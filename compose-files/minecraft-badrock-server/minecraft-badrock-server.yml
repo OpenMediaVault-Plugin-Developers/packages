@@ -8,4 +8,4 @@ services:
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/data:/data
     stdin_open: true
-    tty: true 
+    tty: true
