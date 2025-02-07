@@ -1,3 +1,4 @@
+#!/bin/bash
 for i in */; do
   name="$(basename ${i})"
   file="${name}/${name}"

@@ -220,8 +220,16 @@
     "description": "grafana create your own dashboards from any DB"
   },
   {
+    "name": "grav",
+    "description": "Grav is a Fast, Simple, and Flexible, file-based Web-platform. There is Zero installation required. "
+  },
+  {
     "name": "guacamole",
     "description": "guacamole remote access"
+  },
+  {
+    "name": "hadgedoc",
+    "description": "Ideas grow better together. HedgeDoc (formerly known as CodiMD) is an open-source, web-based, self-hosted, collaborative markdown editor."
   },
   {
     "name": "handbrake",
@@ -280,6 +288,10 @@
     "description": "[Kali-linux](https://github.com/linuxserver/docker-kali-linux) - is an Advanced Penetration Testing Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments. KALI LINUX ™ is a trademark of OffSec."
   },
   {
+    "name": "kasm",
+    "description": "Kasm⁠ Workspaces is a docker container streaming platform for delivering browser-based access to desktops, applications, and web services. Kasm uses devops-enabled Containerized Desktop Infrastructure (CDI) to create on-demand, disposable, docker containers that are accessible via web browser. Example use-cases include Remote Browser Isolation (RBI), Data Loss Prevention (DLP), Desktop as a Service (DaaS), Secure Remote Access Services (RAS), and Open Source Intelligence (OSINT) collections."
+  },
+  {
     "name": "kavita",
     "description": "Kavita is a free and open source web based Manga e-reader."
   },
@@ -322,6 +334,10 @@
   {
     "name": "minecraft",
     "description": "This docker image provides a Minecraft Server that will automatically download the latest stable version at startup. You can also run/upgrade to any specific version or the latest snapshot. See the Versions section below for more information."
+  },
+  {
+    "name": "minecraft-badrock-server",
+    "description": "Minecraft Badrock server"
   },
   {
     "name": "minidlna",

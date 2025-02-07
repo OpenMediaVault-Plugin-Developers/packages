@@ -1,3 +1,4 @@
+#!/bin/bash
 tmp="/tmp/yqtmp"
 for i in *; do
   echo "compose :: ${i}"
