@@ -652,6 +652,10 @@
     "description": "Clone project of the popular word guessing game we all know and love."
   },
   {
+    "name": "wordpress",
+    "description": "build your own website"
+  },
+  {
     "name": "wowza",
     "description": "Streaming media server"
   },
