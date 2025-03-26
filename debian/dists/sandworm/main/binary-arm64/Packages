@@ -283,19 +283,19 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kvm
-Version: 7.0.17
+Version: 7.1.0
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 1064
-Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 7.6), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php8.2-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-x86 (<= 9) | qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
+Installed-Size: 1070
+Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 7.6), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php8.2-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-x86 (<< 9) | qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.0.17_all.deb
-Size: 76700
-SHA256: f8b1bc9a3db244a5c3e1b4e547749f03a9817738ce6349ba9ec5cbfa12916c1d
-SHA1: 74ecf5904aa7b262a26b1eb70fff86b99aa80896
-MD5sum: dc4828597f69b191fddab2a616c58550
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.0_all.deb
+Size: 78596
+SHA256: c8045195ce2c821fb14993e22aef6bb7cc115e1cfb47fbeccfe10505b0f11af9
+SHA1: 35d6a77acc4614e58cc81ea55ee0065086f8b7bf
+MD5sum: f155fe387d0a99e5f7247986414e24c0
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
