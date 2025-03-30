@@ -416,6 +416,10 @@
     "description": "Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive"
   },
   {
+    "name": "php-apache",
+    "description": "apache webserver with php"
+  },
+  {
     "name": "pigallery",
     "description": "self-hosted directory-first photo gallery website"
   },

@@ -1,0 +1,10 @@
+---
+services:
+  php-apache:
+    image: php:8.2-apache
+    container_name: php-webserver
+    working_dir: /var/www/html
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/webserver/html:/var/www/html
+    ports:
+      - "8085:80"
