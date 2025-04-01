@@ -404,6 +404,10 @@
     "description": "run large language models"
   },
   {
+    "name": "open-webui",
+    "description": "an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline including ollama"
+  },
+  {
     "name": "outline",
     "description": "Outline wiki"
   },

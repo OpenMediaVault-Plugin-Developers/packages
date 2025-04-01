@@ -1,0 +1,12 @@
+---
+# https://github.com/open-webui/open-webui
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:ollama
+    ports:
+      - 3013:8080
+    volumes:
+      - /srv/docker/webui/ollama:/root/.ollama
+      - /srv/docker/webui/open-webui:/app/backend/data
+    container_name: open-webui
+    restart: unless-stopped
