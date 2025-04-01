@@ -1,4 +1,6 @@
 ---
+# https://github.com/ollama/ollama
+# https://ollama.com/search
 services:
   ollama:
     image: ollama/ollama
