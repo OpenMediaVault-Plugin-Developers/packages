@@ -447,7 +447,7 @@ Description: openmediavault mount editor plugin
 Plugin-Section: filesystems
 
 Package: openmediavault-omvextrasorg
-Version: 7.0.1
+Version: 7.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 522
@@ -456,11 +456,11 @@ Breaks: openmediavault (<< 7.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_7.0.1_all.deb
-Size: 42800
-SHA256: a5228ff7e371c621c0c422e0e0023f2e1078bf60ff7cfc11bc5ac72ac1ee4419
-SHA1: bf62474d6611beaa21887a0b4b54dbb22258d717
-MD5sum: 6c8549d28db0be0d3405b3d882e8552f
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_7.0.2_all.deb
+Size: 42844
+SHA256: 4d94fedf19e80273ba2d34c37aae39c1584450491f2a0bd7b119299fff7911c6
+SHA1: 00097320a6aa00eb0eadf45962a9fcfa49667443
+MD5sum: 86bf4fc9f41b8290f575c846cd0b306d
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
  .
  An apt cleaning function is also available for fixing repository cache
