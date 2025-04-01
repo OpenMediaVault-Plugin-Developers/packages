@@ -400,6 +400,10 @@
     "description": "Nzbhydra2 is a meta search application for NZB indexers"
   },
   {
+    "name": "ollama",
+    "description": "run large language models"
+  },
+  {
     "name": "outline",
     "description": "Outline wiki"
   },
