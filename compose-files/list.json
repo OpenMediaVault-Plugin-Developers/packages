@@ -52,10 +52,6 @@
     "description": "qBittorrent is a bittorrent client with VPN"
   },
   {
-    "name": "bitwardenrs",
-    "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.."
-  },
-  {
     "name": "blender",
     "description": "[Blender](https://www.blender.org/) is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games. **This image does not support GPU rendering out of the box only accelerated workspace experience**"
   },
