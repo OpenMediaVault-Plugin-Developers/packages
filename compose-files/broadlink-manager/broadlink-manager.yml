@@ -1,6 +1,13 @@
 ---
+# Date: 2025-06-01
+# https://github.com/t0mer/broadlinkmanager-docker
 services:
-  broadlink-manager:
+  broadlinkmanager:
     image: techblog/broadlinkmanager
+    network_mode: host
+    container_name: broadlinkmanager
+    restart: unless-stopped
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/broadlinkmanager:/opt/broadlinkmanager/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/broadlinkmanager:/opt/broadlinkmanager/data
+    environment:
+      - ENABLE_GOOGLE_ANALYTICS=True #Optional, default is True, Set to False if you want to disable Google Analytics

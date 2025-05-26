@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://github.com/nicolargo/glances
 services:
   glances:
     image: nicolargo/glances:latest-full

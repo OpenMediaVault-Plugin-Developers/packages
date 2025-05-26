@@ -1,3 +1,6 @@
+---
+# Date: 2025-06-01
+# https://github.com/Tzahi12345/YoutubeDL-Material?tab=readme-ov-file#Installing
 services:
   ytdl_material:
     environment:
@@ -8,11 +11,11 @@ services:
     depends_on:
       - ytdl-mongo-db
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata:/app/appdata
-      - CHANGE_TO_COMPOSE_DATA_PATH/audio:/app/audio
-      - CHANGE_TO_COMPOSE_DATA_PATH/video:/app/video
-      - CHANGE_TO_COMPOSE_DATA_PATH/subscriptions:/app/subscriptions
-      - CHANGE_TO_COMPOSE_DATA_PATH/users:/app/users
+      - CHANGE_TO_COMPOSE_DATA_PATH/ytdl:/app/appdata
+      - CHANGE_TO_COMPOSE_DATA_PATH/ytdl/audio:/app/audio
+      - CHANGE_TO_COMPOSE_DATA_PATH/ytdl/video:/app/video
+      - CHANGE_TO_COMPOSE_DATA_PATH/ytdl/subscriptions:/app/subscriptions
+      - CHANGE_TO_COMPOSE_DATA_PATH/ytdl/users:/app/users
     ports:
       - "8998:17442"
     image: tzahi12345/youtubedl-material:latest
@@ -24,4 +27,4 @@ services:
     container_name: mongo-db
     restart: always
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/db/:/data/db
+      - CHANGE_TO_COMPOSE_DATA_PATH/ytdl/db/:/data/db

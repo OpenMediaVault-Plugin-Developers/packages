@@ -1,16 +1,19 @@
 ---
+# Date: 2025-06-01
 # https://github.com/Netatalk/netatalk
+# https://netatalk.io/
 services:
   netatalk:
-    image: netatalk/netatalk3:latest
+    image: netatalk:latest
     container_name: netatalk
     network_mode: host
     cap_add:
       - NET_ADMIN
     volumes:
-      - /srv/docker/afp:/mnt/afpshare
+      - CHANGE_TO_COMPOSE_DATA_PATH/netatalk/afp:/mnt/afpshare
       - /var/run/dbus:/var/run/dbus
     environment:
-      AFP_USER: "xxxx"
-      AFP_PASS: "xxxx"
+      - AFP_USER= "xxxx"
+      - AFP_PASS= "xxxx"
+      - TZ=Europe/Stockholm
     restart: unless-stopped

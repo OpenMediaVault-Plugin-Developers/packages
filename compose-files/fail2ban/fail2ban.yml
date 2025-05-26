@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/fail2ban
 services:
   fail2ban:
@@ -10,8 +11,9 @@ services:
     network_mode: host
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
+      - VERBOSITY=-vv #optional
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/fail2ban/config:/config
       - /var/log:/var/log:ro

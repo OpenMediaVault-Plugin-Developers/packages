@@ -1,15 +1,13 @@
-networks:
-  my-net:
-    external: true
+---
+# Date: 2025-06-01
+# https://www.navidrome.org/docs/
 services:
   navidrome:
     image: deluan/navidrome:latest
-    networks:
-      my-net:
     container_name: navidrome
-    user: $PUID:$PGID
+    user: 1000:100
     ports:
-      - "4040:4533"
+      - "4533:4533"
     environment:
       # Optional: put your config options customization here. Examples:
       ND_SCANSCHEDULE: 1h

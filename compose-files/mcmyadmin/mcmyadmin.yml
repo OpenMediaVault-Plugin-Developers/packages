@@ -1,3 +1,6 @@
+---
+# Date: 2025-06-01
+# https://github.com/bymatej/minecraft-server
 services:
   mcmyadmin:
     image: bymatej/minecraft-server:latest

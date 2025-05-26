@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-vscodium
 services:
   vscodium:
     image: lscr.io/linuxserver/vscodium:latest
@@ -9,10 +11,10 @@ services:
       - seccomp:unconfined #optional
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/vscodium/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/vscodium/config:/config
     ports:
       - 3000:3000
       - 3001:3001

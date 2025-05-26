@@ -1,5 +1,7 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/fallenbagel/jellyseerr
+# https://docs.jellyseerr.dev/
 services:
   jellyseerr:
     image: fallenbagel/jellyseerr:latest

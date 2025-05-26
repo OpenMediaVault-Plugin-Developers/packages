@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://github.com/open-webui/open-webui
 services:
   open-webui:
@@ -6,7 +7,7 @@ services:
     ports:
       - 3013:8080
     volumes:
-      - /srv/docker/webui/ollama:/root/.ollama
-      - /srv/docker/webui/open-webui:/app/backend/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/webui/ollama:/root/.ollama
+      - CHANGE_TO_COMPOSE_DATA_PATH/webui/open-webui:/app/backend/data
     container_name: open-webui
     restart: unless-stopped

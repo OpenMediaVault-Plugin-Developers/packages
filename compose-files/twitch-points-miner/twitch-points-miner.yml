@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2
 services:
   twitch-points-miner:
     image: rdavidoff/twitch-channel-points-miner-v2:latest
@@ -8,10 +10,10 @@ services:
     environment:
       - TERM=xterm-256color
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/TwitchPointsMiner/run.py:/usr/src/app/run.py:ro
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/TwitchPointsMiner/cookies:/usr/src/app/cookies
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/TwitchPointsMiner/logs:/usr/src/app/logs
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/TwitchPointsMiner/analytics:/usr/src/app/analytics
+      - CHANGE_TO_COMPOSE_DATA_PATH/TwitchPointsMiner/run.py:/usr/src/app/run.py:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/TwitchPointsMiner/cookies:/usr/src/app/cookies
+      - CHANGE_TO_COMPOSE_DATA_PATH/TwitchPointsMiner/logs:/usr/src/app/logs
+      - CHANGE_TO_COMPOSE_DATA_PATH/TwitchPointsMiner/analytics:/usr/src/app/analytics
     ports:
       - 5000:5000
     restart: unless-stopped

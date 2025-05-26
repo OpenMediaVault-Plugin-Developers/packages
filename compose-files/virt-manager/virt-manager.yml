@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/mber5/virt-manager
 services:
   virt-manager:
@@ -12,5 +13,5 @@ services:
     volumes:
       - "/var/run/libvirt/libvirt-sock:/var/run/libvirt/libvirt-sock"
       - "/var/lib/libvirt/images:/var/lib/libvirt/images"
-    #devices:
-    #  - "/dev/kvm:/dev/kvm"
+    devices:
+      - "/dev/kvm:/dev/kvm"

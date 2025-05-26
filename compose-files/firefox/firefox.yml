@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/firefox
 services:
   firefox:
@@ -8,6 +9,9 @@ services:
       - PUID=1000
       - PGID=100
       - TZ=America/Chicago
+      - FIREFOX_CLI=https://www.linuxserver.io/ #optional
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/firefox/config:/config
     ports:
       - 3000:3000 # http
       - 3001:3001 # https

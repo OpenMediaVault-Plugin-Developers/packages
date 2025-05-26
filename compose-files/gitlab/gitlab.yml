@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://docs.gitlab.com/install/docker/installation/#install-gitlab-by-using-docker-compose
 services:
   gitlab:
     image: gitlab/gitlab-ce:latest
@@ -7,13 +9,12 @@ services:
     hostname: 'gitlab.example.com'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        external_url 'http://gitlab.example.com:8929'
-        gitlab_rails['gitlab_shell_ssh_port'] = 2424
-        gitlab_rails['initial_root_password'] = 'SET ROOT PASSWORD'
+        # Add any other gitlab.rb configuration here, each on its own line
+        external_url 'https://gitlab.example.com'
     ports:
-      - '8929:8929' # HTTP
+      - '80:80' # HTTP
       - '443:443' # HTTPS
-      - '2424:22' # SSH
+      - '22:22' # SSH
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/gitlab/config:/etc/gitlab
       - CHANGE_TO_COMPOSE_DATA_PATH/gitlab/logs:/var/log/gitlab

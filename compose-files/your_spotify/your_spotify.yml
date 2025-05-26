@@ -1,10 +1,12 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/your_spotify
 services:
   Your_spotify:
-    image: linuxserver/your_spotify:latest
+    image: lscr.io/linuxserver/your_spotify:latest
     container_name: your_spotify
     environment:
-      - PUID=1024
+      - PUID=1000
       - PGID=100
       - TZ=Europe/Amsterdam
       - APP_URL=http://localhost
@@ -12,8 +14,6 @@ services:
       - SPOTIFY_SECRET=
       - CORS=http://localhost:80,https://localhost:443
       - MONGO_ENDPOINT=mongodb://mongo:27017/your_spotify
-    volumes:
-      - /volume1/docker/your_spotify/config:/config
     ports:
       - 80:80
       - 443:443

@@ -1,10 +1,14 @@
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/thelounge
 services:
   thelounge:
-    image: linuxserver/thelounge:latest
+    image: lscr.io/linuxserver/thelounge:latest
+    container_name: thelounge
     ports:
       - 9000:9000:tcp
     environment:
-      PUID: ''
-      PGID: ''
+      - PUID=1000
+      - PGID=100
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/TheLounge:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/thelounge:/config

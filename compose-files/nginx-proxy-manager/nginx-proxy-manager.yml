@@ -1,3 +1,6 @@
+---
+# Date: 2025-06-01
+# https://github.com/NginxProxyManager/nginx-proxy-manager
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'

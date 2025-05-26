@@ -1,13 +1,15 @@
 ---
+# Date: 2025-06-01
+# https://codeberg.org/forgejo/forgejo
 networks:
-  gitea:
+  forgejo:
     external: false
 services:
   server:
-    image: codeberg.org/forgejo/forgejo:10.0.0
-    container_name: gitea
+    image: codeberg.org/forgejo/forgejo:11
+    container_name: forgejo
     environment:
-      - USER_UID=1001
+      - USER_UID=1000
       - USER_GID=100
       - GITEA__database__DB_TYPE=mysql
       - GITEA__database__HOST=db:3306
@@ -17,9 +19,9 @@ services:
       - ROOT_URL=http://some.domain.com:3000/
     restart: always
     networks:
-      - gitea
+      - forgejo
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/gitea/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/forgejo/data:/data
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
     ports:
@@ -36,6 +38,6 @@ services:
       - MYSQL_PASSWORD=dbpass
       - MYSQL_DATABASE=dbname
     networks:
-      - gitea
+      - forgejo
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/gitea/mysql:/var/lib/mysql
+      - CHANGE_TO_COMPOSE_DATA_PATH/forgejo/mysql:/var/lib/mysql

@@ -1,12 +1,14 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/jellyfin
+# https://jellyfin.org/docs/
 services:
   jellyfin:
     image: lscr.io/linuxserver/jellyfin:latest
     container_name: jellyfin
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
       - JELLYFIN_PublishedServerUrl=192.168.0.5 #optional
     volumes:

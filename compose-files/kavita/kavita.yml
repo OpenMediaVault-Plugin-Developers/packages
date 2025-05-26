@@ -1,8 +1,14 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/kizaing/kavita
 services:
   kavita:
-    image: kizaing/kavita:latest
+    image: lscr.io/linuxserver/kavita:latest
+    container_name: kavita
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/kavita/manga:/manga
       - CHANGE_TO_COMPOSE_DATA_PATH/kavita/data:/kavita/config

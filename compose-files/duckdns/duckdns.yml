@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/duckdns
 services:
   duckdns:
@@ -6,11 +7,12 @@ services:
     container_name: duckdns
     environment:
       - PUID=1000 #optional
-      - PGID=1000 #optional
+      - PGID=100 #optional
       - TZ=Etc/UTC #optional
       - SUBDOMAINS=subdomain1,subdomain2
       - TOKEN=token
       - LOG_FILE=false #optional
+      - UPDATE_IP=ipv4 #optional
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/duckdns/config:/config #optional
     restart: unless-stopped

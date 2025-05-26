@@ -1,3 +1,5 @@
+# Date: 2025-06-01
+# https://hub.docker.com/r/thingsboard/tb-postgres
 services:
   mytb:
     restart: always
@@ -10,5 +12,5 @@ services:
     environment:
       TB_QUEUE_TYPE: in-memory
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/thingsboard/mytb-data:/data
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/thingsboard/mytb-logs:/var/log/thingsboard
+      - CHANGE_TO_COMPOSE_DATA_PATH/thingsboard/mytb-data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/thingsboard/mytb-logs:/var/log/thingsboard

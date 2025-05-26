@@ -1,65 +1,64 @@
-- name: owncloud
-  image: owncloud/server:latest
-  ports:
-    - ${PORT}:8080
-  volumes:
-    - bind: CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/Owncloud/data
-      container: /mnt/data
-  restart_policy: unless-stopped
-  env:
-    - name: PUID
-      value: ${PUID}
-    - name: PGID
-      value: ${PGID}
-    - name: TZ
-      value: ${TZ}
-    - name: OWNCLOUD_DOMAIN
-      value: ${OWNCLOUD_DOMAIN}
-    - name: OWNCLOUD_DB_TYPE
-      value: mysql
-    - name: OWNCLOUD_DB_NAME
-      value: owncloud
-    - name: OWNCLOUD_DB_USERNAME
-      value: owncloud
-    - name: OWNCLOUD_DB_PASSWORD
-      value: ${DB_PASSWORD}
-    - name: OWNCLOUD_DB_HOST
-      value: owncloudmariadb
-    - name: OWNCLOUD_ADMIN_USERNAME
-      value: ${ADMIN_USERNAME}
-    - name: OWNCLOUD_ADMIN_PASSWORD
-      value: ${ADMIN_PASSWORD}
-    - name: OWNCLOUD_MYSQL_UTF8MB4
-      value: 'true'
-    - name: OWNCLOUD_REDIS_ENABLED
-      value: 'true'
-    - name: OWNCLOUD_REDIS_HOST
-      value: owncloudredis
-- name: owncloudmariadb
-  image: mariadb:10.5
-  volumes:
-    - bind: CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/Owncloud/DB
-      container: /var/lib/mysql
-  restart_policy: unless-stopped
-  env:
-    - name: PUID
-      value: ${PUID}
-    - name: PGID
-      value: ${PGID}
-    - name: TZ
-      value: ${TZ}
-    - name: MYSQL_ROOT_PASSWORD
-      value: ${DB_PASSWORD}
-    - name: MYSQL_USER
-      value: owncloud
-    - name: MYSQL_PASSWORD
-      value: ${DB_PASSWORD}
-    - name: MYSQL_DATABASE
-      value: owncloud
-- name: owncloudredis
-  image: redis:6
-  volumes:
-    - bind: CHANGE_TO_COMPOSE_DATA_PATH/AppData/Config/Owncloud/redis
-      container: /data
-  restart_policy: unless-stopped
-  env: []
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/owncloud/server
+# https://doc.owncloud.com/server/10.15/
+services:
+  owncloud:
+    image: owncloud/server:10.15
+    container_name: owncloud_server
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - mariadb
+      - redis
+    environment:
+      - OWNCLOUD_DOMAIN=localhost:8080
+      - OWNCLOUD_TRUSTED_DOMAINS=localhost
+      - OWNCLOUD_DB_TYPE=mysql
+      - OWNCLOUD_DB_NAME=owncloud
+      - OWNCLOUD_DB_USERNAME=owncloud
+      - OWNCLOUD_DB_PASSWORD=owncloud
+      - OWNCLOUD_DB_HOST=mariadb
+      - OWNCLOUD_ADMIN_USERNAME=admin
+      - OWNCLOUD_ADMIN_PASSWORD=admin
+      - OWNCLOUD_MYSQL_UTF8MB4=true
+      - OWNCLOUD_REDIS_ENABLED=true
+      - OWNCLOUD_REDIS_HOST=redis
+    healthcheck:
+      test: ["CMD", "/usr/bin/healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/owncloud/files:/mnt/data
+  mariadb:
+    image: mariadb:10.11 # minimum required ownCloud version is 10.9
+    container_name: owncloud_mariadb
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=owncloud
+      - MYSQL_USER=owncloud
+      - MYSQL_PASSWORD=owncloud
+      - MYSQL_DATABASE=owncloud
+      - MARIADB_AUTO_UPGRADE=1
+    command: ["--max-allowed-packet=128M", "--innodb-log-file-size=64M"]
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-u", "root", "--password=owncloud"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/owncloud/mysql:/var/lib/mysql
+  redis:
+    image: redis:6
+    container_name: owncloud_redis
+    restart: always
+    command: ["--databases", "1"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/owncloud/redis:/data

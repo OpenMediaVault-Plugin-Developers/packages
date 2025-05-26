@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/netdata/netdata
+# https://learn.netdata.cloud/
 services:
   netdata:
     image: netdata/netdata
@@ -9,6 +12,7 @@ services:
     restart: unless-stopped
     cap_add:
       - SYS_PTRACE
+      - SYS_ADMIN
     security_opt:
       - apparmor:unconfined
     volumes:
@@ -20,3 +24,6 @@ services:
       - /proc:/host/proc:ro
       - /sys:/host/sys:ro
       - /etc/os-release:/host/etc/os-release:ro
+      - /var/log:/host/var/log:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /run/dbus:/run/dbus:ro

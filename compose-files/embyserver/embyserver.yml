@@ -1,3 +1,7 @@
+---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-emby/
+# https://emby.media/index.html
 services:
   emby:
     image: emby/embyserver
@@ -8,9 +12,9 @@ services:
       - GID=100 # The GID to run emby as (default 2)
       - GIDLIST=100 # A comma-separated list of additional GIDs to run emby as (default: 2)
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/embyserver:/config # Configuration directory
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/tvshows:/mnt/share1 # Media directory
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/movies:/mnt/share2 # Media directory
+      - CHANGE_TO_COMPOSE_DATA_PATH/embyserver:/config # Configuration directory
+      - CHANGE_TO_COMPOSE_DATA_PATH/tvshows:/mnt/share1 # Media directory
+      - CHANGE_TO_COMPOSE_DATA_PATH/movies:/mnt/share2 # Media directory
     ports:
       - 8096:8096 # HTTP port
       - 8920:8920 # HTTPS port

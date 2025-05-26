@@ -1,11 +1,13 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/recyclarr/recyclarr
 # https://recyclarr.dev/wiki/installation/
 services:
   recyclarr:
     image: ghcr.io/recyclarr/recyclarr
     container_name: recyclarr
     init: true
-    user: 1000:1000
+    user: 1000:100
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/recyclarr:/config
     environment:

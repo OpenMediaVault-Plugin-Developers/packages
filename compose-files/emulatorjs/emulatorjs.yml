@@ -1,16 +1,18 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-emulatorjs/
 services:
   emulatorjs:
-    image: linuxserver/emulatorjs:latest
+    image: lscr.io/linuxserver/emulatorjs:latest
     container_name: emulatorjs
     environment:
-      - PUID=1024
+      - PUID=1000
       - PGID=100
       - TZ=Europe/Amsterdam
-      - SUBFOLDER=/
+      - SUBFOLDER=/ #optional
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/emulatorjs/config:/config
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/emulatorjs/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/emulatorjs/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/emulatorjs/data:/data
     ports:
       - 3000:3000
       - 80:80

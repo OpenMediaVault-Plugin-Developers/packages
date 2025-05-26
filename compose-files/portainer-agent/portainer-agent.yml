@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/portainer/agent
 services:
   agent:
     image: portainer/agent

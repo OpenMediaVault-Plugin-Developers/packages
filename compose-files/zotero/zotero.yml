@@ -1,14 +1,16 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/zotero
 services:
   zotero:
     image: lscr.io/linuxserver/zotero:latest
     container_name: zotero
     environment:
-      - PUID=1024
+      - PUID=1000
       - PGID=100
       - TZ=Europe/Amsterdam
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/zotero/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/zotero/config:/config
     ports:
       - 3000:3000
       - 3001:3001

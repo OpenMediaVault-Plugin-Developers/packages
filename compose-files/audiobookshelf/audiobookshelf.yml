@@ -1,5 +1,7 @@
 ---
+# Date: 2025-06-01
 # https://github.com/advplyr/audiobookshelf
+# https://hub.docker.com/r/advplyr/audiobookshelf
 services:
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf

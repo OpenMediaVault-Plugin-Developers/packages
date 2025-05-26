@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/adguard/adguardhome
+# https://github.com/AdguardTeam/AdGuardHome
 services:
   adguard-home:
     image: adguard/adguardhome
@@ -14,5 +17,5 @@ services:
       - 80:80:tcp
       - 443:443:tcp
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/adguardhome/workdir:/opt/adguardhome/work
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/adguardhome/confdir:/opt/adguardhome/conf
+      - CHANGE_TO_COMPOSE_DATA_PATH/adguardhome/workdir:/opt/adguardhome/work
+      - CHANGE_TO_COMPOSE_DATA_PATH/adguardhome/confdir:/opt/adguardhome/conf

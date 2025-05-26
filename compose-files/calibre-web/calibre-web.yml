@@ -1,13 +1,10 @@
 ---
-networks:
-  my-net:
-    external: true
+# Date: 2025-06-01
+# https://github.com/linuxserver/docker-calibre-web
 services:
   calibre-web:
     image: lscr.io/linuxserver/calibre-web:latest
     container_name: calibre-web
-    networks:
-      my-net:
     environment:
       - PUID=$PUID
       - PGID=$PGID
@@ -16,7 +13,7 @@ services:
       # - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/calibre-web:/config
-      - CHANGE_TO_COMPOSE_DATA_PATH/calibre/libreria:/books
+      - CHANGE_TO_COMPOSE_DATA_PATH/calibre/library:/books
     ports:
       - 8083:8083
     restart: unless-stopped

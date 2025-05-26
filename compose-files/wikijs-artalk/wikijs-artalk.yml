@@ -1,12 +1,16 @@
+---
+# Date: 2025-06-01
+# https://pkg.go.dev/github.com/artalkjs/artalk/v2#section-readme
+# https://github.com/artalkjs/artalk
 services:
   artalk:
-    container_name: artalk
+    container_name: wikijs-artalk
     image: artalk/artalk-go
     restart: unless-stopped
     ports:
       - 8080:23366
     volumes:
-      - ./data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/wikijs-artalk/data:/data
     environment:
       - TZ=America/New_York
       - ATK_LOCALE=en

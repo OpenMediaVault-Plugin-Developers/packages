@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://github.com/linuxserver/docker-swag
 services:
   swag:
@@ -8,7 +9,7 @@ services:
       - NET_ADMIN
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
       - URL=yourdomain.url
       - VALIDATION=http

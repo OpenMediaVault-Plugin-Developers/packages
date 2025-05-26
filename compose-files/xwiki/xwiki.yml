@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://github.com/xwiki/xwiki-docker
 networks:
   bridge:
@@ -16,14 +17,14 @@ services:
       - DB_PASSWORD=xwiki
       - DB_HOST=xwiki-postgres-db
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/xwiki-data:/usr/local/xwiki
+      - CHANGE_TO_COMPOSE_DATA_PATH/xwiki/data:/usr/local/xwiki
     networks:
       - bridge
   db:
-    image: "postgres:16"
+    image: "postgres:17"
     container_name: xwiki-postgres-db
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/postgres-data:/var/lib/postgresql/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/xwiki/database:/var/lib/postgresql/data
     environment:
       - POSTGRES_ROOT_PASSWORD=xwiki
       - POSTGRES_PASSWORD=xwiki

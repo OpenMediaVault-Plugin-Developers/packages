@@ -1,20 +1,19 @@
 ---
-networks:
-  my-net:
-    external: true
+# Date: 2025-06-01
+# https://github.com/gotson/komga
+# https://komga.org/docs/introduction
 services:
   komga:
     image: gotson/komga
     container_name: komga
-    networks:
-      my-net:
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/komga/config:/config
       - CHANGE_TO_COMPOSE_DATA_PATH/komga/comic:/data
       - CHANGE_TO_COMPOSE_DATA_PATH/homga/tmp:/tmp
     ports:
-      - 88:8080
-    user: "$PUID:$PGID"
+      - 25600:25600
     environment:
-      - TZ=$TZ
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
     restart: unless-stopped

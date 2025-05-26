@@ -1,10 +1,13 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-freshrss/
+# https://hub.docker.com/r/freshrss/freshrss
 services:
   freshrss:
     image: lscr.io/linuxserver/freshrss:latest
     container_name: freshrss
     environment:
-      - PUID=1001
+      - PUID=1000
       - PGID=100
       - TZ=America/New_York
     volumes:

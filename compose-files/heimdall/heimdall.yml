@@ -1,20 +1,17 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-heimdall/
 services:
   heimdall:
-    image: linuxserver/heimdall
+    image: lscr.io/linuxserver/heimdall:latest
     container_name: heimdall
-    networks:
-      my-net:
     environment:
-      - PUID=$PUID
-      - PGID=$PGID
-      - TZ=$TZ
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/heimdall:/config
     ports:
       - 444:443
-      - 99:80 #optional
+      - 80:80 #optional
     restart: unless-stopped
-networks:
-  my-net:
-    external: true

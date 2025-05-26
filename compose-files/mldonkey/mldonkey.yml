@@ -1,13 +1,14 @@
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/logicwar/mldonkey
 services:
   mldonkey:
     image: logicwar/mldonkey
     container_name: mldonkey
-    networks:
-      my-net:
     environment:
-      - PUID=$PUID
-      - PGID=$PGID
-      - TZ=$TZ
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/mldonkey/config:/var/lib/mldonkey
       - CHANGE_TO_COMPOSE_DATA_PATH/mldonkey/completed:/mnt/mldonkey_completed
@@ -24,6 +25,3 @@ services:
       - 6209:6209
       - 6209:6209/udp
     restart: unless-stopped
-networks:
-  my-net:
-    external: true

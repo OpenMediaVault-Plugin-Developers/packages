@@ -1,3 +1,6 @@
+---
+# Date: 2025-06-01
+# https://github.com/itzg/docker-minecraft-bedrock-server
 services:
   bds:
     image: itzg/minecraft-bedrock-server
@@ -6,6 +9,6 @@ services:
     ports:
       - "19132:19132/udp"
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/minecraft-bedrock-server:/data
     stdin_open: true
     tty: true

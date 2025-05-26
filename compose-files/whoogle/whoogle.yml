@@ -1,10 +1,12 @@
 ---
+# Date: 2025-06-01
+# https://github.com/benbusby/whoogle-search
 services:
   whoogle:
     image: benbusby/whoogle-search:latest
     container_name: whoogle
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/whoogle/config/whoogle:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/whoogle:/config
     ports:
-      - 5001:5000
+      - 5000:5000
     restart: unless-stopped

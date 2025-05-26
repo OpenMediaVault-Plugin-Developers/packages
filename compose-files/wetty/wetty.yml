@@ -1,19 +1,16 @@
 ---
-networks:
-  my-net:
-    external: true
-services:
-  wetty:
-    image: wettyoss/wetty:latest
-    container_name: wetty
-    networks:
-      my-net:
-    cap_add:
-      - NET_ADMIN
-    environment:
-      - SSHHOST=192.168.1.2 # Your NAS Ip here
-      - SSHPORT=22 # You SSH port Here
-      - SSHUSER=root
-    ports:
-      - 3000:3000
-    restart: unless-stopped
+# Date: 2025-06-01
+# https://hub.docker.com/r/wettyoss/wetty
+# https://github.com/butlerx/wetty
+wetty:
+  image: wettyoss/wetty:latest
+  container_name: wetty
+  cap_add:
+    - NET_ADMIN
+  environment:
+    - SSHHOST=192.168.1.2 # Your NAS Ip here
+    - SSHPORT=22 # You SSH port Here
+    - SSHUSER=root
+  ports:
+    - 3000:3000
+  restart: unless-stopped

@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://github.com/AnalogJ/scrutiny
+# https://hub.docker.com/r/linuxserver/scrutiny
 services:
   scrutiny:
     container_name: scrutiny

@@ -1,17 +1,14 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/_/influxdb/
+# https://docs.influxdata.com/influxdb/v2/
 services:
   influxdb:
     image: influxdb:latest
     container_name: influxdb
     restart: always
-    networks:
-      - influxdb2
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/influxdb2/data:/var/lib/influxdb2
       - CHANGE_TO_COMPOSE_DATA_PATH/influxdb2/config:/etc/influxdb2
     ports:
       - 8086:8086
-networks:
-  influxdb2:
-    name: influxdb2
-    driver: bridge

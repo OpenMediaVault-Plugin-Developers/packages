@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/markusmcnugen/qbittorrentvpn
+# https://github.com/MarkusMcNugen/docker-qBittorrentvpn
 services:
   qbittorrentvpn:
     image: markusmcnugen/qbittorrentvpn
@@ -7,12 +10,12 @@ services:
     environment:
       - VPN_USERNAME=redacted
       - VPN_PASSWORD=redacted
-      - PUID=1001
+      - PUID=1000
       - PGID=100
       - WEBUI_PORT=8080
       - VPN_ENABLED=yes
       - LAN_NETWORK=192.168.1.0/24
-      - NAME_SERVERS=8.8.8.8,8.8.4.4
+      - NAME_SERVERS=8.8.8.8,1.1.1.1
       - UMASK=002
       - TZ=America/New_York
     ports:

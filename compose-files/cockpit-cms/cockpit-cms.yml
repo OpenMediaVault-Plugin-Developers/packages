@@ -1,4 +1,7 @@
 ---
+# 2025-06-01
+# https://hub.docker.com/r/cockpithq/cockpit
+# https://github.com/Cockpit-HQ/Cockpit
 services:
   cockpit-cms:
     image: agentejo/cockpit:latest

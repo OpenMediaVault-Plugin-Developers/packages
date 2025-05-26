@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/sabnzbd
 services:
   sabnzbd:
@@ -6,7 +7,7 @@ services:
     container_name: sabnzbd
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/sabnzbd/config:/config

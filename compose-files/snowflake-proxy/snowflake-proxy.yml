@@ -1,9 +1,10 @@
 ---
+# Date: 2025-06-01
 # https://community.torproject.org/relay/setup/snowflake/standalone/
 services:
   snowflake-proxy:
     network_mode: host
-    image: thetorproject/snowflake-proxy:latest
+    image: containers.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake:latest
     container_name: snowflake-proxy
     restart: unless-stopped
     #command: [ "-ephemeral-ports-range", "30000:60000" ]

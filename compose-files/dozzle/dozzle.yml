@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/amir20/dozzle
+# https://dozzle.dev/
 services:
   dozzle:
     container_name: dozzle

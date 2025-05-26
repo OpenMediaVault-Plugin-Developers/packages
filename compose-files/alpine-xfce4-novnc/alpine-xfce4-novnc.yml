@@ -1,10 +1,13 @@
 ---
+# Date: 2025-06-01
+# https://github.com/novaspirit/Alpine_xfce4_noVNC
+# https://hub.docker.com/r/novaspirit/alpine_xfce4_novnc
 services:
   alpine-xfce4-novnc:
     image: novaspirit/alpine_xfce4_novnc:latest
     container_name: alpine-xfce4-novnc
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/alpine-xfce4-novnc/home/alpine/downloads:/home/alpine/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/alpine-xfce4-novnc/downloads:/home/alpine/downloads
     ports:
       - 6080:6080
       - 56780:56780

@@ -1,10 +1,12 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/jackett
 services:
   jackett:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
     environment:
-      - PUID=1001
+      - PUID=1000
       - PGID=100
       - TZ=America/New_York
       - AUTO_UPDATE=true #optional

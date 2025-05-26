@@ -1,9 +1,11 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/portainer/portainer-ce
+# https://docs.portainer.io/start/install-ce/server/docker/linux
 services:
   portainer:
-    image: portainer/portainer-ce:latest
+    image: portainer/portainer-ce:lts
     container_name: portainer
-    restart: unless-stopped
     security_opt:
       - no-new-privileges:true
     volumes:
@@ -12,3 +14,5 @@ services:
       - CHANGE_TO_COMPOSE_DATA_PATH/portainer/data:/data
     ports:
       - 9000:9000
+      - 8000:8000
+    restart: unless-stopped

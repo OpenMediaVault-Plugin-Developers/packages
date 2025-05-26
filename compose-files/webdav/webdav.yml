@@ -1,26 +1,23 @@
 ---
-networks:
-  my-net:
-    external: true
+# Date: 2025-06-01
+# https://github.com/dgraziotin/docker-nginx-webdav-nononsense
 services:
   webdav:
-    image: dgraziotin/nginx-webdav-nononsense:1.24.0
+    image: dgraziotin/nginx-webdav-nononsense
     container_name: webdav
-    networks:
-      my-net:
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/webdav:/data # Folder to share by WebDav
       # user and password
       # - $HOME/docker/webdav/htpasswd:/etc/nginx/htpasswd:ro
     environment:
-      - WEBDAV_USERNAME=$User
-      - WEBDAV_PASSWORD=$Password
-      - SERVER_NAMES=webdav.$URL
+      - WEBDAV_USERNAME=user1
+      - WEBDAV_PASSWORD=password1
+      - SERVER_NAMES=localhost
       - CLIENT_MAX_BODY_SIZE=5G # must end with M(egabytes) or G(igabytes)
       - TIMEOUTS_S=1200 # these are seconds
-      - PUID=$PUID
-      - PGID=$PGID
-      - TZ=$TZ
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
     ports:
-      - 88:80
+      - 8080:80
     restart: unless-stopped

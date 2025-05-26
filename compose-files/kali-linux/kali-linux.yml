@@ -1,18 +1,25 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/kali-linux
 services:
   kali-linux:
-    image: linuxserver/kali-linux:latest
+    image: lscr.io/linuxserver/kali-linux:latest
     container_name: kali-linux
+    security_opt:
+      - seccomp:unconfined #optional
     environment:
-      - PUID=1024
+      - PUID=1000
       - PGID=100
-      - TZ=Europe/Amsterdam
-      - SUBFOLDER=/
-      - TITLE='Kali Linux'
+      - TZ=Etc/UTC
+      - SUBFOLDER=/ #optional
+      - "TITLE=Kali Linux" #optional
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/kali-linux/config:/config
-      - /var/run/docker.sock:/var/run/docker.sock
+      - CHANGE_TO_COMPOSE_DATA_PATH/kali-linux/config:/config
+      - /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
-      - 3000:3000:tcp
-      - 3001:3001:tcp
+      - 3000:3000
+      - 3001:3001
+    devices:
+      - /dev/dri:/dev/dri #optional
+    shm_size: "1gb" #optional
     restart: unless-stopped

@@ -1,13 +1,15 @@
 ---
+# Date: 2025-06-01
+# https://gitlab.com/lunik1/docker-tt-rss
 services:
   tt-rss:
-    image: lunik1/tt-rss:latest
+    image: registry.gitlab.com/lunik1/docker-tt-rss
     container_name: tt-rss
     environment:
       - PUID=1000
       - PGID=100
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/config/tt-rss:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/tt-rss:/config
     ports:
       - 80:80
     restart: unless-stopped

@@ -1,11 +1,13 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-grav/
 services:
   grav:
     image: lscr.io/linuxserver/grav:latest
     container_name: grav
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/grav/config:/config

@@ -1,10 +1,12 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/tautulli
 services:
   tautulli:
     image: lscr.io/linuxserver/tautulli:latest
     container_name: tautulli
     environment:
-      - PUID=1001
+      - PUID=1000
       - PGID=100
       - TZ=America/New_York
     volumes:

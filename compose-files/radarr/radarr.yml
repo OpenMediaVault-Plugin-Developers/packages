@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/radarr
 services:
   radarr:
     image: lscr.io/linuxserver/radarr:latest

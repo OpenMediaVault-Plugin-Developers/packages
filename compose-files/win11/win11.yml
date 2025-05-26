@@ -1,10 +1,13 @@
 ---
+# Date: 2025-06-01
 # https://github.com/dockur/windows
 # see github page for many more options and windows versions 
 services:
   windows:
     image: dockurr/windows
     container_name: windows
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/windows:/storage
     environment:
       VERSION: "win11"
       #LANGUAGE: "French"
@@ -18,6 +21,7 @@ services:
       #DHCP: "Y"
     devices:
       - /dev/kvm
+      - /dev/net/tun
     cap_add:
       - NET_ADMIN
     ports:

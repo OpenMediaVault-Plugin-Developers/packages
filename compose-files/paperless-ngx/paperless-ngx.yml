@@ -1,3 +1,7 @@
+---
+# Date: 2025-06-01
+# https://github.com/paperless-ngx/paperless-ngx
+#
 # Docker Compose file for running paperless from the Docker Hub.
 # This file contains everything paperless needs to run.
 # Paperless supports amd64, arm and arm64 hardware.
@@ -42,15 +46,14 @@
 #
 # For more extensive installation and update instructions, refer to the
 # documentation.
-
 services:
   broker:
-    image: docker.io/library/redis:7
+    image: docker.io/library/redis:8
     restart: unless-stopped
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/paperless:/data
   db:
-    image: docker.io/library/postgres:15
+    image: docker.io/library/postgres:17
     restart: unless-stopped
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/paperless:/var/lib/postgresql/data
@@ -65,7 +68,7 @@ services:
       - db
       - broker
     ports:
-      - "8010:8000"
+      - "8000:8000"
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/paperless/data:/usr/src/paperless/data
       - CHANGE_TO_COMPOSE_DATA_PATH/paperless/media:/usr/src/paperless/media

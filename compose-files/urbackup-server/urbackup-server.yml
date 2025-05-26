@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/uroni/urbackup-server
 services:
   urbackup:
@@ -6,7 +7,7 @@ services:
     container_name: urbackup
     restart: unless-stopped
     environment:
-      - PUID=1001
+      - PUID=1000
       - PGID=100
       - TZ=America/Chicago
     volumes:

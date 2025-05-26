@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://joplinapp.org/
 # https://github.com/laurent22/joplin
 #
 # Update the following fields in the stanza below:
@@ -16,7 +18,7 @@
 #	- If Joplin Server does not need to be accessible over the internet, the port can be mapped to 22300.
 services:
   db:
-    image: postgres:15
+    image: postgres:16
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/joplin/postgres:/var/lib/postgresql/data
     ports:

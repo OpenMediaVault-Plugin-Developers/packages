@@ -1,10 +1,15 @@
 ---
+# Date: 2025-06-01
+# https://github.com/pawelmalak/flame
 services:
-  flame-dashboard:
+  flame:
     image: pawelmalak/flame
     container_name: flame-dashboard
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/flame-dashboard:/app/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/flame-dashboard:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock # optional but required for Docker integration
     ports:
-      - 5005:5005:tcp
+      - 5005:5005
+    environment:
+      - PASSWORD=flame_password
     restart: unless-stopped

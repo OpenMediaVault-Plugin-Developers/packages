@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/steamos
 services:
   steamos:
     image: lscr.io/linuxserver/steamos:latest
@@ -11,14 +13,14 @@ services:
       - apparmor:unconfined #optional
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
       - DRINODE=/dev/dri/renderD128
       - HOST_IP=192.168.100.10 #optional
       - STARTUP=KDE #optional
       - RESOLUTION=1920x1080 #optional
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/steamos/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/steamos/config:/config
       - /dev/input:/dev/input #optional
       - /run/udev/data:/run/udev/data #optional
     ports:

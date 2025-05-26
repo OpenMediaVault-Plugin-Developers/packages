@@ -1,17 +1,19 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/tailscale/tailscale
 services:
   tailscale:
+    image: tailscale/tailscale:latest
+    container_name: tailscale
     privileged: true
     hostname: tailscale # This will become the tailscale device name
-    network_mode: "host"
-    container_name: tailscale
-    image: tailscale/tailscale:latest
+    network_mode: host
     volumes:
-      - "/opt/appdata/tailscale/var_lib:/var/lib" # State data will be stored in this directory
-      - "/dev/net/tun:/dev/net/tun" # Required for tailscale to work
+      - CHANGE_TO_COMPOSE_DATA_PATH/tailscale/var_lib:/var/lib # State data will be stored in this directory
+      - /dev/net/tun:/dev/net/tun # Required for tailscale to work
     cap_add: # Required for tailscale to work
-      - net_admin
       - sys_module
+      - NET_ADMIN
+      - NET_RAW
     command: tailscaled
     restart: unless-stopped

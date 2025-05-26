@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://github.com/rix1337/docker-ripper
 services:
   docker-ripper:

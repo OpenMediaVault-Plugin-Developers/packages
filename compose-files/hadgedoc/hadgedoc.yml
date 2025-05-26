@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://github.com/hedgedoc/hedgedoc
+# https://docs.hedgedoc.org/
 services:
   database:
     # Don't upgrade PostgreSQL by simply changing the version number

@@ -1,11 +1,12 @@
 ---
+# Date: 2025-06-01
 # https://github.com/jlesage/docker-jdownloader-2
 services:
   jdownloader:
     image: jlesage/jdownloader-2:latest
     container_name: jdownloader
     environment:
-      - USER_ID=1001
+      - USER_ID=1000
       - GROUP_ID=100
       - TZ=America/Chicago
     volumes:

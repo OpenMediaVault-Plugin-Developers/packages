@@ -1,16 +1,15 @@
-networks:
-  my-net:
-    external: true
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/bpatrik/pigallery2
+# https://bpatrik.github.io/pigallery2/
 services:
   pigallery2:
     image: bpatrik/pigallery2:latest
     container_name: pigallery2
-    networks:
-      my-net:
     environment:
-      - PUID=$PUID
-      - PGID=$PGID
-      - TZ=$TZ
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
       - NODE_ENV=production # set to 'debug' for full debug logging
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/config:/app/data/config # CHANGE ME
@@ -18,5 +17,5 @@ services:
       - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/photos:/app/data/images:ro # CHANGE ME, ':ro' means read-only
       - CHANGE_TO_COMPOSE_DATA_PATH/pigallery/tmp:/app/data/tmp # CHANGE ME
     ports:
-      - 82:80
+      - 80:80
     restart: always

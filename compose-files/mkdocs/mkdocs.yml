@@ -1,12 +1,17 @@
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/squidfunk/mkdocs-material/
+# https://github.com/squidfunk/mkdocs-material
+# https://squidfunk.github.io/mkdocs-material/
 services:
   mkdocs:
     image: squidfunk/mkdocs-material:latest
     container_name: mkdocs
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/mkdocs/config:/docs
+      - CHANGE_TO_COMPOSE_DATA_PATH/mkdocs/config:/docs
     ports:
       - 8000:8000
     restart: unless-stopped

@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://quay.io/repository/jupyter/base-notebook
+# https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-base-notebook
 services:
   datascience-notebook:
     image: jupyter/base-notebook:latest

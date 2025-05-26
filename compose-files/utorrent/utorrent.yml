@@ -1,12 +1,16 @@
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/ekho/utorrent
 services:
   utorrent:
     image: ekho/utorrent:latest
+    container_name: utorrent
     volumes:
-      - utorrent-settings:/utorrent/settings
+      - CHANGE_TO_COMPOSE_DATA_PATH/utorrent/settings:/utorrent/settings
       - CHANGE_TO_COMPOSE_DATA_PATH/torrent:/downloads
     environment:
       UID: 1000
-      GID: 1000
+      GID: 100
       webui: ng # NG OR UT
     ports:
       - 8080:8080
@@ -18,5 +22,3 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
-volumes:
-  utorrent-settings:

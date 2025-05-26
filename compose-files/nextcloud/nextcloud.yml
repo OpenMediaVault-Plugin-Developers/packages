@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/nextcloud
 # https://docs.linuxserver.io/images/docker-nextcloud
 # only x86-64 and arm64 are supported
@@ -8,7 +9,7 @@ services:
     container_name: nextcloud
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/nextcloud/config:/config

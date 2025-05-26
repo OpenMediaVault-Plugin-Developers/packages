@@ -6,8 +6,8 @@ services:
     volumes:
       - /etc/timezone:/etc/timezone
       - /etc/localtime:/etc/localtime
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/clamav/config:/etc/clamav
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/clamav/virus_definitions:/var/lib/clamav
+      - CHANGE_TO_COMPOSE_DATA_PATH/clamav/config:/etc/clamav
+      - CHANGE_TO_COMPOSE_DATA_PATH/clamav/virus_definitions:/var/lib/clamav
     ports:
       - 3310:3310
     restart: unless-stopped

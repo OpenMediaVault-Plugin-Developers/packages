@@ -1,15 +1,22 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-github-desktop/
 services:
   github-desktop:
-    image: linuxserver/github-desktop:latest
+    image: lscr.io/linuxserver/github-desktop:latest
     container_name: github-desktop
+    cap_add:
+      - IPC_LOCK
+    security_opt:
+      - seccomp:unconfined #optional
     environment:
-      - PUID=1024
+      - PUID=1000
       - PGID=100
-      - TZ=Europe/Amsterdam
+      - TZ=Etc/UTC
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/github-desktop/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/github-desktop/config:/config
     ports:
-      - 3000:3000:tcp
-      - 3001:3001:tcp
+      - 3000:3000
+      - 3001:3001
+    shm_size: "1gb"
     restart: unless-stopped

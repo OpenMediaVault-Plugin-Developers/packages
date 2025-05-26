@@ -1,4 +1,5 @@
 ---
+# Date: 2025-06-01
 # https://github.com/alcapone1933/docker-composerize
 # https://github.com/magicmark/composerize
 services:
@@ -7,6 +8,6 @@ services:
     container_name: composerize
     restart: unless-stopped
     ports:
-      - 28082:80
+      - 8080:80
     environment:
       - TZ=America/Chicago

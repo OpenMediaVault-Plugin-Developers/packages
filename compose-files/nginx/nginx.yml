@@ -1,8 +1,14 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/_/nginx
+# https://github.com/nginx/docker-nginx
 services:
   web:
-    image: nginx:latest
+    image: nginx
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/nginx/templates:/etc/nginx/templates
     ports:
       - "8080:80"
-    volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/nginx:/usr/share/nginx/html
+    environment:
+      - NGINX_HOST=foobar.com
+      - NGINX_PORT=80

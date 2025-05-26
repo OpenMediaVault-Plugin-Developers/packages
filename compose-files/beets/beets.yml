@@ -1,17 +1,18 @@
 ---
-#https://hub.docker.com/r/linuxserver/beets
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/beets
 services:
   beets:
     image: lscr.io/linuxserver/beets:latest
     container_name: beets
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/beets/appdata/config:/config
-      - CHANGE_TO_COMPOSE_DATA_PATH/beets/music/library:/music
-      - CHANGE_TO_COMPOSE_DATA_PATH/beets/ingest:/downloads
+      - CHANGE_TO_COMPOSE_DATA_PATH/beets/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/beets/music:/music
+      - CHANGE_TO_COMPOSE_DATA_PATH/beets/downloads:/downloads
     ports:
       - 8337:8337
     restart: unless-stopped

@@ -1,15 +1,13 @@
-networks:
-  my-net:
-    external: true
+---
+# Date: 2025-06-01
+# https://github.com/root-gg/plik
 services:
   plik:
     image: rootgg/plik:dev
     container_name: plik
-    networks:
-      my-net:
-    # volumes:
-    # - $ConfigPath/plik/:/home/plik/server/
-    # - $Descargas/plik:/home/plik/server/files
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/plik/plikd.cfg:/home/plik/server/plikd.cfg
+      - CHANGE_TO_COMPOSE_DATA_PATH/plik/data:/data
     ports:
-      - 99:8080
+      - 8080:8080
     restart: unless-stopped

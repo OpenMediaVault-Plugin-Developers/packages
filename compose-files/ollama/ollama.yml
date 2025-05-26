@@ -1,6 +1,8 @@
 ---
 # https://github.com/ollama/ollama
 # https://ollama.com/search
+# https://hub.docker.com/r/ollama/ollama
+# CPU Only
 services:
   ollama:
     image: ollama/ollama

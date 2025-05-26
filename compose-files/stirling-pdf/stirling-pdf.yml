@@ -1,12 +1,22 @@
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/stirlingtools/stirling-pdf
+# https://docs.stirlingpdf.com/
 services:
   stirling-pdf:
-    image: frooodle/s-pdf:latest
+    image: docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest
+    container_name: stirling-pdf
     ports:
       - '8080:8080'
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/trainingData:/usr/share/tesseract-ocr/4.00/tessdata #Required for extra OCR languages
       - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/extraConfigs:/configs
       - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/customFiles:/customFiles/
+      - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/logs:/logs/
+      - CHANGE_TO_COMPOSE_DATA_PATH/stirling-pdf/pipeline:/pipeline/
+    environment:
+      - DOCKER_ENABLE_SECURITY=false
+      - LANGS=en_GB
     restart: always
 # get extra OCR languages here:
 # https://github.com/tesseract-ocr/tessdata_fast

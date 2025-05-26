@@ -1,13 +1,18 @@
+---
+# Date: 2025-06-01
+# https://hub.docker.com/r/sameersbn/wowza
 services:
   wowza:
     image: sameersbn/wowza:4.1.2-8
     ports:
-      - 1935:tcp
-      - 8086:tcp
-      - 8087:tcp
-      - 8088:tcp
+      - 1935:1935
+      - 8086:8086
+      - 8087:8087
+      - 8088:8088
     environment:
       WOWZA_ACCEPT_LICENSE: 'yes'
       WOWZA_KEY: ''
     volumes:
       - ':/var/lib/wowza'
+      - CHANGE_TO_COMPOSE_DATA_PATH/wowza/data:/var/lib/wowza
+      - CHANGE_TO_COMPOSE_DATA_PATH/wowza/log:/var/log/wowza

@@ -1,9 +1,11 @@
 ---
-# https://hub.docker.com/r/lmscommunity/logitechmediaserver
+# Date: 2025-06-01
+# https://hub.docker.com/r/lmscommunity/lyrionmusicserver
+# https://lyrion.org/getting-started/beginners-guide-omv-docker/
 services:
   lms:
     container_name: lms
-    image: lmscommunity/logitechmediaserver
+    image: lmscommunity/lyrionmusicserver
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/lms/config:/config:rw
       - CHANGE_TO_COMPOSE_DATA_PATH/lms/music:/music:ro
@@ -15,4 +17,6 @@ services:
       - 9090:9090/tcp
       - 3483:3483/tcp
       - 3483:3483/udp
-    restart: unless-stopped
+    environment:
+      - HTTP_PORT=9000
+    restart: always

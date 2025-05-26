@@ -1,9 +1,11 @@
 ---
+# Date: 2025-06-02
 # https://doc.traefik.io/traefik/
+# https://hub.docker.com/_/traefik
 services:
   reverse-proxy:
-    # The official v2 Traefik docker image
-    image: traefik:v2.10
+    # The official v3 Traefik docker image
+    image: traefik:v3
     # Enables the web UI and tells Traefik to listen to docker
     command: --api.insecure=true --providers.docker
     ports:
@@ -14,4 +16,5 @@ services:
     volumes:
       # So that Traefik can listen to the Docker events
       - /var/run/docker.sock:/var/run/docker.sock
+      - CHANGE_TO_COMPOSE_DATA_PATH/traefik/traefik.yml:/etc/traefik/traefik.yml
     restart: unless-stopped

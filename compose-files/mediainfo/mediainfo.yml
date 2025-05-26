@@ -1,5 +1,7 @@
 ---
+# Date: 2025-06-01
 # https://github.com/jlesage/docker-mediainfo
+# https://mediaarea.net/en/MediaInfo
 services:
   mediainfo:
     image: jlesage/mediainfo

@@ -1,9 +1,12 @@
 ---
+# Date: 2025-06-01
+# https://github.com/MauriceNino/dashdot
+# https://hub.docker.com/r/mauricenino/dashdot
 services:
   dashdot:
     image: mauricenino/dashdot:latest
     ports:
-      - '9980:3001'
+      - '80:3001'
     environment:
       'true': ''
       os,cpu,storage,ram,network: ''
@@ -14,4 +17,4 @@ services:
       type,speed_up,speed_down,interface_speed: ''
       brand, model, memory: ''
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/dashdot/:/mnt/host
+      - CHANGE_TO_COMPOSE_DATA_PATH/dashdot/:/mnt/host

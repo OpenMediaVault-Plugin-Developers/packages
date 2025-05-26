@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://www.bookstackapp.com/
 # https://hub.docker.com/r/linuxserver/bookstack
 services:
   bookstack:
@@ -14,7 +16,7 @@ services:
       - DB_PASS=YOUR_DB_PASSWORD
       - DB_DATABASE=bookstackapp
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/bookstack/app_data:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/bookstack:/config
     ports:
       - 6875:80
     restart: unless-stopped

@@ -1,14 +1,13 @@
 ---
-#################################################################
+# Date: 2025-06-01
 # https://hub.docker.com/r/linuxserver/code-server
-#################################################################
 services:
   code-server:
     image: lscr.io/linuxserver/code-server:latest
     container_name: code-server
     environment:
       - PUID=1000
-      - PGID=1000
+      - PGID=100
       - TZ=Etc/UTC
       - PASSWORD=password #optional
       - HASHED_PASSWORD= #optional

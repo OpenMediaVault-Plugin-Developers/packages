@@ -1,12 +1,15 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/nodered/node-red
+# https://nodered.org/docs/
 services:
   node-red:
     image: nodered/node-red:latest
+    container_name: node-red
+    environment:
+      - TZ=Europe/Amsterdam
     ports:
       - 1880:1880
-    networks:
-      - node-red-net
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/node-red/data:/data
-networks:
-  node-red-net:
+    restart: unless-stopped

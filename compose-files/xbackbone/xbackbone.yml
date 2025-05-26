@@ -1,14 +1,16 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-xbackbone
 services:
-  Xbackbone:
-    image: linuxserver/xbackbone:latest
-    container_name: Xbackbone
+  xbackbone:
+    image: lscr.io/linuxserver/xbackbone:latest
+    container_name: xbackbone
     environment:
       - PUID=1024
       - PGID=100
       - TZ=Europe/Amsterdam
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/xbackbone/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/xbackbone/config:/config
     ports:
       - 80:80
       - 443:443

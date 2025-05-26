@@ -1,3 +1,6 @@
+---
+# Date: 2025-06-01
+# https://github.com/UniversalMediaServer/UniversalMediaServer
 services:
   universalmediaserver:
     image: universalmediaserver/ums
@@ -6,9 +9,9 @@ services:
     environment:
       - UMS_PROFILE=/profile
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/ums/UMS.conf:/profile
-      - CHANGE_TO_COMPOSE_DATA_PATH/media1/:/Media1:ro
-      - CHANGE_TO_COMPOSE_DATA_PATH/media2/:/Media2:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/ums/UMS.conf:/profile
+      - CHANGE_TO_COMPOSE_DATA_PATH/ums/media1/:/Media1:ro
+      - CHANGE_TO_COMPOSE_DATA_PATH/ums/media2/:/Media2:ro
     ports:
       - 9001:9001
       - 5001:5001

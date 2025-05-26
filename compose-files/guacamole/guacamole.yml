@@ -1,11 +1,12 @@
 ---
+# Date: 2025-06-01
 # https://hub.docker.com/r/jwetzell/guacamole
 # https://github.com/jwetzell/docker-guacamole
 services:
   guac2:
     image: jwetzell/guacamole
     ports:
-      - "8081:8080"
+      - "8080:8080"
     restart: unless-stopped
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/guacamole:/config

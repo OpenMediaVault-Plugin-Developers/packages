@@ -1,12 +1,15 @@
 ---
+#Date: 2025-06-01
+# https://github.com/itzg/docker-minecraft-server
 services:
   minecraft:
-    image: itzg/minecraft-server:latest
-    container_name: minecraft
-    environment:
-      - EULA=TRUE
-    volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/Minecraft-data:/data
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
     ports:
-      - 25565:25565:tcp
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/Minecraft-data:/data
     restart: unless-stopped

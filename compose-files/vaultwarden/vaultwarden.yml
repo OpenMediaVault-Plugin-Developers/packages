@@ -1,9 +1,12 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/vaultwarden/server
 services:
   vaultwarden:
     image: vaultwarden/server:latest
+    container_name: vaultwarden
     ports:
-      - 8080:80
+      - 80:80
     volumes:
       - CHANGE_TO_COMPOSE_DATA_PATH/vaultwarden:/data
     restart: unless-stopped

@@ -1,10 +1,13 @@
 ---
+# Date: 2025-06-06
+# https://github.com/dgtlmoon/changedetection.io/pkgs/container/changedetection.io
+# Alternitive - https://docs.linuxserver.io/images/docker-changedetection.io/
 services:
   changedetection:
     image: ghcr.io/dgtlmoon/changedetection.io:latest
     container_name: changedetection
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/changedetection:/datastore
+      - CHANGE_TO_COMPOSE_DATA_PATH/changedetection:/datastore
     ports:
-      - 5000
+      - 5000:5000
     restart: unless-stopped

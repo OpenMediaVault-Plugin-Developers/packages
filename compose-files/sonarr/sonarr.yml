@@ -1,4 +1,6 @@
 ---
+# Date: 2025-06-01
+# https://hub.docker.com/r/linuxserver/sonarr
 services:
   sonarr:
     image: lscr.io/linuxserver/sonarr:amd64-latest
@@ -11,8 +13,8 @@ services:
       - /etc/hosts:/etc/hosts:ro
       - /etc/localtime:/etc/localtime:ro
       - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/config:/config
-      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/downloads:/downloads
-      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/tv-series:/tv
+      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/downloads:/downloads #optional
+      - CHANGE_TO_COMPOSE_DATA_PATH/sonarr/tv-series:/tv #optional
     ports:
       - 8989:8989
     restart: unless-stopped

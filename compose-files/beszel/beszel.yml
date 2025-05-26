@@ -1,4 +1,7 @@
 ---
+# Date: 2025-06-01
+# https://github.com/henrygd/beszel
+# https://beszel.dev/
 services:
   beszel:
     image: henrygd/beszel
@@ -6,4 +9,4 @@ services:
     ports:
       - 8090:8090
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/beszel:/beszel_data
+      - CHANGE_TO_COMPOSE_DATA_PATH/beszel:/beszel_data

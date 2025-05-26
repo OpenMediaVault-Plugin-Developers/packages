@@ -1,3 +1,7 @@
+---
+# Date: 2025-06-01
+# https://github.com/outline/outline
+# https://hub.docker.com/r/outlinewiki/outline
 services:
   outline:
     image: docker.getoutline.com/outlinewiki/outline:latest
@@ -5,7 +9,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - storage-data:/var/lib/outline/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/outline/storage-data:/var/lib/outline/data
     depends_on:
       - postgres
       - redis
@@ -15,7 +19,7 @@ services:
     ports:
       - "6379:6379"
     volumes:
-      - ./redis.conf:/redis.conf
+      - CHANGE_TO_COMPOSE_DATA_PATH/outline/redis.conf:/redis.conf
     command: ["redis-server", "/redis.conf"]
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
@@ -28,7 +32,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - database-data:/var/lib/postgresql/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/outline/database-data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-d", "outline", "-U", "user"]
       interval: 30s
@@ -48,7 +52,7 @@ services:
       - outline
     restart: always
     volumes:
-      - https-portal-data:/var/lib/https-portal
+      - CHANGE_TO_COMPOSE_DATA_PATH/outline/https-portal-data:/var/lib/https-portal
     healthcheck:
       test: ["CMD", "service", "nginx", "status"]
       interval: 30s
@@ -59,7 +63,3 @@ services:
       STAGE: 'production'
       WEBSOCKET: 'true'
       CLIENT_MAX_BODY_SIZE: '0'
-volumes:
-  https-portal-data:
-  storage-data:
-  database-data:

@@ -13,7 +13,7 @@ services:
       - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Airsonic/Playlists:/playlists
       - CHANGE_TO_COMPOSE_DATA_PATH/Podcasts:/podcasts
       - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Airsonic/Media:/media
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/Airsonic/:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/Config/Airsonic:/config
     ports:
       - 4040:4040
     restart: unless-stopped

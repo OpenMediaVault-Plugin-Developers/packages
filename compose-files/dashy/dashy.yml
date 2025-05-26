@@ -1,5 +1,7 @@
 ---
+# Date: 2025-06-01
 # https://dashy.to/
+# https://github.com/Lissy93/dashy
 services:
   dashy:
     # To build from source, replace 'image: lissy93/dashy' with 'build: .'

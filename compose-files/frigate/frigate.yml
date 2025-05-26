@@ -1,10 +1,13 @@
 ---
+# Date: 2025-06-01
 # https://github.com/blakeblackshear/frigate
+# https://docs.frigate.video/
 services:
   frigate:
     container_name: frigate
     privileged: true # this may not be necessary for all setups
     restart: unless-stopped
+    stop_grace_period: 30s # allow enough time to shut down the various services
     image: ghcr.io/blakeblackshear/frigate:stable
     shm_size: "64mb" # update for your cameras based on calculation above
     devices:
@@ -13,7 +16,7 @@ services:
       - /dev/dri/renderD128 # for intel hwaccel, needs to be updated for your hardware
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - CHANGE_TO_COMPOSE_DATA_PATH/frigate/config:/config/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/frigate/config:/config
       - CHANGE_TO_COMPOSE_DATA_PATH/frigate/storage:/media/frigate
       - type: tmpfs # Optional: 1GB of memory, reduces SSD/SD Card wear
         target: /tmp/cache

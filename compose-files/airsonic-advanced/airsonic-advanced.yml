@@ -1,20 +1,22 @@
 ---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-airsonic-advanced/
 services:
   airsonic-advanced:
     image: linuxserver/airsonic-advanced:latest
     container_name: airsonic-advanced
     environment:
-      - PUID=1024
+      - PUID=1000
       - PGID=100
       - TZ=Europe/Amsterdam
       - CONTEXT_PATH='<URL_BASE>'
       - JAVA_OPTS='<options>'
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/airsonic-advanced/config:/config
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/airsonic-advanced/music:/music
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/airsonic-advanced/playlists:/playlists
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/airsonic-advanced/podcasts:/podcasts
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/airsonic-advanced/media:/media
+      - CHANGE_TO_COMPOSE_DATA_PATH/airsonic-advanced/config:/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/airsonic-advanced/music:/music
+      - CHANGE_TO_COMPOSE_DATA_PATH/airsonic-advanced/playlists:/playlists
+      - CHANGE_TO_COMPOSE_DATA_PATH/airsonic-advanced/podcasts:/podcasts
+      - CHANGE_TO_COMPOSE_DATA_PATH/airsonic-advanced/media:/media
     ports:
       - 4040:4040
     restart: unless-stopped

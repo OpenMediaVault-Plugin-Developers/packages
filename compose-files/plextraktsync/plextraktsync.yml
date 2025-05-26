@@ -1,3 +1,6 @@
+---
+# Date: 2025-06-01
+# https://github.com/Taxel/PlexTraktSync
 services:
   scheduler:
     image: mcuadros/ofelia:latest
@@ -14,5 +17,10 @@ services:
     image: ghcr.io/taxel/plextraktsync:latest
     container_name: plextraktsync
     command: sync
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Europe/Tallinn
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/appdata/plextraktsync:/app/config
+      - CHANGE_TO_COMPOSE_DATA_PATH/plextraktsync:/app/config
+    restart: unless-stopped
