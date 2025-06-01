@@ -1,0 +1,12 @@
+services:
+    ersatztv:
+        container_name: ersatztv
+        environment:
+            - TZ=Europe/Warsaw
+        ports:
+            - '8409:8409'
+        volumes:
+            - CHANGE_TO_COMPOSE_DATA_PATH/appdata/ersatztv:/ersatztv_config
+            - CHANGE_TO_COMPOSE_DATA_PATH/movies:/mnt/share2 # Media directory
+        restart: unless-stopped
+        image: jasongdove/ersatztv
