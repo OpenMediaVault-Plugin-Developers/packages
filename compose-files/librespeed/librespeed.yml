@@ -23,4 +23,4 @@ services:
       - CHANGE_TO_COMPOSE_DATA_PATH/librespeed/config:/config
     ports:
       - 80:80
-    restart: unless-stopped      
+    restart: unless-stopped
