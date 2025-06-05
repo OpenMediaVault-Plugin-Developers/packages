@@ -1,0 +1,15 @@
+---
+# Date: 2025-06-01
+# https://docs.linuxserver.io/images/docker-ddclient
+# https://github.com/ddclient/ddclient
+services:
+  ddclient:
+    image: lscr.io/linuxserver/ddclient:latest
+    container_name: ddclient
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/ddclient/config:/config
+    restart: unless-stopped

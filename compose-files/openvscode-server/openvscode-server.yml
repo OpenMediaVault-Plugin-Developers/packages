@@ -1,0 +1,21 @@
+---
+# Date: 2025-06-03
+# https://docs.linuxserver.io/images/docker-openvscode-server
+# https://github.com/gitpod-io/openvscode-server
+services:
+  openvscode-server:
+    image: lscr.io/linuxserver/openvscode-server:latest
+    container_name: openvscode-server
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+      - CONNECTION_TOKEN= #optional
+      - CONNECTION_SECRET= #optional
+      - SUDO_PASSWORD=password #optional
+      - SUDO_PASSWORD_HASH= #optional
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/openvscode-server/config:/config
+    ports:
+      - 3000:3000
+    restart: unless-stopped

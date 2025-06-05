@@ -116,6 +116,10 @@
     "description": "help organize your self-hosted services by making them accessible from a single place "
   },
   {
+    "name": "ddclient",
+    "description": "Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider."
+  },
+  {
     "name": "deluge",
     "description": "Deluge is a lightweight, Free Software, cross-platform BitTorrent client."
   },
@@ -308,6 +312,10 @@
     "description": "LibreOffice⁠ is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity."
   },
   {
+    "name": "librespeed",
+    "description": "No Flash, No Java, No Websocket, No Bullshit.This is a very lightweight speed test implemented in Javascript, using XMLHttpRequest and Web Workers"
+  },
+  {
     "name": "lidarr",
     "description": "Lidarr is a music collection manager"
   },
@@ -322,6 +330,10 @@
   {
     "name": "makemkv",
     "description": "MakeMKV is a format converter or transcoder"
+  },
+  {
+    "name": "mastodon",
+    "description": "Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. "
   },
   {
     "name": "mcmyadmin",
@@ -358,6 +370,10 @@
   {
     "name": "mqtt",
     "description": "message broker for IoT"
+  },
+  {
+    "name": "mullvad-browser",
+    "description": "The Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project."
   },
   {
     "name": "mysql-phpmyadmin",
@@ -402,6 +418,10 @@
   {
     "name": "ollama",
     "description": "run large language models"
+  },
+  {
+    "name": "openvscode-server",
+    "description": "Openvscode-server provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser."
   },
   {
     "name": "open-webui",
@@ -494,6 +514,10 @@
   {
     "name": "recyclarr",
     "description": "automatically synchronize recommended settings from the TRaSH guides to your Sonarr/Radarr "
+  },
+  {
+    "name": "remmina",
+    "description": "Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. "
   },
   {
     "name": "sabnzbd",

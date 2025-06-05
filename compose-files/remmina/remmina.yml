@@ -1,0 +1,19 @@
+---
+# Date: 2025-06-03
+# https://docs.linuxserver.io/images/docker-remmina
+# https://gitlab.com/Remmina/Remmina
+# https://remmina.org/
+services:
+  remmina:
+    image: lscr.io/linuxserver/remmina:latest
+    container_name: remmina
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/remmina/config:/config
+    ports:
+      - 3000:3000
+      - 3001:3001
+    restart: unless-stopped
