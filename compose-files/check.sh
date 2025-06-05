@@ -13,6 +13,7 @@ for i in */; do
   fi
   if [ ! -f "${env}" ]; then
     echo "${env} missing!"
+    touch "${env}"
   fi
   if [ ! -f "${readme}" ]; then
     echo "${readme} missing!"
