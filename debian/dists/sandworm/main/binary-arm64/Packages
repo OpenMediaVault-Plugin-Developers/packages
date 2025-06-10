@@ -177,20 +177,20 @@ Description: cpu temperature plugin for openmediavault
 Plugin-Section: filesystems
 
 Package: openmediavault-cterm
-Version: 7.7
+Version: 7.7.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 197
+Installed-Size: 410
 Depends: openmediavault (>= 7.7.6), python3-flask, python3-flask-socketio, python3-pam
 Recommends: python3-simple-websocket
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-cterm/openmediavault-cterm_7.7_all.deb
-Size: 75676
-SHA256: fd5d9b6b40ec5b232c3185a5c7e77d23cba6b97a6ddef23464c97e1b145fd2da
-SHA1: 538f2aaa56e527b96d7f28aeefd2499c7d9b6e7b
-MD5sum: 38bd49b95d7a4b41458ae65cd466c3d8
+Filename: pool/main/o/openmediavault-cterm/openmediavault-cterm_7.7.1_all.deb
+Size: 245524
+SHA256: 154124832c8d12b9eae475a6c6b7fa1a469dea772a878f4593fd97e2e5155c2e
+SHA1: 89d71bf81ff4176fb98f02d967f1261d8cc7deaf
+MD5sum: dc8b5dfabd325af3bde2e2a20939fdda
 Description: openmediavault container exec terminal plugin
  This plugin adds a container execute terminal.
 Plugin-Section: utilities
