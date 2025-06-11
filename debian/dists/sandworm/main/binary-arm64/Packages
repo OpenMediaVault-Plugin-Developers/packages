@@ -302,19 +302,19 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kvm
-Version: 7.1.3
+Version: 7.1.4
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 1098
-Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 7.6), openmediavault-cterm, openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php8.2-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-x86 (<< 1:9) | qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
+Installed-Size: 1099
+Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 7.6), openmediavault-cterm (>= 7.8), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php8.2-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-x86 (<< 1:9) | qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.3_all.deb
-Size: 79832
-SHA256: 3904325169acec2d2656ebfb3b2c5bd90e707c0e353e4f01d99b7bbd33def0e2
-SHA1: dd1e06e2d6400b473c8dbe753951d97a9a64b565
-MD5sum: 8e57250f62dd355a1688a30cdc835359
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.4_all.deb
+Size: 80008
+SHA256: edd52dec05958534f7110ba8fb0dfee0972fd3427433379ce19eca6bfdcf7701
+SHA1: 0e5a40d7fb616c3626e2f6d968d69b7921c5f38a
+MD5sum: f5113341aae23152d0095345cd281f31
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
