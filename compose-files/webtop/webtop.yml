@@ -1,0 +1,24 @@
+---
+# Date: 2025-06-19
+# https://docs.linuxserver.io/images/docker-webtop/
+# tag list - https://docs.linuxserver.io/images/docker-webtop/#version-tags
+services:
+  webtop:
+    image: lscr.io/linuxserver/webtop:latest
+    container_name: webtop
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+      - SUBFOLDER=/ #optional
+      - TITLE=Webtop #optional
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/webtop/config:/config
+      - /var/run/docker.sock:/var/run/docker.sock #optional
+    ports:
+      - 3000:3000
+      - 3001:3001
+    shm_size: "1gb" #optional
+    restart: unless-stopped
