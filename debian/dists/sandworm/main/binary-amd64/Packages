@@ -346,19 +346,20 @@ Description: kernel package
 Plugin-Section: utilities
 
 Package: openmediavault-kvm
-Version: 7.1.6
+Version: 7.1.7
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 1098
-Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 7.7.9), openmediavault-cterm (>= 7.8.1), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php8.2-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-x86 (<< 1:9) | qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
+Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 7.7.9), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-libvirt-php, php8.2-libvirt-php, php-xml, python3-websockify, qemu-efi, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-x86 (<< 1:9) | qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
+Recommends: openmediavault-cterm (>= 7.8.5)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.6_all.deb
-Size: 79476
-SHA256: 751554b053ee5e20466d2dbc271ffd6b86b9c484b9c441a4f0895c46ccdabcf9
-SHA1: 5aa19f750ec61988990305571e45a15dfbc45899
-MD5sum: 464d92a8d580edc7c75c22c6786a76ce
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.7_all.deb
+Size: 79876
+SHA256: 3225df5496ee25a6d79a9b620c6d78080167c6219738da6155f0dc97283f7003
+SHA1: a6a21780a1715151d3563440b6db99453e0ac4b9
+MD5sum: a05ffbce729ac7ee328bfd3462984b4c
 Description: kvm plugin for OpenMediaVault.
  .
  The openmediavault-cterm plugin is a mandatory requirement of this plugin.
