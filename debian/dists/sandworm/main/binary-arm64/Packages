@@ -304,7 +304,7 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kvm
-Version: 7.1.7
+Version: 7.1.8
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 1098
@@ -313,11 +313,11 @@ Recommends: openmediavault-cterm (>= 7.8.5)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.7_all.deb
-Size: 79876
-SHA256: 3225df5496ee25a6d79a9b620c6d78080167c6219738da6155f0dc97283f7003
-SHA1: a6a21780a1715151d3563440b6db99453e0ac4b9
-MD5sum: a05ffbce729ac7ee328bfd3462984b4c
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_7.1.8_all.deb
+Size: 79908
+SHA256: 4ea8ce9e55e581a1e25d58aa3f0b444d92ee1fe21ff15d60cb5e76ca92c6a317
+SHA1: ab30ee0c3a3438c7ca80dadfd92395ce7200f699
+MD5sum: 032fd3352c4f19469b06e59df937be85
 Description: kvm plugin for OpenMediaVault.
  .
  The openmediavault-cterm plugin is a mandatory requirement of this plugin.
