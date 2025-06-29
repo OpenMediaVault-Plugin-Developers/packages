@@ -506,19 +506,19 @@ Description: OpenMediaVault rsnapshot backup plugin.
 Plugin-Section: backup
 
 Package: openmediavault-scripts
-Version: 7.3.1
+Version: 7.3.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 315
+Installed-Size: 317
 Depends: openmediavault (>= 7.1), openmediavault-sharerootfs, pylint, shellcheck
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_7.3.1_all.deb
-Size: 25264
-SHA256: a0a42dab1221bc03fab72cc8f3b5bf1dcdfbe17bd1a6f2f4a7d1d0ace3ea3167
-SHA1: fd0036b0738fa0bee5d1403d49f0feaf5cf2436a
-MD5sum: 57cceb867537cfaee69cb200fcbe0f50
+Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_7.3.2_all.deb
+Size: 25364
+SHA256: b4c17b4c42209b25620922b31e5ae625d36d8af3989476520c0eb20384baf3f5
+SHA1: 67d9a0cee6ff468da4c8ad620cad12944ac96211
+MD5sum: b519534da76a099ca953cddec8d3c5b6
 Description: OpenMediaVault scripts plugin
  lightweight plugin to maintain and execute shell and python scripts.
 Plugin-Section: utilities
