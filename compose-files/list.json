@@ -492,6 +492,10 @@
     "description": " indexer manager/proxy"
   },
   {
+    "name": "pyload-ng",
+    "description": "download manager"
+  },
+  {
     "name": "qbittorrent",
     "description": "qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library."
   },

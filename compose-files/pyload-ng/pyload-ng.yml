@@ -1,0 +1,18 @@
+---
+# Date: 2025-07-26
+# https://github.com/linuxserver/docker-pyload-ng/
+services:
+  pyload-ng:
+    image: lscr.io/linuxserver/pyload-ng:latest
+    container_name: pyload-ng
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/pyload-ng:/config
+      - /path/to/downloads:/downloads
+    ports:
+      - 8000:8000
+      - 9666:9666 #optional
+    restart: unless-stopped
