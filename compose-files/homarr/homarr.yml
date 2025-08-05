@@ -1,0 +1,15 @@
+---
+# https://github.com/homarr-labs/homarr
+# https://homarr.dev/docs/getting-started/installation/docker/
+services:
+  homarr:
+    container_name: homarr
+    image: ghcr.io/homarr-labs/homarr:latest
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - CHANGE_TO_COMPOSE_DATA_PATH/homarr:/appdata
+    environment:
+      - SECRET_ENCRYPTION_KEY=8677aae68c7fbec736d4e216b3491f4ed6675d3086ac90404e8a19b70cecb4d0
+    ports:
+      - '7575:7575'
