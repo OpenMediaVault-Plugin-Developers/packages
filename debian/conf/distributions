@@ -1,3 +1,9 @@
+Codename: synchrony
+Architectures: amd64 arm64
+Components: main
+Description: omv-extras plugin repository for OMV 8.x Synchrony
+SignWith: yes
+
 Codename: sandworm
 Architectures: i386 amd64 armhf arm64
 Components: main
