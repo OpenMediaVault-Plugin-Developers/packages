@@ -156,10 +156,6 @@
     "description": "Emby Server is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and .NET Core.\n\nIt features a REST-based API with built-in documention to facilitate client development. We also have client libraries for our API to enable rapid development.\n"
   },
   {
-    "name": "emulatorjs",
-    "description": "[Emulatorjs](https://github.com/linuxserver/emulatorjs) - In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS."
-  },
-  {
     "name": "ersatz",
     "description": "Your Personal IPTV Server"
   },
