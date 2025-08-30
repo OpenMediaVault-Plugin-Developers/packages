@@ -1,0 +1,13 @@
+---
+# Date: 2025-08-30
+# https://github.com/Forceu/Gokapi
+services:
+  gokapi:
+    image: f0rc3/gokapi:latest
+    container_name: gokapi
+    ports:
+      - "53842:53842"
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/gokapi/data:/app/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/gokapi/config:/app/config
+    restart: unless-stopped

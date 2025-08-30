@@ -212,6 +212,10 @@
     "description": "VPN client to multiple VPN service providers"
   },
   {
+    "name": "gokapi",
+    "description": "A simple, self-hosted file sharing server with automatic expiration and encryption support - ideal for teams or individuals who want privacy, control, and no clutter."
+  },
+  {
     "name": "gotify",
     "description": "a simple server for sending and receiving messages"
   },
