@@ -492,6 +492,10 @@
     "description": " indexer manager/proxy"
   },
   {
+    "name": "psitransfer",
+    "description": "Simple open source self-hosted file sharing solution"
+  },
+  {
     "name": "pyload-ng",
     "description": "download manager"
   },

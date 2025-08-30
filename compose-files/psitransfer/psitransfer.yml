@@ -1,0 +1,16 @@
+---
+# Date: 2025-08-30
+# https://github.com/psi-4ward/psitransfer
+services:
+  psitransfer:
+    image: psitrax/psitransfer:latest
+    container_name: psitransfer
+    environment:
+      - PSITRANSFER_ADMIN_PASS=CHANGE_ME
+      - PSITRANSFER_DEFAULT_RETENTION=3600
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/psitransfer/config:/psitransfer
+      - CHANGE_TO_COMPOSE_DATA_PATH/psitransfer/data:/data # data volume needs UID 1000
+    ports:
+      - 3085:3000
+    restart: unless-stopped
