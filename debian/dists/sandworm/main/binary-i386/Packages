@@ -515,7 +515,7 @@ Description: OpenMediaVault scripts plugin
 Plugin-Section: utilities
 
 Package: openmediavault-sftp
-Version: 7.0.4
+Version: 7.0.5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 220
@@ -523,11 +523,11 @@ Depends: openmediavault (>= 7.7.15)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-sftp/openmediavault-sftp_7.0.4_all.deb
-Size: 21332
-SHA256: d5ae1f8c4c521f6fd7671a499f6d256157909bf0b89507d40711def49895f7a7
-SHA1: 66793261a8e2e08ece50bb4e02a96a3b8212d827
-MD5sum: 3fd1c5ec4c8a17d17b2b2e203059b606
+Filename: pool/main/o/openmediavault-sftp/openmediavault-sftp_7.0.5_all.deb
+Size: 21364
+SHA256: e972b7e87746bffaad0edcc463f29d667a93b69d86c21c0163d6cb04122cc753
+SHA1: 6abd6ed44882fd1255666881107053708d761de0
+MD5sum: 4b8bd33c9923be58090a7e00354ad3a5
 Description: sftp server
  Configure sftp server using jails
 Plugin-Section: network
