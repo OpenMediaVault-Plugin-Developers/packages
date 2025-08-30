@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Codename: sandworm
-Date: Sat, 30 Aug 2025 01:07:55 UTC
+Date: Sat, 30 Aug 2025 20:05:39 UTC
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 7.x Sandworm
@@ -10,8 +10,8 @@ MD5Sum:
  a2f202b4f2ac91c6a9deae452bad599a 31045 main/binary-i386/Packages
  5a5f0ace0e6f554a8cd54d279389334c 9991 main/binary-i386/Packages.gz
  fabf70c68dffdf0f4cd0a75f8c2cfca8 98 main/binary-i386/Release
- d6ac1f0e4579faaa592e03f4ff9ef94f 33525 main/binary-amd64/Packages
- 6383cbc578820b1e2f419bd56ff4b48b 10695 main/binary-amd64/Packages.gz
+ 06270316b8e540db4cd7ef3da766e7ca 33525 main/binary-amd64/Packages
+ 48da078fb86143a4133c9f822fc2ea91 10696 main/binary-amd64/Packages.gz
  38d5f958d6efe83a7e480ef953162cfa 99 main/binary-amd64/Release
  88403c834aaa8349f8f9f27f87358c1b 31743 main/binary-armhf/Packages
  c956957d4a521935b84cccffb1e521ef 10175 main/binary-armhf/Packages.gz
@@ -23,8 +23,8 @@ SHA1:
  6db86e0b491ded1f7c617c3acfbfee726e8ccb65 31045 main/binary-i386/Packages
  98fc14acd79deba00ef42c7b957478f44cc7808f 9991 main/binary-i386/Packages.gz
  10b559d39e8c81cc23e5f4ba80a7646c6b0ce58e 98 main/binary-i386/Release
- c8c266ace4c7732371fdecc9aa2e11a853c95227 33525 main/binary-amd64/Packages
- 9ae0bf82602d05cab5ce375b5b5f58eb8d2f465c 10695 main/binary-amd64/Packages.gz
+ 1fa426718678f94078c258c319b570b0a952550b 33525 main/binary-amd64/Packages
+ f67ff17029ab059ab046af233cb4819c75ea1bef 10696 main/binary-amd64/Packages.gz
  561d36f14ebd36ce509bd2fdcbec2d1bea0d802e 99 main/binary-amd64/Release
  8fda1848127c42395cef862bbacaafdb6490ce38 31743 main/binary-armhf/Packages
  e2079c11f9682b3295af09b0792d0341a8d6ea81 10175 main/binary-armhf/Packages.gz
@@ -36,8 +36,8 @@ SHA256:
  8d40bad9d30bdf10aff34ee66bf0814a5f75ab5ef8f462228916559026d5d6c5 31045 main/binary-i386/Packages
  612c51cd9db66b526f149abcf283de13271d096400849e8f11fd8d1d8354aaf7 9991 main/binary-i386/Packages.gz
  bd288d7a20b4d64dfb24c374753f410f859536b9adae2b3996abf2a5f93817ea 98 main/binary-i386/Release
- 7794f83e6c7ccaa1fe4aab5cd5a48520eb4bae071309592e38d15bee6cebbf9c 33525 main/binary-amd64/Packages
- b31ac6e758dc0cae207c432c1b87b1626fe6d3e0a41b35d857a182e337e32bce 10695 main/binary-amd64/Packages.gz
+ c4f65658e5c267fb67d85256a7df79736e2104512133d18c638bbfd27f62fa1a 33525 main/binary-amd64/Packages
+ d416c4f0b3d21a698392488f37b611ac9dfd2efe35ba0fd0b4c55b5cf845c0ca 10696 main/binary-amd64/Packages.gz
  130333ffbc7452866d12ec558a530c8522f8e9eabc61dfa9d37ab0bdb60ce4c8 99 main/binary-amd64/Release
  fcced7838c0bd02743ef4e8b8725e1aba3f3a4f3e82f99ff62c852a07f9107f7 31743 main/binary-armhf/Packages
  beab48421d69dee5ecaa1d3fc2b06b9506ada0ef91219ec7cc31ed347aec8e7c 10175 main/binary-armhf/Packages.gz
@@ -47,17 +47,17 @@ SHA256:
  b1e9221c6bacffd7a726e069c07098cdb62683b3e03d34a2b59790dda250846b 99 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmiyTuwACgkQMmqDXml7
-iQrmERAAnNyt411mr//n/6H8AomIdxmGgrJlVRQ1pJlTOc3dfE+LbW6ryFvmSJau
-1MHkWnY5eelUwlgRpcerUSmkeRDZR+0rFs6U+xa9aG0aE4RBoSj6RGqQ37NMv0aA
-K/8P/etK9PrHeCNMLyKE5IhH4SBDzMPxn9s/ETgrQwvwMzFZp+ZVJTtLJo2TZNNt
-lJgYdH0mzccWjzIiOH6rF3N7s3/9qe9JLMcM90Kzs3dceGjcbPA4Y6pieVTu6kKw
-Vad4+1NxNt8tMvszLg1FY1MNmcXt3nf8fnA9nmbQzGRlYC/hjCc8Bo5yyNZ87vay
-BkhXc3nxSIQI74nT/A9h+O4P/rwcVC2PLl574fnz0ZDBBjEDZhasyfQ/AysQgs4d
-PL/GvuRxamedKXtl81PomFH0koOtJI/tYbndrUjy4Ocfds0FQKeEOLOXUZt/648X
-3KUP6tXJruSD6LRkpQClMzDIMQW9+yO0loQpz1cra98Ijm8jKxQTpleFWv1QDY9i
-Rhzy89msO7mij6MIPXLS3ZorEZmZi3p3HYm3FCYyKZZYO9AAdRiZvSJruQMrtopQ
-9cE3mDZXm29TtXkSxyLQVzKjm8FTlU3TykcJE66hI+3V++ReSnFDtm7BF1pqo0Mh
-b7cIOeE2ZOj4JF4TCLH/RvkpwDm6eJVCLDxSnYczuUcK4MRpOBs=
-=XIaJ
+iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmizWZQACgkQMmqDXml7
+iQoK9w/9HF9LYD6fqTPCtqMOOZzKvGCZsAPchI3it0qe9b/N7h6u9zHQyfkdrD88
+QeIbGqOPe3gKYiIKRnz266CxcTYLEhnTl1wrpjEIy184R+aTA0GaONqc0JfKqInq
+zkKuGBVm7m7CNJkpUuoT4hAIPj8uK9bsFpkslxKiLcQWTxNI9rUbfipq0t+C6ppD
+vbVHma/+5YzU9qmR2oRL/MajUPzsCn2lBtBbuxtz+K22+YHPT3OQml1wBw3JX4y1
+VTDOSxbA9jPD7D2dOSbZa7CW1OEw1uG4gEwxsXsBP1QsrUgOZp57lHDo26P689Oa
+GH4FY3AmCkAipHNXW6Le+GJ/8MtkJQMiiMPpndMkuOExvWtS84KFTR+wkHFt+dn0
+Y3853wwKpeWAakPMg9lojeCXe4aZAkAKsW2MYMnHfR0dARFzTCGNqOb3KPDoKntR
+C3lbbqmS+bxSIY4M+4KmoddxChkMqmydvYI0wMyDbKmuDO8EdV3HSJcsWWo+kHLA
+s7DKPe1dl0vwd5+6K+NbzW1q43+2pnUHklssnUhTTytS5UVhcuN6bznYFvDQTLWU
+3Fh+xYsTr2w38nQ34ryPLnn9jbU+hrHSIoa6HsxZORH/rEt21lBJhjrpX/EvflFE
+UEqEaNV7/nwq4kpTblAoAa0YG4ZwkvJdCaNE9CtWuHOPn6XDogA=
+=8VrU
 -----END PGP SIGNATURE-----
