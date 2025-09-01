@@ -444,6 +444,10 @@
     "description": "ownCloud is a self-hosted file sync and share server. It provides access to your data through a web interface, sync clients or WebDAV while providing a platform to view, sync and share across devices easily—all under your control. ownCloud’s open architecture is extensible via a simple but powerful API for applications and plugins and it works with any storage."
   },
   {
+    "name": "palmr",
+    "description": "Palmr is a flexible and open-source alternative to file transfer services like WeTransfer, SendGB, Send Anywhere, and Files.fm."
+  },
+  {
     "name": "paperless-ngx",
     "description": "Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive"
   },
