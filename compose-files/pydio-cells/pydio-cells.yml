@@ -1,0 +1,20 @@
+---
+# Date: 2025-09-01
+# https://github.com/pydio/cells
+# https://docs.linuxserver.io/images/docker-pydio-cells/
+services:
+  pydio-cells:
+    image: lscr.io/linuxserver/pydio-cells:latest
+    container_name: pydio-cells
+    hostname: pydio-cells
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Etc/UTC
+      - EXTERNALURL=yourdomain.url
+      - SERVER_IP=0.0.0.0 #optional
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/pydio-cells/config:/config
+    ports:
+      - 8080:8080
+    restart: unless-stopped

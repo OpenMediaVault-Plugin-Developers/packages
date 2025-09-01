@@ -500,6 +500,10 @@
     "description": "Simple open source self-hosted file sharing solution"
   },
   {
+    "name": "pydio-cells",
+    "description": "Pydio Cells is the nextgen file sharing platform for organizations."
+  },
+  {
     "name": "pyload-ng",
     "description": "download manager"
   },
