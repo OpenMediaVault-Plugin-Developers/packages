@@ -92,6 +92,10 @@
     "description": "ClamAV® is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats."
   },
   {
+    "name": "cloudcmd",
+    "description": "web based orthodox file manager with console and editor"
+  },
+  {
     "name": "cloudflare-ddns",
     "description": "A robust Cloudflare DDNS updater with a small footprint. The program will detect your machine's public IP addresses and update DNS records using the Cloudflare API."
   },

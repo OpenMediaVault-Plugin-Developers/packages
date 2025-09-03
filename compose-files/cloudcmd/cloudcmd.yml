@@ -1,0 +1,13 @@
+---
+# Date: 2025-09-03
+# https://cloudcmd.io/
+# https://github.com/coderaiser/cloudcmd
+services:
+  web:
+    image: coderaiser/cloudcmd
+    ports:
+      - 8000:8000
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/cloudcmd:/root
+      - /srv:/mnt/fs
+    restart: unless-stopped
