@@ -23,6 +23,7 @@ Each example **must** include the following files:
   # Date: 2025-09-01
   ```
 - Add commented links to the **GitHub repo**, **Docker Hub page**, or other informative resources.
+- Please remove any env_file lines from the compose file.  The plugin will reference the env file in the compose command.
 
 ### ⚙️ Environment File
 - A `.env` file named after the folder.
