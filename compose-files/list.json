@@ -312,6 +312,10 @@
     "description": "Free and open source comics/mangas media server"
   },
   {
+    "name": "komodo",
+    "description": "Komodo is a tool to build and deploy software on many servers."
+  },
+  {
     "name": "ldap",
     "description": "osixia openldap server with phpldapadmin web interface"
   },
