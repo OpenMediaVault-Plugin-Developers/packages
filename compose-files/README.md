@@ -11,7 +11,7 @@ Each example **must** include the following files:
 
 ### 📷 PNG Icon
 - A small PNG for list view.
-- **Size:** `256x256` or smaller.
+- **Size:** `256x256` or smaller ideally.
 - **Naming convention:** Must have the same name as the folder.
 
 ### 📄 Compose YAML
@@ -43,7 +43,7 @@ Each example **must** include the following files:
 
 ```
 example-service/
-│── example-service.png
+│── example-service
 │── example-service.yml
 │── example-service.env
 └── readme
