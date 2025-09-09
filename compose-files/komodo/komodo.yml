@@ -22,7 +22,6 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${KOMODO_DB_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${KOMODO_DB_PASSWORD}
-  
   core:
     image: ghcr.io/moghtech/komodo-core:${COMPOSE_KOMODO_IMAGE_TAG:-latest}
     labels:
@@ -48,7 +47,6 @@ services:
     ## "https://host.docker.internal:8120"
     # extra_hosts:
     #   - host.docker.internal:host-gateway
-
   ## Deploy Periphery container using this block,
   ## or deploy the Periphery binary with systemd using 
   ## https://github.com/moghtech/komodo/tree/main/scripts
@@ -68,9 +66,7 @@ services:
       ## or docker will get confused. See https://github.com/moghtech/komodo/discussions/180.
       ## Default: /etc/komodo.
       - ${PERIPHERY_ROOT_DIRECTORY:-/etc/komodo}:${PERIPHERY_ROOT_DIRECTORY:-/etc/komodo}
-
 volumes:
   # Mongo
   mongo-data:
   mongo-config:
-  
