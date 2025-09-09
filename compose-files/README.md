@@ -28,8 +28,8 @@ Each example **must** include the following files:
 - A `.env` file named after the folder.
 - **Example:** `example-service.env`
 
-### 📝 README
-- A `README.md` inside each folder with a **short description** of the example service.
+### 📝 readme
+- A `readme` inside each folder with a **short description** of the example service.
 
 ---
 
@@ -46,5 +46,5 @@ example-service/
 │── example-service.png
 │── example-service.yml
 │── example-service.env
-└── README.md
+└── readme
 ```
