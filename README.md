@@ -1,14 +1,31 @@
-omv-extras.org .deb releases
+# omv-extras.org .deb Releases
 
-* Install from command line as root. If you are not root already, change to root first:
+This repository provides the `.deb` releases for **omv-extras.org**.
+
+---
+
+## 📥 Installation
+
+### Option 1: Install as Root
+If you are already root (or switch to root first), run:
+
 ```console
- sudo su -
- wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | bash
+sudo su -
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | bash
 ```
 
-* If you don't want to use root, you must use sudo for the bash execution.  But if this is the first time you have run sudo, you will not see the sudo prompt for your password.  Use sudo for both commands:
+### Option 2: Install with Sudo
+If you prefer not to switch to root, you can use `sudo`.
+⚠️ Note: On the very first use of `sudo`, you will not see the password prompt.
+Use `sudo` for both commands:
+
 ```console
- sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | sudo bash
+sudo wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | sudo bash
 ```
 
-For issues with compose files, please start a thread on the forum - https://forum.openmediavault.org/
+---
+
+## 🛠️ Support
+
+For issues with **compose files**, please start a thread on the forum:
+👉 [https://forum.openmediavault.org/](https://forum.openmediavault.org/)
