@@ -752,6 +752,10 @@
     "description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend."
   },
   {
+    "name": "ytptube",
+    "description": "A WebUI for yt-dlp with concurrent downloads support, presets and scheduled tasks and many more."
+  },
+  {
     "name": "znc",
     "description": "ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC."
   },
