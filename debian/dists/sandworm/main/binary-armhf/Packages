@@ -411,7 +411,7 @@ Description: OpenMediaVault miniDLNA (DLNA server) plugin
 Plugin-Section: multimedia
 
 Package: openmediavault-mounteditor
-Version: 7.0.2
+Version: 7.0.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 199
@@ -419,11 +419,11 @@ Depends: openmediavault (>= 7)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-mounteditor/openmediavault-mounteditor_7.0.2_all.deb
-Size: 12056
-SHA256: a8cdd3bed936ce03a4c87174b4bbfbe2143460b5f74ad416f753998d4988b08d
-SHA1: 5c9490e15612ae7e356aefcf25c7f61048b3efc4
-MD5sum: 9ce026475d431411ad73e7229e70ac3a
+Filename: pool/main/o/openmediavault-mounteditor/openmediavault-mounteditor_7.0.3_all.deb
+Size: 12096
+SHA256: 0eaf650d6d5a951283d3eed435f0c724e4cdc58a1a3faa413440cb87c76d7629
+SHA1: 58282574d2910b2c586b48580b9302b2a1ccaaa6
+MD5sum: 077dbf7d58db32c029c6316eb882d5f4
 Description: openmediavault mount editor plugin
  Allow editing of filesystem mount options.
 Plugin-Section: filesystems
