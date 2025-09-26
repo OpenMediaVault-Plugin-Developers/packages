@@ -1,0 +1,21 @@
+Package: openmediavault-omvextrasorg
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 522
+Depends: openmediavault (>= 8), gnupg
+Breaks: openmediavault (<< 8.0)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_8.0_all.deb
+Size: 42880
+SHA256: cc578cc07413ba29874fa952477a63c0fe4e32bf36afb861ace665feaca7ffd1
+SHA1: 4a7cc59582c459b0df769ed028651fbfb432a0fa
+MD5sum: e6def3397860aee313bc33aab03f1ba3
+Description: OMV-Extras.org Package Repositories for OpenMediaVault
+ .
+ An apt cleaning function is also available for fixing repository cache
+ problems and saving hard drive space in some instances.
+Plugin-Section: utilities
+
