@@ -68,6 +68,25 @@ Description: OpenMediaVault compose plugin
  The openmediavault-cterm plugin is a mandatory requirement of this plugin.
 Plugin-Section: utilities
 
+Package: openmediavault-cterm
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 552
+Depends: openmediavault (>= 8), python3-flask, python3-flask-socketio, python3-pam
+Recommends: python3-simple-websocket
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-cterm/openmediavault-cterm_8.0_all.deb
+Size: 255068
+SHA256: bf74398eca54d5da72332a5a4012df7155db88497ba76c79f833e93f58ca8ced
+SHA1: 49b120a4dfa9e1c7f8ea3206c7bf4dac3a10fc5a
+MD5sum: b243d08484f14649e4ecaa28176bd6af
+Description: openmediavault container exec terminal plugin
+ This plugin adds a container execute terminal.
+Plugin-Section: utilities
+
 Package: openmediavault-omvextrasorg
 Version: 8.0
 Architecture: all
