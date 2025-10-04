@@ -104,6 +104,26 @@ Description: openmediavault container exec terminal plugin
  This plugin adds a container execute terminal.
 Plugin-Section: utilities
 
+Package: openmediavault-iperf3
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 82
+Depends: iperf3, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-iperf3/openmediavault-iperf3_8.0_all.deb
+Size: 9460
+SHA256: 8f873154acdaae9475405f673520c43e555525f0a44cff46a2697721e9ee89e6
+SHA1: 7c20aa6dc9d1a0a2e10bc2b2f386a1806bf5670b
+MD5sum: 1404a5792d8f86320df49aa8fab70076
+Description: OpenMediaVault iPerf3 plugin
+ iperf3 is a tool for performing network throughput measurements.
+ It can test TCP, UDP, or SCTP throughput.  To perform an iperf3
+ test the user must establish both a server and a client.
+Plugin-Section: network
+
 Package: openmediavault-kvm
 Version: 8.0
 Architecture: all
