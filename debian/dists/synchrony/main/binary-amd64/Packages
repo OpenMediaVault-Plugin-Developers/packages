@@ -187,6 +187,24 @@ Description: Reset Permissions
  View plugins that are using each shared folder.
 Plugin-Section: utilities
 
+Package: openmediavault-scripts
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 316
+Depends: openmediavault (>= 8), openmediavault-sharerootfs, pylint, shellcheck
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_8.0_all.deb
+Size: 25404
+SHA256: ba667ac3006973c70dd21fff1405a3814cfd67f6131d3f21bf977bf0a0f6a11c
+SHA1: fbaa209a8bb50f8b37d730a43540b06dcfe6a097
+MD5sum: 83e14d105ca41df00002a3da01ab66ad
+Description: OpenMediaVault scripts plugin
+ lightweight plugin to maintain and execute shell and python scripts.
+Plugin-Section: utilities
+
 Package: openmediavault-writecache
 Version: 8.0.0-5
 Architecture: all
