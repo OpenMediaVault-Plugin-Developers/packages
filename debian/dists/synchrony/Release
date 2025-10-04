@@ -1,25 +1,25 @@
 Codename: synchrony
-Date: Sat, 04 Oct 2025 19:42:19 UTC
+Date: Sat, 04 Oct 2025 19:42:45 UTC
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
 MD5Sum:
- 71584d8cd05fe775483f0c84841d1c12 5910 main/binary-amd64/Packages
- 83e4ed535ae1a1d5f65db573092661cb 2187 main/binary-amd64/Packages.gz
+ d257fe61ece55fca21138585e9eb9992 6747 main/binary-amd64/Packages
+ 9f63057f58d9cf23766c9bbce7115762 2470 main/binary-amd64/Packages.gz
  13eea9161c1f79b0d81296677afee676 100 main/binary-amd64/Release
  71584d8cd05fe775483f0c84841d1c12 5910 main/binary-arm64/Packages
  83e4ed535ae1a1d5f65db573092661cb 2187 main/binary-arm64/Packages.gz
  a41bf22cb5943320099d60ba7efbd2cc 100 main/binary-arm64/Release
 SHA1:
- 74d7d778426cb7574c450f170bc651ace97f67d2 5910 main/binary-amd64/Packages
- 8ed0454c7dd71e757372d48ef7a94fe2276cc231 2187 main/binary-amd64/Packages.gz
+ ea77c53e6a7f5ab0c61daef07ddf097e3a2a4d40 6747 main/binary-amd64/Packages
+ fb5c283c12a6bf8b066c5a74df4cbc009cb47150 2470 main/binary-amd64/Packages.gz
  c249fa72c2baefedbef59622a2eb5fb9c0f6078f 100 main/binary-amd64/Release
  74d7d778426cb7574c450f170bc651ace97f67d2 5910 main/binary-arm64/Packages
  8ed0454c7dd71e757372d48ef7a94fe2276cc231 2187 main/binary-arm64/Packages.gz
  b4f3dd4e82d3e146c94233e4697de22148a6bd54 100 main/binary-arm64/Release
 SHA256:
- d4548aac6239001a096e8dbfe2e1548ebb9d06b602e6f6c4737f833e1a1dfcfd 5910 main/binary-amd64/Packages
- 1409d0779894380b00a99cdb3741c65bad333a712c64d70818ff6e3450b46df0 2187 main/binary-amd64/Packages.gz
+ b380cd122cadf2f3c9b4d8d543686ebdacf93bdf792efb111f428af0ca1a0d37 6747 main/binary-amd64/Packages
+ 7d69e041699327f6f6fff5414d6c8740183d6da12bab94e71ca1174a60059836 2470 main/binary-amd64/Packages.gz
  c5d4d1d1f7275ff07a01fe8446ef174bbbd57768dd13d775c3b4ab7f64bae8d1 100 main/binary-amd64/Release
  d4548aac6239001a096e8dbfe2e1548ebb9d06b602e6f6c4737f833e1a1dfcfd 5910 main/binary-arm64/Packages
  1409d0779894380b00a99cdb3741c65bad333a712c64d70818ff6e3450b46df0 2187 main/binary-arm64/Packages.gz

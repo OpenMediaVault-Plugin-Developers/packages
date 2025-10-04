@@ -104,6 +104,30 @@ Description: openmediavault container exec terminal plugin
  This plugin adds a container execute terminal.
 Plugin-Section: utilities
 
+Package: openmediavault-kernel
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 230
+Depends: memtest86+, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_8.0_all.deb
+Size: 19604
+SHA256: 69f6a737fd40b3ca4497a57f738d45320b67769a2b1c43061f353cb313df133c
+SHA1: ecd287633547e56bbe9e37bf6371c7a4f807242e
+MD5sum: 30134381ab6851b7d0571b7a79cb123f
+Description: kernel package
+ The plugin allows the user to select which grub entry to boot from and
+ installation of the Proxmox kernel.  It also allows for the download
+ and grub entry to boot from the following rescue Linux distros:
+   - Clonezilla
+   - Finnix
+   - GParted Live
+   - SystemRescue
+Plugin-Section: utilities
+
 Package: openmediavault-omvextrasorg
 Version: 8.0
 Architecture: all
