@@ -222,6 +222,30 @@ Description: OpenMediaVault tgt plugin
  Plugin to setup tgt iscsi targets.
 Plugin-Section: network
 
+Package: openmediavault-wireguard
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 334
+Depends: qrencode, wireguard, php-zip, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-wireguard/openmediavault-wireguard_8.0_all.deb
+Size: 23048
+SHA256: 40f90dd44e08ae71e8782a80feed3ef7fd704fe1902f29147076896a0978e1de
+SHA1: ca421d4f9e205333bbb5f9ab7378954eb762c9c8
+MD5sum: 2059d060560c10d628eadcf983f0669e
+Description: openmediavault WireGuard plugin
+ WireGuard is an extremely simple yet fast and modern VPN
+ that utilizes state-of-the-art cryptography. It aims to be
+ faster, simpler, leaner, and more useful than IPsec, while
+ avoiding the massive headache. It intends to be considerably
+ more performant than OpenVPN. WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and
+ super computers alike, fit for many different circumstances.
+Plugin-Section: network
+
 Package: openmediavault-writecache
 Version: 8.0.0-5
 Architecture: all
