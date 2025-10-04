@@ -20,7 +20,7 @@ Description: OMV-Extras.org Package Repositories for OpenMediaVault
 Plugin-Section: utilities
 
 Package: openmediavault-writecache
-Version: 8.0.0-4
+Version: 8.0.0-5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers
 Installed-Size: 241
@@ -28,11 +28,11 @@ Depends: openmediavault (>= 7.7.17), jq
 Homepage: https://github.com/OpenMediaVault-Plugin-Developers
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_8.0.0-4_all.deb
-Size: 25448
-SHA256: 39fd48e80df7dcdb69b14a7b58ceeeb9d3e521c2006d2fb3c4c20b72666f9f62
-SHA1: 8bfc8e5e6648b098e4d1d39da6f973033cb69478
-MD5sum: 318a06013ac34d5e87fa874e32d5f378
+Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_8.0.0-5_all.deb
+Size: 25520
+SHA256: 9e7d0f91782f509d8fe3d06eae3f1665fcadd5ccfe3e773322104067036f971a
+SHA1: c9628ced0b9220a3502d048d6c3d5c1a618814ea
+MD5sum: 362a4d4aff6d4e7c3171da07bc9dc7c0
 Description: openmediavault plugin to reduce OS writes using tmpfs+overlayfs
  Provides an overlay-based write cache for selected system directories
  (e.g., /var/log, APT caches) using tmpfs as the upperdir. Changes can be
