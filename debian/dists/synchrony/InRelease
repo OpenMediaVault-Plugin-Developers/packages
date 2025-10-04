@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Codename: synchrony
-Date: Sat, 04 Oct 2025 19:52:23 UTC
+Date: Sat, 04 Oct 2025 20:26:52 UTC
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
@@ -29,17 +29,8 @@ SHA256:
  e1ddf7e8c05999cd7eec8a286e92f042733df7b2325c4ac0f41d6af3cb5d6f35 100 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmjhevgACgkQMmqDXml7
-iQo9WxAAiocCx9j74Yhq+UdyDJWL5SMwoOgOJO2hjlA3diKudsQ9a+irl13MtKTg
-y5KpAETPmKfbIZAz4QvC62lPOI0EK0xaROR8LWGTvO6QHdXOvnkZ13Cq3XEfMlQU
-efq2zw4cGVfRURhSyz4dcTlyTN5CUYCNa+dO0DE04CyWz+jq9ZDi7x7m9Kd9Q3rR
-UV76q2NA3JHxhQ6eU6UaK3kcEdfEiznW0cVNc/x6ArtCyE1+OtYANG6d3XY7BDLC
-c/NHMXWWgYhRnY0e+CaCfx4f4fPktqKMZsOY489J8eVSiP2ZlJGn5RDgyhxoxlpf
-ZmerEHTkuDLC2UtAY5Lk7E7lmzKr9guwXPEk42Iqg59fQtLG1Exv4j3waQRv8LeH
-UNLGCp9fv5iaNsKLn5rOZLZwNaxW8r+K2TQLIJL9oBRjmgxam4NXZrQ53YvBJJ95
-zmmkLDYPAEDpjJIU09m61yeTiXSk/YsCj+wZ5/cKqzAKE6B+Ey/XOsAkcbUl2kwg
-JE6q5j46x9O8ErAUy3h2mS/ciqAm4qrjlFoFeOHv2IuoZZIzcyBH7QtZvXDzCUqj
-m897XniGgRA8JUGFpJAxAYg7AcoeZyioOGMmnnw03QyIlD3MREGskr4RKPLbmw75
-qtSoRYtvm8snqtmYLELQu7Ao8wwDxnVIhOdHyfJXyYXczKuTFOE=
-=suV4
+iHUEARYKAB0WIQTci1QDZltqgW6AcURj2KfRf9wpgAUCaOGDDQAKCRBj2KfRf9wp
+gOIwAP9ntGX9NefxXaLGPtsPl3K60zFd60Ok7QbWEnUGXcQ8eQEApcL+T7j+RygD
+s9cMS3f1ShuprJstL/ceva7+PBIPbwU=
+=Bvg0
 -----END PGP SIGNATURE-----
