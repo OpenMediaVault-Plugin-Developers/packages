@@ -2,154 +2,154 @@ Codename: synchrony
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: sandworm
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 7.x Sandworm
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: shaitan
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 6.x Shaitan
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: shaitan-testing
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 6.x Shaitan testing
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: shaitan-beta
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 5.x Shaitan beta
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: usul
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 5.x Usul
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: usul-testing
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 5.x Usul testing
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: usul-extras
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 5.x Usul extras
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: usul-beta
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 5.x Usul beta
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis-beta
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis beta
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis-docker
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis docker
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis-plex
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis sync
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis-sync
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis sync
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis-teamviewer
 Architectures: i386 amd64 armhf
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis teamviewer
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: arrakis-testing
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 4.x Arrakis testing
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-backports
 Architectures: amd64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus backports
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-beta
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus beta
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-ce-docker
 Architectures: amd64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus ce-docker
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-hwraid
 Architectures: i386 amd64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus hwraid
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-plex
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus plex
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-sync
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus sync
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-teamviewer
 Architectures: i386 amd64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus teamviewer
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-testing
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus testing
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
 
 Codename: erasmus-zfs
 Architectures: amd64
 Components: main
 Description: omv-extras plugin repository for OMV 3.x Erasmus zfs
-SignWith: yes
+SignWith: D8E16B56B3FEFE0682D26EB5326A835E697B890A DC8B5403665B6A816E80714463D8A7D17FDC2980
