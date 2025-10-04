@@ -713,6 +713,25 @@ Description: OpenMediaVault WOL plugin
  to wake at a specified time using rtcwake and wakeonlan.
 Plugin-Section: utilities
 
+Package: openmediavault-writecache
+Version: 7.0.0-5
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers
+Installed-Size: 241
+Depends: openmediavault (>= 7.7.17), jq
+Homepage: https://github.com/OpenMediaVault-Plugin-Developers
+Priority: optional
+Section: admin
+Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_7.0.0-5_all.deb
+Size: 25504
+SHA256: cd57c8aa8991405b2eb80632aa717e9fac1ea59792bceaf830fc99ba474d41c5
+SHA1: 79431bda8b26563064cf6e3d621d7753faad46fd
+MD5sum: 1aa060cfd9ab0056ced49f8816c86052
+Description: openmediavault plugin to reduce OS writes using tmpfs+overlayfs
+ Provides an overlay-based write cache for selected system directories
+ (e.g., /var/log, APT caches) using tmpfs as the upperdir. Changes can be
+ dropped on reboot or flushed on demand / shutdown via systemd units.
+
 Package: openmediavault-zfs
 Version: 7.1.4
 Architecture: armhf
