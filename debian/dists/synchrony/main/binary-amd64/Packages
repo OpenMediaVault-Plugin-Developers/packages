@@ -68,6 +68,23 @@ Description: OpenMediaVault compose plugin
  The openmediavault-cterm plugin is a mandatory requirement of this plugin.
 Plugin-Section: utilities
 
+Package: openmediavault-cputemp
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 26
+Depends: openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-cputemp/openmediavault-cputemp_8.0_all.deb
+Size: 3860
+SHA256: b8856a0416942f22b42c9f5fe4297aaca74781ee14cf7a44d30144ed81a36ac1
+SHA1: 0366dfcd80f53604baf05df8715e417808985e30
+MD5sum: 9f4672d31128a5ae7df3d3a10b2794b5
+Description: cpu temperature plugin for openmediavault
+Plugin-Section: filesystems
+
 Package: openmediavault-cterm
 Version: 8.0
 Architecture: all
