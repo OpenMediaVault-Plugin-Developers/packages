@@ -181,6 +181,23 @@ Description: OpenMediaVault scripts plugin
  lightweight plugin to maintain and execute shell and python scripts.
 Plugin-Section: utilities
 
+Package: openmediavault-tgt
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 191
+Depends: tgt, openmediavault (>= 8), openmediavault-sharerootfs
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmediavault-tgt/openmediavault-tgt_8.0_all.deb
+Size: 13096
+SHA256: 5bd4508bce957c1b9d5b1a40d0d5ef6261b96528583c1fe19dd86ea9544c0ab1
+SHA1: d1c293508e9e8726ed65c0f92cf70a5e9f5a6efa
+MD5sum: 8482ab4743f7b78305415d1a2a0a9452
+Description: OpenMediaVault tgt plugin
+ Plugin to setup tgt iscsi targets.
+Plugin-Section: network
+
 Package: openmediavault-writecache
 Version: 8.0.0-5
 Architecture: all
