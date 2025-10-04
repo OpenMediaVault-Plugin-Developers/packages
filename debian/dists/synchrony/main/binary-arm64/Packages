@@ -37,6 +37,37 @@ Description: borgbackup plugin for OpenMediaVault.
  encryption.
 Plugin-Section: backup
 
+Package: openmediavault-compose
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 1089
+Depends: openmediavault (>= 8), openmediavault-omvextrasorg (>= 8), openmediavault-sharerootfs, python3-docker, python3-pretty-yaml
+Recommends: docker-ce (>= 28.4), docker-compose-plugin (>= 2.39), openmediavault-cterm (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-compose/openmediavault-compose_8.0_all.deb
+Size: 86256
+SHA256: 4695d5368c81412e34526124c43d73ed58ade73c8246886df65f49da68872e20
+SHA1: c954617abc6b37fa7e4f4e131a4fbcbd54e68d58
+MD5sum: 280575e45e10b8c56b5f0bdbdeeefd6f
+Description: OpenMediaVault compose plugin
+ This plugin enhances OpenMediaVault by providing a comprehensive solution for managing
+ Docker containers and their resources. Key features include:
+ .
+ * Docker-Compose Management: Maintain and execute Docker Compose files.
+ * Automated Backups: Schedule regular backups of containers to ensure data integrity.
+ * Backup Restoration: Restore backups to minimize downtime.
+ * Cleanup Automation: Automatically purge outdated images, containers, and resources.
+ * Container Monitoring: Access statistics on running containers.
+ * Image Status Tracking: Monitor image statuses and relevant metrics.
+ * Network Management: Create and manage Docker networks.
+ * Log Viewing: View logs for your containers.
+ .
+ The openmediavault-cterm plugin is a mandatory requirement of this plugin.
+Plugin-Section: utilities
+
 Package: openmediavault-omvextrasorg
 Version: 8.0
 Architecture: all
