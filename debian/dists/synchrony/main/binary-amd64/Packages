@@ -243,6 +243,42 @@ Description: OpenMediaVault scripts plugin
  lightweight plugin to maintain and execute shell and python scripts.
 Plugin-Section: utilities
 
+Package: openmediavault-snapraid
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 465
+Depends: openmediavault (>= 8), openmediavault-sharerootfs, snapraid (>= 12)
+Homepage: https://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snapraid/openmediavault-snapraid_8.0_all.deb
+Size: 40420
+SHA256: c6f4a8d98f9b0d61b80cdb2f2e9d78709f26edf213852534c804ff6139613d36
+SHA1: 0152629605dba8852a4540408e05da00c45b9749
+MD5sum: 54167ea1cf8818091f92a70ac8eae878
+Description: snapraid plugin for OpenMediaVault.
+ SnapRAID is a backup program for disk arrays. It stores parity
+ information of your data and it's able to recover from up to two
+ disk failures.
+ .
+ SnapRAID is mainly targeted for a home media center, with a lot of
+ big files that rarely change.
+ .
+ Beside the ability to recover from disk failures, other features of
+ SnapRAID are:
+ * All your data is hashed to ensure data integrity and to avoid
+   silent corruption.
+ * If the failed disks are too many to allow a recovery, you lose the
+   data only on the failed disks. All the data in the other disks is safe.
+ * If you accidentally delete some files in a disk, you can recover them.
+ * You can start with already filled disks.
+ * The disks of the array can have different sizes.
+ * You can add disks at any time.
+ * It doesn't lock-in your data. You can stop using SnapRAID at any time
+   without the need to reformat or move data.
+Plugin-Section: filesystems
+
 Package: openmediavault-tgt
 Version: 8.0
 Architecture: all
