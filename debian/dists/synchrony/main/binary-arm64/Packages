@@ -142,6 +142,24 @@ MD5sum: 4190c414febbc4231b2c1d79a3cee584
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
+Package: openmediavault-locate
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 24
+Depends: plocate, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-locate/openmediavault-locate_8.0_all.deb
+Size: 3976
+SHA256: fd4cd2a6bfc4aa17638d3c8fa22401671731d77351a2024c0a12da411c6dba5f
+SHA1: 76521ef2a93e9fb2410fe763156e5ca526173cb9
+MD5sum: 7f757cc019d6a6afd445a66f5697557e
+Description: locate plugin for OpenMediaVault.
+ Locate file on system using search term.
+Plugin-Section: utilities
+
 Package: openmediavault-mounteditor
 Version: 8.0
 Architecture: all
