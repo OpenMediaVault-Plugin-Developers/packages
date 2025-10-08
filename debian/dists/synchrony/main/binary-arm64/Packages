@@ -333,7 +333,7 @@ Description: openmediavault WireGuard plugin
 Plugin-Section: network
 
 Package: openmediavault-writecache
-Version: 8.0.0-7
+Version: 8.0.0-8
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers
 Installed-Size: 241
@@ -341,11 +341,11 @@ Depends: openmediavault (>= 7.7.17), jq
 Homepage: https://github.com/OpenMediaVault-Plugin-Developers
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_8.0.0-7_all.deb
-Size: 25492
-SHA256: ee807ac52771629eb7afa8f2f0ef1cad3d9069611644939d2ada494b374d6ddc
-SHA1: 745cf31e5249f5777d5646a4cd0258f3791dfd9e
-MD5sum: bd20c50912e5cabfec31839c9aeb58c7
+Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_8.0.0-8_all.deb
+Size: 25556
+SHA256: c938bb511f39748a5d7a2e4bfff358eee9f74c0b5004b5339c80ca68edf28859
+SHA1: 01adfd03b2b1dc58c0aadec6b5e7656a3469c511
+MD5sum: 9ad56dfa8e5855bce800f0275849bccf
 Description: openmediavault plugin to reduce OS writes using tmpfs+overlayfs
  Provides an overlay-based write cache for selected system directories
  (e.g., /var/log, APT caches) using tmpfs as the upperdir. Changes can be
