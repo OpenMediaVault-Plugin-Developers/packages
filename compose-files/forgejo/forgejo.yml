@@ -1,12 +1,12 @@
 ---
-# Date: 2025-08-11
+# Date: 2025-10-22
 # https://codeberg.org/forgejo/forgejo
 networks:
   forgejo:
     external: false
 services:
   server:
-    image: codeberg.org/forgejo/forgejo:12
+    image: codeberg.org/forgejo/forgejo:13
     container_name: forgejo
     environment:
       - USER_UID=1000
