@@ -220,19 +220,19 @@ Description: Reset Permissions
 Plugin-Section: utilities
 
 Package: openmediavault-scripts
-Version: 8.0
+Version: 8.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 316
+Installed-Size: 320
 Depends: openmediavault (>= 8), openmediavault-sharerootfs, pylint, shellcheck
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_8.0_all.deb
-Size: 25404
-SHA256: ba667ac3006973c70dd21fff1405a3814cfd67f6131d3f21bf977bf0a0f6a11c
-SHA1: fbaa209a8bb50f8b37d730a43540b06dcfe6a097
-MD5sum: 83e14d105ca41df00002a3da01ab66ad
+Filename: pool/main/o/openmediavault-scripts/openmediavault-scripts_8.0.1_all.deb
+Size: 26508
+SHA256: 4bff5ddef99587b6ba485a7713c9a4a0f3fe319e567f959ce26c10cce7c5a77d
+SHA1: 0c42106e91f0cf06a7e5ea2db40760f1c0713375
+MD5sum: bd5a5659f7f201681e5255faf4413afa
 Description: OpenMediaVault scripts plugin
  lightweight plugin to maintain and execute shell and python scripts.
 Plugin-Section: utilities
