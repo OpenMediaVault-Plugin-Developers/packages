@@ -1,3 +1,20 @@
+Package: openmediavault-anacron
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 157
+Depends: anacron, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: misc
+Filename: pool/main/o/openmediavault-anacron/openmediavault-anacron_8.0_all.deb
+Size: 14552
+SHA256: 58de11eb0257705f08733dfc7e460a43783e5f0f2f165e92b0a5f8903c4a7e62
+SHA1: 5f8811e0f1de5f063ab383ef18e0c6ee1e5f1ea5
+MD5sum: 5030cca1ca67a4b9862a0c61994171ce
+Description: anacron plugin for OpenMediaVault.
+Plugin-Section: utilities
+
 Package: openmediavault-backup
 Version: 8.0
 Architecture: all
