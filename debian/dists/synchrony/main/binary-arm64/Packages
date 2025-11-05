@@ -15,6 +15,24 @@ MD5sum: 5030cca1ca67a4b9862a0c61994171ce
 Description: anacron plugin for OpenMediaVault.
 Plugin-Section: utilities
 
+Package: openmediavault-apttool
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 181
+Depends: openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-apttool/openmediavault-apttool_8.0_all.deb
+Size: 15416
+SHA256: fac15c8bcf7a2c3415d702d44ba97df2619b432d78c80815e9bc68191a01ca2e
+SHA1: 1db8bd2cc9a719f6fdecb41f1d4ea2fcafc4fec8
+MD5sum: 864ebeff27276551e27152bb1fa4fe0d
+Description: apt tool plugin for OpenMediaVault.
+ Find, install, and remove packages in apt repositories.
+Plugin-Section: utilities
+
 Package: openmediavault-backup
 Version: 8.0
 Architecture: all
