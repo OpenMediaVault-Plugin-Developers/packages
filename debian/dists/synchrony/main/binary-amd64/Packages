@@ -437,6 +437,25 @@ Description: openmediavault WireGuard plugin
  super computers alike, fit for many different circumstances.
 Plugin-Section: network
 
+Package: openmediavault-wol
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 184
+Depends: etherwake, nast, openmediavault (>= 8), util-linux, wakeonlan
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-wol/openmediavault-wol_8.0_all.deb
+Size: 16756
+SHA256: 4e284a99abcc66fce540b9ed708521644a8b80cb87e1703e8e825bb69c109e87
+SHA1: 92a36129d3905ff7837b4cc0c1890dc83cf1a385
+MD5sum: 42f814152da3471d2ede5260e34179e8
+Description: OpenMediaVault WOL plugin
+ Plugin to send wake-on-lan magic packets and put system in standby
+ to wake at a specified time using rtcwake and wakeonlan.
+Plugin-Section: utilities
+
 Package: openmediavault-writecache
 Version: 8.0.0-13
 Architecture: all
