@@ -389,6 +389,30 @@ Description: OpenMediaVault tgt plugin
  Plugin to setup tgt iscsi targets.
 Plugin-Section: network
 
+Package: openmediavault-timeshift
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 224
+Depends: timeshift, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-timeshift/openmediavault-timeshift_8.0_all.deb
+Size: 14816
+SHA256: 996946f4951d67b5609ee93bc3486a1e8d27970307f678c07fda09ed8c724a95
+SHA1: 59271f583d19c1f454a797d0b46e22847ae07237
+MD5sum: e1df0bb42db4914f2fe1f44356879476
+Description: openmediavault timeshift plugin
+ Timeshift for Linux is an application that provides functionality
+ similar to the System Restore feature in Windows and the Time Machine
+ tool in Mac OS.
+ .
+ Timeshift protects your system by taking incremental
+ snapshots of the file system at regular intervals. These snapshots
+ can be restored at a later date to undo all changes to the system.
+Plugin-Section: backup
+
 Package: openmediavault-wireguard
 Version: 8.0
 Architecture: all
