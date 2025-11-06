@@ -451,3 +451,28 @@ Description: openmediavault plugin to reduce OS writes using tmpfs+overlayfs
  (e.g., /var/log, APT caches) using tmpfs as the upperdir. Changes can be
  dropped on reboot or flushed on demand / shutdown via systemd units.
 
+Package: openmediavault-zfs
+Version: 8.0
+Architecture: arm64
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 447
+Depends: libzfs6linux, openmediavault (>= 8), zfsutils-linux, zfs-zed
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_8.0_arm64.deb
+Size: 46924
+SHA256: 3372d35c76443acc9fbe8e0c8a99efef1a0d88a9a03c30f82462994f6bd28288
+SHA1: ad2c9adcec8262c351771f890829de71d765008c
+MD5sum: e02eecde0f6dd230dce4b8e2793c04df
+Description: OpenMediaVault plugin for ZFS
+ ZFS is a combined file system and logical volume manager designed
+ by Sun Microsystems. The features of ZFS include protection against
+ data corruption, support for high storage capacities, efficient data
+ compression, integration of the concepts of filesystem and volume
+ management, snapshots and copy-on-write clones, continuous integrity
+ checking and automatic repair, RAID-Z and native NFSv4 ACLs.
+ .
+ The native Linux kernel port of the ZFS filesystem.
+Plugin-Section: filesystems
+
