@@ -1,3 +1,22 @@
+Package: mergerfs
+Version: 2.41.0~debian-trixie
+Architecture: arm64
+Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
+Installed-Size: 1583
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.5), libstdc++6 (>= 14), fuse
+Homepage: http://github.com/trapexit/mergerfs
+Priority: optional
+Section: utils
+Filename: pool/main/m/mergerfs/mergerfs_2.41.0~debian-trixie_arm64.deb
+Size: 430836
+SHA256: 99e51f1c01df837cf0a6cfef28442c6f7f5f8eb80ceb939397b9f38ed254802a
+SHA1: 8c4a4b0c6747a66cc6c86f3be0a6c0634955127c
+MD5sum: f6ec506acec24a8e1e55c333116b3a30
+Description: another FUSE union filesystem
+ mergerfs is a union filesystem geared towards simplifying storage and
+ management of files across numerous commodity storage devices. It is
+ similar to mhddfs, unionfs, and aufs.
+
 Package: openmediavault-anacron
 Version: 8.0
 Architecture: all
