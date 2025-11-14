@@ -466,6 +466,23 @@ Description: openmediavault timeshift plugin
  can be restored at a later date to undo all changes to the system.
 Plugin-Section: backup
 
+Package: openmediavault-wakealarm
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 187
+Depends: openmediavault (>= 8), python3-croniter
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-wakealarm/openmediavault-wakealarm_8.0_all.deb
+Size: 16372
+SHA256: 095242b39b1e930bb42b0e3f8d48a77f6cae7cd6a7ce68630b3a1452a45cd156
+SHA1: d8f41e91d3c4976d3f99c898cd29c38465c1b842
+MD5sum: b651034316325ea6ebb9b5a4dd838c67
+Description: wakealarm plugin for OpenMediaVault.
+ Schedule times to wake machine using wakealarm
+Plugin-Section: utilities
+
 Package: openmediavault-webdav
 Version: 8.0
 Architecture: all
