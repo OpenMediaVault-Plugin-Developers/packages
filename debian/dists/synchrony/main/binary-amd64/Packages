@@ -180,6 +180,25 @@ Description: openmediavault container exec terminal plugin
  This plugin adds a container execute terminal.
 Plugin-Section: utilities
 
+Package: openmediavault-fail2ban
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 253
+Depends: fail2ban, openmediavault (>= 8), whois
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmediavault-fail2ban/openmediavault-fail2ban_8.0_all.deb
+Size: 24736
+SHA256: b2606e273dd6973c24f9c6ccd46b83f2b2777f44c620d5f26e6882c288ae2f1e
+SHA1: e2093910ffbca84624534bcdc478b5f193f9a327
+MD5sum: 8f55354fb9624b1fc00704318fdef143
+Description: OpenMediaVault Fail2ban plugin
+ Protect OMV with Fail2ban. Fail2ban scans log files and bans IPs that
+ show the malicious signs -- too many password failures, seeking for
+ exploits, etc
+Plugin-Section: network
+
 Package: openmediavault-iperf3
 Version: 8.0
 Architecture: all
