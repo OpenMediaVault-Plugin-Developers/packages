@@ -390,6 +390,24 @@ Description: OpenMediaVault scripts plugin
  lightweight plugin to maintain and execute shell and python scripts.
 Plugin-Section: utilities
 
+Package: openmediavault-sftp
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 222
+Depends: openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-sftp/openmediavault-sftp_8.0_all.deb
+Size: 21940
+SHA256: c5aa05e9f1861a9f41c71e2664d5a061921910702f4616de456a755ee289a680
+SHA1: 2ec1db2b3541597c35c9cb3f406faaadcc93d854
+MD5sum: a818423193567d8f73c2d63701de8783
+Description: sftp server
+ Configure sftp server using jails
+Plugin-Section: network
+
 Package: openmediavault-snapraid
 Version: 8.0
 Architecture: all
