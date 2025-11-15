@@ -329,6 +329,25 @@ Description: Reset Permissions
  View plugins that are using each shared folder.
 Plugin-Section: utilities
 
+Package: openmediavault-rsnapshot
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 236
+Depends: openmediavault (>= 8), rsnapshot
+Homepage: http://omv-extras.org
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-rsnapshot/openmediavault-rsnapshot_8.0_all.deb
+Size: 23124
+SHA256: 79ba93c4fd69dd1d61cb4f5a2e505287aa482d28833f9cf9dd22454b2104bdfc
+SHA1: 83906219c09adc06e629acabddcf163bf7c053c2
+MD5sum: 37507525d238436c8c3fcf57cadaf4b5
+Description: OpenMediaVault rsnapshot backup plugin.
+ Configures Backups by using rsnapshot, allowing rotating
+ incremental backups.
+Plugin-Section: backup
+
 Package: openmediavault-scripts
 Version: 8.0.1
 Architecture: all
