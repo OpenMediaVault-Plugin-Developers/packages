@@ -521,18 +521,18 @@ Description: openmediavault timeshift plugin
 Plugin-Section: backup
 
 Package: openmediavault-wakealarm
-Version: 8.0
+Version: 8.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 187
 Depends: openmediavault (>= 8), python3-croniter
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-wakealarm/openmediavault-wakealarm_8.0_all.deb
-Size: 16372
-SHA256: 095242b39b1e930bb42b0e3f8d48a77f6cae7cd6a7ce68630b3a1452a45cd156
-SHA1: d8f41e91d3c4976d3f99c898cd29c38465c1b842
-MD5sum: b651034316325ea6ebb9b5a4dd838c67
+Filename: pool/main/o/openmediavault-wakealarm/openmediavault-wakealarm_8.0.1_all.deb
+Size: 16552
+SHA256: 78ea291656104b2c28012ea1c42604eae985217202ed9f4afe21465b73db103d
+SHA1: 3cb78f37c08bfe8706d36286effdaeb02a088135
+MD5sum: 69b6eca378ea495660a7fa5e969dc8fc
 Description: wakealarm plugin for OpenMediaVault.
  Schedule times to wake machine using wakealarm
 Plugin-Section: utilities
