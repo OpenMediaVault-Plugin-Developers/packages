@@ -264,6 +264,10 @@
     "description": "A dead simple static HOMepage for your servER to keep your services on hand "
   },
   {
+    "name": "immich",
+    "description": "A self-hosted photo and video storage application\n\nThe following need to be replaced in immich.yml before deploying:\n- YOUR_POSTGRES_PASSWORD\n"
+  },
+  {
     "name": "influxdb2",
     "description": "influxdb 2.x"
   },

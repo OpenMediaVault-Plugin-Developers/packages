@@ -2,5 +2,3 @@ A self-hosted photo and video storage application
 
 The following need to be replaced in immich.yml before deploying:
 - YOUR_POSTGRES_PASSWORD
-- CHANGE_TO_COMPOSE_DATA_PATH
-
