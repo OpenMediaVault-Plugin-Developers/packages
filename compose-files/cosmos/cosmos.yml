@@ -1,0 +1,16 @@
+---
+# Date: 2025-11-27
+# https://cosmos-cloud.io/docs/
+# https://github.com/azukaar/cosmos-server
+services:
+  cosmos-server:
+    image: azukaar/cosmos-server:latest
+    container_name: cosmos-server
+    hostname: cosmos-server
+    restart: always
+    network_mode: host
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /:/mnt/host
+      - CHANGE_TO_COMPOSE_DATA_PATH/cosmos:/config

@@ -112,6 +112,10 @@
     "description": "composerize converts docker run commands to a docker-compose file"
   },
   {
+    "name": "cosmos",
+    "description": "Secure and Easy Selfhosted Home Server"
+  },
+  {
     "name": "dashdot",
     "description": "Dashdot is a modern server dashboard, running on the latest tech, designed with glassmorphism in mind. It is intended to be used for smaller VPS and private servers."
   },
