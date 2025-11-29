@@ -1,10 +1,10 @@
 ---
-# Date: 2025-06-01
-# https://github.com/containrrr/watchtower
+# Date: 2025-11-29
+# https://github.com/nicholas-fedor/watchtower
 services:
   watchtower:
     container_name: watchtower
-    image: v2tec/watchtower
+    image: nickfedor/watchtower
     restart: unless-stopped
     hostname: omv
     volumes:
