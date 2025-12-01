@@ -31,7 +31,7 @@ echo "OMV ${version}"
 codename="$(lsb_release --codename --short)"
 echo "Codename :: ${codename}"
 
-if [ ${version} -lt 5 ]; then
+if [ ${version} -lt 6 ]; then
   echo "Unsupported version of openmediavault"
   exit 0
 fi
