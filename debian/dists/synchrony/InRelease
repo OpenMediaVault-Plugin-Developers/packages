@@ -2,47 +2,47 @@
 Hash: SHA512
 
 Codename: synchrony
-Date: Sat, 06 Dec 2025 22:34:37 UTC
+Date: Sat, 06 Dec 2025 22:39:54 UTC
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
 MD5Sum:
- f997ece3aa8bdaa7f67a6005bb5faea6 26289 main/binary-amd64/Packages
- cc67bdb42a72792829f9efa0d0b333f0 8322 main/binary-amd64/Packages.gz
+ 2c83fb9cdbdda46bff6a32911243ba37 26293 main/binary-amd64/Packages
+ 4f5d97257b6e78d142df04682b878e32 8322 main/binary-amd64/Packages.gz
  13eea9161c1f79b0d81296677afee676 100 main/binary-amd64/Release
  79bcacd50a71d0563682812a606511f2 25301 main/binary-arm64/Packages
  9f3b45a3a26a077bda102aa7692d6908 8016 main/binary-arm64/Packages.gz
  a41bf22cb5943320099d60ba7efbd2cc 100 main/binary-arm64/Release
 SHA1:
- f9c83c90f41442322f2b9a68b2963c97b77c1776 26289 main/binary-amd64/Packages
- b60be8b56d2a99514d5fa696307354d1f17361f3 8322 main/binary-amd64/Packages.gz
+ a7f1da2beefcef4c32e4cd12ca6a2dbcc4380df9 26293 main/binary-amd64/Packages
+ 4a1255aa832276b84039ce49238ddb7f4b4c040e 8322 main/binary-amd64/Packages.gz
  c249fa72c2baefedbef59622a2eb5fb9c0f6078f 100 main/binary-amd64/Release
  befe57aaeea38b1a6d92faf902fcaa4897ed0b53 25301 main/binary-arm64/Packages
  de3d66b3fceb274d1c5e3cbebc6b97eb0a0397be 8016 main/binary-arm64/Packages.gz
  b4f3dd4e82d3e146c94233e4697de22148a6bd54 100 main/binary-arm64/Release
 SHA256:
- 22bf8887cb2226e466b1d0cd32aa636ac5c738b8cdb13e307205ee193b9fd361 26289 main/binary-amd64/Packages
- e801a31679157424a864654d4de7281ce44114661979e1d2a1efc258b479bf28 8322 main/binary-amd64/Packages.gz
+ 07042023547fb75fa29b08fbcad6fcbaf0e17438a98b1b23693c8ed2398cd7db 26293 main/binary-amd64/Packages
+ 637d9811d153de452a88fe0279c85f05a709ccb38a14901213103fa4eca50402 8322 main/binary-amd64/Packages.gz
  c5d4d1d1f7275ff07a01fe8446ef174bbbd57768dd13d775c3b4ab7f64bae8d1 100 main/binary-amd64/Release
  657498c9e4f3a056c32e94254ee8d51a86d1196522dfd46657f0cf2f8b39ed19 25301 main/binary-arm64/Packages
  671f253a66bfefdc6a49d7cba87c8ecafd20f5ba6baa1362d3f43b66e8c38224 8016 main/binary-arm64/Packages.gz
  e1ddf7e8c05999cd7eec8a286e92f042733df7b2325c4ac0f41d6af3cb5d6f35 100 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmk0r38ACgkQMmqDXml7
-iQpF/w//cRnKVwQA678PdW9cbiG053UVTCot5uGsaAzka87HETCYVOizRDvewemN
-rkFyiXmN/XwiiusVKmI6WUPzu5DG0Ty38G4feWfeOMceChlMVAip1S1G1sqFgQgC
-lYxB9dCTpPkYrR42gRc32gIm+iToV3XlGWa67StQKYxWNNwdSpY6xI3FBThSyPh0
-SZyCC0qEthMe6nLSYBTidzqqvRe9mc18hvcHLdlbro0GG22/5QcC6h0ypbdkd8N8
-d3E4TRtq1qClscP9Ivw1Jpq1XL6yMLVDaJes15QEXrcyLgXlAmZz0/9ffRFKLVR9
-mBm4eHpS3lF6oY5tdMHBxxqv4Fx/tQSoEA89E9ZJGTxwx1ebPR5/Rezk0GxAOXj6
-qqdBn4gOPnwDOh5NoT+GqxyX4BsI75ZdGuuPPU/kZ0X/FX4NR5LziQlfb3c73g/R
-g1GrjtG4zodcJh81hhgAfHGaCHulFpP9H6ORI0SCVyU5/OL+ZKm+PItSm6e+dGHP
-QSuQXaWZNgZYcvwDHIFvSgm9GCFRZuYGqWoi0zBOp7PlIuHi0USqpcO/+oWsAfSg
-Ttl364uSUnaDQ0gGkrd47SD5N8XpMW/FL0CppqN7bQZChSGex2sIWb5XD2HfnAa5
-6HEM16zX35SFR10JtCHpkLwKtGFEwshBawnS7uVKeZPmE9VWifqIdQQBFgoAHRYh
-BNyLVANmW2qBboBxRGPYp9F/3CmABQJpNK9/AAoJEGPYp9F/3CmA3jIA/R54J9Eq
-z9bHWuuQI8nZUUgieplCMoGSeLfItJ+aG/DrAQCBdz21YXgP8dPRDUTlVQRgL6go
-2PYqPLY6sItL/exUCA==
-=4v0+
+iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmk0sLwACgkQMmqDXml7
+iQpn6A//RvM8GsCxGgTD9aOBfljhsXWXDmYRn2gGbosM25RPUN/Dz/xbFZbRlpwl
+AqSOw4GbfQTXQpepBFGbM5XLKxbWyyHJK5oQ/h3/AcNNUnAdWgCflbUA1m9ZH4Cg
+UKbEJtMM0NZ4qXuVCZV1rlBYIHbLull+SYKgmVSgXgzifgnISCf9xYpysgMrSgXH
+xLR0t2PiUPi7JfnOfXda5pX0jzMYf99AQ/yh+noV+1fpVmIfXm9Z6zXJ0emsqoIN
+PxSv7IrsCVoTM4S3dO4a3+aSyWR9dwGB+hs3RON9KLIWNHSumrV8almw0HBztIBm
+6PWYwdszsmwepyEa48n5ESrzZDq304VMCdk+59jWmz1XOdB4sNxr9EucRBT4KCrv
+f0KAFVwI9IJI6uOI0F44tIK0H4MiAHbyXr/HY+mziUdZeeqYKeba8sdzuBGATHpi
+ch9Mu/AjTTIjKOCYHUUehmVYeYSg5MSlshAbk3ZzPceqT4k5j0YY08Jd3eBIZkpm
+Az9ZCMdTn7/WiUfRy6YSVU8qHK6mQ/OMf9KSJVGg5wSl8/wfVDwy2MA2RqtX0AwM
+tttuZbAvOdepq9oI8RKK2beJurU4FDODkmQZfNNN1Q4wfULwPI4HmZgwsswDeVnD
+45hTB0rEKFWzqUI/ooVC6Ecb6Dq1IOjgX+6OTVdqoNuyKq5GXtyIdQQBFgoAHRYh
+BNyLVANmW2qBboBxRGPYp9F/3CmABQJpNLC8AAoJEGPYp9F/3CmAZ6EA/iWgNrWD
+3DRvd3f8xPu2A6m2bpI6rMzxExx9BLsInpvWAQCMKmyjCkxp46y0EJY23sgRZi18
+bHcIagI31xMYByKXCA==
+=QrX+
 -----END PGP SIGNATURE-----
