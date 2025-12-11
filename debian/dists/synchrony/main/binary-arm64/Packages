@@ -294,6 +294,35 @@ Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
 
+Package: openmediavault-minidlna
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 247
+Depends: minidlna, openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_8.0_all.deb
+Size: 21500
+SHA256: 0dab1ccbf9104943d6f88debe2e7e34989db1fb6e156b37156bb69873a3ee342
+SHA1: 2ab05ccef53a2636042844b78af8212d3b86db74
+MD5sum: 2cfe9721fbf0f08df7bd71b4deb2d02d
+Description: OpenMediaVault miniDLNA (DLNA server) plugin
+ lightweight DLNA/UPnP-AV server targeted at embedded systems
+ MiniDLNA (aka ReadyDLNA) is server software with the aim of being
+ fully compliant with DLNA/UPnP-AV clients.
+ .
+ The minidlna daemon serves media files (music, pictures, and video)
+ to clients on your network.  Example clients include applications
+ such as totem and xbmc, and devices such as portable media players,
+ smartphones, and televisions.
+ .
+ MiniDLNA is a simple, lightweight alternative to mediatomb, but has
+ fewer features. It does not have a web interface for administration
+ and must be configured by editing a text file.
+Plugin-Section: multimedia
+
 Package: openmediavault-mounteditor
 Version: 8.0
 Architecture: all
