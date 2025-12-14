@@ -627,19 +627,22 @@ Description: OpenMediaVault WOL plugin
 Plugin-Section: utilities
 
 Package: openmediavault-writecache
-Version: 8.0.4
+Version: 8.0.5
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers
 Installed-Size: 263
-Depends: openmediavault (>= 7.7.17), jq
+Depends: openmediavault (>= 8), jq
+Conflicts: folder2ram, openmediavault-flashmemory
+Breaks: folder2ram, openmediavault-flashmemory
+Replaces: openmediavault-flashmemory
 Homepage: https://github.com/OpenMediaVault-Plugin-Developers
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_8.0.4_all.deb
-Size: 28768
-SHA256: f9e43fdc6a5963c804cdee8fedae60193a80c9abb65db3c68a77f82a68dc7bfb
-SHA1: 34d060b9535f1405f2fd090394f016a3c865e6d1
-MD5sum: 064cc7d2849da2c36db367b17b9647b2
+Filename: pool/main/o/openmediavault-writecache/openmediavault-writecache_8.0.5_all.deb
+Size: 28840
+SHA256: d6eff4aae4a10bdd9d1d17c121b5af34a0626befd247ae7d40515cca5442caa4
+SHA1: 7d18b97ca502c2fb86eaf2960ce0bfe8d82cd41f
+MD5sum: f86acf412e5fd7954dad3fb2f695708d
 Description: openmediavault plugin to reduce OS writes using tmpfs+overlayfs
  Provides an overlay-based write cache for selected system directories
  (e.g., /var/log, APT caches) using tmpfs as the upperdir. Changes can be
