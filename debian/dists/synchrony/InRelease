@@ -2,47 +2,47 @@
 Hash: SHA512
 
 Codename: synchrony
-Date: Tue, 16 Dec 2025 18:16:52 UTC
+Date: Sat, 27 Dec 2025 17:33:19 UTC
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
 MD5Sum:
- b7eda961ebe3d8d2531b01531edb9fb2 27610 main/binary-amd64/Packages
- b0819e617fd0d44e7bb7d1f436a6c56a 8792 main/binary-amd64/Packages.gz
+ 4a0277371a72e9f8313d04355ad2d830 27610 main/binary-amd64/Packages
+ 0298024202547d8f2ac7d850e66f93c5 8800 main/binary-amd64/Packages.gz
  13eea9161c1f79b0d81296677afee676 100 main/binary-amd64/Release
  f7f30e7b5767d60f01deef38231cd37a 26630 main/binary-arm64/Packages
  aea95f37e43eb59b349edc51889a736c 8498 main/binary-arm64/Packages.gz
  a41bf22cb5943320099d60ba7efbd2cc 100 main/binary-arm64/Release
 SHA1:
- 716d173488e4046ed8ea4614d0295743a300d114 27610 main/binary-amd64/Packages
- 290f7bb28386b8564588747dc43b25d67d756ad9 8792 main/binary-amd64/Packages.gz
+ caf08c77a671a37447c7ebb900dfff405dea6225 27610 main/binary-amd64/Packages
+ 02ad0a7c0d2cf3903dec83cf00c1dd964209550b 8800 main/binary-amd64/Packages.gz
  c249fa72c2baefedbef59622a2eb5fb9c0f6078f 100 main/binary-amd64/Release
  f9a8095284655a3d23d23e42dd12fd085f8ab662 26630 main/binary-arm64/Packages
  f7cb7deb0cf29d89e4021889e614e44ae7fd6038 8498 main/binary-arm64/Packages.gz
  b4f3dd4e82d3e146c94233e4697de22148a6bd54 100 main/binary-arm64/Release
 SHA256:
- 91c799ced0afad63a5a6ab28a9bb6f5fe6142d549e7b2977807db7c7d6b07633 27610 main/binary-amd64/Packages
- 08ca5981cc584fd3b94d6de5d17e3192c9d5888522eb161c97b2610cca6010b8 8792 main/binary-amd64/Packages.gz
+ 64126eb20adc9bda82a2b4a9fd734ce5f8442ce4680f0e1a46767160f1cb7610 27610 main/binary-amd64/Packages
+ 773823680eeb50e7eca359508dc77ce8dcb06f2f985a790499dd7452d0cadbc0 8800 main/binary-amd64/Packages.gz
  c5d4d1d1f7275ff07a01fe8446ef174bbbd57768dd13d775c3b4ab7f64bae8d1 100 main/binary-amd64/Release
  7ff8463251622d1d67bb602ea0c8bb3a32549912bedf3a07213333b8dece1c1e 26630 main/binary-arm64/Packages
  d2a1716e7295114f6d45cc28835e2a6f61034e7729f5730d2648cfa5a2e4c7b8 8498 main/binary-arm64/Packages.gz
  e1ddf7e8c05999cd7eec8a286e92f042733df7b2325c4ac0f41d6af3cb5d6f35 100 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmlBohYACgkQMmqDXml7
-iQpI5Q/3edcDaYvMiqtGNwgctjmzxGiN+W+FqHVYdCHKaTaRo0iutjNAyvpacLUG
-vTE8iHw4jIuASU9qbsLqaM4YtggHqaLuX1dYSNChm0vdZg+5mktXxg+Gvdz+tk0l
-S9OvRr2ag/LKRkDUWSuAOVwZ/zAgbeYVZKhqNSRtQqMbydxAbWOfYwuHZPICL+JY
-blA9SwYVMFrfFrMna1ArMTVaONkO5NUmK66TIOJjvLVO5znuHZzf3cEAI6CWNDPc
-5e9aFn7+sknprre1Ne/KximXe099DpsEj3XtZbo8Hvhu+0n6FbGplOOZI/Dvic27
-Xx7t7vX9LpJM5f82vb+Oa/kHe/joo4cDT2LPUdaqST+Wfbe3fse13HvW2odQehca
-4XjvEnQh+EPug9xDRJojtZolGW6UvUDR+d7aYLKlBzlamzeLoYyIWpTADm7rJ3ba
-v3lPp061BxJ3vYQDHoMHYaPyLB23OMNLg34m+vtxNZVqsEN/uN9WolWHsNLF/9Mp
-BEx8lzp2XeUKXOUouMMX4ifRWUJvzliTQGMydeY3sCnRahsOSIeOMa8xtGOjYrnT
-B3hfAQ1845kQjVepF8Wn4Lc/HYwJIGf1bHCkHRgVkvbyF/R7tbsLbLV/4gJLiXHB
-FZgLbC8NBj4r5QhWImDSi+OXFNjZyZHoLXtDoZO98W3bAUELaYh1BAEWCgAdFiEE
-3ItUA2ZbaoFugHFEY9in0X/cKYAFAmlBohYACgkQY9in0X/cKYCa/gEAoVLn/cjx
-IaTOPA+NsmY6+RIyvPmBFuuZtU/6xdOlUnIA/RTMzrKj2FsOAdhnakIt1UVY80Jq
-04a6aV0effnnOswD
-=6Pxe
+iQIzBAEBCgAdFiEE2OFrVrP+/gaC0m61MmqDXml7iQoFAmlQGGIACgkQMmqDXml7
+iQq/ZA/+LBZ+JRaiGXH1djeJYZbZb9rXmxom8tCgkvz7t5ffZdAlnZ5ujMRkg1sD
+mxmpP9qAuw5RTDMutdP+jHS+3soiMad5lf1qHUbYNdIJeNIeF9GX65P5S+TBBXSi
+9aJ5B7eOHnsSMrvrpnkE1dHSC4rCmfDXxqPTPB+4rKhetDZRJqTi34QOLIWKqheg
+wgDwzrXNpfKCk3OiPbvCPKVabkBawVlEWFQ3AIhrLe+VzBJBpYz93Pw5euxBJ4rJ
+zXEnuIbdthEKAqyyGpDUyB8BXCLUmFVjiuyza5YBrz1Os6gIMQvfmqie7RokjlsS
+24JwFrfargBgJ7jpMnqc1IU39v3y5JWTZ9p0fmQcW+/uupNvKKs66kQ+f+9utxAo
+PVT15Z1vqOu+k/TZ2ADu26VtXqm8Ufs5c960bdeSK+2SCZ9dt9qtfT20YuudAi4o
+b3i0P6gdGvJo4K4MyqnCUOpqxBT23eoTJWl6Gwsxoq7cj1FiSyDf1+RzZOjY3xH2
+Q3Tg392lxoWW6CiCFtmdbDgjeTgE5VL6tCcsl4Jk3GY/GgCm2QybXxEisX5brCJ6
+uTY65bETkiOFsmNslO3KA1jFisY82XLUyzHcGC2HVb6CwqS0JHe6g3dOk1XcWKBV
+qo73nCYywuf/aWeIBLfd5rRamNf8KduTMoC1FXBhNnjnjLSGbBmIdQQBFgoAHRYh
+BNyLVANmW2qBboBxRGPYp9F/3CmABQJpUBhiAAoJEGPYp9F/3CmABOwA/040DZBq
+DomJLLtJAoUDlY4djgTSrf8K6/MCUH37xWMZAQCtFEF6R/Y2ouDAqk6E+Xc3ds5y
+Z6O8M2uiJS85hrU7Dw==
+=X7rH
 -----END PGP SIGNATURE-----
