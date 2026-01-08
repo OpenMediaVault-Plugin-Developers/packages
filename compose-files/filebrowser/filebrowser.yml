@@ -1,17 +1,15 @@
 ---
-# Date: 2025-06-01
+# Date: 2026-01-08
 # https://github.com/filebrowser/filebrowser
 services:
   filebrowser:
     image: filebrowser/filebrowser:latest
     container_name: filebrowser
-    environment:
-      - PUID=1000
-      - GUID=100
+    user: 1000:100
     ports:
       - "8080:80"
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/filebrowser/srv:/srv # files will be stored here
-      - CHANGE_TO_COMPOSE_DATA_PATH/filebrowser/filebrowser.db:/database/database.db # users info/settings will be stored here
-      - CHANGE_TO_COMPOSE_DATA_PATH/filebrowser/filebrowser.json:/config/filebrowser.json # config file
+      - CHANGE_TO_COMPOSE_DATA_PATH/filebrowser/srv:/srv # contains the files root directory for File Browser
+      - CHANGE_TO_COMPOSE_DATA_PATH/filebrowser/database:/database # contains a filebrowser.db file
+      - CHANGE_TO_COMPOSE_DATA_PATH/filebrowser/config:/config # contains a settings.json file
     restart: always
