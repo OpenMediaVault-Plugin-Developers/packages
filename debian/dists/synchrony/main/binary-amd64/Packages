@@ -714,19 +714,19 @@ Description: openmediavault plugin to reduce OS writes using tmpfs+overlayfs
  dropped on reboot or flushed on demand / shutdown via systemd units.
 
 Package: openmediavault-zfs
-Version: 8.0.1
+Version: 8.0.2
 Architecture: amd64
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 452
-Depends: libzfs6linux, openmediavault (>= 8), proxmox-headers-6.14 | proxmox-headers-6.17 | pve-headers | linux-headers-amd64, proxmox-headers-6.14 | proxmox-headers-6.17 | pve-headers | zfs-dkms, zfsutils-linux, zfs-zed
+Installed-Size: 459
+Depends: openmediavault (>= 8), zfsutils-linux, zfs-zed, libzfs6linux, omv-zfs-provider-pve | omv-zfs-provider-dkms
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_8.0.1_amd64.deb
-Size: 48128
-SHA256: e9abb13b1552fca21adab972af59caee7e6eb388d93ea0800d12fcae6457d9ab
-SHA1: 98f7d397c65148a6ed65e7060fcae01b9e401ed6
-MD5sum: 7c900aa72081926f3ef8dbf0d43c3ac5
+Filename: pool/main/o/openmediavault-zfs/openmediavault-zfs_8.0.2_amd64.deb
+Size: 49428
+SHA256: 16a8b5b1c124c746524de01329c615224577dca5c128c21cb0d2171b5d6e30d1
+SHA1: c084d48b3e840aa257f7c84463f9fea5e019193e
+MD5sum: d87435fee8fb343c9568778af46af7a3
 Description: OpenMediaVault plugin for ZFS
  ZFS is a combined file system and logical volume manager designed
  by Sun Microsystems. The features of ZFS include protection against
