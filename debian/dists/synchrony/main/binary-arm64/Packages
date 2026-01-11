@@ -17,6 +17,25 @@ Description: another FUSE union filesystem
  management of files across numerous commodity storage devices. It is
  similar to mhddfs, unionfs, and aufs.
 
+Package: omv-zfs-provider-dkms
+Version: 8.0.0
+Architecture: arm64
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 8
+Depends: dkms, zfs-dkms, build-essential
+Conflicts: omv-zfs-provider-pve
+Provides: omv-zfs-provider
+Priority: optional
+Section: admin
+Filename: pool/main/o/omv-zfs-provider-dkms/omv-zfs-provider-dkms_8.0.0_arm64.deb
+Size: 1636
+SHA256: 3b20e14f9d6a745c3117257bfb090ec95debc1cf1123ec160ace43f35ede2be3
+SHA1: 4fd1bb7029b03fe2e1fbec89058c8a6ee790cf46
+MD5sum: 71affdd3faca064e842319a1826fcbb7
+Description: OMV ZFS provider (DKMS)
+ Metapackage used by the OMV ZFS plugin to select DKMS-built ZFS modules
+ when running a non-Proxmox kernel.
+
 Package: openmediavault-anacron
 Version: 8.0
 Architecture: all
