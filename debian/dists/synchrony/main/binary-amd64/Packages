@@ -36,6 +36,28 @@ Description: OMV ZFS provider (DKMS)
  Metapackage used by the OMV ZFS plugin to select DKMS-built ZFS modules
  when running a non-Proxmox kernel.
 
+Package: omv-zfs-provider-pve
+Version: 8.0.0
+Architecture: amd64
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 8
+Depends: proxmox-headers-6.14 | proxmox-headers-6.17, proxmox-kernel-6.14 | proxmox-kernel-6.17
+Conflicts: omv-zfs-provider-dkms
+Provides: omv-zfs-provider
+Priority: optional
+Section: admin
+Filename: pool/main/o/omv-zfs-provider-pve/omv-zfs-provider-pve_8.0.0_amd64.deb
+Size: 1712
+SHA256: 4cf00ad6edc278cd1b1707869645d3d523ebd1fc09112efb4f267c12323504d0
+SHA1: b9b9ef13589f3e0cac033fb3e15588ccc3d0264d
+MD5sum: 2bcf56a64c781dd62c748406cfddb54d
+Description: OMV ZFS provider (Proxmox)
+ Metapackage used by the OMV ZFS plugin to select Proxmox ZFS modules when
+ running a Proxmox (pve) kernel.
+ .
+ NOTE: Adjust the zfs-modules dependency alternatives to match the exact
+ Proxmox ZFS modules package(s) you want to enforce.
+
 Package: openmediavault-anacron
 Version: 8.0
 Architecture: all
