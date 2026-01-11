@@ -1,25 +1,25 @@
 Codename: synchrony
-Date: Sun, 11 Jan 2026 16:07:54 UTC
+Date: Sun, 11 Jan 2026 17:24:59 UTC
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
 MD5Sum:
- 57347bff4072da1605d8be8fe87ca281 29135 main/binary-amd64/Packages
- 9913243eb606315354b17bf1ddb05685 9247 main/binary-amd64/Packages.gz
+ ce72be7b10419f21a52cdc1608548a09 29135 main/binary-amd64/Packages
+ fac9f19c4e2a7f95d08fe5db4e014070 9247 main/binary-amd64/Packages.gz
  13eea9161c1f79b0d81296677afee676 100 main/binary-amd64/Release
  b53590c1e17040fabdb1b65d27f9fb4d 27261 main/binary-arm64/Packages
  3c8c6a0f7358d53bacddf4322cdcd029 8720 main/binary-arm64/Packages.gz
  a41bf22cb5943320099d60ba7efbd2cc 100 main/binary-arm64/Release
 SHA1:
- e5aa8205bdfaa0f93dd79ce6fa327676ceb30d3c 29135 main/binary-amd64/Packages
- 637d68a8314da1fe8a9c364eb8e5f2621b322799 9247 main/binary-amd64/Packages.gz
+ 5e1ada00c7b6f8449fec0d9840793e6e753aa06c 29135 main/binary-amd64/Packages
+ ed8ccbfe17588801060b9cad2f3477a9cf8e604f 9247 main/binary-amd64/Packages.gz
  c249fa72c2baefedbef59622a2eb5fb9c0f6078f 100 main/binary-amd64/Release
  d773e20efd0e48bb255280e84a4cf0a570ac91de 27261 main/binary-arm64/Packages
  14ce47ea37c21888685e21ef41533c3d605f7fd3 8720 main/binary-arm64/Packages.gz
  b4f3dd4e82d3e146c94233e4697de22148a6bd54 100 main/binary-arm64/Release
 SHA256:
- 2d52b6b8acc1f9f71e234b5b6fb2bae2b0906afcd8a06652e7fdc891c39840b9 29135 main/binary-amd64/Packages
- 35bac03cba84e46decf94a9b3ae6404bf4acb00644de0b4ed2923d1a71d42336 9247 main/binary-amd64/Packages.gz
+ e6a91a6b3d7ff3f706a08f609803d18c14cb78e453dafea79b2304a6cf3804e7 29135 main/binary-amd64/Packages
+ 7ac7784fd11746d6548517f678799123d645507a41e46a8e1aa885147f11c346 9247 main/binary-amd64/Packages.gz
  c5d4d1d1f7275ff07a01fe8446ef174bbbd57768dd13d775c3b4ab7f64bae8d1 100 main/binary-amd64/Release
  45e192e0a81968ec7412eb4e884f9fc7264e03e4f29502d375ac1a909a156d48 27261 main/binary-arm64/Packages
  a4b19a64b1479b7eaa6f81aa87f6623e8d67f05ba93c00cd3223c6f8bcf3195b 8720 main/binary-arm64/Packages.gz
