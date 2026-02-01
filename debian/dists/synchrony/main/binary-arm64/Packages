@@ -510,19 +510,19 @@ Description: snapraid plugin for OpenMediaVault.
 Plugin-Section: filesystems
 
 Package: openmediavault-symlinks
-Version: 8.0
+Version: 8.0.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 151
+Installed-Size: 150
 Depends: openmediavault (>= 8), openmediavault-sharerootfs
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-symlinks/openmediavault-symlinks_8.0_all.deb
-Size: 11592
-SHA256: bf29557fbefc49e65b314348cdb1ac090aa9d7c3402dfa83326b2f19ba6a0883
-SHA1: a1e33820361fdfd2adfb487b8f2af43183b23e73
-MD5sum: 2882b1b1ed4b476f3ef9af52ee5c88de
+Filename: pool/main/o/openmediavault-symlinks/openmediavault-symlinks_8.0.1_all.deb
+Size: 11664
+SHA256: a7e491783c5de06fddf2c313350939f047143a3e74bd9605537f98aeef5fddd7
+SHA1: 16524a8881d4d9717c32c1590e1550d65238cd4b
+MD5sum: 57e541ed8b1a5f5a5747297e52f01be7
 Description: OpenMediaVault symlinks plugin
  Allow creation of symlinks.
 Plugin-Section: filesystems
