@@ -424,6 +424,23 @@ Description: openmediavault mount editor plugin
  Allow editing of filesystem mount options.
 Plugin-Section: filesystems
 
+Package: openmediavault-nvmetcp
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 100
+Depends: nvmetcli, openmediavault (>= 8), openmediavault-sharerootfs
+Priority: optional
+Section: devel
+Filename: pool/main/o/openmediavault-nvmetcp/openmediavault-nvmetcp_8.0_all.deb
+Size: 12488
+SHA256: 19d0a3b6cd3cf8de768a24861bbbd46817a22d8695f9a57d32103cb7cca397c3
+SHA1: b6dddffdff735b23b84133782934b674ac3a8766
+MD5sum: 648141bddd572b87c8fffc3c7d8eff77
+Description: OpenMediaVault nvme over tcp plugin
+ Plugin to setup nvme over tcp targets.
+Plugin-Section: network
+
 Package: openmediavault-omvextrasorg
 Version: 8.0.2
 Architecture: all
