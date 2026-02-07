@@ -17,6 +17,24 @@ Description: another FUSE union filesystem
  management of files across numerous commodity storage devices. It is
  similar to mhddfs, unionfs, and aufs.
 
+Package: nvmetcli
+Version: 0.8-1
+Architecture: all
+Maintainer: Christoph Hellwig <hch@lst.de>
+Installed-Size: 153
+Depends: python3, python3-configshell-fb, python3-six, python3-pyparsing, python3:any
+Priority: optional
+Section: admin
+Filename: pool/main/n/nvmetcli/nvmetcli_0.8-1_all.deb
+Size: 16044
+SHA256: 85e310102f4789879281cd24dc196c3e08e21c67b801fdaedf7233ad3a683a9b
+SHA1: 9d49740a82451315181fef49c186fec0540cc38e
+MD5sum: 308e935f2980663a644c8396bcbb72e0
+Description: Command line interface for the kernel NVMe target
+ This package contains the command line interface to the NVMe over Fabrics
+ target in the Linux kernel.  It allows configuring the target interactively
+ as well as saving / restoring the configuration to / from a json file.
+
 Package: omv-zfs-provider-dkms
 Version: 8.0.0
 Architecture: arm64
