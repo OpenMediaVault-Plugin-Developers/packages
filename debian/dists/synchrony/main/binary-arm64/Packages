@@ -132,18 +132,18 @@ Description: backup plugin for OpenMediaVault.
 Plugin-Section: backup
 
 Package: openmediavault-borgbackup
-Version: 8.0.2
+Version: 8.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 497
+Installed-Size: 571
 Depends: openmediavault (>= 8), python3-llfuse, borgbackup
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-borgbackup/openmediavault-borgbackup_8.0.2_all.deb
-Size: 40104
-SHA256: b12937500865799f93a569a8f7abb795db01942d8f862a93dbcc0675f4c5ae72
-SHA1: 290ffdbcedfc8d850afd002172f2fcfd89bd4c55
-MD5sum: 04767cb4176458af1f919095a4d75887
+Filename: pool/main/o/openmediavault-borgbackup/openmediavault-borgbackup_8.1_all.deb
+Size: 41992
+SHA256: f8487968e0b033aae836fc364edb1cacd9a0ab759fc6df14fac30ca2e5a46c6c
+SHA1: 9fbdd50a700b15e25d276a4fe28bc21bff510f36
+MD5sum: 2307a53df3838ee0db3890025b325b66
 Description: borgbackup plugin for OpenMediaVault.
  BorgBackup is a deduplicating backup program.
  Optionally, it supports compression and authenticated
