@@ -173,7 +173,7 @@
   },
   {
     "name": "filebrowser",
-    "description": "A Web File Manager - default login/password: admin/admin"
+    "description": "File Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview and edit your files. It is a create-your-own-cloud-kind of software where you can just install it on your server, direct it to a path and access your files through a nice web interface."
   },
   {
     "name": "firefox",
@@ -554,6 +554,10 @@
   {
     "name": "remmina",
     "description": "Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. "
+  },
+  {
+    "name": "rustfs",
+    "description": "a high-performance, distributed object storage system built in Rust"
   },
   {
     "name": "sabnzbd",

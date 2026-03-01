@@ -1,0 +1,20 @@
+---
+# Date: 2026-03-01
+# https://github.com/rustfs/rustfs
+services:
+  rustfs:
+    image: rustfs/rustfs:latest
+    container_name: rustfs
+    restart: unless-stopped
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Console/UI
+    environment:
+      # RustFS supports setting these via env vars (recommended in docs)
+      RUSTFS_ADDRESS: ":9000"
+      RUSTFS_CONSOLE_ENABLE: "true"
+      RUSTFS_ACCESS_KEY: "adminkey"
+      RUSTFS_SECRET_KEY: "adminpass"
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/rustfs:/data
+    command: ["/data"]
