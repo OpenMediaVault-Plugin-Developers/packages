@@ -324,6 +324,10 @@
     "description": "Komodo is a tool to build and deploy software on many servers."
   },
   {
+    "name": "kopia",
+    "description": "Cross-platform backup tool with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication"
+  },
+  {
     "name": "ldap",
     "description": "osixia openldap server with phpldapadmin web interface"
   },
