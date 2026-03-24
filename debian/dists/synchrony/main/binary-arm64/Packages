@@ -579,6 +579,23 @@ Description: OpenMediaVault symlinks plugin
  Allow creation of symlinks.
 Plugin-Section: filesystems
 
+Package: openmediavault-tempmon
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 74
+Depends: openmediavault (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-tempmon/openmediavault-tempmon_8.0_all.deb
+Size: 9780
+SHA256: 977ce62e95ea6a4cf7f3ba21dc84100860422500280f230cf51bae7a4eb7fa52
+SHA1: c04f4e1c7d0a4a96c656a6e9f6e820a3c7b6e651
+MD5sum: d0e9bf5c43bf7b3d3c5dc6394e8ee1a5
+Description: temperature monitoring plugin for openmediavault
+Plugin-Section: filesystems
+
 Package: openmediavault-tgt
 Version: 8.0.1
 Architecture: all
