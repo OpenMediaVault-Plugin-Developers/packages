@@ -1,5 +1,5 @@
 ---
-# Date: 2025-06-01
+# Date: 2026-03-30
 # https://github.com/paperless-ngx/paperless-ngx
 #
 # Docker Compose file for running paperless from the Docker Hub.
@@ -51,12 +51,12 @@ services:
     image: docker.io/library/redis:8
     restart: unless-stopped
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/paperless:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/paperless/redis:/data
   db:
     image: docker.io/library/postgres:17
     restart: unless-stopped
     volumes:
-      - CHANGE_TO_COMPOSE_DATA_PATH/paperless:/var/lib/postgresql/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/paperless/postgres:/var/lib/postgresql
     environment:
       POSTGRES_DB: paperless
       POSTGRES_USER: paperless
