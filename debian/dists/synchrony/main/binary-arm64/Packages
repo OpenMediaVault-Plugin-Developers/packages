@@ -274,20 +274,20 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kvm
-Version: 8.1
+Version: 8.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 1183
-Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 8), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-xml, python3-websockify, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
+Installed-Size: 1458
+Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 8), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-curl, php-xml, python3-flask, python3-libvirt, python3-psutil, python3-websockify, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils
 Recommends: openmediavault-cterm (>= 8)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.1_all.deb
-Size: 86464
-SHA256: bf67866a45dd86669f2837711a001f94ac9fbe71be44b841afcea21199a96328
-SHA1: 6dcb57cf78aff3955a3cb631a8ca816c8b84472e
-MD5sum: 126f0befdef1caeadbc7f423cb686665
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.2_all.deb
+Size: 161508
+SHA256: ddc582272b2cf9010754cdbb7fd3149da1ef0b7a2724dca8573a7a6ac1376610
+SHA1: d19302f2103b9a63bc6d07a482b4cb36cdc086c0
+MD5sum: 502e6673649753d6407f1fee6e18db08
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
