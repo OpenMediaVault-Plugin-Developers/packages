@@ -320,7 +320,7 @@ Description: kernel package
 Plugin-Section: utilities
 
 Package: openmediavault-kvm
-Version: 8.2.2
+Version: 8.2.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 1542
@@ -329,11 +329,11 @@ Recommends: openmediavault-cterm (>= 8)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.2.2_all.deb
-Size: 163852
-SHA256: 1121eaba8e63beb6bcd40284dfabd918c2cc75b46516c64e2737255b0576c829
-SHA1: 6d53fbba9ada77f00cc11d88bcb286b52801d47d
-MD5sum: 68df256d002d14c0008330c901078d70
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.2.3_all.deb
+Size: 164036
+SHA256: 578c576627c863cd4d4a37de739fedfacfee7da7447ccfa64a947a6a205d2369
+SHA1: 24ee12dc334baad7fd75bd463c1f4e64ca073550
+MD5sum: 6b53cd57d7fcbcab646dcaf5c87074c3
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
