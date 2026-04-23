@@ -273,30 +273,6 @@ Description: OpenMediaVault iPerf3 plugin
  test the user must establish both a server and a client.
 Plugin-Section: network
 
-Package: openmediavault-kernel
-Version: 8.0.12
-Architecture: all
-Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 241
-Depends: openmediavault (>= 8)
-Homepage: http://omv-extras.org/
-Priority: optional
-Section: net
-Filename: pool/main/o/openmediavault-kernel/openmediavault-kernel_8.0.12_all.deb
-Size: 21280
-SHA256: ea56740fc3d76145edd24333876f5ac00f93c61905ff4d3ed4f832a7eac19d55
-SHA1: e267f47dfc56979ffbcc2ec6266c021b2d5e9b49
-MD5sum: d899ab4c8dad858ff216d2d9fb7addc4
-Description: kernel package
- The plugin allows the user to select which grub entry to boot from and
- installation of the Proxmox kernel.  It also allows for the download
- and grub entry to boot from the following rescue Linux distros:
-   - Clonezilla
-   - Finnix
-   - GParted Live
-   - SystemRescue
-Plugin-Section: utilities
-
 Package: openmediavault-kvm
 Version: 8.2.5
 Architecture: all
