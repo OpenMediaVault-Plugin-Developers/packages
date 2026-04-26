@@ -274,7 +274,7 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kvm
-Version: 8.2.5
+Version: 8.2.6
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
 Installed-Size: 1616
@@ -283,11 +283,11 @@ Recommends: openmediavault-cterm (>= 8)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.2.5_all.deb
-Size: 171512
-SHA256: 976078ea70addc131f7b7a87d5844175d62f9ef8da2683c64d96d544d8ab4fc7
-SHA1: a8ddbdb3354cbcd8daa4e15b40d082117b0b2f1e
-MD5sum: 21237b0166f4037e070b30d18a235d38
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.2.6_all.deb
+Size: 171688
+SHA256: 66dafdeb73afa754607791af5d617a6c636d44358f9916a57d6e16ac02809218
+SHA1: e4d753da0b214e208db27e759cfd034cc68aac9e
+MD5sum: 3c2fd9dfb7e57232ef077fb8782472e6
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
