@@ -1,17 +1,17 @@
 Package: mergerfs
-Version: 2.41.1~debian-trixie
+Version: 2.42.0~debian-trixie
 Architecture: amd64
 Maintainer: Antonio SJ Musumeci <trapexit@spawn.link>
-Installed-Size: 1498
+Installed-Size: 1522
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 14), fuse
 Homepage: http://github.com/trapexit/mergerfs
 Priority: optional
 Section: utils
-Filename: pool/main/m/mergerfs/mergerfs_2.41.1~debian-trixie_amd64.deb
-Size: 494196
-SHA256: 23d33a875c97992fd250915fe8afc4aba05fa8be5f90d8558d9579a87ef00f89
-SHA1: a4f8f84e83737e75a42bb005dc521497f87e2795
-MD5sum: 8e2a9c41a6aa76e7fdb3866e18b65121
+Filename: pool/main/m/mergerfs/mergerfs_2.42.0~debian-trixie_amd64.deb
+Size: 500088
+SHA256: 07241c090b33c56d07f09930bf71e3bfa1da86c326a3558b35d7ceaae7520337
+SHA1: 600fef30ecea583d142be8791b4a495e4826c427
+MD5sum: 1bfe63701e93794b80a1327b0563f240
 Description: another FUSE union filesystem
  mergerfs is a union filesystem geared towards simplifying storage and
  management of files across numerous commodity storage devices. It is
