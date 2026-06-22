@@ -274,20 +274,20 @@ Description: OpenMediaVault iPerf3 plugin
 Plugin-Section: network
 
 Package: openmediavault-kvm
-Version: 8.2.8
+Version: 8.3.0
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 1746
+Installed-Size: 1809
 Depends: distro-info, dnsmasq-base, gawk, ksmtuned, libosinfo-bin, libvirt-clients, libvirt-daemon, libvirt-daemon-driver-lxc, libvirt-daemon-system, lsscsi, lxc, lxc-templates, netcat-openbsd, novnc, openmediavault (>= 8), openmediavault-sharerootfs, osinfo-db, osinfo-db-tools, ovmf, php-curl, php-xml, python3-flask, python3-libvirt, python3-psutil, python3-websockify, qemu-efi-aarch64, qemu-efi-arm, qemu-system-arm, qemu-system-data, qemu-system-ppc, qemu-system-x86, qemu-system-modules-spice, qemu-utils, spice-html5, swtpm, swtpm-tools, uuid, virtinst, whois, xz-utils, zstd
 Recommends: openmediavault-cterm (>= 8)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.2.8_all.deb
-Size: 178028
-SHA256: d0976506bcdcf3db36717de3f70557e8a29e094663351ca23811e071b2c43957
-SHA1: 10f79bc9f07484a5ebd6c3381db828d2ca028b8e
-MD5sum: e7c93a570f1a4bccede1ebe1010a53e6
+Filename: pool/main/o/openmediavault-kvm/openmediavault-kvm_8.3.0_all.deb
+Size: 186472
+SHA256: 35f92d59d881867b36f2b53cf8f08c849b07156800bed9e5e0408ebf24731f55
+SHA1: cfde0517e7b3431cd38da129f70c3be014798a04
+MD5sum: 77c73208cc304e652e672ef3d501fad5
 Description: kvm plugin for OpenMediaVault.
 Plugin-Section: utilities
 
