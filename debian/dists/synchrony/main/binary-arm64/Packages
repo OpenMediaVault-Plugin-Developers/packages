@@ -451,19 +451,19 @@ Description: Remote mount plugin for OpenMediaVault.
 Plugin-Section: filesystems
 
 Package: openmediavault-resetperms
-Version: 8.0.1
+Version: 8.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 183
+Installed-Size: 165
 Depends: openmediavault (>= 8.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-resetperms/openmediavault-resetperms_8.0.1_all.deb
-Size: 11972
-SHA256: 92e0a01d936c7c1baa3e53e3ba0c16fc7ae887285afb9f7b5124dc7206ec82ad
-SHA1: e4ace378c7eade1e08cac4a7a9cbc8c07b853f8f
-MD5sum: 177fff5a736883d729d6378e30dd8e14
+Filename: pool/main/o/openmediavault-resetperms/openmediavault-resetperms_8.0.2_all.deb
+Size: 13656
+SHA256: 9939bfd252033d9819ef4ce98d5a90038cb27ccc4fcf1bd9d5eda6df915d535e
+SHA1: 85674e8254495bceeedb3be836ec3af6d26777e7
+MD5sum: ceb2f9a51caf7e827690b3fde984a806
 Description: Reset Permissions
  Reset permissions of shared folder.
  .
