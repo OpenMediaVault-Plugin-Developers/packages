@@ -459,20 +459,20 @@ Description: OpenMediaVault nvme over tcp plugin
 Plugin-Section: network
 
 Package: openmediavault-omvextrasorg
-Version: 8.0.2
+Version: 8.0.3
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 545
+Installed-Size: 180
 Depends: openmediavault (>= 8), gnupg
 Breaks: openmediavault (<< 8.0)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_8.0.2_all.deb
-Size: 44824
-SHA256: 1b6968d0e002fe8d3790388f0a3f71da8e6515c7f8891587b81a3964c7f13787
-SHA1: e1b681fdd74a9f73b958c9b7fa839e353145eaa2
-MD5sum: 24903517b9542d538e944a5719e05ed6
+Filename: pool/main/o/openmediavault-omvextrasorg/openmediavault-omvextrasorg_8.0.3_all.deb
+Size: 15540
+SHA256: 20a47afda5ea77be6f8f29caa7ca0521b8f18387e400e8fc7ba0c8610497aa97
+SHA1: abcb2841692c4cf48b808945b37913278153f731
+MD5sum: 9ec99d91bbb7985d948d2aa6928900c0
 Description: OMV-Extras.org Package Repositories for OpenMediaVault
  .
  An apt cleaning function is also available for fixing repository cache
