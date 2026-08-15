@@ -468,6 +468,10 @@
     "description": "Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive"
   },
   {
+    "name": "photoprism",
+    "description": "a self-hosted photo management app that organizes, searches, and browses your photo and video collection using features like automatic tagging, facial recognition, and location-based organization"
+  },
+  {
     "name": "php-apache",
     "description": "apache webserver with php"
   },

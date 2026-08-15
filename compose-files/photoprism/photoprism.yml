@@ -1,0 +1,22 @@
+---
+# Date: 2026-08-15
+# https://github.com/photoprism/photoprism
+services:
+  photoprism:
+    container_name: photoprism
+    image: photoprism/photoprism:latest
+    restart: unless-stopped
+    ports:
+      - 2342:2342
+    security_opt:
+      - seccomp=unconfined
+      - apparmor=unconfined
+    volumes:
+      - ${{ sf:"appdata" }}/photoprism/storage:/photoprism/storage
+      - ${{ sf:"media" }}/fotomap:/photoprism/originals #path to stored original photos
+    environment:
+      - PUID=${{ uid:"appuser" }}
+      - PGID=${{ gid:"users" }}
+      - TZ=${{ tz }}
+      - PHOTOPRISM_UPLOAD_NSFW=true
+      - PHOTOPRISM_ADMIN_PASSWORD=password
