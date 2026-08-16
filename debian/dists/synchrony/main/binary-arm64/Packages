@@ -349,19 +349,19 @@ Description: mergerfs plugin for openmediavault.
 Plugin-Section: filesystems
 
 Package: openmediavault-minidlna
-Version: 8.0
+Version: 8.1
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 247
+Installed-Size: 248
 Depends: minidlna, openmediavault (>= 8)
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_8.0_all.deb
-Size: 21500
-SHA256: 0dab1ccbf9104943d6f88debe2e7e34989db1fb6e156b37156bb69873a3ee342
-SHA1: 2ab05ccef53a2636042844b78af8212d3b86db74
-MD5sum: 2cfe9721fbf0f08df7bd71b4deb2d02d
+Filename: pool/main/o/openmediavault-minidlna/openmediavault-minidlna_8.1_all.deb
+Size: 23032
+SHA256: 35150448a023198bf3fcf3969ee465ddfdfa0816419a2ae3bee4d84474957a0f
+SHA1: d79bbb355a73ae65a83cfc1d427301d7ff792453
+MD5sum: a53c399b1777da4408fd5d1905dbd273
 Description: OpenMediaVault miniDLNA (DLNA server) plugin
  lightweight DLNA/UPnP-AV server targeted at embedded systems
  MiniDLNA (aka ReadyDLNA) is server software with the aim of being
