@@ -607,6 +607,26 @@ Description: snapraid plugin for OpenMediaVault.
    without the need to reformat or move data.
 Plugin-Section: filesystems
 
+Package: openmediavault-snapraid-aio
+Version: 8.1
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 653
+Depends: bc, curl, jq, openmediavault (>= 8), openmediavault-snapraid, python3-markdown, snapraid (>= 12)
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-snapraid-aio/openmediavault-snapraid-aio_8.1_all.deb
+Size: 34492
+SHA256: a584490372377f4138c3b4a323c5f5a1a25a194e41927071ad5ec3b9bf2baf40
+SHA1: cb908468c63b3c393008588febbe467a5b8ac21a
+MD5sum: 3b3cd8f1378c1cbd10a0657e789e534b
+Description: SnapRAID AIO plugin for OpenMediaVault
+ Integrates the SnapRAID AIO Script into the OpenMediaVault web interface.
+ Provides per-array configuration, scheduled sync/scrub via the OMV cron
+ system, email and Apprise notifications, Docker container management, and
+ live output streaming for manual runs directly from the UI.
+Plugin-Section: filesystems
+
 Package: openmediavault-symlinks
 Version: 8.0.1
 Architecture: all
