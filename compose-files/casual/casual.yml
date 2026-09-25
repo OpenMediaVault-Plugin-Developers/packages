@@ -1,0 +1,30 @@
+---
+# Date: 2026-09-25
+# https://github.com/CasualOffice
+services:
+  docs:
+    image: casualoffice/docs:latest
+    container_name: casual-docs
+    restart: unless-stopped
+    ports:
+      - "8387:8080"
+    environment:
+      PORT: "8080"
+      CASUAL_STORAGE: local
+      CASUAL_LOCAL_PATH: /data
+      CASUAL_FILE_EXT: .docx
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/casual/docs:/data
+
+  sheets:
+    image: casualoffice/sheets:latest
+    container_name: casual-sheets
+    restart: unless-stopped
+    ports:
+      - "8388:3000"
+    environment:
+      CASUAL_STORAGE: local
+      CASUAL_LOCAL_PATH: /data/workbooks
+      CASUAL_PERSONAL_MODE: none  # 'single' (one account) or 'multi' or 'none'
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/casual/sheets:/data

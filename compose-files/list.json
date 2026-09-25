@@ -76,6 +76,10 @@
     "description": "Cardigann, a server for adding extra indexers to Sonarr, SickRage and CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs in and runs searches and then transforms the results into a compatible format."
   },
   {
+    "name": "casual",
+    "description": "open-source office suite you run on your own server"
+  },
+  {
     "name": "changedetection",
     "description": "changedetection.io - The best and simplest self-hosted open source website change detection monitoring and notification service. An alternative to Visualping, Watchtower"
   },
