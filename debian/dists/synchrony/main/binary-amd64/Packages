@@ -259,7 +259,7 @@ Description: OpenMediaVault Fail2ban plugin
 Plugin-Section: network
 
 Package: openmediavault-hddfanctrl
-Version: 8.0.2
+Version: 8.0.3
 Architecture: all
 Maintainer: Roc R. C. <roc@ror3d.xyz>
 Installed-Size: 198
@@ -267,11 +267,11 @@ Depends: openmediavault (>= 8), python3-venv, hdparm, lm-sensors, smartmontools
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-hddfanctrl/openmediavault-hddfanctrl_8.0.2_all.deb
-Size: 18196
-SHA256: 50e4d37110ee27482c4e3e6150b537b30f2a2b196df2e5e2fec268860ef9d562
-SHA1: b04a92da005b07661065e4578c98c05d8408da94
-MD5sum: b5b732a18637d3d850f6ca557ec11b66
+Filename: pool/main/o/openmediavault-hddfanctrl/openmediavault-hddfanctrl_8.0.3_all.deb
+Size: 18560
+SHA256: 94d37f1a1ab3af6e3d29165bc44bedcb267352eea9e7522c8afd68ff93f3af2d
+SHA1: ef7672708b87beeadbac65e772728ab54f9d5a67
+MD5sum: bc019106a1fef847f3371050eedf5770
 Description: hddfancontrol plugin for openmediavault
 Plugin-Section: utilities
 
