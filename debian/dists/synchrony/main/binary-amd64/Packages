@@ -422,6 +422,26 @@ Description: mergerfs plugin for openmediavault.
  Makes it possible to pool folders under a single mountpoint with mergerfs.
 Plugin-Section: filesystems
 
+Package: openmediavault-microvm
+Version: 8.0.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 960
+Depends: curl, dnsmasq-base, dtach, e2fsprogs, openmediavault (>= 8), openmediavault-sharerootfs, squashfs-tools
+Recommends: openmediavault-cterm (>= 8)
+Homepage: http://omv-extras.org/
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-microvm/openmediavault-microvm_8.0.0_all.deb
+Size: 57284
+SHA256: 29825537cf4e45b2b7ca05a4633052ae9e96144ee2f47fd416a084b601be1202
+SHA1: 1f589dc5ac7a351481308dbb8727924fc4138d03
+MD5sum: bc10038525ea8025ef8cf013bea7c04b
+Description: microvm plugin for openmediavault.
+ Run Firecracker microVMs on openmediavault. Firecracker is a lightweight
+ KVM-based virtual machine monitor built for fast boot and minimal overhead.
+Plugin-Section: utilities
+
 Package: openmediavault-minidlna
 Version: 8.1
 Architecture: all
