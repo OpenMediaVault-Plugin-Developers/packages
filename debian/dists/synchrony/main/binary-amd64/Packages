@@ -384,18 +384,18 @@ Description: locate plugin for OpenMediaVault.
 Plugin-Section: utilities
 
 Package: openmediavault-luksencryption
-Version: 8.1.5
+Version: 8.1.6
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 511
+Installed-Size: 543
 Depends: busybox, coreutils, cryptsetup, cryptsetup-bin, openmediavault (>= 8), systemd-cryptsetup
 Priority: optional
 Section: admin
-Filename: pool/main/o/openmediavault-luksencryption/openmediavault-luksencryption_8.1.5_all.deb
-Size: 41104
-SHA256: c2ca316807979ef618bf844634b11559c89df7de7fee25ed671f1691b039499a
-SHA1: 4ae1469b6dbaf887ae2f0a02f0402d03ae301ab9
-MD5sum: f82dfa910b61ee04b23008ac83713275
+Filename: pool/main/o/openmediavault-luksencryption/openmediavault-luksencryption_8.1.6_all.deb
+Size: 43000
+SHA256: fbfcc686174805b3475318f8606259eee1df8f57bec20ba275d3c28fa10d28a3
+SHA1: d5ff82c0cb9ba7c3b6914d785d498404cf920d1b
+MD5sum: 0f32efea2ea439df96d532a0ca171ccb
 Description: OpenMediaVault LUKS encryption plugin
  LUKS is the standard for Linux hard disk encryption. By providing a
  standard on-disk-format, it not only facilitates compatibility
