@@ -564,6 +564,25 @@ Description: Reset Permissions
  View plugins that are using each shared folder.
 Plugin-Section: utilities
 
+Package: openmediavault-restic
+Version: 8.0
+Architecture: all
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Installed-Size: 954
+Depends: openmediavault (>= 8), restic, rclone
+Priority: optional
+Section: net
+Filename: pool/main/o/openmediavault-restic/openmediavault-restic_8.0_all.deb
+Size: 49236
+SHA256: c0712b7d083474ef602343f7681b87e0c018637f3754f8707cb9037941a57b2c
+SHA1: 64c1aea9c2f978331a9f3af56ffdbc5caef6def4
+MD5sum: 19869c064ab5cbad0165871f48c0cb42
+Description: restic plugin for OpenMediaVault.
+ Restic is a deduplicating backup program.
+ Optionally, it supports compression and authenticated
+ encryption.
+Plugin-Section: backup
+
 Package: openmediavault-rsnapshot
 Version: 8.1.1
 Architecture: all
