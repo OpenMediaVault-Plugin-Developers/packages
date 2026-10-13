@@ -1,0 +1,20 @@
+---
+# Date: 2026-10-13
+# https://github.com/fclairamb/solidping
+# https://docs.solidping.io/docs/installation/docker
+# https://github.com/fclairamb/solidping/pkgs/container/solidping
+services:
+  solidping:
+    image: ghcr.io/fclairamb/solidping:latest
+    container_name: solidping
+    hostname: solidping
+    # The image's default user is 65532. Running as root lets it write to
+    # the data folder, which Docker creates as root on first start.
+    user: "0:0"
+    environment:
+      - SP_BASE_URL=${SP_BASE_URL}
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/solidping/data:/data
+    ports:
+      - 4000:4000 # Host Port:Container Port
+    restart: unless-stopped
