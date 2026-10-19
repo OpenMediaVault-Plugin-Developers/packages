@@ -254,20 +254,20 @@ Description: hddfancontrol plugin for openmediavault
 Plugin-Section: utilities
 
 Package: openmediavault-imagecheck
-Version: 8.1.1
+Version: 8.1.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 45
-Depends: openmediavault (>= 8), python3
+Installed-Size: 46
+Depends: openmediavault (>= 8), openmediavault-compose, python3
 Recommends: docker-ce | docker.io
 Homepage: http://omv-extras.org/
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-imagecheck/openmediavault-imagecheck_8.1.1_all.deb
-Size: 10232
-SHA256: 0433eaca846f34c2f56a30e09ce3a3345392b848f7c7194ee881bb7575baf04a
-SHA1: c7e35f7be6e219bf3bc427a106f267c13ce06877
-MD5sum: 96663ca8b0074490c094389a485df68f
+Filename: pool/main/o/openmediavault-imagecheck/openmediavault-imagecheck_8.1.2_all.deb
+Size: 10632
+SHA256: 670dd0b64d1849b808c3a9a84762417e6e7e234260418cae8466984ea1c6f56f
+SHA1: 9d73d59f20859b961f6ecc7eb619e1890bc4092c
+MD5sum: 9a3705cf4d88ed73b1d7c856f91d68d2
 Description: Docker image update checker
  Monitor-only checker that reports whether newer Docker images are available
  for running containers.
@@ -277,8 +277,12 @@ Description: Docker image update checker
  that same tag, fetched without pulling the image. It never pulls, recreates
  or changes anything - it only reports.
  .
- The result is cached daily by a cron job and exposed through the ImageCheck
- RPC service, a workbench page and a dashboard widget.
+ The result is cached daily by an OMV scheduled task (editable under System >
+ Scheduled Tasks) and exposed through the ImageCheck RPC service, a workbench
+ page and a dashboard widget.
+ .
+ Registry lookups use regctl, which is provided and kept up to date by the
+ openmediavault-compose plugin.
 Plugin-Section: utilities
 
 Package: openmediavault-iperf3
