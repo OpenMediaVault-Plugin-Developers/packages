@@ -569,18 +569,18 @@ Description: Reset Permissions
 Plugin-Section: utilities
 
 Package: openmediavault-restic
-Version: 8.0.1
+Version: 8.0.2
 Architecture: all
 Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
-Installed-Size: 971
+Installed-Size: 1015
 Depends: openmediavault (>= 8), restic, rclone
 Priority: optional
 Section: net
-Filename: pool/main/o/openmediavault-restic/openmediavault-restic_8.0.1_all.deb
-Size: 53928
-SHA256: 2c14c7ee846403b48d7e8551cdcd3e5bc443721b6776ef8d844f7fa6c4a8bf65
-SHA1: 1a87d2f9b4981d92671af730ec6d6a890cdd3e4f
-MD5sum: e49cb55d2173146ba34d678d714800a2
+Filename: pool/main/o/openmediavault-restic/openmediavault-restic_8.0.2_all.deb
+Size: 54676
+SHA256: b7d54bbfbfc35fbde56ea64204fcc83c0baf3e603d1e7fa68a186e07b6b69aae
+SHA1: e20ed538de9f05ee75556d75943b5be9e1a142cb
+MD5sum: 09dd2673aaf90cb3d91eefe5e9a13627
 Description: restic plugin for OpenMediaVault.
  Restic is a deduplicating backup program.
  Optionally, it supports compression and authenticated
