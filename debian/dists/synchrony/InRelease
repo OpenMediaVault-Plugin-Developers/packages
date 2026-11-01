@@ -2,35 +2,35 @@
 Hash: SHA512
 
 Codename: synchrony
-Date: Thu, 29 Oct 2026 10:50:41 UTC
+Date: Sun, 01 Nov 2026 14:56:52 UTC
 Architectures: amd64 arm64
 Components: main
 Description: omv-extras plugin repository for OMV 8.x Synchrony
 MD5Sum:
- d39a6f9bf546a08e0dfb5060a6faad8d 35603 main/binary-amd64/Packages
- eb13dba57120840567430e467f509ab1 11309 main/binary-amd64/Packages.gz
+ 107e5d6fcfebb63c60edaa093a372b4a 35603 main/binary-amd64/Packages
+ b651825a2559d6fcfb25549166da5da7 11312 main/binary-amd64/Packages.gz
  13eea9161c1f79b0d81296677afee676 100 main/binary-amd64/Release
  a805028795bfaab1fcbc3e1118f4bff2 33814 main/binary-arm64/Packages
  d9ee840218b2e8dbd3545cd8a8789b38 10791 main/binary-arm64/Packages.gz
  a41bf22cb5943320099d60ba7efbd2cc 100 main/binary-arm64/Release
 SHA1:
- 5874bf3d6351295b43c8759541a9c317d94d4a8a 35603 main/binary-amd64/Packages
- 81b1546c131cbee9e25b8584d6432c6fb36d6012 11309 main/binary-amd64/Packages.gz
+ f4942cfef71c6d4fc5cf81b89ccccc5e886777f6 35603 main/binary-amd64/Packages
+ 90a25aec245dea819d2d66dd31c515693d4d4765 11312 main/binary-amd64/Packages.gz
  c249fa72c2baefedbef59622a2eb5fb9c0f6078f 100 main/binary-amd64/Release
  44dfd88810e57d8236e07e3cf5f02a6baaa84654 33814 main/binary-arm64/Packages
  2714e53360f992c427aa9341f28712b1216857a2 10791 main/binary-arm64/Packages.gz
  b4f3dd4e82d3e146c94233e4697de22148a6bd54 100 main/binary-arm64/Release
 SHA256:
- 9805c18ad6d2cc9e8a1ab19a22ef02b125570713a6be05918b6d69ae5eee6fbc 35603 main/binary-amd64/Packages
- 2482f87351e89463f72c98fe48a554ae219a966150807781bcd275cf75409b4b 11309 main/binary-amd64/Packages.gz
+ b2cb84fcaac7cecd9c0678dc41b9b4b924e07daf4c220de87532165689f0413e 35603 main/binary-amd64/Packages
+ 3076f96a74da0c9c2bc81d62f18433262bae73584a1ec7d97247da2883adeae3 11312 main/binary-amd64/Packages.gz
  c5d4d1d1f7275ff07a01fe8446ef174bbbd57768dd13d775c3b4ab7f64bae8d1 100 main/binary-amd64/Release
  80aba0e46ad6e8f782032acb194f1b0bf89583f65e4b3d48b0013c491c037ff2 33814 main/binary-arm64/Packages
  710144e2cbc510e5741a3c657ba8f4c8293ffc15e1f319510952287e35f99a5c 10791 main/binary-arm64/Packages.gz
  e1ddf7e8c05999cd7eec8a286e92f042733df7b2325c4ac0f41d6af3cb5d6f35 100 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTci1QDZltqgW6AcURj2KfRf9wpgAUCauMlAgAKCRBj2KfRf9wp
-gIhTAQCJLXoyk74FpHVPmQTF+fMSJB4Hw4dTnmDCDHiL8ExyywD/c9iNpClo+xey
-PRm/jx7FxDeaWjGkFhTUp+IwPzp3Pgg=
-=zgSm
+iHUEARYKAB0WIQTci1QDZltqgW6AcURj2KfRf9wpgAUCaudTNQAKCRBj2KfRf9wp
+gIsGAQDAtkf62qrPtudz/uT0ntcFJkpJaqJsZxlvZlP6wSNlsgD/f/c3TSq7/O9e
+YtpI09o7b7MXfHBU8QHoUx/l05kBXw4=
+=iRWP
 -----END PGP SIGNATURE-----
