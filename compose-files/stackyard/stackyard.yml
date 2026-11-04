@@ -1,0 +1,24 @@
+---
+# Date: 2026-11-04
+# https://github.com/SandObserver/Stackyard
+# https://stackyard.sandobserver.com/docs/
+# https://github.com/SandObserver/Stackyard/pkgs/container/stackyard
+services:
+  stackyard:
+    image: ghcr.io/sandobserver/stackyard:latest
+    container_name: stackyard
+    # Starts as root to take ownership of the data folders, then runs as its own user.
+    user: "0:0"
+    init: true
+    environment:
+      - ALLOW_PRIVATE_IPS=${ALLOW_PRIVATE_IPS}
+      - TRUST_PROXY=${TRUST_PROXY}
+      - TRUSTED_PROXY=${TRUSTED_PROXY}
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/stackyard/data:/data
+      - CHANGE_TO_COMPOSE_DATA_PATH/stackyard/icons:/icons
+    ports:
+      - 8700:80 # Host Port:Container Port
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    restart: unless-stopped
