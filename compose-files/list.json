@@ -596,6 +596,10 @@
     "description": "sonarr"
   },
   {
+    "name": "stackyard",
+    "description": "Calm homelab dashboard: app tiles, folders and small widgets, set up from the browser. After the first start, open /admin on port 8700 and set a password."
+  },
+  {
     "name": "steamos",
     "description": "SteamOS is an Arch based Linux distribution made by Valve Software. This container is a vanilla Arch install with Steam repositories added for software support. **This container will only work with modern AMD/Intel GPUs on a real Linux Host**"
   },
