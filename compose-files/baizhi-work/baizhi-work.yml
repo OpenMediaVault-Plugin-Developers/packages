@@ -1,0 +1,199 @@
+---
+# Date: 2026-11-13
+# Baizhi Work / 百智办公 / MonkeyAI
+# https://work.baizhi.cloud/
+# https://work.docs.baizhi.cloud/
+# https://github.com/chaitin/MonkeyCode
+# 基于官方 v26111301 在线包；请先完成 baizhi-work.env 中的配置。
+# https://release.monkeycode-ai.com/public/monkeyai/server/latest.json
+x-service: &service
+  restart: unless-stopped
+x-app: &app
+  init: true
+  read_only: true
+  tmpfs:
+    - /tmp
+x-healthcheck: &healthcheck
+  interval: 10s
+  timeout: 5s
+  retries: 5
+x-environment:
+  public: &public-env
+    MONKEYAI_PUBLIC_URL: ${MONKEYAI_PUBLIC_URL:?请设置 MONKEYAI_PUBLIC_URL}
+  db: &db-env
+    POSTGRES_DB: ${POSTGRES_DB:-monkeyai}
+    POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?请设置 POSTGRES_PASSWORD}
+    POSTGRES_USER: ${POSTGRES_USER:-monkeyai}
+  rustfs: &rustfs-env
+    RUSTFS_ACCESS_KEY: ${RUSTFS_ACCESS_KEY:?请设置 RUSTFS_ACCESS_KEY}
+    RUSTFS_CONSOLE_ENABLE: "true"
+    RUSTFS_OBS_LOG_DIRECTORY: /logs
+    RUSTFS_SECRET_KEY: ${RUSTFS_SECRET_KEY:?请设置 RUSTFS_SECRET_KEY}
+    RUSTFS_VOLUMES: /data
+  backend: &backend-env
+    <<: *public-env
+    HTTP_PROXY: ${HTTP_PROXY:-}
+    HTTPS_PROXY: ${HTTPS_PROXY:-}
+    MONKEYAI_DATABASE_URL: &database-url ${MONKEYAI_DATABASE_URL:-postgres://${POSTGRES_USER:-monkeyai}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-monkeyai}?sslmode=disable}
+    MONKEYAI_DESIGN_MEDIA_JWT_SECRET: ${MONKEYAI_DESIGN_MEDIA_JWT_SECRET-}
+    MONKEYAI_DESIGN_PUBLISHER_ID: ${MONKEYAI_DESIGN_PUBLISHER_ID-}
+    MONKEYAI_DESIGN_RESPUB_JWT_SECRET: null
+    MONKEYAI_ENDPOINT_MAX_CONNECTIONS: ${MONKEYAI_ENDPOINT_MAX_CONNECTIONS:-1000}
+    MONKEYAI_HTTP_ADDR: :8080
+    MONKEYAI_INITIAL_ADMIN_EMAIL: ${MONKEYAI_INITIAL_ADMIN_EMAIL:?请设置管理员邮箱}
+    MONKEYAI_INITIAL_ADMIN_NAME: ${MONKEYAI_INITIAL_ADMIN_NAME:-MonkeyAI Admin}
+    MONKEYAI_INITIAL_ADMIN_PASSWORD: ${MONKEYAI_INITIAL_ADMIN_PASSWORD:?请设置管理员密码}
+    MONKEYAI_LOG_LEVEL: ${MONKEYAI_LOG_LEVEL:-warn}
+    MONKEYAI_MCP_ALLOWED_CIDRS: ${MONKEYAI_MCP_ALLOWED_CIDRS:-}
+    MONKEYAI_RUNTIME_DESKTOP_ORIGINS: ${MONKEYAI_RUNTIME_DESKTOP_ORIGINS:-}
+    MONKEYAI_RUNTIME_FILES_ORIGIN: ${MONKEYAI_RUNTIME_FILES_ORIGIN:-}
+    MONKEYAI_RUNTIME_PREVIEW_ORIGIN_TEMPLATE: ${MONKEYAI_RUNTIME_PREVIEW_ORIGIN_TEMPLATE:-}
+    MONKEYAI_RUNTIME_RELAY: ${MONKEYAI_RUNTIME_RELAY:-true}
+    MONKEYAI_RUNTIME_SERVER_ID: ${MONKEYAI_RUNTIME_SERVER_ID:-}
+    MONKEYAI_RUNTIME_SIGNING_KEY_FILE: ${MONKEYAI_RUNTIME_SIGNING_KEY_FILE:-}
+    MONKEYAI_RUNTIME_STATE_DIR: /app/runtime
+    MONKEYAI_RUNTIME_VERIFICATION_KEYS_FILE: ${MONKEYAI_RUNTIME_VERIFICATION_KEYS_FILE:-}
+    MONKEYAI_S3_ACCESS_KEY: ${MONKEYAI_S3_ACCESS_KEY:-${RUSTFS_ACCESS_KEY}}
+    MONKEYAI_S3_BUCKET: ${MONKEYAI_S3_BUCKET:-monkeyai-resources}
+    MONKEYAI_S3_ENDPOINT: ${MONKEYAI_S3_ENDPOINT:-http://rustfs:9000}
+    MONKEYAI_S3_FORCE_PATH_STYLE: ${MONKEYAI_S3_FORCE_PATH_STYLE:-true}
+    MONKEYAI_S3_REGION: ${MONKEYAI_S3_REGION:-us-east-1}
+    MONKEYAI_S3_SECRET_KEY: ${MONKEYAI_S3_SECRET_KEY:-${RUSTFS_SECRET_KEY}}
+    NO_PROXY: ${NO_PROXY:-},localhost,127.0.0.1,::1,db,rustfs,backend
+    TMPDIR: /app/import-tmp
+  admin: &admin-env
+    <<: *public-env
+    MONKEYAI_AUTO_TLS_CA: ${MONKEYAI_AUTO_TLS_CA:-https://acme-v02.api.letsencrypt.org/directory}
+    MONKEYAI_AUTO_TLS_EMAIL: ${MONKEYAI_AUTO_TLS_EMAIL:-}
+    MONKEYAI_AUTO_TLS_ENABLED: ${MONKEYAI_AUTO_TLS_ENABLED:-false}
+    MONKEYAI_RUNTIME_PREVIEW_CERT_FILE: ${MONKEYAI_RUNTIME_PREVIEW_CERT_FILE:-/run/secrets/preview/tls.crt}
+    MONKEYAI_RUNTIME_PREVIEW_KEY_FILE: ${MONKEYAI_RUNTIME_PREVIEW_KEY_FILE:-/run/secrets/preview/tls.key}
+    MONKEYAI_RUNTIME_PREVIEW_ORIGIN_TEMPLATE: ${MONKEYAI_RUNTIME_PREVIEW_ORIGIN_TEMPLATE:-}
+    MONKEYAI_TLS_ENABLED: ${MONKEYAI_TLS_ENABLED:-false}
+    MONKEYAI_TRUSTED_PROXY_CIDRS: ${MONKEYAI_TRUSTED_PROXY_CIDRS:-}
+services:
+  admin:
+    <<: [*service, *app]
+    depends_on:
+      backend:
+        condition: service_healthy
+    environment: *admin-env
+    healthcheck:
+      <<: *healthcheck
+      start_period: 5s
+      test:
+        - CMD
+        - wget
+        - -Y
+        - "off"
+        - -q
+        - --spider
+        - http://127.0.0.1:8080/healthz
+    image: ${MONKEYAI_ADMIN_IMAGE:?请设置 MONKEYAI_ADMIN_IMAGE}
+    logging:
+      driver: json-file
+      options:
+        max-file: ${MONKEYAI_LOG_MAX_FILES:-5}
+        max-size: ${MONKEYAI_LOG_MAX_SIZE:-20m}
+    ports:
+      - "127.0.0.1:${MONKEYAI_ADMIN_PORT:-18080}:8080"
+      - "127.0.0.1:${MONKEYAI_HTTPS_PORT:-18443}:8443"
+    volumes:
+      - acme:/var/lib/nginx/acme
+      - ${BAIZHI_WORK_DATA:?请设置绝对数据目录 BAIZHI_WORK_DATA}/tls/server:/run/monkeyai/tls:ro
+  backend:
+    <<: [*service, *app]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      rustfs:
+        condition: service_healthy
+    environment: *backend-env
+    healthcheck:
+      <<: *healthcheck
+      start_period: 90s
+      test:
+        - CMD
+        - wget
+        - -Y
+        - "off"
+        - -q
+        - --spider
+        - http://127.0.0.1:8080/readyz
+    image: ${MONKEYAI_BACKEND_IMAGE:?请设置 MONKEYAI_BACKEND_IMAGE}
+    logging:
+      driver: json-file
+      options:
+        max-file: ${MONKEYAI_LOG_MAX_FILES:-5}
+        max-size: ${MONKEYAI_LOG_MAX_SIZE:-20m}
+    volumes:
+      - ${BAIZHI_WORK_DATA:?请设置绝对数据目录 BAIZHI_WORK_DATA}/license:/app/license
+      - import_tmp:/app/import-tmp
+      - ${BAIZHI_WORK_DATA:?请设置绝对数据目录 BAIZHI_WORK_DATA}/runtime:/app/runtime
+  db:
+    <<: *service
+    environment: *db-env
+    healthcheck:
+      interval: 5s
+      retries: 10
+      start_period: 10s
+      test:
+        - CMD-SHELL
+        - pg_isready -h 127.0.0.1 -U $$POSTGRES_USER -d $$POSTGRES_DB
+      timeout: 5s
+    image: ${MONKEYAI_POSTGRES_IMAGE:?请设置 MONKEYAI_POSTGRES_IMAGE}
+    logging:
+      driver: json-file
+      options:
+        max-file: ${MONKEYAI_LOG_MAX_FILES:-5}
+        max-size: ${MONKEYAI_LOG_MAX_SIZE:-20m}
+    volumes:
+      - ${BAIZHI_WORK_DATA:?请设置绝对数据目录 BAIZHI_WORK_DATA}/postgres:/var/lib/postgresql
+  migrate:
+    <<: *service
+    command:
+      - -path=/migrations
+      - -database
+      - *database-url
+      - up
+    depends_on:
+      db:
+        condition: service_healthy
+    image: ${MONKEYAI_MIGRATE_IMAGE:?请设置 MONKEYAI_MIGRATE_IMAGE}
+    logging:
+      driver: json-file
+      options:
+        max-file: ${MONKEYAI_LOG_MAX_FILES:-5}
+        max-size: ${MONKEYAI_LOG_MAX_SIZE:-20m}
+    restart: "no"
+  rustfs:
+    <<: *service
+    environment: *rustfs-env
+    healthcheck:
+      interval: 5s
+      retries: 20
+      start_period: 20s
+      test:
+        - CMD
+        - curl
+        - -f
+        - http://127.0.0.1:9000/health
+      timeout: 3s
+    image: ${MONKEYAI_RUSTFS_IMAGE:?请设置 MONKEYAI_RUSTFS_IMAGE}
+    logging:
+      driver: json-file
+      options:
+        max-file: ${MONKEYAI_LOG_MAX_FILES:-5}
+        max-size: ${MONKEYAI_LOG_MAX_SIZE:-20m}
+    user: 10001:10001
+    volumes:
+      - ${BAIZHI_WORK_DATA:?请设置绝对数据目录 BAIZHI_WORK_DATA}/rustfs:/data
+      - ${BAIZHI_WORK_DATA:?请设置绝对数据目录 BAIZHI_WORK_DATA}/rustfs-logs:/logs
+volumes:
+  acme: null
+  import_tmp: null
+x-logging:
+  driver: json-file
+  options:
+    max-file: ${MONKEYAI_LOG_MAX_FILES:-5}
+    max-size: ${MONKEYAI_LOG_MAX_SIZE:-20m}
